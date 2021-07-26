@@ -12,20 +12,22 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ## SUMÁRIO
 
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
+- [Boas vindas ao repositório do projeto Lições Aprendidas!](#boas-vindas-ao-repositório-do-projeto-lições-aprendidas)
+  - [SUMÁRIO](#sumário)
+  - [Habilidades](#habilidades)
+  - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
-  - [Avaliador Automático](#avaliador-automático)
-- [Requisitos](#requisitos)
-  - [Dicas](#dicas)
-  - [Lista de requisitos](#lista-de-requisitos)
+  - [Data de Entrega](#data-de-entrega)
+  - [Instruções para  entregar seu projeto](#instruções-para--entregar-seu-projeto)
+    - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+    - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+  - [Como desenvolver](#como-desenvolver)
+    - [Linter](#linter)
+    - [Avaliador automático](#avaliador-automático)
+  - [Requisitos](#requisitos)
+    - [Dicas](#dicas)
+    - [Lista de requisitos](#lista-de-requisitos)
     - [1. Adicione uma cor de fundo específica para a página](#1-adicione-uma-cor-de-fundo-específica-para-a-página)
     - [2. Adicione uma barra superior com um título](#2-adicione-uma-barra-superior-com-um-título)
     - [3. Adicione uma foto sua à página](#3-adicione-uma-foto-sua-à-página)
@@ -36,15 +38,14 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [8. Crie um artigo sobre seu aprendizado](#8-crie-um-artigo-sobre-seu-aprendizado)
     - [9. Crie uma seção que conta uma passagem sobre seu aprendizado](#9-crie-uma-seção-que-conta-uma-passagem-sobre-seu-aprendizado)
     - [10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles](#10-aplique-elementos-html-de-acordo-com-o-sentido-e-propósito-de-cada-um-deles)
-  - [Bônus](#bônus)
     - [11. Teste a semântica da sua página está aprovada pelo site CodeSniffer](#11-teste-a-semântica-da-sua-página-está-aprovada-pelo-site-codesniffer)
+    - [BÔNUS](#bônus)
     - [12. Adicione uma tabela à página](#12-adicione-uma-tabela-à-página)
     - [13. Utilize o Box model](#13-utilize-o-box-model)
     - [14. Altere atributos relacionados as fontes](#14-altere-atributos-relacionados-as-fontes)
     - [15. Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro](#15-posicione-o-seu-artigo-e-a-seção-sobre-aprendizados-um-ao-lado-do-outro)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
+    - [(OPCIONAL) Depois de terminar o desenvolvimento](#opcional-depois-de-terminar-o-desenvolvimento)
+  - [Avisos finais](#avisos-finais)
 
 
 ## Habilidades
@@ -82,8 +83,8 @@ Através desta aplicação, será possível realizar a construção de código H
 
 ## Data de Entrega
 
-  - Serão `X` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+  - Será `1` dia de projeto.
+  - Data de entrega para avaliação final do projeto: `03/08/2021 - 14:00h`.
 
 ---
 
@@ -92,9 +93,9 @@ Através desta aplicação, será possível realizar a construção de código H
 ### Antes de começar a desenvolver
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-project-lessons-learned.git`.
+  * `git clone git@github.com:tryber/sd-015-b-project-lessons-learned.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-lessons-learned`
+    * `cd sd-015-b-project-lessons-learned`
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
@@ -111,7 +112,7 @@ Através desta aplicação, será possível realizar a construção de código H
 
 3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**sd-0x-project-lessons-learned**_
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**sd-015-b-project-lessons-learned**_
   * Crie os arquivos index.html e style.css
     * Exemplo: `touch index.html style.css`
 
@@ -131,13 +132,13 @@ Através desta aplicação, será possível realizar a construção de código H
   * Usando o exemplo anterior: `git push -u origin maria-soares-lessons-learned`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-lessons-learned/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-015-b-project-lessons-learned/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-lessons-learned/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-015-b-project-lessons-learned/pulls) e confira que o seu _Pull Request_ está criado
 
 --- 
 
@@ -160,7 +161,7 @@ Através desta aplicação, será possível realizar a construção de código H
 
 ### Linter
 
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
+Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `Stylelint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
 
 ```bash
 npm run lint:styles
