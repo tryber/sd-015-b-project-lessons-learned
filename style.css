@@ -1,3 +1,18 @@
 body {
+    margin: 0px;
     background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+    display: flex;
+    top:0px ;
+    background-color: gray;
+}
+#cabecalho ul { 
+    display:block;
+width:60px;
+}
+
+nav {
+    margin: 0px;
+    background-color: gray;
 }
