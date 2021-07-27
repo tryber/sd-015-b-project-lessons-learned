@@ -37,5 +37,20 @@
 #linkedin {
     position: fixed;
     top: 900px;
+}
 
+#artigo600c {
+    display: inline-block;
+    max-width: 500px;
+    position: fixed;
+    top: 100px;
+    left: 400px;
+}
+
+#passagem100c {
+    display: inline-block;
+    max-width: 500px;
+    position: fixed;
+    top: 230px;
+    left: 400px;
 }
