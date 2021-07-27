@@ -1,15 +1,29 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace;
+    font-size: 120%;
+    line-height: 15px;
+    color: rgb(3, 10, 50);
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
     background-color: rgb(3,107,82);
-    
 }
 
 #minha_foto {
     width: 20%;
     display: block;
+    margin-top: 95.76px;
+}
+
+.lado-esquerdo {
+    width: 45%;
+    float: left;
+}
+
+.lado-direito {
+    width: 45%;
+    float: right;
 }
