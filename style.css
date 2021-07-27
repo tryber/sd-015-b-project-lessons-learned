@@ -60,13 +60,12 @@ nav ul li a {
     margin-bottom: 35px;
 }
 
-#Leasons ol, #Leasons ul{
+.Lista {
     display: inline-block;
     padding: 10px 80px 20px 50px;
 }
 
-#Leasons ol li:nth-of-type(1), #Leasons ul li:nth-of-type(1){
-    display: inline-block;
+.Lista h2{
     list-style-type: none;
     text-decoration: underline;
     font-weight: bold;
