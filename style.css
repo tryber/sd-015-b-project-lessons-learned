@@ -1,23 +1,55 @@
     body {
         background-color: rgb(253, 251, 251);
-        }
-
+    }
     #cabecalho {
         top: 0;
         position: fixed;
-        }
-
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        border: 5px;
+    }
     table {
         font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-        }
-
+        border-collapse: separate;
+        border: 5pxpx;
+        border-color: rgb(000,000,000);
+        width: inline;
+        text-align: center;
+        display: block;
+    }
     nav {
         top: 70px;
-        position:fixed
+        position:fixed;
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        border: 5px;
     }
-    
+    section {
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        border: 5px;
+    }
+    #jornada {
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        border: 5px;
+    }
+    aside {
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        border: 5px;
+    }
+    #rodape {
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        border: 5px;
+    }
     #botao {
         cursor: pointer;
     }
