@@ -45,8 +45,13 @@ section{
 }
 #rodape{
     width: 100%;
-    height: 150px;
+    height: 60px;
     position: absolute;
     bottom: 0;
     background-color: #2FC18C;
+}
+p{
+    margin-left: 20px;
+    font-family: arial;
+    color: #FFF;
 }
