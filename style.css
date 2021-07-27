@@ -19,6 +19,14 @@ footer {
   bottom: 0;
 }
 
+article {
+  position: relative;
+  top: 200px;
+  width: 600px;
+  text-align: left;
+  display: inline-block;
+}
+
 #minha_foto {
   position: relative;
   top: 130px;
@@ -38,5 +46,5 @@ footer {
 }
 
 .link_footer {
-  text-decoration: none; 
+  text-decoration: none;
 }
