@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -32,7 +33,7 @@ h1 {
 
 nav {
     background-color: goldenrod;
-    padding: 10px 20px 20px 30px;
+    padding: 10px 20px 30px;
 }
 
 nav li {
@@ -44,7 +45,7 @@ nav ul {
     margin-right: 150px;
 }
 
-nav ul li:nth-of-type(1) {
+nav ul li:nth-of-type( 1 ) {
     font-size: 25px;
     text-decoration: underline;
     padding-bottom: 10px;
@@ -60,12 +61,12 @@ nav ul li a {
     margin-bottom: 35px;
 }
 
-.Lista {
+.Lista  {
     display: inline-block;
     padding: 10px 80px 20px 50px;
 }
 
-.Lista h2{
+.Lista h2 {
     list-style-type: none;
     text-decoration: underline;
     font-weight: bold;
@@ -73,3 +74,12 @@ nav ul li a {
     font-size: 20px;
 }
 
+article {
+    float: left;
+    width: 600px;
+}
+
+aside {
+    float: right;
+    width: 600px;
+}
