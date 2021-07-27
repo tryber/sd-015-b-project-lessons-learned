@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.aprendidas-aside {
+  float: right;
+  line-height: normal;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  color: green;
+  font-size: 700;
+}
