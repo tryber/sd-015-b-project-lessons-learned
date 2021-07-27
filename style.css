@@ -1,9 +1,82 @@
+
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace;
+    font-size: 14px;
+    margin: 0px;
+    line-height: 16px;
 }
+
 
 #cabecalho {
     top: 0px;
+    left: 0px;
     position: fixed;
+    padding: 10px;
+    width: 100%;
+    background-color: green;
+    color:white;
+    text-align: center;
+    z-index: 2;
+    border-bottom: 1px solid black;
 }
 
+#minha_foto {
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.division{
+    display: inline-block;
+    margin-left: 320px;
+    margin-top: 180px;
+    margin-bottom: 100px;
+  
+}
+#licoes_aprendidas{
+    margin-left: 5px;
+}
+
+.lado-esquerdo{
+    float: left;
+    max-width: 60%;
+    margin-left: 10px;
+    
+}
+
+.lado-direito{
+    margin-left: 70%;
+    margin-right: 10px;
+}
+
+.table_soft_skills, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+.table_soft_skills th{
+    background-color: green;
+    color: white;
+}
+
+#rodape {
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    left: 0px;
+    border-top: 1px solid black;
+}
+#rodape a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    
+}
