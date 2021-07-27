@@ -5,12 +5,16 @@ body {
 #cabecalho {
     border: solid;
     border-color: red;
-    background-color:green;
     margin-top: 0;
 }
 
 #titulo {
     text-align: center;
+}
+
+#titulo_trybe {
+    display: inline;
+    font-size: 18px;
 }
 
 #foto_do_perfil {
@@ -35,6 +39,18 @@ body {
     border:solid;
     border-color: red;
     padding-left: 1%;
+}
 
-    
+#artigo_sobre_aprendizagem {
+    border: solid;
+    border-color: red;
+    width: 50%;
+    display: inline-block;
+}
+
+#passagem_na_trybe {
+    border: solid;
+    border-color: red;
+    width: 50%;
+    display: inline-block;
 }
