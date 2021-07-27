@@ -24,7 +24,7 @@ img{
 #cabecalho{
     position: fixed;
     top:0%;
-    border: 2px solid black;
+    
     border-top-left-radius: 20%;
     border-bottom-right-radius: 30%;
     margin-top: 5px;
@@ -57,6 +57,7 @@ nav{
    font-family: monospace;
    color: black;
    background-color: lightgreen;
+   font-style: italic;
 
 
 }
