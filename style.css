@@ -4,10 +4,6 @@ body {
   margin-top: 110px;
 }
 
-h2 {
-  margin-top: 0px;
-}
-
 /* Seções */
 #cabecalho {
   background-color: #b2dd8f;
@@ -36,3 +32,7 @@ h2 {
 #licoes_a_aprender {
   display: inline-block;
 }
+
+#licoes_aprendidas h2, #licoes_a_aprender h2 {
+    margin-top: 0px;
+  }
