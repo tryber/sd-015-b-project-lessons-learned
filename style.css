@@ -27,3 +27,9 @@ body {
   top: 350px;
   left: 30px;
 }
+
+#licoes_a_aprender {
+  position: absolute;
+  top: 350px;
+  left: 280px;
+}
