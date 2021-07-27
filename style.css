@@ -1,6 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 main{
     margin: 0px 20px;
@@ -20,8 +21,16 @@ main{
     margin-top: 100px;
     height: 200px;
 }
+#rodape{
+    margin: 0px 20px;
+}
+#rodape p{
+    font-weight: 600;
+    color: #11a36a;
+}
+
 .main-displacement{
-    height: 400px;
+    height: 500px;
 }
 .lado-esquerdo ul, ol{
     display: inline-block;
@@ -36,7 +45,8 @@ main{
     margin-top: 20px;
     position: relative;
     bottom: 282px;
-    
+    line-height: 25px;
+    font-size: 15;
 }
 .description_table th, td {
     border: 1px solid black;
