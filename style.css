@@ -12,6 +12,10 @@ body {
     position: fixed;
     margin-top: 0px;
     top: 0;
+    font-size: 20px;
+    font-style: inherit;
+    color: lawngreen;
+    
     
 }
 
@@ -22,18 +26,43 @@ body {
     display: inline;
 }
 
-
-.listas {
-    margin-top: 10px;
-    width: 70%;
-    
+#paragrafolista1 {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-.barralateral {
+#paragrafolista2 {
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+#listas {
+    margin-top: 10px;
+    width: 70%;  
+}
+
+h2 {
+    color: rgb(22, 41, 3);
+    font-weight: bold;
+}
+
+h3 {
+    color:rgb(22, 41, 3);
+}
+
+#barralateral {
     background-color: lightgrey;
     margin: 2px;
     border: 1px solid grey;
     display: inline-block;
+    float: right;
+    width: 200px;
+    margin-left: 200px;
+    padding: 1px;
 }
 
 #rodape {
