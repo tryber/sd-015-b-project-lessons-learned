@@ -1,17 +1,17 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color:rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
+    position:fixed;
+    top:0;
 }
 
 #titulo {
-    font-family: serif;
-    font-size: 48px;
+    font-family:serif;
+    font-size:48px;
 }
 
 #minha_foto {
-    width: 300px;
+    width:300px;
 }
