@@ -8,6 +8,13 @@
     top: 0;
 }
 
-#titulo{
-    
+#titulo {
+
+}
+
+#minha_foto {
+    max-width: 200px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
 }
