@@ -2,7 +2,7 @@
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(19, 21, 22);
-  font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
   margin-top: 110px;
 }
 
@@ -30,6 +30,10 @@ thead {
 }
 
 tr:nth-child(even) {
+  background-color: rgb(219, 219, 219);
+}
+
+article h2, aside h2 {
   background-color: rgb(219, 219, 219);
 }
 
@@ -84,7 +88,7 @@ tr:nth-child(even) {
 #cabecalho p {
   color: white;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #minha_foto {
@@ -93,14 +97,11 @@ tr:nth-child(even) {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 40px auto 20px auto;
 }
 
 #licoes_aprendidas h2, #licoes_a_aprender h2 {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #licoes_aprendidas li:nth-child(even) {
@@ -116,7 +117,7 @@ tr:nth-child(even) {
   padding: 5px;
   padding-right: 25px;
   padding-left: 25px;
-  border: 0px;
+  border: 0;
   border-radius: 3px;
 }
 
@@ -124,10 +125,6 @@ tr:nth-child(even) {
   color: white;
   text-decoration: none;
   font-weight: bolder;
-}
-
-article h2, aside h2 {
-  background-color: rgb(219, 219, 219);
 }
 
 #rodape p {
