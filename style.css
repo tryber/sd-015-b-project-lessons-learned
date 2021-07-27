@@ -1,10 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
 }
 
 header {
-    position: fixed;
-    top: 0;
+    padding: 35px;
+    background-color: #DBEAFE;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 45px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+nav ul a {
+    color: rgb(24, 23, 23);
+}
+
+nav ul a:hover {
+    color: #7869be;
 }
 
 #cabecalho {
@@ -16,7 +55,8 @@ header {
 }
 
 #minha_foto {
-
+    margin-top: 15px;
+    border-radius: 8px;
 }
 
 #licoes_aprendidas {
@@ -28,6 +68,13 @@ header {
 }
 
 #rodape {
+    text-align: center;
+    background-color: #DBEAFE;
+    padding: 35px;
+}
 
+#rodape p {
+    font-size: 20px;
+    font-weight: 700;
 }
 
