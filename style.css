@@ -1,8 +1,92 @@
 body {
-        background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
+    font-family: monospace;
+    font-size: 15px;
+    color: rgb(107, 96, 107);
+    line-height: 130%;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: auto;
+}
+
+a {
+    color: rgb(160, 145, 161);
+    text-decoration: none;
+}
+
+img {
+    border-radius: 15px;
+}
+
+main {
+  position: relative;
+  display: inline-block;
+  margin: 20px 0px;
+}
+
+aside {
+    display: inline-block;
+    border: 0.5px solid rgb(238, 228, 254);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+}
+
+table * {
+  border: 0.5px solid rgb(238, 228, 254);
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
 }
 
 #cabecalho {
-        position: fixed;
-        top: 0;
+    position: fixed;
+    top: 0;
+    border: 0.5px solid rgb(238, 228, 254);
+    border-radius: 15px;
+}
+
+#meu_aprendizado {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    margin: 5px;
+    padding: 5px;
+    border: 0.5px solid rgb(238, 228, 254);
+    border-radius: 15px;
+}
+
+#meu_aprendizado h2 {
+    text-align: center;   
+}
+
+#meu_aprendizado img {
+  float: left;
+  margin: 10px;
+}
+
+#meu_aprendizado p {
+  left: 200px;
+}
+
+#aprendizados {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  border: 0.5px solid rgb(238, 228, 254);
+    border-radius: 15px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
 }
