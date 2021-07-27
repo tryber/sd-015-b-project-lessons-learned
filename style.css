@@ -20,7 +20,7 @@ main{
     margin-top: 100px;
     height: 200px;
 }
-.lessons_lists ul{
+.lessons_lists ul, ol{
     display: inline-block;
     margin-top: 20px;
 
@@ -31,4 +31,15 @@ main{
 }
 .description_table td {
     text-align: left;
+}
+.article_section article, aside{
+    display: inline-block;
+}
+.main_article{
+    padding-right: 35%;
+    border: solid black;
+    font-size: 20px;
+}
+.aside_article{
+    padding-left: 80%;
 }
