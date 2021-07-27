@@ -4,7 +4,7 @@ body{
 }
 .barra-de-navegaçao{
   display: inline;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 #cabecalho{
   top: 0px;
@@ -32,5 +32,5 @@ body{
   display: block;
 }
 #rodape{
-    
+
 }
