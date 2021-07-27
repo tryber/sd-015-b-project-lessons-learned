@@ -39,6 +39,26 @@ main {
   margin-bottom: 400px;
 }
 
+#rodape {
+    background-color: rgb(255, 228, 196);
+    border: 1px solid rgb(0, 0, 0);
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
+  
+#rodape p {
+    background-color: rgb(255, 235, 205);
+    color: rgb(0, 0, 0);
+  }
+  
+#rodape p:hover {
+    background-color:rgb(253, 251, 251);
+    color: blue;
+    font-weight: bold;
+  }
+
 .lado-esquerdo {
   float: left;
   margin: 5px;
@@ -52,22 +72,3 @@ main {
   width: 35%;
 }
 
-#rodape {
-  background-color: rgb(255, 228, 196);
-  border: 1px solid rgb(0, 0, 0);
-  bottom: 0;
-  margin: auto;
-  text-align: center;
-  padding: 10px;
-}
-
-#rodape p {
-  background-color: rgb(255, 235, 205);
-  color: rgb(0, 0, 0);
-}
-
-#rodape p:hover {
-  background-color:rgb(253, 251, 251);
-  color: blue;
-  font-weight: bold;
-}
