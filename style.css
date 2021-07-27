@@ -2,7 +2,7 @@
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(19, 21, 22);
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   margin-top: 110px;
 }
 
@@ -29,11 +29,11 @@ thead {
   color: white;
 }
 
-tr:nth-child(even) {
+tr:nth-child( even ) {
   background-color: rgb(219, 219, 219);
 }
 
-article h2, aside h2 {
+article h2 , aside h2 {
   background-color: rgb(219, 219, 219);
 }
 
@@ -97,18 +97,18 @@ article h2, aside h2 {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  margin: 40px auto 20px auto;
+  margin: 40px auto 20px;
 }
 
-#licoes_aprendidas h2, #licoes_a_aprender h2 {
+#licoes_aprendidas h2 , #licoes_a_aprender h2 {
   margin-top: 0;
 }
 
-#licoes_aprendidas li:nth-child(even) {
+#licoes_aprendidas li:nth-child( even ) {
   background-color: rgb(219, 219, 219);
 }
-  
-#licoes_a_aprender li:nth-child(even) {
+
+#licoes_a_aprender li:nth-child( even ) {
   background-color: rgb(219, 219, 219);
 }
 
@@ -124,7 +124,7 @@ article h2, aside h2 {
 .botao a {
   color: white;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 #rodape p {
