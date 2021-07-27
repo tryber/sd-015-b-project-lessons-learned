@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(253, 251, 251);
+    color: black
+}
+
+div {
+    
+}
+
+.intro {
+    text-align: center;
+    font-size: 20px;
+}
+
+.img-doart {
+    width: 450px;
+    position: absolute;
+    left: 40px;
+    border-radius: 10%;
+    background-color: rgb(100, 20, 20);
+    padding: 2px;
+}
+
+.descrição {
+    top: 250px;
+    left: 575px;
+    position: absolute;
+    font-size: 25px;
+}
+
+.skills {
+    position: absolute;
+    top: 700px;
+    left: 40px;
+    font-size: 25px;
+    width: 500px;
+}
+
+.interess {
+    position: absolute;
+    top: 900px;
+    left: 40px;
+    font-size: 25px;
+    width: 500px;
+}
+
+.ind {
+    position: absolute;
+    top: 1100px;
+    left: 40px;
+    font-size: 25px;
+    width: 500px;
+}
+
+.botao {
+    position: absolute;
+    top: 1500px;
+    left: 1100px;
+    background-color: blueviolet;
+    color: black;
+    border-radius: 10px;
+    font-family: fantasy;
+    padding: 15px 30px;
+    border: 0px;
+    font-weight: 700;
+}
+
+ol li:nth-child(odd),ul li:nth-child(odd) {
+    background-color: rgb(10,9,8);
+}
