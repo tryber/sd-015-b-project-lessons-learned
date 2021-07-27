@@ -11,3 +11,9 @@ img {
   margin-top: 100px;
   width: 200px;
 }
+
+table, td {
+  border: solid 1px black;
+  margin: 5px;
+  padding: 5px;
+}
