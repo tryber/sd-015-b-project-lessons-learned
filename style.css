@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: monospace,sans-serif;
+  font-family: monospace, sans-serif;
 }
 
 header {
@@ -77,7 +77,7 @@ nav li {
   margin: 20px;
   padding: 6px;
   border: 1px dashed cyan;
-  
+
 }
 
 .table_blocos {
@@ -86,6 +86,6 @@ nav li {
   bottom: 10px;
   text-align: center;
   font-size: 12px;
-  color:darkkhaki;
+  color: darkkhaki;
   line-height: 180%;
-  }
+}
