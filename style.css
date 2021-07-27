@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -40,4 +40,5 @@ body {
 
 #licoes_aprendidas {
   float: left;
+  margin-right: 40px;
 }
