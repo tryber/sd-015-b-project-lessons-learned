@@ -9,6 +9,7 @@ header {
 article {
   display: inline-block;
   width: 35%;
+  text-align: justify;
 }
 
 img {
@@ -19,4 +20,5 @@ img {
 aside {
   display: inline-block;
   width: 35%;
+  text-align: justify;
 }
