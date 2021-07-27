@@ -19,3 +19,10 @@ body {
     border: 5px solid green;
     border-radius: 16px;
 }
+
+#titulo {
+    color: chartreuse;
+    font-size: 25px;
+    line-height: 16px;
+    font-family: monospace;
+}
