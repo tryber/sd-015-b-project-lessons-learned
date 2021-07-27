@@ -2,34 +2,26 @@
     margin: 0;
     padding: 0;
 }
-
 body {
      background-color: rgb(253, 251, 251);
     color: black
 }
-
 h1 {
     text-align:center;
     padding-top: 60px;
     padding-left: 500px;
     font-family: fantasy, sans-serif;
-
-
 }
-
 #cabecalho {
     top: 0px;
     height: 200px;
     background-color:rgb(184, 254, 178);
 }
-
 #minha_foto {
     margin-left: 200px;
     border-radius: 40px;
     padding: 2px;
-
 }
-
 .navy ul li {
     display: inline-block;
 }
