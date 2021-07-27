@@ -1,7 +1,7 @@
     body {
         background-color: rgb(253, 251, 251);
     }
-    
+
     #cabecalho {
         height: 150px;
         width: 100%;
@@ -9,6 +9,10 @@
         position: fixed;
         top: 0;
         padding: 0;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 
     #titulo {
@@ -19,4 +23,37 @@
     #minha_foto {
         width: 120px;
         margin-top: 160px;
+    }
+
+    #licoes {
+        font-size: 30px;
+    }
+
+    #licoes_aprendidas {
+        float: left;
+    }
+
+    #licoes_a_aprender {
+        float: right;
+        margin-right: 75%;
+    }
+
+    #aprendizado {
+        float: left;
+        clear: both;
+        border: dotted;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    #dificuldade {
+        float: right;
+        border: dotted;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    #rodape {
+        clear: both;
+        padding-top: 10px;
     }
