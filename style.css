@@ -4,6 +4,25 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 0;
+  display: flex;
+}
+
+section p {
+  width: 300px;
+}
+
+.my-pass {
+  font-size: 15px;
+  color:rgb(20, 17, 17);
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1em;
+  display: inline-block;
+  border: 1px black solid;
+  padding: 1em;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
