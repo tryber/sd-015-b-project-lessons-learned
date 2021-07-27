@@ -1,98 +1,98 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
-    line-height: 30px;
-    color: rgb(000, 000, 000);
-    margin: 20px;
-    text-align: justify;
+  background-color: rgb(253, 251, 251);
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: medium;
+  line-height: 30px;
+  color: rgb(000, 000, 000);
+  margin: 20px;
+  text-align: justify;
 }
 
 
 #cabecalho {
-    top: 0;
-    position: fixed;
-    display: inline-block;
-    margin: 5px;
-    padding: 0px;
-    border: 5px;
-    background: rgba(47, 100, 16, 0.897);
-    width: 100%;        
+  top: 0;
+  position: fixed;
+  display: inline-block;
+  margin: 5px;
+  padding: 0;
+  border: 5px;
+  background: rgba(47, 100, 16, 0.897);
+  width: 100%;
 }
 
 
 table {
-    border: 5px;
-    border-color: rgb(000, 000, 000);
-    width: inline;
-    text-align: center;
-    display: block;
+  border: 5px;
+  border-color: rgb(000, 000, 000);
+  width: inline;
+  text-align: center;
+  display: block;
 }
 
 
 nav {
-    top: 70px;
-    position:fixed;
-    display: block;
-    margin: 5px;
-    padding: 0px;
-    border: 5px;
-    background-color: rgba(165, 245, 119, 0.753);
-    width: 100%;
+  top: 70px;
+  position: fixed;
+  display: block;
+  margin: 5px;
+  padding: 0;
+  border: 5px;
+  background-color: rgba(165, 245, 119, 0.753);
+  width: 100%;
 }
 
 
 #minha_foto {
-    display: block;
-    margin: 5px;
-    padding: 10px;
-    border: 5px;
-    margin-left: inherit;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border: 5px;
+  margin-left: inherit;
 }
 
 
 .lado-esquerdo {
-    display: block;
-    margin: 5px;
-    padding: 10px;
-    border: 5px;
-    float: left;
-    width: 500px;
-    bottom: 100px;
-    position: inherit;    
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border: 5px;
+  float: left;
+  width: 500px;
+  bottom: 100px;
+  position: inherit;
 }
 
 
 .lado-direito {
-    display: block;
-    margin: 5px;
-    padding: 10px;
-    border: 5px;
-    float: right;
-    width: 500px;
-    bottom: 100px;
-    position: inherit;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border: 5px;
+  float: right;
+  width: 500px;
+  bottom: 100px;
+  position: inherit;
 }
 
 
 section {
-    display: block;
-    margin: 5px;
-    padding: 10px;
-    border: 5px;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border: 5px;
 }
-    
+
 
 #rodape {
-    display: block;
-    margin: 5px;
-    padding: 10px;
-    border: 5px;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border: 5px;
 }
 
 
 #botao {
-    cursor: pointer;
-    bottom: 0px;
-    top: 100%;
+  cursor: pointer;
+  bottom: 0;
+  top: 100%;
 }
