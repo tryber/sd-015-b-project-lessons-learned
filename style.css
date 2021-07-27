@@ -53,5 +53,14 @@ section{
 p{
     margin-left: 20px;
     font-family: arial;
-    color: #FFF;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    color: #000;
+}
+article{
+    float: left;
+}
+aside{
+    float: right;
 }
