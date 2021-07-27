@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Noto Sans JP, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 5px solid rgb(158, 207, 216);
+  background-color: rgb(192, 234, 226);
+}
+
+#titulo {
+  text-align: center;
+  color: rgb(253, 251, 251);
+  font-weight: 200;
+  font-size: 40px;
+}
+
+#minha_foto {
+  width: 300px;
+  margin-top: 125px;
+  border-radius: 10%;
+  margin-left: 42%;
+}
+
+#rodape {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.table {
+  text-align: center;
+  margin-top: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.lado-esquerdo {
+  float: left;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+}
+
+.lado-direito {
+  text-align: center;
+  float: right;
+  display: inline-block;
+  margin-top: 100px;
+}
