@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Lessons Learned</title>   
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header id="cabecalho">
-      <h1 id="titulo">Gustavo Souza</h1>
-      <img id="minha_foto" src="./image/minhafoto.jpeg" width="100px" alt="minhafoto">
+      <h1 id="titulo">Gustavo <span>Souza</span></h1>     
     </header>   
     <main>
-        <section>
-          <h2>Lições aprendidas</h2>
-          <article>
+      <img id="minha_foto" src="./image/minhafoto.jpeg" width="100px" alt="minhafoto">
+        <section class="hard-skills">
+          <article class="licoes_aprendidas">
+          <h2>Lições aprendidas</h2>          
             <ol id="licoes_aprendidas">
                 <li>Unix e Bash</li>
                 <li>Shell Script</li>
@@ -27,9 +32,10 @@
                 <li>PullRequest e Code Review</li>
                 <li>HTML Semântico</li>
                 <li>SoftKills</li>
-            </ol>
-          </article>
-          <article>
+            </ol>      
+          </article>   
+
+          <article class="licoes_a_aprendider">
             <h2>Lições a aprender</h2>
             <ul id="licoes_a_aprender">
               <li>Javascript</li>
@@ -42,11 +48,13 @@
               <li>Estrutura de Dados: FIFO e LIFO</li>
               <li>Ciência da Compuatação</li>
               <li>SCRUM</li>
-          </ul>
-          <article>
+          </ul>   
+          <article>         
         </section>
     </main>
-
+    <footer id="rodape">
+      GustavoSouza2021 - Todos os direitos reservados
+    </footer>
    
   </body>
 </html>
