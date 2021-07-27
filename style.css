@@ -9,16 +9,24 @@ header {
 }
 
 h2 {
-	position: relative;
-	top: 150px;
+  position: relative;
+  top: 150px;
 }
 
 #minha_foto {
   position: relative;
-	top: 130px;
+  top: 130px;
 }
 
 #licoes_aprendidas {
-	position: relative;
-	top: 160px;
+  position: relative;
+  top: 160px;
+  float: left;
+}
+
+#licoes_a_aprender {
+  position: relative;
+  float: right;
+  top: 160px;
+  margin-right: 70%;
 }
