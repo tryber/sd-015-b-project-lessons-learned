@@ -1,16 +1,21 @@
 body{
     background-color: rgb(253, 251, 251);
+    margin: 0px;
 }
 #cabecalho{
     top: 0px;
     background-color: rgba(71, 93, 214, 0.959);
     color: rgb(24, 21, 21);
     text-align: center;
-    display: inline-block;
+    display: block;
     width: 1366px;
     height: 70px;
     position: fixed;
+    margin-bottom: 20px;
 }
 #minha_foto{
-    width: 100px;
+    width: 200px;
+    height: 230px;
+    margin-top: 130px;
+    margin-left: 50px;
 }
