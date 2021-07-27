@@ -1,57 +1,66 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    position: absolute;
-    top: 290px;
-    margin-left: 30px;
+  position: absolute;
+  top: 290px;
+  margin-left: 30px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: greenyellow;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: greenyellow;
+  width: 100%;
 }
 
 #titulo {
-        text-align: center;
+  text-align: center;
 }
 
 #minha_foto {
-    width: 150px;
-    position: absolute;
-    top: 120px;
-    margin-left: 30px;
-    border-radius: 20%;
+  width: 150px;
+  position: absolute;
+  top: 120px;
+  margin-left: 30px;
+  border-radius: 20%;
 }
 
 #meu_nome {
-    position: absolute;
-    top: 260px;
-    margin-left: 30px;
+  position: absolute;
+  top: 260px;
+  margin-left: 30px;
 }
 
 #licoes_aprendidas { 
     position: absolute;
     top: 350px;
     margin-left: 30px;
-}
+  }
 
 #licoes_a_aprender {
-    position: absolute;
-    top: 350px;
-    margin-left: 350px;
+  position: absolute;
+  top: 350px;
+  margin-left: 350px;
 }
 
 #rodape {
-    position: fixed;
-    width: auto;
-    height: 50px;
-    top: 730px;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: 50px;
+  top: 650px;
 }
 
 #link_externo {
-    list-style: none;
+  list-style: none;
+}
+
+#meu_aprendizado {
+  display: inline-block;
+  position: relative;
+  top: 550px;
+
 }
