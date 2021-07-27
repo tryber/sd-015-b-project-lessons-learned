@@ -8,7 +8,7 @@ body {
 }
 
 #cabecalho {
-  background-color: #999999;
+  background-color: rgb(153, 153, 153);
   padding: 20px;
   position: fixed;
   text-align: right;
@@ -42,14 +42,14 @@ body {
 }
 
 .title-0 {
-  background-color:#777777;
+  background-color: rgb(119, 119, 119);
   position: absolute;
   top: 25px;
   width: 190px;
 }
 
 .title-1 {
-  background-color:#777777;
+  background-color: rgb(119, 119, 119);
   position: absolute;
   top: 25px;
   left: 257px;
@@ -57,7 +57,7 @@ body {
 }
 
 #licoes_aprendidas {
-  background-color:#999999;
+  background-color: rgb(153, 153, 153);
   border-radius: 5px;
   padding: 30px;
   padding-right: 20px;
@@ -68,7 +68,7 @@ body {
 }
 
 #licoes_a_aprender {
-  background-color:#999999;
+  background-color: rgb(153, 153, 153);
   border-radius: 5px;
   padding: 30px;
   position: absolute;
@@ -78,7 +78,7 @@ body {
 }
 
 .menu {
-  background-color:#777777;
+  background-color: rgb(119, 119, 119);
   position: absolute;
   text-align: right;
   top: 77px;
@@ -101,6 +101,6 @@ body {
 
 .menu li a:hover {
   background-color: black;
-  color:white;
+  color: white;
   padding: 10px 5px;
 }
