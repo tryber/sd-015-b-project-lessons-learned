@@ -7,11 +7,11 @@ header#cabecalho {
     background-color: green;
     width: 1350px;
 }
-img#minha-foto {
+img#minha_foto {
     width: 300px;
     border-radius: 50px;
-    margin-top: 85px;
-    margin-left: 0px;
+    margin-top: -260px;
+    margin-left: 500px;
 }
 footer {
     background-color: grey;
@@ -20,8 +20,9 @@ footer {
 
 }
 img#iTrybe {
-    width: 200px;
-    margin-left: 800px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -80px;
 }
 aside {
     width: 1350px;
@@ -31,7 +32,7 @@ h1{
     display: block;
 }
 h2 {
-    text-align: left;
+    text-align: center;
 }
 ol {
     margin-top: -12px;
@@ -40,9 +41,9 @@ section{
     width: 1350px;
 }
 article#iAprendido {
-    margin-top: 100px;
+    margin-top: 90px;
     width: 400px;
-    margin-left: 10px;
+    margin-left: 450px;
 }
 ul {
     float: right;
@@ -59,4 +60,8 @@ div#iTxtAdicional {
 }
 div#iOutroTxt {
     margin-left: 10px;
+}
+p#iFooter {
+    text-align: center;
+    margin-top: 15px;
 }
