@@ -1,18 +1,41 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 header {
+  background-color: green;
+  width: 100%;
   position: fixed;
   top: 0;
 }
+
+nav {
+  font-family: Permanent Marker;
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+}
+
+nav a {
+  text-decoration: none;
+  color: aqua;
+  line-height: 2px;
+}
+
 img {
   margin-top: 100px;
   width: 200px;
   display: block;
 }
+
 ol {
- display: inline-block;
+  border-style: solid;
+  padding-right: 15px;
+  border-color: red;
+  display: inline-block;
+  color: green;
 }
+
 ul {
   display: inline-block;
 }
