@@ -1,0 +1,76 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    border: 3px solid black;
+    position: fixed;
+    background-color: green;
+    height: auto;
+    position: fixed;
+    margin-top: 0px;
+    top: 0;
+    font-size: 20px;
+    font-style: inherit;
+    color: lawngreen;
+    
+    
+}
+
+
+#minha_foto {
+    margin-top: 100px;
+    width: 200px;
+    display: inline;
+}
+
+#paragrafolista1 {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#paragrafolista2 {
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+#listas {
+    margin-top: 10px;
+    width: 70%;  
+}
+
+h2 {
+    color: rgb(22, 41, 3);
+    font-weight: bold;
+}
+
+h3 {
+    color:rgb(22, 41, 3);
+}
+
+#barralateral {
+    background-color: lightgrey;
+    margin: 2px;
+    border: 1px solid grey;
+    display: inline-block;
+    float: right;
+    width: 200px;
+    margin-left: 200px;
+    padding: 1px;
+}
+
+#rodape {
+    background-color: rgb(153, 255, 105);
+    font-size: 20px;
+}
+
+#copyright {
+    font-size: 14px;
+    font-style: italic;
+}
