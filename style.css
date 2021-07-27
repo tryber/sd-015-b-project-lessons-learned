@@ -1,8 +1,42 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  border: .5rem;
+  font-family: 'fantasy';
+  font-size: 2rem;
+  color: #FEB726;
+  line-height: ;
 }
 
 header {
   position: fixed;
   top: 0;
+  background-color: #002A38;
+  color: antiquewhite;
+  /* padding: 2rem; */
+  width: 20%;
+  height: 100%;
+}
+
+main {
+  width: 80%;
+  margin-left: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+.img {
+  width: 100%;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  float: left;
+}
+
+.lado-direito {
+  width: 50%;
+  float: right;
 }
