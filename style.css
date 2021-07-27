@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 article {
@@ -66,12 +67,57 @@ article {
   margin-bottom: 90px;
 }
 
-section.section-article h2 {
+article h2 {
   margin-bottom: 30px;
+  text-align: center;
 }
 
-section.section-article p {
+section h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+article section {
+  margin-bottom: 60px;
+}
+
+.section-table {
+  padding: 200px 1px 0;
+  line-height: 50px;
+}
+
+.section-article p {
   width: 600px;
   border-style: dotted;
   padding: 10px;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.article-table {
+  border: 1px solid black;
+  width: 600px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.article-table tr:first-of-type td {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.article-table-td {
+  border: 1px solid black;
+}
+
+footer {
+  margin-left: 30px;
+  margin-bottom: 15px;
 }
