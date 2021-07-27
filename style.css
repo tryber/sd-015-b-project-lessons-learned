@@ -1,12 +1,19 @@
 body {background-color: rgb(253, 251, 251);
 }
-h1{
+h1{ display: inline-block;
+    text-align: center;
     color: green;
     font: 700;
 }
 #cabecalho {
-    position: fixed;
+    position: absolute;
     top: 0;
+}
+#minha_foto{height: 330px ;
+    border: solid 4px green;
+    border-radius: 50%;
+
+  
 }
 article {display:inline-block;
     position: relative;;
