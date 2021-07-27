@@ -1,8 +1,39 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  margin: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: green;
+  left: 30%;
+}
+#titulo{
+  background-color: green;
+}
+
+#licoes_aprendidas, #licoes_a_aprender{
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#minha_foto {
+  padding-top: 79px;
+  padding-bottom: 5px ;
+  width: 200px;
+}
+
+#link-linkedin{
+  display: block;
+  padding: 0;
+}
+
+
+#rodape {
+  background-color: green;
+  padding: 1em;
+  text-align: center;
+  border: 2px solid black;
 }
