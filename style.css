@@ -1,7 +1,7 @@
 * {
     margin: 15px;
     padding: 15px;
-    border: 1px black solid;
+    border: 2px black solid;
 }
 
 
@@ -23,5 +23,28 @@ header {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-  }
+}
 
+.box_aprendidas {
+    width: 300px;
+    float: right;
+}
+
+.box_aprender {
+    width: 300px;
+    float: left;
+}
+
+#licoes_aprendidas {
+    width: 200px;
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    width: 200px;
+    display:inline-block;
+}
+
+section, footer, aside {
+    display: inline-block;
+}
