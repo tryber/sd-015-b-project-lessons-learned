@@ -7,3 +7,11 @@ header{
     background-color: rgb(102, 163, 102);
 }
 
+#nav-bar{
+    display: inline-block;
+    background-color: green;
+    width: 32%;
+    text-align: center;
+    margin-left: 10px;
+}
+
