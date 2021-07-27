@@ -16,7 +16,7 @@ img {
   width: 200px;
 }
 
-table,td {
+table , td {
   border: solid 1px black;
   margin: 5px;
   padding: 5px;
