@@ -1,17 +1,17 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 1px;
-  padding: 20px;
-  font-family: 'Montserrat', sans-serif;
+  padding: 1px;
+  font-family: Montserrat, sans-serif;
 }
 
 header {
   background-color: seagreen;
   position: fixed;
-  top: 0; 
   text-align: center;
   width: 100%;
-  color: rgb(255, 255, 255)
+  color: white;
+  top: 0; 
 }
 
 header h1 {
@@ -23,7 +23,7 @@ header ul {
 }
 
 section {
-  position: initial;
+  padding-left: 40px;
 }
 
 section ul {
@@ -32,28 +32,31 @@ section ul {
 
 section ol {
   float: right;
+  padding-right: 40%;
 }
 
 article, aside {
-  border: 1px solid rgb(000,000,000);
-  display: inline-block;
+  border: 1px solid rgb(000, 000, 000);
   padding: 10px;
   text-align: justify;
-  clear: both;
   line-height: 20px;
 }
 
 footer {
-    clear: both;
-    text-align: right;
+  clear: both;
+  text-align: right;
 }
 
 .lado-esquerdo {
+  clear: left;
+  position: inherit;
   float: left;
   width: 45%;
 }
 
 .lado-direito {
+  clear: right;
+  position: inherit;
   float: right;
   width: 45%;
 }
