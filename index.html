@@ -1,66 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header id="cabecalho"><h1 id="titulo">As Lições que Aprendi na Trybe #VQV</h1></header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lições Aprendidas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,700;1,200;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1 id="titulo">As Lições que Aprendi na Trybe #VQV</h1>
+    </header>
 
-    <nav>
-    <a href="#licoes_aprendidas">Lições Aprendidas e a Aprender</a>
-    <a href="#artigo">Artigo</a>
-    <a href="#minhaPassagem">Minha passagem pela Trybe</a>
+    <nav id="indice">
+      <a id="a1" href="#licoes_aprendidas">Lições Aprendidas e a Aprender</a>
+      <a id="a2" href="#artigo"> Artigo</a>
+      <a id="a3" href="#minhaPassagem">Minha passagem pela Trybe</a>
     </nav>
 
-    <img id="minha_foto" src="selfie.jpeg" alt="Imagem de Nicolas Franzolin" width="250px">
-    
-    <section>
-        <ol id="licoes_aprendidas"><h2>Lições Aprendidas</h2>
-            <li>Unix</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Empatia</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Slack</li>
-            <li>HMTL Semantico</li>
-            <li>Zoom</li>
-            <li>Soft Skills</li>
-        </ol>
+    <img
+      id="minha_foto"
+      src="selfie.jpeg"
+      alt="Imagem de Nicolas Franzolin"
+      width="250px"
+    />
 
-        <ul id="licoes_a_aprender"><h2>Lições a Aprender</h2>
-            <li>SQL</li>
-            <li>Inspect</li>
-            <li>Novas Soft Skills</li>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>DOM</li>
-            <li>Métodos Ágeis</li>
-            <li>NodeJS</li>
-            <li>Python</li>
-            <li>Estrutura de Dados</li>
-        </ul>
+    <section id="tabela1">
+      <table>
+        <caption>
+          Progresso do Curso
+        </caption>
+        <tr>
+          <th>Fundamentos</th>
+          <th>Desenvolvimento Front-End</th>
+          <th>Desenvolvimento Back-End</th>
+          <th>Ciência da Computação</th>
+        </tr>
+        <tr>
+          <td>Bloco 4</td>
+          <td>Ainda não iniciou</td>
+          <td>Ainda não iniciou</td>
+          <td>Ainda não iniciou</td>
+        </tr>
+        <tr>
+          <td>Completo</td>
+          <td>Ainda não iniciou</td>
+          <td>Ainda não iniciou</td>
+          <td>Ainda não iniciou</td>
+        </tr>
+      </table>
+    </section>
+    <section class="licoes lado-esquerdo">
+      <ol id="licoes_aprendidas">
+        <h2>Lições Aprendidas</h2>
+        <li>Unix</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Empatia</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Slack</li>
+        <li>HMTL Semantico</li>
+        <li>Zoom</li>
+        <li>Soft Skills</li>
+      </ol>
+      <br />
 
+      <ul id="licoes_a_aprender">
+        <h2>Lições a Aprender</h2>
+        <li>SQL</li>
+        <li>Inspect</li>
+        <li>Novas Soft Skills</li>
+        <li>React</li>
+        <li>JavaScript</li>
+        <li>DOM</li>
+        <li>Métodos Ágeis</li>
+        <li>NodeJS</li>
+        <li>Python</li>
+        <li>Estrutura de Dados</li>
+      </ul>
     </section>
 
+    <aside id="minhaPassagem" class="lado-direito">
+      <h2>Minha Passagem pela Trybe</h2>
+      <p>
+        Neste início na Trybe aprendi muito conteúdo para poder ser
+        um futuro Dev Web. Como não tinha quase nenhum background
+        sobre está área todos esses conteúdos são novos e interessantes para
+        mim, como, Git, HTML e CSS.
+      </p>
+    </aside>
+
     <article id="artigo">
-        <h2>Um pouquinho sobre a Trybe</h2>
-        <p> A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional de quem estuda conosco. Com o Modelo de Sucesso Compartilhado (MSC), a pessoa estudante tem a opção de pagar apenas quando já estiver trabalhando</p>
+      <h2>Um pouquinho sobre a Trybe</h2>
+      <br />
+      <p>
+        A Trybe é uma escola de desenvolvimento web que tem comprometimento
+        genuíno com o sucesso profissional de quem estuda conosco. Com o Modelo
+        de Sucesso Compartilhado (MSC), a pessoa estudante tem a opção de pagar
+        apenas quando já estiver trabalhando
+      </p>
+      <br />
 
-        <a href="https://www.betrybe.com/" target="_blank"><h3>Visite a trybe para saber mais =]</h3></a>
-
+      <a href="https://www.betrybe.com/" target="_blank"
+        ><h3>Clique aqui para conhecer mais sobre a Trybe</h3></a
+      >
     </article>
 
-    <aside id="minhaPassagem">
-        <h2>Minha Passagem pela Trybe</h2>
-        <p>Nestas primeiras semanas da Trybe aprendi muito conteúdo para poder ser um futuro Desenvolvedor Web. Como não tinha quase nenhum background sobre está área todos esses conteúdos são novos e interessantes para mim, como Git, GitHub, HTML e CSS.</p>
-    </aside>
-    
-    <footer id="rodape"><h3>Este conteúdo foi desenvolvido por Nícolas, 2021</h3></footer>
-
-</body>
+    <footer id="rodape">
+      <h3>Este conteúdo foi desenvolvido por Nícolas, 2021</h3>
+    </footer>
+  </body>
 </html>
