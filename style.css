@@ -1,6 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
-    font-family: fantasy;
+    font-family: fantasy, sans-serif;
+    color: salmon;
 }
 
 #cabecalho {
@@ -30,9 +31,9 @@ body{
 }
 
 #section{
-    display: block;
+    display: inline-block;
 }
 
 #section2{
-    
+    display: inline-block;
 }
