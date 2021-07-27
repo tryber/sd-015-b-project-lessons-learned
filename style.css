@@ -1,61 +1,61 @@
-body{
-    background-color: rgb(253, 251, 251);
-    max-width: 90%;}
+body {
+	background-color: rgb(253, 251, 251);
+	max-width: 90%; }
 
 article{
-    border: 2px solid rgb(000, 000, 000);
-    padding: 10px;
-    font-family: 'Calibri, sans-serif;
-    font-size: medium;
-    color: rgb(100, 61, 61);}
+	border: 2px solid rgb(000, 000, 000);
+	padding: 10px;
+	font-family: 'Calibri, sans-serif;
+	font-size: medium;
+	color: rgb(100, 61, 61);}
 
 section { margin-top: 350px; }
 
 aside{
-    border: 2px solid rgb(000, 000, 000);
-    padding: 10px;
-    font-family: 'Calibri, sans-serif;
-    font-size: medium;
-    color: rgb(100, 61, 61);}
+	border: 2px solid rgb(000, 000, 000);
+	padding: 10px;
+	font-family: 'Calibri, sans-serif;
+	font-size: medium;
+	color: rgb(100, 61, 61);}
 
 h2 { font-family: -apple-system, BlinkMacSystemFont,  Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
 
 
 #cabecalho{
-    top: 0;
-    position: fixed;
-    width: 90%;
-    background-color: blanchedalmond;
-    border: 2px solid rgb(000, 000, 000);}
+	top: 0;
+	position: fixed;
+	width: 90%;
+	background-color: blanchedalmond;
+	border: 2px solid rgb(000, 000, 000);}
 
 #titulo{
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;}
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;}
 
 #minha_foto{
-    margin-left: 25px;
-    padding: 10px;}
+	margin-left: 25px;
+	padding: 10px;}
 
 #licoes_aprendidas{
-    font-family: 'Calibri, sans-serif;
-    font-size: large;
-    color: rgb(100, 61, 61);
-    line-height: 25px;}
+	font-family: 'Calibri, sans-serif;
+	font-size: large;
+	color: rgb(100, 61, 61);
+	line-height: 25px;}
 
 #licoes_a_aprender{
-    font-family: 'Calibri, sans-serif;
-    font-size: large;
-    color: rgb(100, 61, 61);
-    line-height: 25px;}
+	font-family: 'Calibri, sans-serif;
+	font-size: large;
+	color: rgb(100, 61, 61);
+	line-height: 25px;}
 
 #rodape{
-    border: 2px solid rgb(000, 000, 000);
-    clear: both;}
+	border: 2px solid rgb(000, 000, 000);
+	clear: both;}
 
 .lado-esquerdo{
-    float: left;
-    max-width: 60%;}
+	float: left;
+	max-width: 60%;}
 
 .lado-direito{
-    float: right;
-    max-width: 35%;}
+	float: right;
+	max-width: 35%;}
