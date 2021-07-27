@@ -1,0 +1,23 @@
+
+
+body {
+    background-color: gb(253, 251, 251);
+}
+
+#cabecalho {
+    border: 3px solid black;
+    position: fixed;
+    background-color: green;
+    height: auto;
+    position: fixed;
+    
+}
+#titulo {
+    margin-top: 0;
+}
+
+#minha_foto {
+    margin-top: 100px;
+    width: 200px;
+    display: inline;
+}
