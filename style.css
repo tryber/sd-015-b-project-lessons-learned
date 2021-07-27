@@ -7,12 +7,12 @@ body {
 section {
   padding: 0;
   display: inline-block;
-  
-}*
+}
 
 article {
-  max-width: 45%
+  max-width: 45%;
 }
+
 aside {
   max-width: 45%;
 }
