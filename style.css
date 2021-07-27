@@ -9,20 +9,20 @@
         left: 0;
         margin-right: 0;
         margin-left: 0;
-        background-color: #DB5461;
+        background-color: #db5461;
         text-align: center;
     }
 
     header h1 {
-        color: #235789;
-        font-family: 'Otomanopee One', sans-serif;
+        color: #235789
+        font-family: Otomanopee One, sans-serif;
         font-size: 50px;
         line-height: 70px;
     }
 
     header li {
         display: inline-block;
-        font-family: 'Inconsolata', monospace;
+        font-family: Inconsolata, monospace;
         margin-right: 20px;
     }
 
@@ -37,7 +37,7 @@
 
     footer {
         text-align: center;
-        color: #DB5461;
+        color: #db5461;
         background-color: #235789;
         font-family: 'Inconsolata', monospace;
         padding: 20px;
@@ -46,7 +46,7 @@
 
     footer a {
         text-decoration: none;
-        color: #DB5461;
+        color: #db5461;
     }
 
     table { 
