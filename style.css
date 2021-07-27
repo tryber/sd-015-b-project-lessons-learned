@@ -11,7 +11,15 @@ article {
 aside {
     border: 2px solid rgb(000, 000, 000);
     padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: rgb(100, 61, 61);
 }
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 #cabecalho {
     top: 0;
@@ -21,11 +29,26 @@ aside {
 
 #titulo {
     text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #minha_foto {
     margin-left: 25px;
     padding: 10px;
+}
+
+#licoes_aprendidas {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: rgb(100, 61, 61);
+    line-height: 25px;
+}
+
+#licoes_a_aprender {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: rgb(100, 61, 61);
+    line-height: 25px;    
 }
 
 #rodape {
