@@ -124,7 +124,7 @@ article h2 , aside h2 {
 .botao a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 #rodape p {
