@@ -14,7 +14,7 @@
     }
 
     header h1 {
-        color: #235789
+        color: #235789;
         font-family: Otomanopee One, sans-serif;
         font-size: 50px;
         line-height: 70px;
@@ -54,12 +54,12 @@
         margin: auto;    
     }
 
-    table, th, td {
+    table , th , td {
         border: 1px solid #456990;
         border-collapse: collapse;
     }
 
-    th, td {
+    th , td {
         padding: 5px;
         text-align: left;
       }
