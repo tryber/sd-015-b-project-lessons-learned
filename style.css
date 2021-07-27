@@ -21,10 +21,10 @@ body {
     left: 20px;
 }
 
-#licoes_aprendidas {
-}
-
-#licoes_a_aprender {  
+footer#rodape li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 #rodape {
