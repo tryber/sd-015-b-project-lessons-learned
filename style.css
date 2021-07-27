@@ -8,18 +8,19 @@ main {
   line-height: 18px;
 }
 
-a:link, a:visited {
+a , a:link , a:visited {
   color: white;
+  padding: 4px;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: green;
-  margin: 0px;
+  margin: 0;
   width: 100%;
   padding: 4px;
-  left: 0px;
+  left: 0;
   font-size: 18px;
   color: white;
   text-align: center;
@@ -34,9 +35,10 @@ a:link, a:visited {
 #tabela {
   border: 2px solid black;
 }
+
 .lado-esquerdo {
   display: inline-block;
-  width: 350px
+  width: 350px;
 }
 
 .lado-direito {
