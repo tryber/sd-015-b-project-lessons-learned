@@ -12,8 +12,12 @@ body {
 }
 
 #cabecalho {
+    position: fixed;
+    top: 0;
+    width: 1300px;
     padding: 35px;
     background-color: #DBEAFE;
+    z-index: 2;
 }
 
 h1 {
@@ -53,7 +57,14 @@ nav ul a:hover {
     text-align: center;
 }
 
+#principal {
+    position: relative;
+    z-index: 1;
+}
+
 #minha_foto {
+    position: relative;
+    top: 300px;
     margin-top: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
