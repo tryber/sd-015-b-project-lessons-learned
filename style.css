@@ -17,8 +17,31 @@ header {
   width: 100%;
 }
 
+h1 {
+  display: inline-block;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
 img {
   width: 350px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: rgb(92, 94, 94);
+  color: #fff;
+}
+
+.trybe-link {
+  margin-left: 5em;
 }
 
 .container {
@@ -28,4 +51,12 @@ img {
 
 .mg-top {
   margin-top: 5em;
+}
+
+.coluna {
+  display: inline-block;
+}
+
+.coluna + .coluna {
+  margin-left: 3em;
 }
