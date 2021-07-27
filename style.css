@@ -1,19 +1,23 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
-
-#cabecalho{
+h2 {
+    position: absolute;
+    top: 290px;
+    margin-left: 30px;
+}
+#cabecalho {
     position:fixed;
     top:0px;
     background-color: greenyellow;
     width:100%;
 }
 
-#titulo{
+#titulo {
     text-align:center;
 }
 
-#minha_foto{
+#minha_foto {
     width: 150px;
     position: absolute;
     top: 100px;
@@ -21,8 +25,14 @@ body{
     border-radius: 20%;
 }
 
-#meu_nome{
+#meu_nome {
     position: absolute;
     top: 240px;
+    margin-left: 30px;
+}
+
+#licoes_aprendidas { 
+    position: absolute;
+    top: 350px;
     margin-left: 30px;
 }
