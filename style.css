@@ -2,6 +2,7 @@
 body{
     background-color: rgb(253, 251, 251);
     margin: 0px;
+    padding: 0px;
 }
 #cabecalho{
     position: fixed;
@@ -54,4 +55,10 @@ p{
     margin-left: 20px;
     font-family: arial;
     color: #FFF;
+}
+article p{
+    color: black;
+    font-family: arial;
+    font-size: 12px;
+    padding-bottom: 100px;
 }
