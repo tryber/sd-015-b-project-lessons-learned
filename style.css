@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 16px;
   font-family: monospace;
   line-height: 18px;
@@ -11,7 +11,7 @@ main {
 }
 
 #cabecalho {
-  background-color: rgb(255, 228, 196);
+  background-color: bisque;
   text-align: center;
   top: 0;
   position: fixed;
@@ -19,7 +19,7 @@ main {
 }
 
 #minha_foto {
-  border: 10px dotted rgb(0, 0, 0);
+  border: 10px dotted black;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -40,23 +40,23 @@ main {
 }
 
 #rodape {
-    background-color: rgb(255, 228, 196);
-    border: 1px solid rgb(0, 0, 0);
-    bottom: 0;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
+  background-color: bisque;;
+  border: 1px solid rgb(0, 0, 0);
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
   }
-  
+
 #rodape p {
-    background-color: rgb(255, 235, 205);
-    color: rgb(0, 0, 0);
+  background-color: bisque;;
+  color: black;
   }
-  
+
 #rodape p:hover {
-    background-color:rgb(253, 251, 251);
-    color: blue;
-    font-weight: bold;
+  background-color:blanchedalmond;
+  color: blue;
+  font-weight: bold;
   }
 
 .lado-esquerdo {
