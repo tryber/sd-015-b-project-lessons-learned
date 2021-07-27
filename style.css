@@ -6,11 +6,19 @@ body {
 #cabecalho {
     background-color: green;
     padding: 10px;
-    text-align: center;
-    color: white;
     top: 0px;
     position: fixed;
     right: 0px;
     left: 0px;
 }
 
+#titulo {
+    text-align: center;
+    color: white;
+}
+
+#minha_foto {
+    position: relative;
+    top: 110px;
+    left: 10px;
+}
