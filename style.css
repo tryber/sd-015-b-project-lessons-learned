@@ -1,5 +1,9 @@
 body {
-  background-color: rgb(253, 251, 251); }
+  background-color: rgb(253, 251, 251);
+  color: rgb(41, 49, 45);
+  font-family: Georgia, serif;
+  font-size: 15px;
+  line-height: 20px; }
 
 header {
   top: 0;
