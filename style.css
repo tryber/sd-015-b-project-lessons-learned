@@ -1,6 +1,5 @@
 body{
     background-color: rgb(253, 251, 251);
-
 }
 
 #cabecalho{
@@ -8,19 +7,15 @@ body{
     top: 0px;
     width: 100%;
     background-color: green;
-    height: 100px;
-
-
-    
+    height: 100px;  
 }
 
 #minha_foto{
     height: 300px;
     width: 300px;
     margin-top: 110px;
-    
-
 }
+
 #titulo{
     text-align: center;
 
@@ -38,13 +33,10 @@ a{
     display: inline-block;
     font-size: 16px;
     padding-left: 50px;
-
 }
 
 footer{
     text-align: center;
-    
-
 }
 
 h1{
@@ -62,11 +54,9 @@ footer{
 
 .lado-esquerdo{
     display: inline-block;
-    width: 45%;
-    
-
-} 
+    width: 45%;  
+}
 .lado-direito{
     width: 45%;
     float: right;
-    }
+}
