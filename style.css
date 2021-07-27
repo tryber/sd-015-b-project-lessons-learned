@@ -10,7 +10,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #018000;
+  background-color: darkgreen;
   width: 100%;
 }
 
@@ -30,6 +30,14 @@ body {
 }
 
 #minha_foto {
-  margin: 150px 0 0 0;
-  padding-left: 30px;
+  margin: 150px 0 0;
+  padding: 0 30px;
+}
+
+.subtitle {
+  padding: 10px 30px;
+}
+
+#licoes_aprendidas li {
+  padding: 2px 30px;
 }
