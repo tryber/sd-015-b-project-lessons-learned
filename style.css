@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    position: fixed;
+    background-color: aquamarine;
+    width: 1366px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+}
+
+#title{
+    color: black;
+    margin-left: 540px;
+    margin-right: 540px;
+    padding: 10px;
+}
+
+#minha_foto{
+    position: relative;
+    left: 463px;
+    top: 100px;
+}
+
+#licoes_aprendidas{
+    width: 200px;
+    position: relative;
+    bottom: 200px;
+}
+
+#licoes_a_aprender{
+    position: relative;
+    width: 200px;
+    bottom: 425px;
+    left: 250px;
+}
