@@ -8,15 +8,25 @@ body{
     top: 0px;
     background-color: #2FC18C;
     width: 100%;
+    padding: 10px;
 }
 #titulo{
     font-family: arial;
     font-weight: 900;
+    display: inline-block;
     color: white;
     margin-left: 15px;
 }
 #minha_foto{
-    margin-top: 100px;
-    margin-left: 20px;
+    float: right;
+    margin-right: 20px;
     border-radius: 120px;
+    width: 80px;
+}
+#licoes_aprendidas{
+    margin-top: 120px;
+}
+#licoes_aprendidas li{
+    font-family: arial;
+    font-weight: 700;
 }
