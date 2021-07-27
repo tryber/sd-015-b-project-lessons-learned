@@ -3,12 +3,11 @@ body {
 }
 
 header {
-  display: block;
   position: fixed;
   top: 0;
-  height: 50px;
 }
 
 img {
+  margin-top: 70px;
   width: 350px;
 }
