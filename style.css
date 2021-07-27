@@ -1,18 +1,18 @@
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   position: fixed;
-  background-color:aquamarine;
+  background-color: aquamarine;
   width: 1366px;
   height: 100px;
   top: 0;
   left: 0;
 }
 
-#titulo{
-  color:black;
+#titulo {
+  color: black;
   margin-left: 540px;
   margin-right: 540px;
   padding: 10px;
