@@ -25,12 +25,12 @@ table, th, td {
     border-collapse: collapse;
 }
 
-.box_aprendidas {
+.lado_esquerdo {
     width: 300px;
     float: right;
 }
 
-.box_aprender {
+.lado_direito {
     width: 300px;
     float: left;
 }
