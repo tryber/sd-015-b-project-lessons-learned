@@ -3,11 +3,76 @@ body {
 
 }
 header {
-    position:fixed;
+    position:fixed relative;
     top: 0;
-    background-color: green;
+    background-color: #ccff22;
     width: 100%;
     align-items: center;
     text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+img {
+    max-width: 300px;
+    position: relative;
+    display: inline-block;
+}
+a {
+    position: relative;
+    left: 0px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 5px 10px 5px 10px;
     padding: 20px;
+    background-color: #0a66c2;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover {
+    transition-duration: 10ms;
+    background-color: #6997c5;
+    font-size: 18px;
+}
+.quemsou{
+    margin: 10px 0px;
+    
+}
+.quemsou p {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 200px;
+    text-align: left;
+    margin:0px 0px 0px 20px;
+    font-size: 25px;
+    vertical-align: top;
+}
+.lista_numerada {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px 0px;
+    vertical-align: baseline;
+}
+.lista_numerada p, .lista_semnumero p {
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+.lista_semnumero {
+    display: inline-block;
+    margin-left: 30%;
+    border: 1px solid black;
+    vertical-align: baseline;
+
+}
+#rodape p {
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px;
+    width: 100%;
 }
