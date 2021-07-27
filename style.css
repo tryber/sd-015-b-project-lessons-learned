@@ -23,15 +23,18 @@ nav {
     background-color: #006DFB;
     padding-right: 13px;
     left: 0;
+    color: #2FC18C;
 }
 
 nav ul {
     list-style: none;
     margin-top: -3px;
+    
 }
 nav ul li {
     display: inline-block;
     padding: 10px 10px;
+    
 }
 
 .lado-direito, .lado-esquerdo{
@@ -51,14 +54,21 @@ footer {
     width: 100%;
     color: #FFFFFF;
     height: 30px;
-    left: 0;
 }
 
 footer p {
-    margin: 0;
+    left: 0;
     padding-top: 5px;
+
 }
 
 article p {
     margin: 8px;
+}
+
+img {
+    margin-left: 400px;
+    border-radius: 40px;
+   
+    
 }
