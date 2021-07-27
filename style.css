@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    border: solid;
+    border-color: red;
+    background-color:green;
+    margin-top: 0;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#minha_foto {
+    width: 250px;
+    margin-top:2%;
+}
