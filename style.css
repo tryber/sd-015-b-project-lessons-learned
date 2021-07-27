@@ -13,6 +13,12 @@ h2 {
   top: 150px;
 }
 
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+}
+
 #minha_foto {
   position: relative;
   top: 130px;
@@ -29,4 +35,8 @@ h2 {
   float: right;
   top: 160px;
   margin-right: 70%;
+}
+
+.link_footer {
+  text-decoration: none; 
 }
