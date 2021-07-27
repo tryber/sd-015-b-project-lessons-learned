@@ -18,3 +18,14 @@
     top: 100px;
     left: 100px;
 }
+
+#licoes_aprendidas {
+    position: fixed;
+    top: 320px;
+
+}
+
+#licoes_a_aprender {
+    position: fixed;
+    top: 600px;
+}
