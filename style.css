@@ -3,6 +3,13 @@ body{
 }
 #cabecalho{
     top: 0px;
+    background-color: rgba(71, 93, 214, 0.959);
+    color: rgb(24, 21, 21);
+    text-align: center;
+    display: inline-block;
+    width: 1366px;
+    height: 70px;
+    position: fixed;
 }
 #minha_foto{
     width: 100px;
