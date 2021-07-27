@@ -1,12 +1,12 @@
-:root{
-    --clr-background: rgb(253, 251, 251)
+:root {
+    --clr-background: rgb(253, 251, 251);
 }
 
-body{
+body {
     background-color: var(--clr-background);
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     top:0;
 }
