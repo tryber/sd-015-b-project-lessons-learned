@@ -1,9 +1,10 @@
-body{ 
+body { 
     background-color: rgb(253, 251, 251);
     margin: 0px;
-    font-family: fantasy;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
     margin-top: 0px;
     background-color: aquamarine;
@@ -25,11 +26,14 @@ body{
     padding: 10px;
     font-size: 20px;
 }
-#artigo {
+.lado-esquerdo {
     display: inline-block;
     max-width: 40%;
 }
-#aside {
+.lado-direito {
     display: inline-block;
     max-width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #4f4f4f;
+    padding: 20px;
 }
