@@ -13,3 +13,8 @@ body {
     top: 0;
 
 }
+
+#aprendizado p{
+    width: 600px;
+    text-align: left;
+}
