@@ -9,17 +9,17 @@ section {
   display: inline-block;
 }
 
-.secao1 {
+.lado-esquerdo {
   max-width: 45%;
   background-color: grey;
 }
 
-.secao2 {
+.lado-direito {
   max-width: 45%;
   background-color: grey;
 }
 
-.secao1 , .secao2 {
+.lado-esquerdo , .lado-direito {
   font-size: 15px;
   color: rgb(20, 17, 17);
   font-family: Courier, monospace;
