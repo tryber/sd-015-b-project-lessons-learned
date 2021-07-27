@@ -8,13 +8,12 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-header {
+#cabecalho {
     padding: 35px;
     background-color: #DBEAFE;
-
 }
 
 h1 {
@@ -34,7 +33,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-left: 45px;
-    margin-top: 8px;
     font-size: 20px;
 }
 
@@ -46,24 +44,47 @@ nav ul a:hover {
     color: #7869be;
 }
 
-#cabecalho {
-
-}
 
 #titulo {
+    padding: 8px;
+}
 
+.center {
+    text-align: center;
 }
 
 #minha_foto {
     margin-top: 15px;
     border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.lessons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 #licoes_aprendidas {
-
+    padding: 5px;
+    list-style: none;
+    text-align: center;
 }
 
 #licoes_a_aprender {
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+
+#artigo {
+    text-align: justify;
+    padding: 15px;
+}
+
+#conteudo-lateral {
+    text-align: justify;
+    padding: 15px;
 
 }
 
