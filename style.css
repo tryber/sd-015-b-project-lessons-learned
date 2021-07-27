@@ -4,4 +4,5 @@ body{
 
 header{
     margin-top: 0px;
+    position: fixed;
 }
