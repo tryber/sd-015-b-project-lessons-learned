@@ -1,0 +1,16 @@
+:root{
+    --clr-background: rgb(253, 251, 251)
+}
+
+body{
+    background-color: var(--clr-background);
+}
+
+#cabecalho{
+    position: fixed;
+    top:0;
+}
+
+#minha_foto {
+    height: 180px;
+}
