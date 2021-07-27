@@ -1,39 +1,39 @@
-body {
-    background-color: rgb(253, 251, 251);
-}
+    body {
+        background-color: rgb(253, 251, 251);
+    }
 
-header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    margin-right: 0;
-    margin-left: 0;
-    text-align: center;
-    background-color: #DB5461;
-    color: #171738;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+        background-color: #DB5461;
+        color: #171738;
+        font-family: 'Otomanopee One', sans-serif;
+    }
 
-header li {
-    display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
-}
+    header li {
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 
-.container {
-    margin: auto;
-    width: 1000px;
-}
+    .container {
+        margin: auto;
+        width: 1000px;
+    }
 
-.columns {
-    display: flex;
-}
+    .columns {
+        display: flex;
+    }
 
-#minha_foto {
-    width: 300px;
-}
+    #minha_foto {
+        width: 300px;
+    }
 
-#licoes {
-    margin: 150px 0px;
-}
+    #licoes {
+        margin: 200px 0px;
+    }
