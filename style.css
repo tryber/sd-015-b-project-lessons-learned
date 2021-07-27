@@ -12,7 +12,7 @@ body {
 
 #cabecalho {
     border: solid;
-    border-color: red;
+    border-color:ghostwhite;
     margin-top: 0;
     position: fixed;
     top: 0%;
@@ -31,9 +31,8 @@ body {
 
 #foto_do_perfil {
     border: solid;
-    border-color: red;
+    border-color: ghostwhite;
 }
-
 #minha_foto {
     width: 250px;
     margin-top:2%;
@@ -43,30 +42,31 @@ body {
 
 #lista_ordenada {
     border: solid;
-    border-color: red;
+    border-color: ghostwhite;
     padding-left: 1%;
 }
 
 #lista_nao_ordenada {
     border:solid;
-    border-color: red;
+    border-color: ghostwhite;
     padding-left: 1%;
 }
 
 #tabela_skills {
     border:solid;
-    border-color: red;
+    border-color: ghostwhite;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
 #artigos {
     border: solid;
+    border-color: ghostwhite;
 }
 
 #artigo_sobre_aprendizagem {
     border: solid;
-    border-color: red;
+    border-color: ghostwhite;
     width: 45%;
     display: inline-block;
 }
@@ -77,7 +77,7 @@ body {
 
 #passagem_na_trybe {
     border: solid;
-    border-color: red;
+    border-color: ghostwhite;
     width: 45%;
     display: inline-block;
 }
