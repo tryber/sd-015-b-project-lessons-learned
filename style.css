@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace,sans-serif;
 }
 
 header {
@@ -19,6 +20,7 @@ footer {
   position: relative;
   text-align: right;
   top: 100px;
+  clear: both;
 }
 
 nav {
@@ -58,6 +60,11 @@ nav li {
   width: 600px;
   text-align: left;
   display: inline-block;
+  float: right;
+  margin: 20px;
+  padding: 6px;
+  border: 1px solid blueviolet;
+  line-height: 130%;
 }
 
 .aside {
@@ -66,4 +73,19 @@ nav li {
   width: 600px;
   text-align: left;
   display: inline-block;
+  float: left;
+  margin: 20px;
+  padding: 6px;
+  border: 1px dashed cyan;
+  
 }
+
+.table_blocos {
+  position: relative;
+  left: 600px;
+  bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  color:darkkhaki;
+  line-height: 180%;
+  }
