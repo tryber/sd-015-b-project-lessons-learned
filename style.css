@@ -33,9 +33,25 @@ top:150px;
     left: 200px;
 }
 
+#artigo{
+    background-color: wheat;
+    position: absolute;
+    top: 850px;
+    width: 500px;
+}
+
+#secundario{
+    background-color: yellowgreen;
+    position: absolute;
+    top: 915px;
+    left: 600px;
+
+    width: 500px;
+}
+
 #rodape{
     position: absolute;
-    top: 900px;
+    top: 1100px;
     display: block;
     background-color: gray;
     height: 50px;
