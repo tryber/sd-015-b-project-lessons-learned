@@ -21,6 +21,12 @@ header {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: #c28108;
+}
+a:active {
+  color: #d3641a;
+}
 main {
   margin-top: 8rem;
   margin-left: 4rem;
