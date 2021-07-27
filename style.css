@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Quicksand, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  padding-bottom: 100px;
+  z-index: 1;
+  width: 100%;
+}
+
+#minha_foto {
+  margin-top: 19%;
+  border: 1px solid black;
+  margin-left: 15px;
+}
+
+nav {
+  margin-top: 10%;
+  position: fixed;
+  z-index: 2;
+}
+
+h1 {
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  line-height: 2%;
+}
+
+.linkedin {
+  margin-left: 15px;
+}
+
+.lado-esquerdo {
+  width: 48%;
+  float: left;
+}
+
+.lado-direito {
+  width: 50%;
+  float: right;
+  margin-left: 3px;
+}
+
+#licoes-aprendidas li {
+  width: 50%;
+  float: left;
+}
+
+#licoes-a-aprender li {
+  width: 50%;
+  float: right;
+}
+
+table , th , td {
+  border: 1px solid black;
+  width: 40%;
+}
