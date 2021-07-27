@@ -1,8 +1,114 @@
-#cabecalho{
-    position: fixed;
-    top: 0;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main{
+    background-color: #121212;
+    margin-top: 10vh;
 }
 
 body{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
     background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #333;
+    text-align: center;
+}
+
+#cabecalho nav{
+    margin-top: 1rem;
+}
+#cabecalho nav a{
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem;
+}
+
+#cabecalho nav a:hover{
+    text-decoration: underline;
+}
+
+#minha_foto{
+    display: block;
+    width: 30vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem;
+}
+#tabela-secreta{
+    position: absolute;
+    overflow: hidden;
+    color: transparent;
+    cursor: default;
+    transition: color 300ms;
+}
+
+#tabela-secreta:hover{
+    color: white;
+}
+
+tr{
+    padding: .8rem;
+}
+
+#side-to-side{
+    background-color: #121212;
+}
+
+/* Isso aqui concerta o problema do float fazer o fundo sumir. */
+#side-to-side::after{
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.lado-esquerdo{
+    float: left;
+    width: 50%;
+}
+.lado-direito{
+    width: 50%;
+    float: right;
+}
+
+ol, ul{
+    padding: 1rem;
+    padding-left: 4rem;
+}
+
+#artigo{
+    line-height: 1.325rem;
+}
+#artigo p{
+    padding: 1rem 0;
+}
+
+footer{
+    padding: 2rem 0;
+    background-color: #212121;
+    clear: both;
+    text-align: center;
+}
+
+footer a{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: text-shadow 300ms;
+}
+
+footer a:hover{
+text-shadow: 0 0 25px white;
 }
