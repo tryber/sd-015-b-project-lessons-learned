@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: darkgreen;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+  padding: 15px 0;
+  color: whitesmoke;
+}
+
+.menu_links {
+  padding: 15px 30px;
+}
+
+.menu_links li {
+  list-style: none;
+  color: whitesmoke;
+}
+
+#minha_foto {
+  margin: 160px 0 0;
+  padding: 0 30px;
+}
+
+.link_externo {
+  padding-left: 30px;
+  font-size: 0.8rem;
+}
+
+.container {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.subtitle {
+  padding-bottom: 15px;
+}
+
+#licoes_aprendidas {
+  float: left;
+  margin-right: 40px;
+}
+
+article {
+  border: 2px dotted darkgrey;
+  margin: 30px;
+  float: left;
+  width: 40%;
+  font-size: 0.9rem;
+}
+
+aside {
+  border: 2px dotted darkgrey;
+  margin: 30px;
+  float: right;
+  width: 40%;
+  font-size: 0.9rem;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  font-size: 0.8rem;
+}
