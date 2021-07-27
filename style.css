@@ -61,6 +61,19 @@ strong {
   width: 400px;
 }
 
+.personal-info {
+  border: 2px solid black;
+}
+
+.personal-info th {
+  border: 2px solid black;
+  text-align: left;
+}
+
+.personal-info td {
+  border: 2px solid black;
+}
+
 .main-texts {
   margin: 60px 30px 0px;
 }
