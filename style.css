@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    background-color:rgb(253, 251, 251);
+    width: 1366px;
+    height: 768px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 20px;
+}
+
+header {
+    position: fixed;
+    margin-top: 0;
+    width: 1366px;
+    height: 130px;
+    background-color: rgb(67, 151, 12);   
+    display: block; 
+}
+
+img, a {
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 140px;
+    margin-left: 15px;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+article {
+    width: 500px;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: dotted;
+    text-align: justify;
+    display: inline-block;
+}
+
+aside {
+    line-height: 51px;
+    width: 500px;
+    margin-left: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: dotted;
+    text-align: justify;
+    display: inline-block;
+    position: absolute;
+    
+}
+
+footer {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.tabela {
+    margin-left: 40px;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    text-align: left;
+    width: 320px;
+}
+
+#titulo{
+    text-align: center;
+    color: rgb(253, 251, 251);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#cabecalho p{
+    color: rgb(253, 251, 251);
+    margin-left: 30px;
+}
