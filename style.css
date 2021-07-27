@@ -5,7 +5,9 @@ body {
 header {
   position: fixed;
   top: 0;
-  height: 150px;
+  width: 100%;
+  height: 100px;
+  background-color: green;
 }
 
 h2 {
@@ -17,6 +19,15 @@ footer {
   position: relative;
   text-align: right;
   top: 100px;
+}
+
+nav {
+  text-align: auto;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 500px;
 }
 
 #minha_foto {
