@@ -8,6 +8,10 @@ main {
   line-height: 18px;
 }
 
+a:link, a:visited {
+  color: white;
+}
+
 #cabecalho {
   position: fixed;
   top: 0px;
@@ -20,12 +24,11 @@ main {
   color: white;
 }
 
-a:link, a:visited {
-  color: white;
-}
+
 
 
 #minha_foto {
   display: block;
   margin: 2px;
+  border-radius: 50px;
 }
