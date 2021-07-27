@@ -1,15 +1,15 @@
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+   margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    background: rgb(253, 251, 251);
+  background: rgb(253, 251, 251);
 }
 
 header {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
