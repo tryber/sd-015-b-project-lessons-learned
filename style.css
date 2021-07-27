@@ -10,22 +10,22 @@ body {
   background-color: green;
   left: 30%;
 }
-#titulo{
-  background-color: green;
+#titulo {
+  color: rgba(0, 0, 0, 0.897);
 }
 
-#licoes_aprendidas, #licoes_a_aprender{
+#licoes_aprendidas ,#licoes_a_aprender {
   display: inline-block;
   border: 2px solid black;
 }
 
 #minha_foto {
   padding-top: 79px;
-  padding-bottom: 5px ;
+  padding-bottom: 5px;
   width: 200px;
 }
 
-#link-linkedin{
+#link-linkedin {
   display: block;
   padding: 0;
 }
