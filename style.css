@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: fantasy;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -14,8 +14,8 @@ body {
 
 #titulo {
   color: rgba(255, 255, 255, 0.966);
-  margin-left: 540px;
-  margin-right: 540px;
+  margin-left: 520px;
+  margin-right: 520px;
   padding: 10px;
 }
 
@@ -23,6 +23,7 @@ body {
   position: relative;
   left: 463px;
   top: 100px;
+  margin-top: 50px;
 }
 
 #licoes_aprendidas {
@@ -47,8 +48,9 @@ body {
   border: none;
   width: 100px;
   height: 35px;
-  bottom: 450px;
+  bottom: 750px;
   position: relative;
+  left: 620px;
 }
 
 #trybe {
