@@ -1,9 +1,21 @@
 body{
     background-color: rgb(253, 251, 251);
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 130px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: darkolivegreen;
+    font-size: 20px;
+    line-height: 25px;
+}
+h2,h3{
+    font-weight: 700;
+    color: black;
 }
 
+p{
+    
+}
 #cabecalho{
     position: fixed;
     top:0%;
@@ -11,6 +23,16 @@ body{
     border-top-left-radius: 20%;
     border-bottom-right-radius: 30%;
     margin-top: 5px;
+    margin-left: 30%;
+    font-family: montserrat;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkslategray;
+    background-color: lightgreen;
+
+    
+
+
 
     
 }
