@@ -109,6 +109,9 @@ img {
 }
 
 #rodape {
+  background-color: rgb(220, 225, 222);
   text-align: center;
+  height: 50px;
+  line-height: 50px;
 }
 
