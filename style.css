@@ -9,15 +9,16 @@ section {
   display: inline-block;
 }
 
-article {
+.secao1 {
   max-width: 45%;
+  background-color: grey;
+}
+.secao2 {
+  max-width: 45%;
+  background-color: grey;
 }
 
-aside {
-  max-width: 45%;
-}
-
-.my-pass {
+.secao1 , .secao2 {
   font-size: 15px;
   color: rgb(20, 17, 17);
   font-family: Courier, monospace;
