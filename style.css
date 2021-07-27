@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-size: 15px;
-  color:teal;
+  color: teal;
   line-height: 115%;
   font-family: monospace;
 }
@@ -13,4 +13,10 @@ body {
 #cabecalho {
   position: fixed;
   top: 0%;
+  background-color: greenyellow;
+  width: 100%;
+}
+
+div{
+    border: 2px solid black;
 }
