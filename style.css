@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(253, 251, 251);
+  margin: 0px;
+}
+.barra-de-navegaçao{
+  display: inline;
+  margin-left: 40px;
+}
+#cabecalho{
+  top: 0px;
+  background-color: rgba(71, 93, 214, 0.959);
+  color: rgb(24, 21, 21);
+  text-align: center;
+  display: block;
+  width: 1366px;
+  height: 100px;
+  position: fixed;
+  margin-bottom: 0px;
+}
+#minha_foto{
+  width: 200px;
+  height: 230px;
+  margin-top: 130px;
+  margin-left: 50px;
+}
+#licoes_aprendidas{
+  margin-left: 50px;
+  display: block;
+}
+#licoes_a_aprender{
+  margin-left: 50px;
+  display: block;
+}
+.margin{
+    margin-left: 50px;
+    color: rgb(19, 18, 18);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
+
+}
