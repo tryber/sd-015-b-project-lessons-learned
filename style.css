@@ -7,3 +7,8 @@ body {
     position: fixed;
     top: 0;
 }
+
+#nav-links ul li {
+    display: inline-block;
+    width: 50px;
+}
