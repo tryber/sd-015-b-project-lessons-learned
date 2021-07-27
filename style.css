@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-  background-color: rgb(7373, 138, 82);
+  background-color: rgb(73, 138, 82);
   height: 40px;
   padding: 0;
   text-align: right;
@@ -44,7 +44,7 @@ header {
 }
 
 #titulo {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: white;
   margin: 0;
 }
@@ -57,7 +57,7 @@ header {
 
 section {
   margin: 10px;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 20px;
 }
 
@@ -89,7 +89,7 @@ th {
   display: inline-block;
 }
 
-.title02 { 
+.title02 {
   line-height: 1.6;
   display: block;
   font-size: 30px;
@@ -118,7 +118,7 @@ aside {
 }
 
 #rodape {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 10px;
   color: rgb(61, 116, 68);
 }
