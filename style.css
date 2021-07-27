@@ -8,35 +8,94 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: "Open Sans", sans-serif;
 	font-size: 20px;
+    color: #121212;
     text-align: justify;
-    margin-left: 5px;
+    padding-top: 100px;
+}
 
+ol, ul {
+    margin-left: 40px;
+    margin-block-end: 20px;
 }
 
 ol {
-    margin-left: 30px;
     list-style-type: decimal;
 }
 
 ul {
-    margin-left: 30px;
     list-style-type: disc;
 }
 
+li {
+    margin-left: 60px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+a {
+    word-spacing: 1px;
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    color: #f5f5f5;
+}
+
+footer {
+    background-color: #036b52;
+    margin: 0px;
+    padding: 0px;
+}
 
 #cabecalho {
+    border-bottom: 2px solid black;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
     top: 0px;
+    background-color: #036b52;
+    padding: 30px;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+#titulo {
+    color: #f5f5f5;
+}
+
+#secao_imagem {
+    height: 350px;
 }
 
 #minha_foto {
     width: 200px;
-    top: 100px;
+    top: 20px;
     position: relative;
+}
+
+#descricao_foto {
+    top: 17px;
+    position: relative;
+    margin-left: 3px;
 }
 
 #link_linkedin {
     text-decoration: none;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    width: 48%;
+    margin-right: 20px;
+}
+
+.lado-direito {
+    display: inline-block;
+    width: 48%;
+    position: relative;
+    bottom: 40px;
+    margin-left: 20px;
 }
