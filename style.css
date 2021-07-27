@@ -44,11 +44,8 @@ section{
     font-family: arial;
     font-weight: 700;
 }
-#rodape{
-    width: 100%;
-    height: 60px;
-    padding: 5px;
-    background-color: #2FC18C;
+#artigos{
+    display: flex;
 }
 p{
     margin-left: 20px;
@@ -64,4 +61,10 @@ article{
 }
 aside{
     float: right;
+}
+#rodape{
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    background-color: #2FC18C;
 }
