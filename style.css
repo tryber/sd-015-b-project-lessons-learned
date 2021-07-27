@@ -5,7 +5,18 @@ body {
     #cabecalho {
       position: fixed;
       top: 0;
+      background-color: pink;
+      width: 300px;
+
     }
     article, section {
       display: inline-block;
+      width: 400px;
     }
+
+    #minha_foto { 
+      border-radius: 50%;
+      width: 200px;
+    }
+
+    
