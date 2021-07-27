@@ -1,73 +1,73 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-size: 16px;
-    color: black;
-    line-height: 18px;
-    font-family: monospace;
+  background-color: rgb(253, 251, 251);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: monospace;
+  line-height: 18px;
 }
 
 main {
-    margin-bottom: 3em;
+  margin-bottom: 3em;
 }
 
 #cabecalho {
-    background-color: bisque;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    text-align: center;
+  background-color: rgb(255, 228, 196);
+  text-align: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
 }
 
 #minha_foto {
-    margin-top:72px;
-    border: 10px dotted black;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  border: 10px dotted rgb(0, 0, 0);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:72px;
 }
 
 #licoes {
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: left;
-    width: 650px;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 650px;
 }
 
 #aprendizado {
-    margin-bottom: 400px;
+  margin-bottom: 400px;
 }
 
 .lado-esquerdo {
-    width: 60%;
-    float: left;
-    margin: 5px;
+  float: left;
+  margin: 5px;
+  width: 60%;
 }
 
 .lado-direito {
-    width: 35%;
-    margin: 5px;
-    padding: 5px;
-    float: right;
+  float: right;  
+  margin: 5px;
+  padding: 5px;
+  width: 35%;
 }
 
 #rodape {
-    border: 1px solid black;
-    text-align: center;
-    bottom: 0;
-    margin: auto;
-    background-color: bisque;
-    padding: 10px;
+  background-color: rgb(255, 228, 196);
+  border: 1px solid rgb(0, 0, 0);
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
 }
 
 #rodape p {
-    background-color: blanchedalmond;
-    color: black;
+  background-color: rgb(255, 235, 205);
+  color: rgb(0, 0, 0);
 }
 
 #rodape p:hover {
-    background-color:rgb(253, 251, 251);
-    color: blue;
-    font-weight: bold;
+  background-color:rgb(253, 251, 251);
+  color: blue;
+  font-weight: bold;
 }
