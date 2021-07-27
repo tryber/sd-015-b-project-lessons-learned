@@ -7,3 +7,10 @@ body {
     top: 0;
     left: 0;
 }
+
+#minha_foto {
+    width: 184px;
+    border-radius: 10%;
+    box-shadow: 10px 12px 0 0 rgb(128, 0, 128);
+    margin: 0 auto;
+}
