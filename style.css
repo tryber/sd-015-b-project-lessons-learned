@@ -13,6 +13,7 @@ body {
     border: solid;
     border-color: red;
     margin-top: 0;
+    position: fixed;
 }
 
 #titulo {
@@ -78,5 +79,5 @@ body {
 }
 
 .lado_direito {
-    
+
 }
