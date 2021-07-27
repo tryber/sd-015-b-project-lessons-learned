@@ -5,16 +5,38 @@
 }
 
 body {
-    backgroud-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);
     font-family: "Open Sans", sans-serif;
-	font-size: 20px
+	font-size: 20px;
+    text-align: justify;
+    margin-left: 5px;
+
 }
 
-#header {
+ol {
+    margin-left: 30px;
+    list-style-type: decimal;
+}
+
+ul {
+    margin-left: 30px;
+    list-style-type: disc;
+}
+
+
+#cabecalho {
     position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
     top: 0px;
 }
 
 #minha_foto {
-    width: 50px;
+    width: 200px;
+    top: 100px;
+    position: relative;
+}
+
+#link_linkedin {
+    text-decoration: none;
 }
