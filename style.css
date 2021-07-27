@@ -6,3 +6,29 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  display: block;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.header-menu {
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.header-menu ul li {
+  list-style: none;
+}
