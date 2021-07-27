@@ -9,12 +9,14 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: 'Karla', sans-serif;
     font-size: 18px;
+    line-height: normal;
+    color: rgb(24, 23, 23);
 }
 
 #cabecalho {
     position: fixed;
-    top: 0;
     width: 1300px;
+    top: 0;
     padding: 35px;
     background-color: #DBEAFE;
     z-index: 2;
@@ -63,9 +65,7 @@ nav ul a:hover {
 }
 
 #minha_foto {
-    position: relative;
-    top: 300px;
-    margin-top: 15px;
+    margin-top: 160px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -91,11 +91,13 @@ nav ul a:hover {
 #artigo {
     text-align: justify;
     padding: 15px;
+    width: 600px;
 }
 
 #conteudo-lateral {
     text-align: justify;
     padding: 15px;
+    width: 600px;
 
 }
 
@@ -110,3 +112,19 @@ nav ul a:hover {
     font-weight: 700;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    height: 70px;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
