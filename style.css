@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+  font-family: Helvetica, sans-serif;
+  line-height: 23px;
+  color: rgb(28, 28, 28);
+}
+
+h1 {
+  font-size: 45px;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+table , th , td {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+ul , ol {
+  display: inline-block;
+}
+
+article {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+footer {
+  min-height: 20px;
+  text-align: center;
+}
+
+footer span {
+  color: green;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+#minha_foto {
+  width: 300px;
+}
+
+.space {
+  height: 120px;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  max-width: 500px;
+}
