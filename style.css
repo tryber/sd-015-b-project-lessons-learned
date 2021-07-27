@@ -55,16 +55,28 @@ body {
     margin-bottom: 2%;
 }
 
+#artigos {
+    border: solid;
+}
+
 #artigo_sobre_aprendizagem {
     border: solid;
     border-color: red;
-    width: 50%;
+    width: 45%;
     display: inline-block;
+}
+
+.lado_esquerdo {
+
 }
 
 #passagem_na_trybe {
     border: solid;
     border-color: red;
-    width: 50%;
+    width: 45%;
     display: inline-block;
+}
+
+.lado_direito {
+    
 }
