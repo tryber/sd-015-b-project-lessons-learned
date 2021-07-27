@@ -18,6 +18,5 @@
 
     #minha_foto {
         width: 120px;
-        position: absolute;
-        top: 180px;
+        margin-top: 150px;
     }
