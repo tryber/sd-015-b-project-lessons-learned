@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Roboto Mono;
+  color: rgb(59, 59, 59);
 }
 
 header {
@@ -34,7 +35,7 @@ nav a {
   margin-top: 20px;
 }
 
-article {
+.lado-esquerdo {
   float: left;
   width: 640px;
   margin: 20px 0;
@@ -44,7 +45,7 @@ article {
   background-color: rgb(219, 219, 219);
 }
 
-aside {
+.lado-direito {
   float: right;
   width: 640px;
   padding: 10px;
