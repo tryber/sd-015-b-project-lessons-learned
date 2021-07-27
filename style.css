@@ -20,7 +20,7 @@ img {
 }
 
 #aprendizados {
-    height: 290px;
+  height: 290px;
 }
 
 article {
@@ -28,11 +28,11 @@ article {
   width: 40%;
 }
 
-p, li {
+p , li {
   line-height: 24px;
 }
 
-table, th, td {
+table , th , td {
   border: 1px solid;
   border-collapse: collapse;
   padding: 5px;
@@ -40,14 +40,14 @@ table, th, td {
 }
 
 table {
-    margin: auto;
+  margin: auto;
 }
 
 li {
-    font-family: 'Ubuntu Mono', monospace;
+  font-family: Ubuntu Mono, monospace;
 }
 
 aside {
   float: right;
-  width: 50%
+  width: 50%;
 }
