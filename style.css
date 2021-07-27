@@ -32,3 +32,13 @@ body {
 .header-menu ul li {
   list-style: none;
 }
+
+.section-profile {
+  margin-bottom: 120px;
+}
+
+#minha_foto {
+  width: 300px;
+  margin-top: 150px;
+  display: block;
+}
