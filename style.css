@@ -1,6 +1,7 @@
 :root {
 
     --clr-background: rgb(253, 251, 251);
+    --padding-article:.5rem;
 }
 
 body {
@@ -47,18 +48,28 @@ font-size:40px;
 }
 
 .lado-esquerdo  {
+    
     position:relative;
     display:inline-block;
     margin: 10px;
     width:45%;
     float:right;
+    border:2px solid blue;
+    padding: var(--padding-article);
  
 }
 
 .lado-direito {
+    
     position:relative;
     display:inline-block;
     width:45%;
     float:right;
     margin:10px;
+    border:2px solid blue;
+    padding: var(--padding-article);
+}
+
+.tabela-links {
+    clear: both;
 }
