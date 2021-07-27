@@ -1,14 +1,14 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Courier New, Courier, monospace;
-  color: #1f2421;
+  color: rgb(31, 36, 33);
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #216869;
+  background-color: rgb(33, 104, 105);
   font-size: larger;
 }
 
@@ -20,7 +20,7 @@ nav {
   position: sticky;
   width: 100%;
   top: 80px;
-  background-color: #dce1de;
+  background-color: rgb(220, 225, 222);
   height: 70px;
   text-align: center;
   padding: 5px;
@@ -29,7 +29,7 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  background-color: #49a078;
+  background-color: rgb(73, 160, 120);
   padding: 10px;
   margin-left: 20px;
 }
@@ -40,7 +40,7 @@ nav ul li {
 
 #aprendizado {
   margin-top: 80px;
-  background-color: #9cc5a1;
+  background-color: rgb(156, 197, 161);
   text-align: justify;
   width: 68%;
   display: inline-block;
@@ -52,7 +52,7 @@ aside {
   width: 25%;
   margin-top: 80px;
   float: right;
-  background-color: #49a078;
+  background-color: rgb(73, 160, 120);
   padding: 10px;
   line-height: 20px;
 }
@@ -68,12 +68,12 @@ a {
 }
 
 .lista {
-  padding: 3% 10% 3% 10%;
+  padding: 3% 10%;
   display: inline-block;
 }
 
 #licoes_aprendidas {
-  background-color: #73b38d;
+  background-color: rgb(115, 179, 141);
 }
 
 #licoes_aprendidas h2 , #licoes_a_aprender h2 {
@@ -86,11 +86,11 @@ a {
 }
 
 #licoes_a_aprender {
-  background: #bcd3c0;
+  background: rgb(188, 211, 192);
 }
 
 table {
-  margin: 10px auto 10px auto;
+  margin: 10px auto;
 }
 
 table , th , td {
