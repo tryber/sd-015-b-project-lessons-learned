@@ -39,7 +39,7 @@
         margin-right: 75%;
     }
 
-    #lado-esquerdo {
+    .lado-esquerdo {
         float: left;
         clear: both;
         border: dotted;
@@ -47,7 +47,7 @@
         padding-right: 6px;
     }
 
-    #lado-direito {
+    .lado-direito {
         float: right;
         border: dotted;
         padding-left: 6px;
