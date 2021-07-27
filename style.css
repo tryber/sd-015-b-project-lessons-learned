@@ -1,3 +1,8 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+ */
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,8 +10,17 @@ body {
 header {
   position: fixed;
   top: 0;
+  width: 1360px;
+  text-align: center;
+  background-color: aquamarine;
 }
 
 #minha_foto {
   margin-top: 70px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(199, 199, 199);
+  padding: 10px;
 }
