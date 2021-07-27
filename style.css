@@ -3,5 +3,33 @@ body {
 }
 
 img {
-    max-width: 200px;;
+    max-width: 200px;
+    position: relative;
+    margin-top: 150px;
+    border-radius: 5%;
 }
+
+#titulo {
+    color: white;
+}
+
+#cabecalho {
+    position: fixed;
+    background-color: green;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#linkedin {
+    float: left;
+    margin-left: 50px;
+}
+
+#linkedin a{
+    color: white;
+}
+
