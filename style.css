@@ -12,7 +12,7 @@ h2 {
 }
 
 #cabecalho {
-    background-color: rgb(0, 128, 0);
+    background-color: green;
     padding: 10px;
     top: 0px;
     position: fixed;
@@ -25,26 +25,43 @@ h2 {
     color: white;
 }
 
+#section_foto {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 230px;
+    height: 270px;
+}
+
 #nome {
-    top: 110px;
-    left: 45px;
+    position: relative;
+    text-align: center;
+    margin: auto;
 }
 
 #minha_foto {
     position: relative;
-    top: 150px;
-    left: 40px;
+    left: 15px;
     box-shadow: 3px 3px rgba(0,128,0,0.6);
 }
 
+#section_licoes_aprendidas {
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    width: 230px;
+    height: 270px;
+}
+
 #titulo_licoes_aprendidas {
-    top: 110px;
-    left: 440px;
+    position: relative;
+    text-align: center;
+    margin: auto;
 }
 
 #licoes_aprendidas {
-    position: absolute;
-    top: 170px;
-    left: 410px;
-    color: rgb(0, 128, 0);
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: green;
 }
