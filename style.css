@@ -6,7 +6,7 @@ header {
     top: 0;
     text-align: center;
 }
-#nav-bar {
+#nav-bar div{
     font-family: monospace;
     margin-top: 80px;
     display: inline-block;
@@ -28,6 +28,12 @@ article p{
     padding-top: 70px;
     padding-left: 30px;
 }
+aside {
+    max-width: 300px;
+    border: solid black;
+    float: right;
+}
+
 #licoes_aprendidas {
     margin-top: 0px;
     border: solid black;
@@ -44,8 +50,3 @@ article p{
 
 }
 
-aside{
-    max-width: 300px;
-    border: solid black;
-    float: right;
-}
