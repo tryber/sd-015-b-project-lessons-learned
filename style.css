@@ -35,6 +35,10 @@ img {
   border-radius: 50%;
 }
 
+nav {
+  display: inline-block;
+}
+
 footer {
   background-color: rgb(92, 94, 94);
   color: white;
@@ -42,6 +46,11 @@ footer {
 
 .trybe-link {
   margin-left: 5em;
+  color: white;
+}
+
+.trybe-link:hover {
+  color: rgb(255, 238, 0);
 }
 
 .container {
@@ -59,4 +68,18 @@ footer {
 
 .coluna + .coluna {
   margin-left: 3em;
+}
+
+.article-content,
+.aside-content {
+  margin-top: 1em;
+  width: 50%;
+}
+
+.aside-content {
+  margin-bottom: 2em;
+}
+
+footer {
+  padding: 0.5em;
 }
