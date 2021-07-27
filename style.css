@@ -1,97 +1,98 @@
 body {
-        background-color: rgb(253, 251, 251);
-        font-family: Courier, monospace;
+  background-color: rgb(253, 251, 251);
+  font-family: Courier, monospace;
 }
 
 h2 {
-        position: absolute;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 800;
-        font-size: 20px;
-        color: green;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: green;
 }
 
 #cabecalho {
-        background-color: green;
-        padding: 10px;
-        top: 0px;
-        position: fixed;
-        right: 0px;
-        left: 0px;
+  background-color: green;
+  padding: 10px;
+  top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
 }
 
 #titulo {
-        text-align: center;
-        color: white;
+  text-align: center;
+  color: white;
 }
 
 #section_foto {
-        position: absolute;
-        top: 120px;
-        left: 20px;
-        width: 230px;
-        height: 270px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  width: 230px;
+  height: 270px;
 }
 
 #nome {
-        position: relative;
-        text-align: center;
-        margin: auto;
+  position: relative;
+  text-align: center;
+  margin: auto;
 }
 
 #minha_foto {
-        position: relative;
-        left: 15px;
-        box-shadow: 3px 3px green;
+  position: relative;
+  left: 15px;
+  box-shadow: 3px 3px green;
 }
 
 #section_licoes_aprendidas {
-        position: absolute;
-        left: 300px;
-        top: 120px;
-        width: 230px;
-        height: 270px;
+  position: absolute;
+  left: 300px;
+  top: 120px;
+  width: 230px;
+  height: 270px;
 }
 
 #titulo_licoes_aprendidas {
-        position: relative;
-        text-align: center;
-        margin: auto;
+  position: relative;
+  text-align: center;
+  margin: auto;
 }
 
 #licoes_aprendidas {
-        text-align: left;
-        margin-top: 15px;
-        margin-left: 15px;
-        color: green;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: green;
 }
 
 #section_licoes_a_aprender {
-        position: absolute;
-        left: 550px;
-        top: 120px;
-        width: 300px;
-        height: 270px;
+  position: absolute;
+  left: 550px;
+  top: 120px;
+  width: 300px;
+  height: 270px;
 }
 
 #titulo_licoes_a_aprender {
-        position: relative;
-        text-align: center;
-        margin: auto;
+  position: relative;
+  text-align: center;
+  margin: auto;
 }
 
 #licoes_a_aprender {
-        text-align: left;
-        margin-top: 15px;
-        margin-left: 30px;
-        color: green;
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 30px;
+  color: green;
 }
 
 #rodape {
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        padding: 10px;
-        background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: green;
+  text-align: center;
 }
