@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-  padding: 10px 0 0 0;
+  padding: 10px 0 0;
 }
 
 nav a {
@@ -49,7 +49,7 @@ nav a {
   float: right;
   width: 640px;
   padding: 10px;
-  margin: 20px 0 25px 0;
+  margin: 20px 0 25px;
   border: 1px solid grey;
   border-radius: 10px;
   background-color: rgb(219, 219, 219);
