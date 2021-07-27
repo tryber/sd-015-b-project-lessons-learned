@@ -2,14 +2,33 @@ body{
     background-color: rgb(253, 251, 251);
     margin: 0;
 }
+main{
+    margin: 0px 20px;
+}
+#titulo{
+    text-align: center;
+}
 #cabecalho{
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    background-color: red;
+    
 }
 #minha_foto{
+    margin-left: 22px;
     margin-top: 100px;
     height: 200px;
+}
+.lessons_lists ul{
+    display: inline-block;
+    margin-top: 20px;
+
+}
+.description_table th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+.description_table td {
+    text-align: left;
 }
