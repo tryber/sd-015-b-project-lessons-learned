@@ -1,24 +1,92 @@
-body {
-  background-color: rgb(253, 251, 251);
+/* Relembrei como dar este comando em 
+https://stackoverflow.com/questions/18772154/white-space-at-top-of-page */
+* {
+  margin-top: 0;
+  margin-bottom: 0;;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-header {
+
+ body {
+  background-color: rgb(253, 251, 251);
   margin-top: 0;
 }
 
-article {
+header {
+    margin-left: 30px;
+    position: fixed;
+    font-size: 30px;
+  }
+
+nav {
+  padding-top: 70px;
+  border-style: solid;
+  background-color: aqua;
+}
+
+
+
+section {
+    margin-top: 0;
+    border: solid;
+    padding-right: 5px;
+    padding-left: 5px
+  }
+
+main{
+  margin: auto;
+  width: 70%;
   display: inline-block;
-  width: 35%;
-  text-align: justify;
+  margin-left: 30px;
 }
 
 img {
   display: block;
   margin-top: 0;
+  margin: auto;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+article {
+  text-align: justify;
 }
 
 aside {
   display: inline-block;
-  width: 35%;
-  text-align: justify;
+  width: 25%;
+  text-align: center;
+  margin-top: 0;
+  border: solid black;
+  padding: 15px 5px 5px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 50%;
+}
+
+footer {
+  text-align: center;
+  border: 1px solid;
+  background-color:antiquewhite;
+  padding-bottom:0;
+  color:brown;
+}
+
+.lado-direito {
+  margin:auto;
+  width: 50%;
+  float: right;
+  background-color:beige;
+  line-height: 27pt;
+  height: 450px;
+}
+.lado-esquerdo {
+  margin-top: 0;
+  width: 45%;
+  float: left;
+  background-color: azure;
+  line-height: 17pt;
+  height: 450px;
 }
