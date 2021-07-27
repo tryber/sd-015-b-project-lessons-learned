@@ -15,5 +15,25 @@ body {
 
 #minha_foto {
     margin-top:72px;
-    margin-left: 50%;
+    margin-left: 40%;
+}
+
+.lado-esquerdo {
+    width: 60%;
+    float: left;
+}
+
+.lado-direito {
+    width: 38%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    float: right;
+}
+
+#rodape {
+    margin-top: 5em;
+    border: 1px solid black;
+    text-align: center;
+    bottom: 0;
 }
