@@ -1,23 +1,31 @@
 
+p {
+    color: #475550;
+    font-size: 16px;
+    }
 .cor-fundo{
     background-color: rgb(253, 251, 251);
     }
 
-* {
+body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
-    box-sizing: border-box;
+    }
+
+.titulo {
+    font-size: 30px;
+    background-color: rgb(255,255,255);
+    color: #0a7e51;   
+    font-weight: 600;
+    
     }
 
 .cabecalho {
-    font-size: 30px;
-    background-color: rgb(10, 126, 81);
-    color: white;   
-    font-weight: 600;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    }
+}
 
 .title-container {
     padding: 10px 40px;
@@ -40,5 +48,5 @@
 }
 
 .rodape{
-    
+
 }
