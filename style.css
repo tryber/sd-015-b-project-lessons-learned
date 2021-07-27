@@ -3,6 +3,10 @@ body{
     margin: 0;
     font-family:'Lexend', sans-serif;
 }
+
+p{
+    line-height: 30px;;
+}
 #cabecalho{
     position: fixed;
     top: 0;
@@ -58,4 +62,14 @@ span{
     text-align: center;
     color: white;
    padding: 30px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(63, 63, 63);
+    color: white;
 }
