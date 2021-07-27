@@ -2,6 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Roboto Mono, sans-serif;
   color: rgb(59, 59, 59);
+  font-size: 1.01em;
+  line-height: 1.2em;
 }
 
 header {
