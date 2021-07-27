@@ -16,8 +16,21 @@ body {
     color: white;
 }
 
+a:hover, a:active, a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+
+}
+
 #nav-links ul li {
     width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#nav-links ul li a {
+    color:aliceblue;
 }
 
 #perfil {
