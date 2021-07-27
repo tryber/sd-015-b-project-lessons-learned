@@ -1,6 +1,7 @@
 /* Tags */
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat';
   margin-top: 110px;
 }
 
@@ -18,21 +19,72 @@ body {
   display: inline-block;
 }
 
- #licoes_a_aprender {
+#licoes_a_aprender {
   display: inline-block;
+}
+
+#rodape {
+  background-color: #85bc57;
+  padding: 1px;
+  margin-top: 25px;
 }
 
 /* Elementos */
 #titulo {
-  text-align: center;
   color: white;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#cabecalho p {
+  color: white; 
+  text-align: center;
+  margin-top: 0px;
 }
 
 #minha_foto {
-  width: 200px;
   float: left;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 40px;
+  margin-right: 10%;
+  border-radius: 50%;
 }
 
 #licoes_aprendidas h2, #licoes_a_aprender h2 {
   margin-top: 0px;
+}
+
+#licoes_aprendidas li:nth-child(even) {
+  background-color: #dbdbdb;
+}
+  
+#licoes_a_aprender li:nth-child(even) {
+  background-color: #dbdbdb;
+}
+
+.botao {
+  background-color: #85bc57;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: 0px;
+  border-radius: 3px;
+}
+
+.botao a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+article h2, aside h2 {
+  background-color: #dbdbdb;
+}
+
+#rodape p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
 }
