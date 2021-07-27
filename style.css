@@ -113,3 +113,9 @@ aside {
     text-align: right;
     
 }
+
+#rodape {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    color: #3d7444;
+}
