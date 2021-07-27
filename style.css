@@ -2,10 +2,12 @@ body {
     background-color: rgb(253, 251, 251);
 }
 header {
+    position: fixed;
+    top: 0;
     text-align: center;
-    background-color: rgb(102, 163, 102);
 }
 #nav-bar {
+    margin-top: 80px;
     display: inline-block;
     background-color: green;
     width: 32%;
