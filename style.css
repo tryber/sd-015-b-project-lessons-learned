@@ -1,5 +1,7 @@
+
 body {
     background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
 }
 
 header {
@@ -16,10 +18,6 @@ header {
     width: 32%;
     text-align: center;
     margin-left: 10px;
-}
-
-article h3{
-
 }
 
 img {
