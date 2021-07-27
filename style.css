@@ -1,6 +1,6 @@
 
 #principal{
-   margin-left:15px; 
+   margin-left: 15px; 
 }
 
 body{
@@ -8,9 +8,10 @@ body{
 }
 
 #cabecalho{
-    position:fixed;
-    top:0;
+    position: fixed;
+    top: 0;
     border: black solid 2px;
+    z-index: 1;
 }
 
 /* titulo */
@@ -24,4 +25,23 @@ top:150px;
 #licoes_aprendidas{
     position: absolute;
     top:450px;
+}
+
+#licoes_a_aprender{
+    position: absolute;
+    top: 525px;
+    left: 200px;
+}
+
+#rodape{
+    position: absolute;
+    top: 900px;
+    display: block;
+    background-color: gray;
+    height: 50px;
+    width: 98%;
+}
+
+#links{
+   color: white; 
 }
