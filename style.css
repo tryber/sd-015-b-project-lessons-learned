@@ -5,8 +5,8 @@ body {
     font-size: 14px;
     margin: 0px;
     line-height: 16px;
+    color: rgb(54,54,54);
 }
-
 
 #cabecalho {
     top: 0px;
@@ -14,11 +14,11 @@ body {
     position: fixed;
     padding: 10px;
     width: 100%;
-    background-color: green;
+    background-color: rgb(16,77,0);
     color:white;
     text-align: center;
     z-index: 2;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 #minha_foto {
@@ -29,6 +29,25 @@ body {
     z-index: 1;
 }
 
+#licoes_aprendidas{
+    margin-left: 5px;
+}
+
+#rodape {
+    background-color: rgb(16,77,0);
+    width: 100%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    left: 0px;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+#rodape a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    
+}
+
 .division{
     display: inline-block;
     margin-left: 320px;
@@ -36,24 +55,24 @@ body {
     margin-bottom: 100px;
   
 }
-#licoes_aprendidas{
-    margin-left: 5px;
-}
 
 .lado-esquerdo{
     float: left;
-    max-width: 60%;
+    max-width: 50%;
+    margin-right: 10px;
     margin-left: 10px;
+    /* margin-left: 10px; */
     
 }
 
 .lado-direito{
-    margin-left: 70%;
+    margin-left: 40%;
     margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .table_soft_skills, th, td {
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     border-collapse: collapse;
     padding: 10px;
     text-align: left;
@@ -62,21 +81,6 @@ body {
     margin-left: 10px;
   }
 .table_soft_skills th{
-    background-color: green;
-    color: white;
-}
-
-#rodape {
-    background-color: green;
-    width: 100%;
-    padding: 10px;
-    color: white;
-    left: 0px;
-    border-top: 1px solid black;
-}
-#rodape a {
-    text-decoration: none;
-    color: white;
-    text-decoration: underline;
-    
+    background-color: rgb(16,77,0);
+    color: rgb(255, 255, 255);
 }
