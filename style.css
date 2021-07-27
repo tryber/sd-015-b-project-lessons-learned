@@ -7,12 +7,18 @@ header{
     position: fixed;
     top: 0;
     background-color: green;
+    padding-bottom: 100px;
+    z-index: 1;
 }
 #minha_foto{
-    margin-top: 10%;
+    margin-top: 19%;
+    border: 1px solid black;
+    margin-left: 15px;
 }
 nav{
-    margin-top: 17%;
+    margin-top: 10%;
+    position: fixed;
+    z-index: 2;
     
 }
 h1{
@@ -20,4 +26,7 @@ h1{
     font-size: 75px;
     text-align: center;
     line-height: 2%;
+}
+.linkedin{
+    margin-left: 15px;
 }
