@@ -19,6 +19,15 @@ img {
   margin: 10px;
 }
 
+#aprendizados {
+    height: 290px;
+}
+
+article {
+  float: left;
+  width: 40%;
+}
+
 p, li {
   line-height: 24px;
 }
@@ -30,6 +39,15 @@ table, th, td {
   text-align: center;
 }
 
+table {
+    margin: auto;
+}
+
 li {
     font-family: 'Ubuntu Mono', monospace;
+}
+
+aside {
+  float: right;
+  width: 50%
 }
