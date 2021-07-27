@@ -6,6 +6,8 @@
 body {
 
     background-color: var(--clr-background);
+    line-height: 1.5rem;
+    letter-spacing: normal;
 }
 
 #cabecalho {
