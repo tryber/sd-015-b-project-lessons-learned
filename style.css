@@ -47,6 +47,7 @@
     .col {
         padding: 20px;
         text-align: left;
+        border: 1px dashed #fdc8c4;
     }
 
     #minha_foto {
@@ -61,4 +62,12 @@
     #licoes_aprendidas {
         margin-left: 100px;
         margin-right: 100px;
+    }
+
+    #artigo {
+        display: inline-block;
+    }
+
+    aside {
+        display: inline-block;
     }
