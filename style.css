@@ -1,7 +1,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+
+header {
     text-align: center;
     top: 0;
 }
@@ -13,7 +14,7 @@ body {
     height: 100%;
 }
 
-article{
+article {
     max-width: 40%;
     float: left;
     margin-left: 100px;
@@ -25,7 +26,7 @@ aside {
     margin-right: 100px;
 }
 
-a{
+a {
     color: #2fc18c;
     text-decoration: none;
 }
@@ -38,7 +39,6 @@ a{
     width: 250px;
     border-radius: 50%;
     border: 2px solid black;
-    
 }
 
 #menu {
@@ -46,12 +46,14 @@ a{
     font-weight: bold;
     text-align: center;
 }
-#section-aprendida{
+
+#section-aprendida {
     width: 18%;
     display: inline-block;
     margin-left: 500px;
 }
-#section-aprender{
+
+#section-aprender {
     width: 38%;
     display: inline-block;
     float: right;
@@ -59,11 +61,11 @@ a{
     margin-right: auto;
 }
 
-#section-aprender li{
+#section-aprender li {
     margin: 4px;
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
