@@ -7,6 +7,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+article {
+  margin-bottom: 60px;
+}
+
 #general-section {
   padding: 30px 25px;
 }
@@ -59,4 +63,15 @@ body {
 #licoes_a_aprender {
   display: inline-block;
   margin-left: 40px;
+  margin-bottom: 90px;
+}
+
+section.section-article h2 {
+  margin-bottom: 30px;
+}
+
+section.section-article p {
+  width: 600px;
+  border-style: dotted;
+  padding: 10px;
 }
