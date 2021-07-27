@@ -9,7 +9,7 @@ body {
 
 nav {
     background-color: #498a52;
-    height: 40pxpx;
+    height: 40px;
     padding: 0;
     text-align: right;
 }
@@ -84,4 +84,32 @@ table tr, th{
 
 #licoes_a_aprender {
     display: inline-block;
+}
+.title02 { 
+    line-height: 1.6;
+    display: block;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+}
+
+aside {
+    display: inline-block;
+}
+
+.lado-esquerdo {
+    max-width: 500px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lado-direito {
+    max-width: 500px;
+    margin-left: 20px;
+    text-align: right;
+    
 }
