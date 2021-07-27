@@ -3,7 +3,7 @@
         font-family: 'Lucida Sans', sans-serif;
         font-size: medium;
         line-height: 30px;
-        color: rgb(000,000,000);
+        color: rgb(000, 000, 000);
         margin: 20px;
         text-align: justify;
     }
@@ -16,15 +16,14 @@
         margin: 5px;
         padding: 0px;
         border: 5px;
-        background-color: rgba(90, 204, 24, 0.897);
+        background: rgba(47, 100, 16, 0.897);
         width: 100%;        
     }
 
 
     table {
-        border-collapse: separate;
-        border: 5pxpx;
-        border-color: rgb(000,000,000);
+        border: 5px;
+        border-color: rgb(000, 000, 000);
         width: inline;
         text-align: center;
         display: block;
@@ -38,7 +37,7 @@
         margin: 5px;
         padding: 0px;
         border: 5px;
-        background-color: rgba(90, 204, 24, 0.897);
+        background-color: rgba(165, 245, 119, 0.753);
         width: 100%;
     }
 
@@ -61,10 +60,11 @@
         width: 500px;
         bottom: 100px;
         position: inherit;
+        
     }
 
 
-    .lado-direito{
+    .lado-direito {
         display: block;
         margin: 5px;
         padding: 10px;
