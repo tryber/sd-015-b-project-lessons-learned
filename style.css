@@ -1,5 +1,6 @@
     body {
         background-color: rgb(253, 251, 251);
+        font-family: verdana;
     }
 
     #cabecalho {
@@ -21,7 +22,7 @@
     }
 
     #minha_foto {
-        width: 120px;
+        width: 160px;
         margin-top: 160px;
     }
 
