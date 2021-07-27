@@ -1,14 +1,38 @@
-body {
-    background-color: rgb(253, 251, 251);
+* {
+    margin: 0;
+    padding: 0;
   }
+  
+  body {
+    background-color: rgb(253, 251, 251);
 
-.titulo {
+  }
+  
+  header {
     position: fixed;
     top: 0;
     background-color: rgb(0, 42, 56);
-
   }
-
+  
+  main {
+    width: 75%;
+    margin-left: 25%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
   .img {
     width: 10%;
+  }
+  
+  .lado-esquerdo {
+    width: 50%;
+    float: left;
+  }
+  
+  .lado-direito {
+    width: 50%;
+    float: right;
   }
