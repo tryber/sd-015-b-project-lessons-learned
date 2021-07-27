@@ -6,7 +6,7 @@ body {
     background-color: rgb(14, 127, 25);
     color: white;
     text-align: center;
-    top: 0;
+    top: 0px;
     position: relative;
     padding-top: 10px;
     padding-bottom: 80px;
@@ -16,4 +16,9 @@ body {
 #minha_foto {
     width: 300px;
     margin: 30px;
+}
+#rodape {
+    text-align: center;
+    margin: 4px;
+    font-size: 20px;
 }
