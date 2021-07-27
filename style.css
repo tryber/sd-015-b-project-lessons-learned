@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-* {
+*{
   font-family: 'Open Sans', sans-serif;
   line-height: 23px;
   color: rgb(28, 28, 28);
 }
-h1 {
+h1{
   font-size: 45px;
 }
-body {
+body{
   background-color: rgb(253, 251, 251);
 }
 table, th, td{
@@ -18,13 +18,13 @@ table, th, td{
   text-align: center;
 }
 
-#cabecalho {
+#cabecalho{
   position: fixed;
   top: 0;
 }
-#minha_foto {
+#minha_foto{
   width: 300px;
 }
-.space {
+.space{
   height: 120px;
 }
