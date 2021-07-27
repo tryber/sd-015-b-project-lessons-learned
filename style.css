@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(253, 251, 251);
+    color: black;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #0E4A38;
+}
+
+#titulo {
+    margin-left: 18px;
+    color: bisque;
+}
+
+#nav-bar {
+    background-color: #006A4E;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 22px;
+}
+
+#nav-bar ul{
+    padding-left: 0px;
+    margin: 2px;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    margin-left: 20px;
+    color: bisque;
+}
+
+#nav-bar ul li:hover {
+    font-weight: bold;
+}
