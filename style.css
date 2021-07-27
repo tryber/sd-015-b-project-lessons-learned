@@ -86,3 +86,12 @@ h2 {
         margin-left: 30px;
         color: green;
 }
+
+#rodape {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 10px;
+        background-color: green;
+}
