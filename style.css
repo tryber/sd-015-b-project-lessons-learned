@@ -6,34 +6,68 @@ body {
     font-family: monospace;
 }
 
+main {
+    margin-bottom: 3em;
+}
+
 #cabecalho {
     background-color: bisque;
     top: 0;
     position: fixed;
     width: 100%;
+    text-align: center;
 }
 
 #minha_foto {
     margin-top:72px;
-    margin-left: 40%;
+    border: 10px dotted black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#licoes {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+    width: 650px;
+}
+
+#aprendizado {
+    margin-bottom: 400px;
 }
 
 .lado-esquerdo {
     width: 60%;
     float: left;
+    margin: 5px;
 }
 
 .lado-direito {
-    width: 38%;
+    width: 35%;
     margin: 5px;
     padding: 5px;
-    border: 1px solid black;
     float: right;
 }
 
 #rodape {
-    margin-top: 5em;
     border: 1px solid black;
     text-align: center;
     bottom: 0;
+    margin: auto;
+    background-color: bisque;
+    padding: 10px;
+}
+
+#rodape p {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#rodape p:hover {
+    background-color:rgb(253, 251, 251);
+    color: blue;
+    font-weight: bold;
 }
