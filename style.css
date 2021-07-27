@@ -1,0 +1,44 @@
+
+.cor-fundo{
+    background-color: rgb(253, 251, 251);
+    }
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+.cabecalho {
+    font-size: 30px;
+    background-color: rgb(10, 126, 81);
+    color: white;   
+    font-weight: 600;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+
+.title-container {
+    padding: 10px 40px;
+    }
+
+.minha_foto{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto; 
+    max-width:10px;     
+    }
+
+.licoes_aprendidas{
+
+}
+
+.licoes_a_aprender{
+
+}
+
+.rodape{
+    
+}
