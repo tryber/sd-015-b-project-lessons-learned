@@ -39,7 +39,7 @@
         margin-right: 75%;
     }
 
-    #aprendizado {
+    #lado-esquerdo {
         float: left;
         clear: both;
         border: dotted;
@@ -47,7 +47,7 @@
         padding-right: 6px;
     }
 
-    #dificuldade {
+    #lado-direito {
         float: right;
         border: dotted;
         padding-left: 6px;
