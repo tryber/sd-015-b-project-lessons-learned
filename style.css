@@ -1,5 +1,8 @@
 /* Tags */
-body { background-color: rgb(253, 251, 251) ;}
+body {
+    background-color: rgb(253, 251, 251);
+    margin-top: 110px;
+}
 
 /* Seções */
 #cabecalho {
@@ -15,4 +18,8 @@ body { background-color: rgb(253, 251, 251) ;}
 #titulo {
     text-align: center;
     color: white;
+}
+
+#minha_foto {
+    width: 200px;
 }
