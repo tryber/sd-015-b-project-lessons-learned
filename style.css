@@ -20,10 +20,23 @@ main{
     margin-top: 100px;
     height: 200px;
 }
-.lessons_lists ul, ol{
+.main-displacement{
+    height: 400px;
+}
+.lado-esquerdo ul, ol{
     display: inline-block;
     margin-top: 20px;
-
+    left: 50px;
+    padding: auto;
+    
+}
+.lado-direito{
+    display: inline-block;
+    padding-left: 50%;
+    margin-top: 20px;
+    position: relative;
+    bottom: 282px;
+    
 }
 .description_table th, td {
     border: 1px solid black;
@@ -34,12 +47,4 @@ main{
 }
 .article_section article, aside{
     display: inline-block;
-}
-.main_article{
-    padding-right: 35%;
-    border: solid black;
-    font-size: 20px;
-}
-.aside_article{
-    padding-left: 80%;
 }
