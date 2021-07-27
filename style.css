@@ -1,8 +1,65 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 1px;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
+  background-color: seagreen;
   position: fixed;
-  top: 0;
+  top: 0; 
+  text-align: center;
+  width: 100%;
+  color: rgb(255, 255, 255)
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header ul {
+  text-align: left;
+}
+
+section {
+  position: initial;
+}
+
+section ul {
+  float: left;
+}
+
+section ol {
+  float: right;
+}
+
+article, aside {
+  border: 1px solid rgb(000,000,000);
+  display: inline-block;
+  padding: 10px;
+  text-align: justify;
+  clear: both;
+  line-height: 20px;
+}
+
+footer {
+    clear: both;
+    text-align: right;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 45%;
+}
+
+.lado-direito {
+  float: right;
+  width: 45%;
+}
+
+#minha_foto {
+  margin-top: 150px;
+  width: 200px;
+  display: block;
 }
