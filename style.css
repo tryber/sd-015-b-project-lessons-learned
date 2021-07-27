@@ -1,8 +1,82 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: green;
+    width: 100%;
+    padding: 2%;
+}
+
+#titulo {
+    color: azure;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#minha_foto {
+    position: absolute;
+    top: 150px;
+    left: 40px;    
+}
+
+.list ol {
+    display: inline-block;
+    background-color: rgb(41, 143, 46);
+    position: absolute;
+    width: 15%;
+    bottom: 35%;
+    left: 30%;
+    border: 2px solid rgb(34, 33, 33);
+    color: aliceblue; 
+        
+}
+
+.list ul {
+    display: inline-block;
+    background-color: rgb(41, 143, 46);
+    position: absolute;
+    width: 20%;
+    bottom: 35%;
+    left: 50%;
+    border: 2px solid rgb(34, 33, 33);
+    color: aliceblue;     
+}
+
+.list li {
+   position: relative;
+   left: 22px;
+   color: aliceblue;
+   font-size: 16px;
+   bottom: 10px;
+}
+
+img {
+    border-radius: 20%;
+    border: 3px solid green;
+    border-style: outset;
+}
+
+#article {    
+    position: absolute;
+    width: 40%;
+    bottom: 1%;
+    left: 8%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#experience {
+    position: absolute;
+    width: 40%;
+    bottom: 6%;
+    left: 50%;
+    text-align: center;
+    font-size: 20px;
 }
