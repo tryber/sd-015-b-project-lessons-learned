@@ -43,3 +43,19 @@ h1 {
   width: 50%;
   float: right;
 }
+
+#licoes-aprendidas li {
+    width: 50%;
+    float: left;
+}
+
+#licoes-a-aprender li {
+    width: 50%;
+    float: right;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+    width: 40%;
+}
