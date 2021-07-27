@@ -11,7 +11,8 @@ body {
   left: 30%;
 }
 
-#licoes_aprendidas ,#licoes_a_aprender {
+#licoes_aprendidas,
+#licoes_a_aprender {
   display: inline-block;
   border: 2px solid black;
   font-weight: 700;
