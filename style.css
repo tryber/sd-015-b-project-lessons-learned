@@ -1,11 +1,13 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
 h2 {
     position: absolute;
     top: 290px;
     margin-left: 30px;
 }
+
 #cabecalho {
     position:fixed;
     top:0px;
@@ -35,4 +37,10 @@ h2 {
     position: absolute;
     top: 350px;
     margin-left: 30px;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    top: 350px;
+    margin-left: 350px;
 }
