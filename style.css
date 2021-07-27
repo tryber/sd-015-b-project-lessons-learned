@@ -40,6 +40,8 @@ body{
 .lado-esquerdo{
     padding: 10px;
     border: 1px solid black; 
+    font-size: 20px;
+    letter-spacing: .1rem;
       
 
 } 
@@ -47,7 +49,8 @@ body{
 .lado-direito{
     padding: 10px;
     border: 1px solid black; 
-     
+    font-size: 20px;
+    letter-spacing: .1rem;
     
 }
 table, th ,td{
