@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     color: black;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
 #cabecalho {
@@ -46,9 +47,37 @@ body {
 
 main {
     border: 2px solid black;
-    max-width: 75%;
+    max-width: 94%;
 }
 
 #minha_foto {
     width: 150px;
+}
+
+#tabela {
+    border: 2px solid black;
+    clear: both;
+    line-height: 20px;
+}
+
+#tabela h3 {
+    font-size: 16px;
+}
+
+.lado-esquerdo {
+    border: 2px solid black;
+    max-width: 70%;
+    position: relative;
+    float: left;
+}
+
+.lado-direito {
+    border: 2px solid black;
+    max-width: 26%;
+    position: relative;
+    float: right;
+}
+
+#rodape {
+    clear: both;
 }
