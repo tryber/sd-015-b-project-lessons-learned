@@ -34,3 +34,18 @@ img {
     color: white;
 }
 
+#licoes_a_aprender {
+    display:inline-block;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+}
+
+#rodape {
+    position: relative;
+    width: 100%;
+    background-color: greenyellow;
+    clear: both;
+    box-sizing: border-box;
+}
