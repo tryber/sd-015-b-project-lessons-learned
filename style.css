@@ -92,6 +92,9 @@ nav ul a:hover {
     text-align: justify;
     padding: 15px;
     width: 600px;
+}
+
+.lado-esquerdo {
     float: left;
 }
 
@@ -100,6 +103,9 @@ nav ul a:hover {
     padding: 15px;
     width: 600px;
     display: inline-block;
+}
+
+.lado-direito {
     float: right;
 }
 
