@@ -9,8 +9,8 @@
         left: 0;
         margin-right: 0;
         margin-left: 0;
-        text-align: center;
         background-color: #DB5461;
+        text-align: center;
     }
 
     header h1 {
@@ -22,9 +22,8 @@
 
     header li {
         display: inline-block;
-        margin-right: 20px;
-        margin-left: 20px;
         font-family: 'Inconsolata', monospace;
+        margin-right: 20px;
     }
 
     header a {
@@ -45,10 +44,21 @@
         display: flex;
     }
 
+    .col {
+        padding: 20px;
+        text-align: left;
+    }
+
     #minha_foto {
-        width: 300px;
+        width: 200px;
     }
 
     #licoes {
         margin: 220px 0px;
+        text-align: center;
+    }
+
+    #licoes_aprendidas {
+        margin-left: 100px;
+        margin-right: 100px;
     }
