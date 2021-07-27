@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Roboto Mono;
+  font-family: Roboto Mono, sans-serif;
   color: rgb(59, 59, 59);
 }
 
@@ -14,7 +14,7 @@ header {
 }
 
 nav {
-  padding: 10px 0px 0px 0px;
+  padding: 10px 0 0 0;
 }
 
 nav a {
@@ -22,9 +22,9 @@ nav a {
 }
 
 #minha_foto {
-  margin-top: 70px;
   border-radius: 10px;
   margin-top: 90px;
+  border: 1px solid grey;
 }
 
 .licoes {
