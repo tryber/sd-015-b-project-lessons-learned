@@ -1,2 +1,18 @@
 /* Tags */
 body { background-color: rgb(253, 251, 251) ;}
+
+/* Seções */
+#cabecalho {
+    background-color: #B2DD8F;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Elementos */
+#titulo {
+    text-align: center;
+    color: white;
+}
