@@ -23,10 +23,23 @@ body{
     border-radius: 120px;
     width: 80px;
 }
-#licoes_aprendidas{
+section{
+    display: inline-block;
+}
+.subtitulo{
     margin-top: 120px;
+    margin-left: 20px;
+    font-family: arial;
+    color: #2FC18C;
+}
+#licoes_aprendidas{
+    margin-top: 20px;
 }
 #licoes_aprendidas li{
+    font-family: arial;
+    font-weight: 700;
+}
+#licoes_a_aprender{
     font-family: arial;
     font-weight: 700;
 }
