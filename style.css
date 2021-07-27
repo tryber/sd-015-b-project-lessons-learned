@@ -15,8 +15,8 @@ section p {
 
 .my-pass {
   font-size: 15px;
-  color:rgb(20, 17, 17);
-  font-family: 'Courier New', Courier, monospace;
+  color: rgb(20, 17, 17);
+  font-family: Courier, monospace;
   line-height: 1em;
   display: inline-block;
   border: 1px black solid;
