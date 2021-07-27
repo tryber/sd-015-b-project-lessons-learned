@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  top: 0;
+}
+
+main {
+  margin: 0 5px;
+}
+
+.titulo {
+  font-size: 48px;
+}
+
+.titulo , .lista_de_navegacao {
+  font-family: Montserrat, sans-serif;
+}
+
+.lista_de_navegacao li {
+  display: inline-block;
+  margin-right: 40px;
+  text-align: center;
+}
+
+#licoes_aprendidas , #licoes_a_aprender , .tabela {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+#licoes_aprendidas , .lado-esquerdo {
+  position: absolute;
+  left: 0;
+  margin-left: 10%;
+}
+
+#licoes_a_aprender {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tabela , .lado-direito {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 10%;
+}
+
+.tabela , .tabela th , .tabela td {
+  border: 1px solid black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.tabela th {
+  text-transform: uppercase;
+}
+
+.aprendizagem , .passagem {
+  max-width: 45%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aprendizagem {
+  float: left;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+
+.passagem {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.titulo_h2 {
+  margin-bottom: 2.5em;
+}
+
+.texto_artigo {
+  line-height: 1.3em;
+}
+
+#minha_foto {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+}
+
+#rodape {
+  background-color: darkgreen;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+.texto_rodape {
+  text-transform: capitalize;
+  font-size: 24px;
+}
