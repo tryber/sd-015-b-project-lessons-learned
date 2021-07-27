@@ -77,12 +77,12 @@ img {
 }
 
 .aprendizado {
-    position: absolute;
-    width: 85%;
-    bottom: 25%;
-    left: 8%;
-    text-align: center;
-    font-size: 25px;
+  position: absolute;
+  width: 85%;
+  bottom: 25%;
+  left: 8%;
+  text-align: center;
+  font-size: 25px;
 }
 
 .lado-direito {
