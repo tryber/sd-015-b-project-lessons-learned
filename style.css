@@ -43,3 +43,9 @@ article p{
     max-width: 250px;
 
 }
+
+aside{
+    max-width: 300px;
+    border: solid black;
+    float: right;
+}
