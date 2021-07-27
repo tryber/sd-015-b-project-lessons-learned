@@ -2,6 +2,13 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+.formas_de_texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color:slategray;
+    font-size: 35px;
+    line-height: 3%;
+}
+
 #cabecalho {
     border: solid;
     border-color: red;
@@ -39,6 +46,13 @@ body {
     border:solid;
     border-color: red;
     padding-left: 1%;
+}
+
+#tabela_skills {
+    border:solid;
+    border-color: red;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #artigo_sobre_aprendizagem {
