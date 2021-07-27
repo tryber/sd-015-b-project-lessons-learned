@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: rgb(253, 251, 251);
 
@@ -6,4 +10,9 @@ body {
     top: 0;
     width: 100%;
     position: fixed;
+}
+#minha_foto {
+    height: 450px;
+    background-size: cover;
+    margin-right: 10px;
 }
