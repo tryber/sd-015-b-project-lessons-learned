@@ -65,3 +65,24 @@ h2 {
         margin-left: 15px;
         color: green;
 }
+
+#section_licoes_a_aprender {
+        position: absolute;
+        left: 550px;
+        top: 120px;
+        width: 300px;
+        height: 270px;
+}
+
+#titulo_licoes_a_aprender {
+        position: relative;
+        text-align: center;
+        margin: auto;
+}
+
+#licoes_a_aprender {
+        text-align: left;
+        margin-top: 15px;
+        margin-left: 30px;
+        color: green;
+}
