@@ -37,6 +37,35 @@ p{
     
 }
 
+nav{
+    margin-left: 500px;
+}
+
 .main{
     margin-left: 50%;
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+    float: left;
+}
+
+#licoes_a_aprender{
+    display: inline-block;
+
+}
+
+.lado-esquerdo{
+    
+    width: 600px;
+    display: inline-block;
+    float: left;
+}
+
+.lado-direito{
+    
+    width: 180px;
+    display: inline-block;
+    margin-left: 300px;
+  
 }
