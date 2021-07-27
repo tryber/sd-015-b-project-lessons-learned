@@ -2,60 +2,61 @@ body {
 	background-color: rgb(253, 251, 251);
 	max-width: 90%; }
 
-article{
+article {
 	border: 2px solid rgb(000, 000, 000);
+	color: rgb(100, 61, 61);
 	padding: 10px;
-	font-family: 'Calibri, sans-serif;
 	font-size: medium;
-	color: rgb(100, 61, 61);}
+	font-family: 'Calibri, sans-serif'; }
 
 section { margin-top: 350px; }
 
-aside{
+aside {
 	border: 2px solid rgb(000, 000, 000);
+	color: rgb(100, 61, 61);
 	padding: 10px;
-	font-family: 'Calibri, sans-serif;
 	font-size: medium;
-	color: rgb(100, 61, 61);}
+	font-family: 'Calibri, sans-serif'; }
 
 h2 { font-family: -apple-system, BlinkMacSystemFont,  Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
 
 
-#cabecalho{
+#cabecalho {
+	border: 2px solid rgb(000, 000, 000);
 	top: 0;
 	position: fixed;
 	width: 90%;
-	background-color: blanchedalmond;
-	border: 2px solid rgb(000, 000, 000);}
+	background-color: blanchedalmond; }
 
-#titulo{
+#titulo {
 	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;}
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
 
-#minha_foto{
+#minha_foto {
 	margin-left: 25px;
-	padding: 10px;}
+	padding: 10px; }
 
-#licoes_aprendidas{
-	font-family: 'Calibri, sans-serif;
-	font-size: large;
+#licoes_aprendidas {
+	font-family: 'Calibri, sans-serif';
 	color: rgb(100, 61, 61);
-	line-height: 25px;}
+	line-height: 25px;
+	font-size: large; }
 
-#licoes_a_aprender{
-	font-family: 'Calibri, sans-serif;
+#licoes_a_aprender {
+	color: rgb(100, 61, 61);		
 	font-size: large;
-	color: rgb(100, 61, 61);
-	line-height: 25px;}
+	font-family: 'Calibri, sans-serif';
+	line-height: 25px; }
 
-#rodape{
+#rodape {
 	border: 2px solid rgb(000, 000, 000);
-	clear: both;}
+	clear: both; }
 
-.lado-esquerdo{
+.lado-esquerdo {
 	float: left;
-	max-width: 60%;}
+	max-width: 60%; }
 
-.lado-direito{
+.lado-direito {
 	float: right;
-	max-width: 35%;}
+	max-width: 35%; }
+	
