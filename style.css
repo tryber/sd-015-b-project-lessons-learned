@@ -14,6 +14,14 @@ body {
   left: 0;
 }
 
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+ #licoes_a_aprender {
+  display: inline-block;
+}
+
 /* Elementos */
 #titulo {
   text-align: center;
@@ -25,14 +33,6 @@ body {
   float: left;
 }
 
-#licoes_aprendidas {
-  display: inline-block;
-}
-
-#licoes_a_aprender {
-  display: inline-block;
-}
-
 #licoes_aprendidas h2, #licoes_a_aprender h2 {
-    margin-top: 0px;
-  }
+  margin-top: 0px;
+}
