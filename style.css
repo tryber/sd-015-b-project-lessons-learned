@@ -9,6 +9,7 @@ header {
 
 header li {
     display: inline;
+    margin: 20px;
 }
 
 .columns {
