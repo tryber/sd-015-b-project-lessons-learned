@@ -30,7 +30,7 @@ body {
 #licoes_aprendidas {
   width: 200px;
   position: relative;
-  bottom: 200px;
+  bottom: 210px;
   line-height: 23px;
 }
 
@@ -38,7 +38,7 @@ body {
   position: relative;
   width: 200px;
   height: 300px;
-  bottom: 480px;
+  bottom: 510px;
   left: 250px;
   line-height: 23px;
 }
@@ -49,7 +49,7 @@ body {
   border: none;
   width: 100px;
   height: 35px;
-  bottom: 700px;
+  bottom: 850px;
   position: relative;
   left: 620px;
   font-size: medium;
@@ -58,7 +58,14 @@ body {
 
 #trybe {
   position: relative;
-  bottom: 800px;
+  bottom: 850px;
   width: 300px;
   left: 900px;
+}
+
+#testemunho {
+  width: 300px;
+  position: relative;
+  left: 900px;
+  bottom: 850px;
 }
