@@ -22,10 +22,19 @@ body{
 #access{
     margin-left: 40px;
     color: white;
+    cursor: pointer;
 }
 
 #minha_foto{
     width: 350px;
     margin-top: 160px;
     margin-left: 20px;
+
+}
+
+#perfil{
+    margin-top: 2px;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
 }
