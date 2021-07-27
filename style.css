@@ -1,14 +1,41 @@
 /* Tags */
 body {
   background-color: rgb(253, 251, 251);
-  color: #131516;
+  color: rgb(19, 21, 22);
   font-family: 'Montserrat';
   margin-top: 110px;
 }
 
+section {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead {
+  background-color: rgb(133, 188, 87);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(219, 219, 219);
+}
+
 /* Seções */
 #cabecalho {
-  background-color: #b2dd8f;
+  background-color: rgb(127, 221, 143);
   position: fixed;
   height: 100px;
   width: 100%;
@@ -18,39 +45,58 @@ body {
 
 #licoes_aprendidas {
   display: inline-block;
+  width: 350px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
+  width: 350px;
 }
 
 #rodape {
-  background-color: #85bc57;
+  background-color: rgb(127, 221, 143);
   padding: 1px;
   margin-top: 25px;
+}
+
+.lado-esquerdo {
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.lado-direito {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
 }
 
 /* Elementos */
 #titulo {
   color: white;
   text-align: center;
-  margin-bottom: 0px;
+  margin-top: 30px;
+  line-height: 5px;
 }
 
 #cabecalho p {
-  color: white; 
+  color: white;
   text-align: center;
   margin-top: 0px;
 }
 
 #minha_foto {
-  float: left;
+  display: block;
   width: 200px;
   height: 200px;
   object-fit: cover;
-  margin-top: 40px;
-  margin-right: 10%;
   border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #licoes_aprendidas h2, #licoes_a_aprender h2 {
@@ -58,15 +104,15 @@ body {
 }
 
 #licoes_aprendidas li:nth-child(even) {
-  background-color: #dbdbdb;
+  background-color: rgb(219, 219, 219);
 }
   
 #licoes_a_aprender li:nth-child(even) {
-  background-color: #dbdbdb;
+  background-color: rgb(219, 219, 219);
 }
 
 .botao {
-  background-color: #85bc57;
+  background-color: rgb(133, 188, 87);
   padding: 5px;
   padding-right: 25px;
   padding-left: 25px;
@@ -81,7 +127,7 @@ body {
 }
 
 article h2, aside h2 {
-  background-color: #dbdbdb;
+  background-color: rgb(219, 219, 219);
 }
 
 #rodape p {
