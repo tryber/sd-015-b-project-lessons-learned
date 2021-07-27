@@ -23,7 +23,7 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:72px;
+  margin-top: 72px;
 }
 
 #licoes {
@@ -54,9 +54,9 @@ main {
 }
 
 #rodape p:hover {
-  background-color:blanchedalmond;
+  background-color: blanchedalmond;
   color: blue;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .lado-esquerdo {
@@ -66,7 +66,7 @@ main {
 }
 
 .lado-direito {
-  float: right;  
+  float: right;
   margin: 5px;
   padding: 5px;
   width: 35%;
