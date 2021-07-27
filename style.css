@@ -10,9 +10,15 @@ body {
     height: 20 px;
 }
 #titulo {
-    color: red;
+    color:black;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
+}
+
+#minha_foto {  
+    position: relative;
+    margin-inline: -8px; 
+    bottom: -66px;
 }
 
