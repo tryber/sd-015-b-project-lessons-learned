@@ -2,9 +2,11 @@
   top: 0;
   position: fixed;
 }
+
 body {
   background-color: rgb(253, 251, 251);
 }
+
 img {
-  width: 300px
+  width: 300px;
 }
