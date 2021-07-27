@@ -1,4 +1,17 @@
 
 body{
     background-color: rgb(253, 251, 251);
+    margin: 0px;
+}
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    background-color: #2FC18C;
+    width: 100%;
+}
+#titulo{
+    font-family: arial;
+    font-weight: 900;
+    color: white;
+    margin-left: 15px;
 }
