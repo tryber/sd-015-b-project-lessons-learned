@@ -2,10 +2,14 @@ body {
     margin: 0px;
     background-color: rgb(253, 251, 251);
 }
-#cabecalho {
-    display: flex;
+header {
+    position: fixed;
     top:0px ;
     background-color: gray;
+    width: 100%;
+}
+h1 {
+    text-align: center;
 }
 #cabecalho ul { 
     display:block;
@@ -16,7 +20,6 @@ nav {
     margin: 0px;
     background-color: gray;
 }
-header {
-    position: fixed;
-    top: 0;
-    } 
+img {
+    margin-top: 80px;
+}
