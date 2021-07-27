@@ -1,5 +1,4 @@
 
-
 body {
     background-color: gb(253, 251, 251);
 }
@@ -22,8 +21,22 @@ body {
     display: inline;
 }
 
+.listas {
+    margin-top: 10px;
+    width: 70%;
+    
+}
+
+.barralateral {
+    display: inline-block;
+}
+
 #rodape {
     background-color: rgb(153, 255, 105);
     font-size: 20px;
 }
 
+#copyright {
+    font-size: 14px;
+    font-style: italic;
+}
