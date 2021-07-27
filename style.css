@@ -6,28 +6,11 @@ body {
     float: right;
 }
 
+#minha_foto {
+    width: 200px;
+}
+
 #cabecalho {
     position: fixed;
     top: 0;
-}
-
-#titulo {
-
-}
-
-#minha_foto {
-    width: 200px;
-    margin-top: 50px;
-}
-
-#licoes_aprendidas {
-    
-}
-
-#licoes_a_aprender {
-
-}
-
-#rodape {
-
 }
