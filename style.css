@@ -3,10 +3,72 @@ body {
 }
 
 #cabecalho {
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+}
+
+#titulo {
     text-align: center;
-    margin-top: 0%;
+    margin-top: 0;
+    top: 0;
 }
 
 #minha_foto{
     width: 150px;
+    position: relative;
+    z-index: auto;
+    top:100px
+}
+
+#link {
+    position: absolute;
+    z-index: auto;
+    top: 310px;
+}
+
+#subtitulo {
+    position: relative;
+    z-index: auto;
+    top: 120px;
+}
+
+#licoes_aprendidas {
+    position: relative;
+    z-index: auto;
+    top: 120px;
+}
+
+#licoes_a_aprender {
+    position: relative;
+    z-index: auto;
+    top: 125px;
+}
+
+#artigo {
+    position: relative;
+    z-index: auto;
+    top: 150px; 
+    text-align: center;
+}
+
+#passagem {
+    position: relative;
+    z-index: auto;
+    top: 175px;
+}
+
+#rodape {
+    height: 25px;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+    z-index: auto;
+    top: 250px;
+    text-align: center;
+    margin-bottom: 0;
+    bottom: 0;
 }
