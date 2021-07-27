@@ -5,16 +5,19 @@
         line-height: 30px;
         color: rgb(000,000,000);
         margin: 20px;
+        text-align: justify;
     }
 
-    
+
     #cabecalho {
         top: 0;
         position: fixed;
-        display: block;
+        display: inline-block;
         margin: 5px;
-        padding: 10px;
+        padding: 0px;
         border: 5px;
+        background-color: rgba(90, 204, 24, 0.897);
+        width: 100%;        
     }
 
 
@@ -33,8 +36,10 @@
         position:fixed;
         display: block;
         margin: 5px;
-        padding: 10px;
+        padding: 0px;
         border: 5px;
+        background-color: rgba(90, 204, 24, 0.897);
+        width: 100%;
     }
 
 
@@ -43,6 +48,7 @@
         margin: 5px;
         padding: 10px;
         border: 5px;
+        margin-left: inherit;
     }
 
 
@@ -53,6 +59,8 @@
         border: 5px;
         float: left;
         width: 500px;
+        bottom: 100px;
+        position: inherit;
     }
 
 
@@ -63,6 +71,8 @@
         border: 5px;
         float: right;
         width: 500px;
+        bottom: 100px;
+        position: inherit;
     }
 
 
