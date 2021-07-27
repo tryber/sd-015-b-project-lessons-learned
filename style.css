@@ -5,46 +5,54 @@ body {
 header {
   position: fixed;
   top: 0;
-  height: 200px;
+  height: 150px;
 }
 
 h2 {
   position: relative;
-  top: 150px;
+  top: 100px;
 }
 
 footer {
-  position: fixed;
-  text-align: center;
-  bottom: 0;
-}
-
-article {
   position: relative;
-  top: 200px;
-  width: 600px;
-  text-align: left;
-  display: inline-block;
+  text-align: right;
+  top: 100px;
 }
 
 #minha_foto {
   position: relative;
-  top: 130px;
+  top: 100px;
 }
 
 #licoes_aprendidas {
   position: relative;
-  top: 160px;
+  top: 100px;
   float: left;
 }
 
 #licoes_a_aprender {
   position: relative;
   float: right;
-  top: 160px;
+  top: 100px;
   margin-right: 70%;
 }
 
 .link_footer {
   text-decoration: none;
+}
+
+.article {
+  position: relative;
+  top: 100px;
+  width: 600px;
+  text-align: left;
+  display: inline-block;
+}
+
+.aside {
+  position: relative;
+  top: 100px;
+  width: 600px;
+  text-align: left;
+  display: inline-block;
 }
