@@ -34,6 +34,10 @@ nav ul li {
   margin-left: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #aprender {
   margin: 10px;
 }
@@ -48,7 +52,7 @@ nav ul li {
   line-height: 18px;
 }
 
-aside {
+#desafio {
   width: 25%;
   margin-top: 80px;
   float: right;
@@ -57,14 +61,8 @@ aside {
   line-height: 20px;
 }
 
-a {
-  text-decoration: none;
-}
-
 #listas {
-  width: 67.4%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 10px;
 }
 
 .lista {
@@ -74,6 +72,7 @@ a {
 
 #licoes_aprendidas {
   background-color: rgb(115, 179, 141);
+  width: 30%;
 }
 
 #licoes_aprendidas h2 , #licoes_a_aprender h2 {
@@ -87,6 +86,8 @@ a {
 
 #licoes_a_aprender {
   background: rgb(188, 211, 192);
+  width: 30%;
+  float: right;
 }
 
 table {
