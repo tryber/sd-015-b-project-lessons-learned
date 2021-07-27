@@ -2,6 +2,8 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -11,6 +13,11 @@ body {
 
 }
 
-#miha_foto {
+#minha_foto {
+    width: 200px;
+    margin-top: 50px;
+}
+
+#licoes_aprendidas {
     
 }
