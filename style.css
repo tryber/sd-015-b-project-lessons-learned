@@ -6,3 +6,16 @@ body {
     position: fixed;
     top: 0;
 }
+
+#licoes_aprendidas {
+    margin: auto;
+    padding: 32px;
+    border: 5px solid red;
+}
+
+#licoes_a_aprender {
+    margin-top: 150px;
+    padding: 64px;
+    border: 5px solid green;
+    border-radius: 16px;
+}
