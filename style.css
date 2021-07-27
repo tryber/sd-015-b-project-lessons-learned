@@ -43,6 +43,7 @@ nav {
 footer {
   background-color: rgb(92, 94, 94);
   color: white;
+  padding: 0.5em;
 }
 
 p {
@@ -90,10 +91,6 @@ p {
   margin-bottom: 2em;
 }
 
-footer {
-  padding: 0.5em;
-}
-
 table {
   border: 1px solid black;
   margin-bottom: 1em;
@@ -105,4 +102,14 @@ tr {
 
 th {
   border: 1px solid black;
+}
+
+.lado-esquerdo {
+  align-self: center;
+}
+
+.lado-direito {
+  align-self: center;
+  margin-left: 1em;
+  width: 50%;
 }
