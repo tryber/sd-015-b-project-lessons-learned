@@ -1,5 +1,9 @@
     body {
         background-color: rgb(253, 251, 251);
+        font-family: 'Lucida Sans', sans-serif;
+        font-size: medium;
+        line-height: 30px;
+        color: rgb(000,000,000);
     }
     #cabecalho {
         top: 0;
@@ -10,7 +14,6 @@
         border: 5px;
     }
     table {
-        font-family: arial, sans-serif;
         border-collapse: separate;
         border: 5pxpx;
         border-color: rgb(000,000,000);
@@ -21,6 +24,12 @@
     nav {
         top: 70px;
         position:fixed;
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        border: 5px;
+    }
+    #minha_foto {
         display: block;
         margin: 5px;
         padding: 10px;
