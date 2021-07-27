@@ -9,6 +9,7 @@ header {
   background-color: green;
   padding-bottom: 100px;
   z-index: 1;
+  width: 100%;
 }
 
 #minha_foto {
@@ -35,13 +36,14 @@ h1 {
 }
 
 .lado-esquerdo {
-  width: 50%;
+  width: 48%;
   float: left;
 }
 
 .lado-direito {
   width: 50%;
   float: right;
+  margin-left: 3px;
 }
 
 #licoes-aprendidas li {
