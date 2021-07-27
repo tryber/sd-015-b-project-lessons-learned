@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto 1</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header id="cabecalho">
@@ -19,10 +23,22 @@
                 <a href="https://www.linkedin.com/in/caiquems/" target="_blank">LINKEDIN</a>
             </nav>
     </section>
-    
-    
+    <section>
+        <table class="tabela">
+            <tr>
+              <th>Curso</th>
+              <th>Início</th>
+              <th>Conclusão</th>
+            </tr>
+            <tr>
+              <td>Trybe</td>
+              <td>2021</td>
+              <td>2022</td>
+            </tr>
+    </table>
+    </section>
     <section class="lista_numerada">
-        <p>Lições aprendidas:</p>
+        <p><strong>Lições aprendidas:</strong></p>
         <ol id="licoes_aprendidas">
             <li>Unix</li>
             <li>Git</li>
@@ -37,8 +53,8 @@
         </ol>
     </section>
     <section class="lista_semnumero">
-        <p>Lições futuras:</p>
-        <ul id="icoes_a_aprender">
+        <p><strong>Lições futuras:</strong></p>
+        <ul id="licoes_a_aprender">
             <li>JavaScript</li>
             <li>DOM</li>
             <li>Forms</li>
@@ -51,12 +67,13 @@
             <li>React</li>
         </ul>
     </section>
-    <section class="artigo">
-        <article>
+    
+    <section >
+        <article class="artigo lado-esquerdo"> 
             O hábito do treino diário, quando não aprendido desde cedo, pode te desafiar muito. Aprender é simplesmente incrível, porém requer paciência e perseverança.
             Ao longo dessas quase 3 semanas, percebi o quão importante é manter a calma e entender que não vamos aprender tudo do dia pra noite. Entender isso faz com que nossa vontade de desistir seja amena e bem mais superável.
-        </article>
-        <aside>
+        </article >
+        <aside class="lado-direito">
             Foco e disciplina são fundamentais para um desenvolvimento sólido, contudo a força maior vem da paixão por tecnologia e por programação.
         </aside>
     </section>
