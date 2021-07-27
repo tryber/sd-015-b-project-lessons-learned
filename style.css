@@ -1,6 +1,7 @@
 body {
       background-color :rgb(253, 251, 251);
       font-family:'Times New Roman', Times, serif;
+      padding-top: 80px;
     }
 
     #cabecalho {
@@ -14,17 +15,28 @@ body {
       font-family: monospace;
     }
 
+    h1 {
+      font-style: italic;
+      margin-left: 300px;
+    }
+
+    nav {
+      margin-left: 200px;
+      padding-bottom: 20px;
+    }
+
     #minha_foto { 
       border-radius: 50%;
       width: 200px;
       position: absolute;
       margin-left: 500px;
-      margin-top: 80px;
+      margin-top: 30px;
     }
+
     #licoes_aprendidas {
       top: 50px;
     }
-  
+
     .lado-esquerdo {
       border: 4px solid pink;
       float: left;
