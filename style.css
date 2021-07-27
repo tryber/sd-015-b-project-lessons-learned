@@ -30,21 +30,25 @@ main{
 }
 
 .main-displacement{
-    height: 500px;
+    height: 700px;
 }
-.lado-esquerdo ul, ol{
+.lessons-lists ul, ol{
     display: inline-block;
     margin-top: 20px;
     left: 50px;
     padding: auto;
     
 }
+.lado-esquerdo{
+    padding-right: 45%;
+    line-height: 25px;
+}
 .lado-direito{
     display: inline-block;
-    padding-left: 50%;
+    padding-left: 75%;
     margin-top: 20px;
     position: relative;
-    bottom: 282px;
+    bottom: 250px;
     line-height: 25px;
     font-size: 15;
 }
