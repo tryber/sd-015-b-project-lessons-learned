@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(253, 251, 251);
+    font-family: fantasy, sans-serif;
+    color: salmon;
+}
+
+#cabecalho {
+    top: 0;
+    width: 100%;
+    position:fixed;
+}
+
+#titulo{
+    height: 20px ;
+}
+
+#minha_foto{
+    width: 500px;
+}
+
+#licoes_a_aprender{
+    color: salmon;
+}
+
+#licoes_aprendidas{
+    color: salmon;
+}
+
+#rodape{
+    display: block;
+}
+
+#section{
+    display: inline-block;
+}
+
+#section2{
+    display: inline-block;
+}
