@@ -8,10 +8,16 @@ body {
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #036b52;
+  background-color: rgb(3, 107, 82);
 }
 
 #titulo {
   font-family: sans-serif;
   text-align: center;
+}
+
+#minha_foto {
+  position: absolute;
+  top: 100px;
+  left: 20px;
 }
