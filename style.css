@@ -34,10 +34,10 @@ body {
   padding: 0 30px;
 }
 
-.subtitle {
-  padding: 10px 30px;
+.container {
+  padding-left: 50px;
 }
 
-#licoes_aprendidas li {
-  padding: 2px 30px;
+#licoes_aprendidas {
+  float: left;
 }
