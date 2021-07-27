@@ -21,6 +21,7 @@ body {
   position: absolute;
   top: 100px;
   left: 20px;
+  display: inline-block;
 }
 
 #licoes_aprendidas {
@@ -38,4 +39,10 @@ body {
 #linktrybe {
   position: absolute;
   top: 600px;
+}
+
+#artigo {
+  position: absolute;
+  top: 100px;
+  left: 260px;
 }
