@@ -6,3 +6,14 @@ header {
   position: fixed;
   top: 0;
 }
+
+img {
+  margin: 10px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
