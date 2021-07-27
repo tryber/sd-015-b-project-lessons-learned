@@ -30,3 +30,11 @@ h1{
 .linkedin{
     margin-left: 15px;
 }
+.lado-esquerdo{
+    margin-right: 50%;
+    
+}
+.lado-direito{
+    margin-left: 50%;
+    float: right;
+}
