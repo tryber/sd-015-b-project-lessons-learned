@@ -6,11 +6,15 @@ body {
 
 section {
   padding: 0;
-  display: flex;
-}
+  display: inline-block;
+  
+}*
 
-section p {
-  width: 300px;
+article {
+  max-width: 45%
+}
+aside {
+  max-width: 45%;
 }
 
 .my-pass {
