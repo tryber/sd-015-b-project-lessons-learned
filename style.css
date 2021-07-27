@@ -1,12 +1,14 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
+  color: #1F2421;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: beige;
+  background-color: #216869;
 }
 
 #cabecalho h1 {
@@ -15,9 +17,10 @@ body {
 
 nav {
   position: sticky;
+  width: 100%;
   top: 80px;
-  background-color: lightblue;
-  height: 50px;
+  background-color: #DCE1DE;
+  height: 70px;
   text-align: center;
   padding: 5px;
 }
@@ -25,11 +28,70 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  background-color: aquamarine;
+  background-color: #49A078;
+  padding: 10px;
 }
 
-article {
+#aprender {
+    margin: 10px;
+}
+
+#aprendizado {
   margin-top: 80px;
+  background-color: #9CC5A1;
+  text-align: justify;
+  width: 68%;
+  display: inline-block;
+  padding: 10px;
+  line-height: 18px ;
+}
+
+aside {
+  width: 25%;
+  margin-top: 80px;
+  float: right;
+  background-color: #49A078;
+  padding: 10px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#listas {
+    width: 67.4%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lista {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: inline-block;
+}
+
+#licoes_aprendidas {
+    background-color: #73B38D;
+}
+
+#licoes_aprendidas h2, #licoes_a_aprender h2 {
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
+#licoes_aprendidas li {
+    margin-left: 50px;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+#licoes_a_aprender {
+    background: #BCD3C0;
 }
 
 table {
@@ -51,4 +113,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#rodape {
+    text-align: center;
 }
