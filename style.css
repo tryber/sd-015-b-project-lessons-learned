@@ -16,7 +16,7 @@ nav p{
     display: inline-block;
     width: 200px;
 }
-button{
+nav button{
     width: 180px;
     border: 2px solid darkgreen;
 
@@ -68,4 +68,9 @@ header{
     float: right;
     width: 300px;
     border: 2px solid black
+}
+footer button{ 
+    width: 300px;
+    height: 30px;
+    
 }
