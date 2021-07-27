@@ -1,7 +1,28 @@
-body {
-  background-color: rgb(253, 251, 251);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+:root{
+    --cor-de-texto:"#212121";
+    --cor-de-pagina:"rgb(253, 251, 251)";
+    --cor-dos-titulos:"#121212";
 }
-header {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 400px var(--cor-de-texto) "Poppins", sans-serif;
+}
+body {
+  flex: 1;  
+  background-color: var(--cor-de-pagina);    
+}
+#header {
   position: fixed;
   top: 0;
 }
+h1,h2,h3{
+ color: var(--cor-dos-titulos);
+}
+h1{
+    font-size: 2.5rem
+}
+
+
