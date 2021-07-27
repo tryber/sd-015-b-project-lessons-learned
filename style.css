@@ -1,11 +1,13 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
 header {
     position: fixed;
     top: 0;
     text-align: center;
 }
+
 #nav-bar div{
     font-family: monospace;
     margin-top: 80px;
@@ -15,6 +17,7 @@ header {
     text-align: center;
     margin-left: 10px;
 }
+
 img {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -22,12 +25,14 @@ img {
     border-radius: 50%;
     display: block;
 }
+
 article p{
     max-width: 400px;
     display: inline-block;
     padding-top: 70px;
     padding-left: 30px;
 }
+
 aside {
     max-width: 300px;
     border: solid black;
