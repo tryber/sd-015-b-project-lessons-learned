@@ -1,16 +1,37 @@
 :root {
+
     --clr-background: rgb(253, 251, 251);
 }
 
 body {
+
     background-color: var(--clr-background);
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    left:10%;
+    right: 10%;
+
 }
 
 #minha_foto {
+    
     height: 180px;
+}
+
+#titulo {
+
+text-align: center;
+
+}
+
+.link-nav {
+    display:inline-block;
+    margin: 3px 3px;
+    padding: 5px 20px;
+    background-color: blue;
+    text-decoration: none;
+    color:var(--clr-background);
 }
