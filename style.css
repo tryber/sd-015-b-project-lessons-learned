@@ -16,6 +16,11 @@ h2,h3{
 p{
     
 }
+img{
+    border-radius: 50%;
+    float:left ;
+    margin-bottom: ;
+}
 #cabecalho{
     position: fixed;
     top:0%;
@@ -41,6 +46,21 @@ nav{
     margin-left: 500px;
 }
 
+.socrates{
+   font-size: 40px;
+   padding-bottom: 0px;
+   padding-top: 3s0px;
+   padding-left: 300px;
+   margin-left: 120px;
+   width: 600px;
+   line-height: 40px;
+   font-family: monospace;
+   color: black;
+   background-color: lightgreen;
+
+
+}
+
 .main{
     margin-left: 50%;
 }
@@ -64,8 +84,12 @@ nav{
 
 .lado-direito{
     
-    width: 180px;
+    width: 300px;
     display: inline-block;
     margin-left: 300px;
+    font-weight: 700;
+    margin-bottom: 90px;
+    padding-top: 50px;
+    color: black;
   
 }
