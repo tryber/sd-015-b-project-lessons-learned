@@ -2,14 +2,14 @@
 body {
     background-color: rgb(253, 251, 251);
     margin-top: 130px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 0;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
-    border: 1px black solid;
+
     width: 100%;
     text-align: center;
     background-color: rgb(21, 167, 21);
@@ -21,5 +21,48 @@ body {
 }
 
 #perfil {
+
+}
+
+#section-licoes {
+
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.lado-esquerdo ,.lado-direito {
+
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+
+#article {
+
+    width: 60%;
+    display: inline-block;
+    padding: 10px;
     border: 1px black solid;
+    height: 200px;
+    line-height: 20px;
+}
+
+#aside {
+    
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+    border: 1px black solid;
+    padding: 10px;
+    height: 200px;
+    line-height: 20px;
+}
+
+#rodape {
+    font-size: 12px;
+    padding: 20px;
+    background-color: gray;
+    margin-top: 10px;
 }
