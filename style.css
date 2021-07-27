@@ -1,32 +1,27 @@
 body {
-    background-color: rgb(253, 251, 251);
+background-color: rgb(253, 251, 251);
 }
-
 #cabecalho {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-color: greenyellow;
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+background-color: greenyellow;
 }
-
 #titulo {
-    padding-left: 10px;
+padding-left: 10px;
 }
-
 #minha_foto {
-    margin-top: 120px;
-    width: 300px;
-    top: 100px;
-    left: 20px;
+margin-top: 120px;
+width: 300px;
+top: 100px;
+left: 20px;
 }
-
 footer#rodape li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-bottom: 20px;
+display: inline-block;
+padding-left: 10px;
+padding-bottom: 0px;
 }
-
 #rodape {
     width: 100%;
     background-color: yellowgreen;
