@@ -2,6 +2,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+div {
+  border: 1px solid black;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -14,6 +18,14 @@ body {
   border: 1px solid black;
   padding: 2rem;
 }
+
 #minha_foto {
   width: 300px;
+}
+
+#rodape {
+  text-align: center;
+  color: rgb(253, 251, 251);
+  background-color: rgb(21, 197, 50);
+  padding: 5px;
 }
