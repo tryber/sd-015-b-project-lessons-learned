@@ -29,7 +29,7 @@ body {
     height: 22px;
 }
 
-#nav-bar ul{
+#nav-bar ul {
     padding-left: 0px;
     margin: 2px;
 }
@@ -42,4 +42,10 @@ body {
 
 #nav-bar ul li:hover {
     font-weight: bold;
+}
+
+main {
+    border: 2px solid black;
+    height: 500px;
+    max-width: 75%;
 }
