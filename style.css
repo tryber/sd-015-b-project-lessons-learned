@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(253, 251, 251);
+    margin-left: 20px;
+    margin-top: 130px;
+    font-family: montserrat;
+    font-weight: 500;
+    color: darkolivegreen;
+    font-size: 20px;
+    line-height: 25px;
+}
+h2,h3{
+    font-weight: 700;
+    color: black;
+}
+
+p{
+    
+}
+img{
+    border-radius: 50%;
+    float:left ;
+    margin-bottom: ;
+}
+#cabecalho{
+    position: fixed;
+    top:0%;
+    
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 30%;
+    margin-top: 5px;
+    margin-left: 30%;
+    font-family: montserrat;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkslategray;
+    background-color: lightgreen;
+
+    
+
+
+
+    
+}
+
+nav{
+    margin-left: 500px;
+}
+
+.socrates{
+   font-size: 40px;
+   padding-bottom: 0px;
+   padding-top: 3s0px;
+   padding-left: 300px;
+   margin-left: 120px;
+   width: 600px;
+   line-height: 40px;
+   font-family: monospace;
+   color: black;
+   background-color: lightgreen;
+   font-style: italic;
+
+
+}
+
+.main{
+    margin-left: 50%;
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+    float: left;
+}
+
+#licoes_a_aprender{
+    display: inline-block;
+
+}
+
+.lado-esquerdo{
+    
+    width: 600px;
+    display: inline-block;
+    float: left;
+}
+
+.lado-direito{
+    
+    width: 300px;
+    display: inline-block;
+    margin-left: 300px;
+    font-weight: 700;
+    margin-bottom: 90px;
+    padding-top: 50px;
+    color: black;
+  
+}
