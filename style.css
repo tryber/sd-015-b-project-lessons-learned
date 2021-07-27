@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Roboto Mono, sans-serif;
+  color: rgb(59, 59, 59);
+  font-size: 1.01em;
+  line-height: 1.2em;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 1360px;
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+nav {
+  padding: 10px 0 0;
+}
+
+nav a {
+  padding: 10px;
+}
+
+#minha_foto {
+  border-radius: 10px;
+  margin-top: 90px;
+  border: 1px solid grey;
+}
+
+.licoes {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: rgb(219, 219, 219);
+  margin-top: 20px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 640px;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: rgb(219, 219, 219);
+}
+
+.lado-direito {
+  float: right;
+  width: 640px;
+  padding: 10px;
+  margin: 20px 0 25px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: rgb(219, 219, 219);
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(199, 199, 199);
+  padding: 10px;
+  clear: both;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
