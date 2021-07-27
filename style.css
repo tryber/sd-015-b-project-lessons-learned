@@ -44,6 +44,11 @@ a {
 	text-decoration: none;
 }
 
+table, td, tr, th {
+	border: 1px solid #121212;
+	border-collapse: collapse;
+}
+
 footer {
 	background-color: #036b52;
 	margin: 0px;
