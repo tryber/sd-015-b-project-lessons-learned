@@ -5,26 +5,26 @@ header#cabecalho {
     position: fixed;
     top: 0;
     background-color: green;
-    width: 1366px;
+    width: 1350px;
 }
 img#minha-foto {
     width: 300px;
     border-radius: 50px;
-    margin-top: -110px;
+    margin-top: -610px;
     margin-left: 525px;
 }
 footer {
     background-color: grey;
-    width: 1366px;
+    width: 1350px;
+    clear: both;
+
 }
 img#iTrybe {
     width: 200px;
-}
-div#listas {
-    display: inline-block;
+    margin-left: 800px;
 }
 aside {
-    margin: auto;
+    width: 1350px;
 }
 h1{
     text-align: center;
@@ -35,12 +35,28 @@ h2 {
 }
 ol {
     margin-top: -12px;
-    position: absolute;
 }
 section{
-    width: 1366px;
+    width: 1350px;
 }
 article#iAprendido {
     margin-top: 100px;
     width: 400px;
+    margin-left: 10px;
+}
+ul {
+    float: right;
+    margin-right: 240px;
+    margin-top: -400px;
+}
+p {
+    text-align: center;
+}
+div#iTxtAdicional {
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -50px;
+}
+div#iOutroTxt {
+    margin-left: 10px;
 }
