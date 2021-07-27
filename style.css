@@ -45,3 +45,20 @@ font-size:40px;
     text-decoration: none;
     color:var(--clr-background);
 }
+
+.lado-esquerdo  {
+    position:relative;
+    display:inline-block;
+    margin: 10px;
+    width:45%;
+    float:right;
+ 
+}
+
+.lado-direito {
+    position:relative;
+    display:inline-block;
+    width:45%;
+    float:right;
+    margin:10px;
+}
