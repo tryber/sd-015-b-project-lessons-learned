@@ -38,3 +38,23 @@ body{
     text-decoration: underline;
     cursor: pointer;
 }
+
+#licoes{
+    margin-top: 75px;
+    margin-left: 30px;
+}
+
+
+
+#licoes_aprendidas{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+#licoes_a_aprender{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
