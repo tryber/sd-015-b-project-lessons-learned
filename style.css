@@ -21,7 +21,6 @@ header li {
 .container {
     margin: auto;
     width: 1000px;
-    border: 10px solid blue;
 }
 
 .columns {
