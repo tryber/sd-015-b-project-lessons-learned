@@ -1,47 +1,47 @@
+* {
+  box-sizing: border-box;
+}
 :root {
   --cor-de-texto: "#212121";
   --cor-de-pagina: "rgb(253, 251, 251)";
   --cor-dos-titulos: "#121212";
   --font-tamanho-titulo: 1.8rem;
   --font-tamanho-subtitulo: 1rem;
-  --title-font: 'Poppins', sans-serif;
+  --title-font: "Poppins", sans-serif;
 }
-* {  
-  box-sizing:border-box ;  
-}
-body {  
+body {
   background-color: var(--cor-de-pagina);
 }
 header {
   position: fixed;
-  top: 0; 
-  width: 100%; 
+  top: 0;
+  width: 100%;
   border-bottom: 1px solid gray;
 }
-main{
-  margin-top: 8rem; 
+main {
+  margin-top: 8rem;
 }
 h1,
 h2,
 h3 {
   color: var(--cor-dos-titulos);
- font-family: var(--title-font);
+  font-family: var(--title-font);
 }
 h1 {
-  font-size:var(--font-tamanho-titulo);
+  font-size: var(--font-tamanho-titulo);
 }
-h2{
-    font-size: var(--font-tamanho-subtitulo);
+h2 {
+  font-size: var(--font-tamanho-subtitulo);
 }
-#rodape{
- padding-top: 2rem;
+#rodape {
+  padding-top: 2rem;
   width: 100%;
   text-align: center;
   border-top: 1px solid gray;
 }
-li{
+li {
   padding: 0.25rem;
 }
-#minha_foto{
+#minha_foto {
   border-radius: 4rem;
 }
