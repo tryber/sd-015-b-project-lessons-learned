@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(253, 251, 251);
+
+}
+
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: green;
+    height: 100px;
+
+    
+}
+
+#minha_foto{
+    height: 3cm;
+    width: 4cm;
+    margin-top: 110px;
+    
+
+}
+
