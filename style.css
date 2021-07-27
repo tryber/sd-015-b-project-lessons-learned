@@ -25,7 +25,7 @@ main{
 #card{
     display: flex;
     margin-left: 60px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #card img{
@@ -72,4 +72,23 @@ table, th, td{
 th{
     background-color: rgb(63, 63, 63);
     color: white;
+}
+
+.table{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.lado-esquerdo{
+    width: 50%;
+    display: inline-block;
+}
+
+.lado-direito{
+    width: 50%;
+    display: inline-block;
+    float: right;
 }
