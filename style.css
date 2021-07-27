@@ -7,6 +7,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+#general-section {
+  padding: 30px 25px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -48,5 +52,11 @@ body {
 }
 
 #licoes_aprendidas {
+  margin-left: 40px;
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
   margin-left: 40px;
 }
