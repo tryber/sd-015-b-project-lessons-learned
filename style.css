@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Courier New, Courier, monospace;
+  color: rgb(31, 36, 33);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(33, 104, 105);
+  font-size: larger;
+}
+
+#cabecalho h1 {
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  width: 100%;
+  top: 80px;
+  background-color: rgb(220, 225, 222);
+  height: 70px;
+  text-align: center;
+  padding: 5px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: rgb(73, 160, 120);
+  padding: 10px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#aprender {
+  margin: 10px;
+}
+
+#aprendizado {
+  margin-top: 80px;
+  background-color: rgb(156, 197, 161);
+  text-align: justify;
+  width: 68%;
+  display: inline-block;
+  padding: 10px;
+  line-height: 18px;
+}
+
+#desafio {
+  width: 25%;
+  margin-top: 80px;
+  float: right;
+  background-color: rgb(73, 160, 120);
+  padding: 10px;
+  line-height: 20px;
+}
+
+#listas {
+  margin: 10px;
+}
+
+.lista {
+  padding: 3% 10%;
+  display: inline-block;
+}
+
+#licoes_aprendidas {
+  background-color: rgb(115, 179, 141);
+  width: 30%;
+}
+
+#licoes_aprendidas h2 , #licoes_a_aprender h2 {
+  margin-left: 20px;
+  margin-top: 1px;
+}
+
+#licoes_aprendidas li {
+  margin-left: 50px;
+}
+
+#licoes_a_aprender {
+  background: rgb(188, 211, 192);
+  width: 30%;
+  float: right;
+}
+
+table {
+  margin: 10px auto;
+}
+
+table , th , td {
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rodape {
+  background-color: rgb(220, 225, 222);
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
