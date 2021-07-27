@@ -1,25 +1,31 @@
 :root {
 
     --clr-background: rgb(253, 251, 251);
+    --clr-background-title: #AEB8FC;
     --padding-article:.5rem;
 }
 
 body {
-
+    margin-top:15%;
     background-color: var(--clr-background);
     line-height: 1.5rem;
-    letter-spacing: normalf;
+    letter-spacing: normal;
 }
 
 p {
+
     font-size: 1.2rem;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
-    left:10%;
-    right: 10%;
+    left:0;
+    right: 0;
+    height:130px;
+    background-color: var(--clr-background-title);
+    opacity: .8;
+    border-bottom: 2px solid var(--clr-background);
 
 }
 
