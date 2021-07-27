@@ -1,27 +1,35 @@
-body{
+body{ 
     background-color: rgb(253, 251, 251);
-    margin:0px;
-    font-family:fantasy;
+    margin: 0px;
+    font-family: fantasy;
 }
 #cabecalho{
-    position:fixed;
-    margin-top:0px;
+    position: fixed;
+    margin-top: 0px;
     background-color: aquamarine;
-    width:100%;
+    width: 100%;
 }
 
 #minha_foto {
-    width:60px;
+    width: 60px;
     display: inline-block;
     margin-top: 100px;
 }
-.links-nav{
+.links-nav {
     display: inline-block;
     margin-left: 90px;
     width: auto;
 }
-#rodape{
+#rodape {
     background-color: teal;
     padding: 10px;
     font-size: 20px;
+}
+#artigo {
+    display: inline-block;
+    max-width: 40%;
+}
+#aside {
+    display: inline-block;
+    max-width: 40%;
 }
