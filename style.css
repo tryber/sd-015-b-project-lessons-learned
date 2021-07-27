@@ -41,11 +41,11 @@ body {
     left: 0px;
     border-top: 1px solid rgb(0, 0, 0);
 }
+
 #rodape a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-decoration: underline;
-    
 }
 
 .division{
@@ -53,22 +53,18 @@ body {
     margin-left: 320px;
     margin-top: 180px;
     margin-bottom: 100px;
-  
 }
 
 .lado-esquerdo{
     float: left;
     max-width: 50%;
     margin-right: 10px;
-    margin-left: 10px;
-    /* margin-left: 10px; */
-    
+    margin-left: 10px; 
 }
 
 .lado-direito{
     margin-left: 40%;
     margin-right: 10px;
-    /* margin-right: 10px; */
 }
 
 .table_soft_skills, th, td {
@@ -80,6 +76,7 @@ body {
     margin-bottom: 20px;
     margin-left: 10px;
   }
+
 .table_soft_skills th{
     background-color: rgb(16,77,0);
     color: rgb(255, 255, 255);
