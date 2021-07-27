@@ -1,87 +1,98 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: green;
-    width: 100%;
-    padding: 2%;
-    border-bottom: 1px solid black ;
+  position: fixed;
+  top: 0;
+  background-color: green;
+  width: 100%;
+  padding: 2%;
+  border-bottom: 1px solid black;
 }
+
 #titulo {
-    color: azure;
-    text-align: center;
-    font-family: monospace;
-    font-size: 30px;
-    font-style: italic;
+  color: azure;
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  font-style: italic;
 }
+
 #minha_foto {
-    position: absolute;
-    top: 150px;
-    left: 40px;    
+  position: absolute;
+  top: 150px;
+  left: 40px;    
 }
+
 .list ol {
-    display: inline-block;
-    background-color: green;
-    position: absolute;
-    width: 15%;
-    bottom: 35%;
-    left: 30%;
-    border: 2px solid rgb(34, 33, 33);
-    color: aliceblue;     
+  display: inline-block;
+  background-color: green;
+  position: absolute;
+  width: 15%;
+  bottom: 35%;
+  left: 30%;
+  border: 2px solid rgb(34, 33, 33);
+  color: aliceblue;     
 }
+
 .list ul {
-    display: inline-block;
-    background-color: green;
-    position: absolute;
-    width: 20%;
-    bottom: 35%;
-    left: 50%;
-    border: 2px solid rgb(34, 33, 33);
-    color: aliceblue;     
+  display: inline-block;
+  background-color: green;
+  position: absolute;
+  width: 20%;
+  bottom: 35%;
+  left: 50%;
+  border: 2px solid rgb(34, 33, 33);
+  color: aliceblue;     
 }
+
 .list li {
-   position: relative;
-   left: 22px;
-   color: aliceblue;
-   font-size: 16px;
-   bottom: 10px;
+  position: relative;
+  left: 22px;
+  color: aliceblue;
+  font-size: 16px;
+  bottom: 10px;
 }
+
 img {
-    border-radius: 20%;
-    border: 5px solid green;
-    border-style: outset;
+  border-radius: 20%;
+  border: 5px solid green;
+  border-style: outset;
 }
+
 #article {    
-    position: absolute;
-    width: 40%;
-    bottom: 1%;
-    left: 8%;
-    text-align: center;
-    font-size: 18px;
+  position: absolute;
+  width: 40%;
+  bottom: 1%;
+  left: 8%;
+  text-align: center;
+  font-size: 18px;
 }
+
 #experience {
-    position: absolute;
-    width: 40%;
-    bottom: 6%;
-    left: 50%;
-    text-align: center;
-    font-size: 20px;
+  position: absolute;
+  width: 40%;
+  bottom: 6%;
+  left: 50%;
+  text-align: center;
+  font-size: 20px;
 }
+
 .link {
-    position: absolute;
-    bottom: 40%;
-    left: 8.5%;
+  position: absolute;
+  bottom: 40%;
+  left: 8.5%;
 }
+
 #rodape {
-    position: absolute;
-    top: 93%;
-    left: 72%;
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-    width: 28%;
+  position: absolute;
+  top: 93%;
+  left: 72%;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  width: 28%;
 }
