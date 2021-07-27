@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: 15px;
+  color: teal;
+  line-height: 115%;
+  font-family: monospace;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0%;
+  background-color: greenyellow;
+  width: 100%;
+}
+
+div{
+    border: 2px solid black;
+}
