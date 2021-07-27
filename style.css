@@ -2,7 +2,32 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
+#cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: beige;
+}
+
+#cabecalho h1 {
+    text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 80px;
+  background-color: lightblue;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: aquamarine;
+}
+
+article {
+    margin-top: 80px;
 }
