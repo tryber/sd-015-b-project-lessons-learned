@@ -10,6 +10,14 @@ header {
   background-color: aquamarine;
 }
 
+nav {
+  padding: 10px;
+}
+
+nav a{
+  padding: 10px;
+}
+
 #minha_foto {
   margin-top: 70px;
 }
