@@ -2,20 +2,19 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   border: 0.5rem;
-  font-family: "fantasy", "sans-serif";
+  font-family: fantasy, sans-serif;
   font-size: 2rem;
-  color: #feb726;
+  color: rgb (254, 183, 38);
   line-height: 2.5rem;
 }
 
 header {
   position: fixed;
   top: 0;
-  background-color: #002a38;
+  background-color: rgb(0, 42, 56);
   color: antiquewhite;
 
   /* padding: 2rem; */
-
   width: 20%;
   height: 100%;
 }
