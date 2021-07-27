@@ -9,6 +9,7 @@ body {
   position: fixed;
   width: 100%;
   background-color: rgb(3, 107, 82);
+  z-index: 1;
 }
 
 #titulo {
@@ -32,4 +33,9 @@ body {
   position: absolute;
   top: 350px;
   left: 280px;
+}
+
+#linktrybe {
+  position: absolute;
+  top: 600px;
 }
