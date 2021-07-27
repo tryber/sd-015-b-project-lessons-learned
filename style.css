@@ -5,11 +5,23 @@ body {
 header {
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
 }
 
 header li {
-    display: inline;
-    margin: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+    border: 10px solid blue;
 }
 
 .columns {
