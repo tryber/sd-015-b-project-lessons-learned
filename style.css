@@ -84,7 +84,11 @@
     .col a {
         text-decoration: none;
         color: #004e97;
-        font-weight: 600;
+        font-weight: 500;
+    }
+
+    .col p {
+        line-height: 5px;
     }
 
     #minha_foto {
