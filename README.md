@@ -99,9 +99,9 @@ Através desta aplicação, será possível realizar a construção de código H
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
-    * npm install
+    * `npm install`
 
-2. Crie uma branch a partir da branch `master`
+3. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
     * Exemplo: `git branch`
   * Se não estiver, mude para a branch `master`
@@ -110,13 +110,13 @@ Através desta aplicação, será possível realizar a construção de código H
     * Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`
     * Exemplo: `git checkout -b maria-soares-lessons-learned`
 
-3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
+4. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
     * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/maria/code/**sd-015-b-project-lessons-learned**_
   * Crie os arquivos index.html e style.css
     * Exemplo: `touch index.html style.css`
 
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
+5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
     * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
   * Adicione o novo arquivo ao _stage_ do Git
@@ -128,10 +128,10 @@ Através desta aplicação, será possível realizar a construção de código H
         * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
+6. Adicione a sua branch com o novo `commit` ao repositório remoto
   * Usando o exemplo anterior: `git push -u origin maria-soares-lessons-learned`
 
-6. Crie um novo `Pull Request` _(PR)_
+7. Crie um novo `Pull Request` _(PR)_
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-015-b-project-lessons-learned/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
