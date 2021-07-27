@@ -11,14 +11,28 @@
         margin-left: 0;
         text-align: center;
         background-color: #DB5461;
-        color: #171738;
+    }
+
+    header h1 {
+        color: #235789;
         font-family: 'Otomanopee One', sans-serif;
+        font-size: 50px;
     }
 
     header li {
         display: inline-block;
         margin-right: 20px;
         margin-left: 20px;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    header a {
+        text-decoration: none;
+        color: #235789;
+    }
+
+    header a:hover {
+        color: #456990;
     }
 
     .container {
@@ -35,5 +49,5 @@
     }
 
     #licoes {
-        margin: 200px 0px;
+        margin: 220px 0px;
     }
