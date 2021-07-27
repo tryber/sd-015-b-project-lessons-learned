@@ -1,14 +1,25 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    margin-top: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    margin-left: 0;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    border: 1px black solid;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(21, 167, 21);
+    color: white;
 }
 
 #nav-links ul li {
-    display: inline-block;
     width: 50px;
+}
+
+#perfil {
+    border: 1px black solid;
 }
