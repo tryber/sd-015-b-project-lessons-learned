@@ -14,6 +14,7 @@
         <title>Lições aprendidas</title>
         <h1 id="titulo">Lições aprendidas - Trybe</h1>
         <nav>
+            <p><button>Login</button></p>
             <p><button>Home</button></p>
         </nav>
     </header>
@@ -21,37 +22,43 @@
     <section>
         <img id="minha_foto" src="Foto.jpeg" width="400"
             alt="Sou mestiço, uso oculos e na imagem estou de camisa amarela com mangas pretas">
-
-        <ol id="licoes_aprendidas">
-            <li>Unix</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Internet</li>
-            <li>Html</li>
-            <li>Slack</li>
-            <li>Course</li>
-            <li>SolfSkills</li>
-            <li>Empatia</li>
-            <li>Iteligencia Emocional</li>
-        </ol>
-
-        <ul id="licoes_a_aprender">
-            <li>JavaScript</li>
-            <li>Lógica de Programação</li>
-            <li>DOM</li>
-            <li>Eventos e Web Storage</li>
-            <li>JavaScript ES6</li>
-            <li>Testes Unitários</li>
-            <li>SQL</li>
-            <li>Modelagem de Banco de Dados</li>
-            <li>mongoDB</li>
-            <li>Web com NodeJS</li>
-        </ul>
-
+        <table>
+            <h1>Lições</h1>
+            <tr>
+                <td>
+                    <ol id="licoes_aprendidas">
+                        <li>Unix</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Internet</li>
+                        <li>Html</li>
+                        <li>Slack</li>
+                        <li>Course</li>
+                        <li>SolfSkills</li>
+                        <li>Empatia</li>
+                        <li>Iteligencia Emocional</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul id="licoes_a_aprender">
+                        <li>JavaScript</li>
+                        <li>Lógica de Programação</li>
+                        <li>DOM</li>
+                        <li>Eventos e Web Storage</li>
+                        <li>JavaScript ES6</li>
+                        <li>Testes Unitários</li>
+                        <li>SQL</li>
+                        <li>Modelagem de Banco de Dados</li>
+                        <li>MongoDB</li>
+                        <li>Web com NodeJS</li>
+                </td>
+            </tr>
+            </ul>
+        </table>
     </section>
 
     <section>
-        <table>
+        <table class="autoavaliação">
             <title>Auto avaliação</title>
             <tr>
                 <td>Elemento Aprendido</td>
@@ -96,7 +103,7 @@
         </table>
     </section>
 
-    <article class="oqueaprendi">
+    <article class="lado-direito">
         <h1>Oque aprendi na Trybe</h1>
         <p>
             Na trybe pude aprender algo que nunca imaginei que conseguiria,
@@ -109,7 +116,7 @@
     </article>
 
 
-    <aside>
+    <aside class="lado-esquerdo">
         <p>
             Na Trybe ja aprendi muitas coisa,
             primeiro como instalar o linux , um sistema operacional que nunca usei,
@@ -119,7 +126,8 @@
     </aside>
 
     <footer id="rodape">
-        <a href="https://www.betrybe.com/" target="_blank" >Trybe <span class="visuallyhidden">, opens in a new window</span></a>
+        <a href="https://www.betrybe.com/" target="_blank" rel="noopener"><button>
+        </button></a>
 
     </footer>
 
