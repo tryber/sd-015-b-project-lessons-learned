@@ -19,7 +19,7 @@ header {
 
 h1 {
   display: inline-block;
-  color: #fff;
+  color: white;
 }
 
 h2 {
@@ -37,7 +37,7 @@ img {
 
 footer {
   background-color: rgb(92, 94, 94);
-  color: #fff;
+  color: white;
 }
 
 .trybe-link {
