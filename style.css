@@ -1,11 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin-top: 100px;
 }
 
 #cabecalho {
   background-color: purple;
   position: fixed;
   top: 0;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace
 }
 
 #minha_foto {
