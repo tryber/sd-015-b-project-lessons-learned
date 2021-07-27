@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: rgb(253, 251, 251);
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	color: #121212;
+	text-align: justify;
+	padding-top: 100px;
+}
+
+ol, ul {
+	margin-left: 40px;
+	margin-block-end: 20px;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+li {
+	margin-left: 60px;
+}
+
+p {
+	margin-left: 10px;
+}
+
+a {
+	word-spacing: 1px;
+	text-align: center;
+	width: 30%;
+	display: inline-block;
+	color: #f5f5f5;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+table, td, tr, th {
+	border: 1px solid #121212;
+	border-collapse: collapse;
+}
+
+footer {
+	background-color: #036b52;
+	margin: 0px;
+	padding: 0px;
+}
+
+#cabecalho {
+	border-bottom: 2px solid black;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	top: 0px;
+	background-color: #036b52;
+	padding: 30px;
+	margin-bottom: 50px;
+	z-index: 1;
+	font-weight: 700;
+	line-height: normal;
+}
+
+#titulo {
+	font-weight: 700;
+	color: #f5f5f5;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+#secao_imagem {
+	height: 350px;
+}
+
+#minha_foto {
+	width: 200px;
+	top: 22px;
+	margin-left: 52px;
+	position: relative;
+}
+
+#descricao_foto {
+	top: 17px;
+	position: relative;
+	margin-left: 55px;
+}
+
+#link_linkedin {
+	text-decoration: none;
+}
+
+.lado-esquerdo {
+	display: inline-block;
+	width: 48%;
+	margin-right: 20px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 48%;
+  position: relative;
+  bottom: 40px;
+  margin-left: 20px;
+}
