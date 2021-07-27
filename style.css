@@ -7,14 +7,13 @@ header {
   top: 0;
   width: 100%;
   height: 100px;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255); 
+  background-color: black;
+  color: rgb(253, 251, 251);
 }
 
 .caixa {
   position: relative;
   margin: 0 auto;
- 
 }
 
 h1 {
@@ -26,17 +25,17 @@ h1 span {
 }
 
 nav {
- position: absolute;
- top: 20px;
- right: 100px;
+  position: absolute;
+  top: 20px;
+  right: 100px;
 }
 
 nav a {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(253, 251, 251);
 }
 
 .aprendizados {
@@ -57,10 +56,14 @@ p , li {
 }
 
 img {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 267px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 267px;
+}
+
+table {
+  margin: auto;
 }
 
 .lado-direito table , .lado-direito th , .lado-direito td {
@@ -69,11 +72,6 @@ img {
   padding: 5px;
   text-align: center;
 }
-
-table {
-  margin: auto;
-}
-
 
 li {
   font-family: Ubuntu Mono, monospace;
