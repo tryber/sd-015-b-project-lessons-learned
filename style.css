@@ -6,3 +6,11 @@ header {
     position: fixed;
     top: 0;
 }
+
+#minha_foto {
+    width: 300px;
+}
+
+#landing {
+    margin: 150px 0px;
+}
