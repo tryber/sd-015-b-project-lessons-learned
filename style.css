@@ -1,34 +1,42 @@
 body {
       background-color :rgb(253, 251, 251);
       font-family:'Times New Roman', Times, serif;
-      font-size: 10px;
     }
 
     #cabecalho {
       position: fixed;
       top: 0;
       background-color: pink;
-      width: 300px;
-      padding: 5px;
       border-right: 100px;
+      display: block;
+      width: 1000px;
+      left: 0;
+      font-family: monospace;
 
     }
-    article, section {
-      display: inline-block;
-      width: 400px;
-      margin: auto;
-      background-color: pink;
-    }
+
 
     #minha_foto { 
       border-radius: 50%;
       width: 200px;
+      position: absolute;
+      margin-left: 500px;
+      margin-top: 80px;
     }
-    
-    ol, li {
-      top: 1000px;
+    #licoes_aprendidas {
+      top: 50px;
     }
-    aside { 
-      top: 500px;
+  
+    .lado-esquerdo {
+      border: 4px;
+      float: left;
+      width: 600px;
+      height: 100px;
     }
-    
+
+    .lado-direito {
+      border: 4px;
+      float: right;
+      width: 700px;
+      height: 100px;
+    }
