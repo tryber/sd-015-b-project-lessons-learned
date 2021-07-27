@@ -62,7 +62,7 @@ table * {
 }
 
 #meu_aprendizado h2 {
-  text-align: center;   
+  text-align: center;
 }
 
 #meu_aprendizado img {
@@ -80,7 +80,7 @@ table * {
   padding: 5px;
   width: 25%;
   border: 0.5px solid rgb(238, 228, 254);
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .lado-esquerdo {
