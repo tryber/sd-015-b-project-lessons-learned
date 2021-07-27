@@ -1,39 +1,51 @@
 body { background-color: rgb(253, 251, 251) }
 
 #cabecalho { position: fixed;
-    top: 0 }
+  top: 0;
+  }
 
-#minha_foto { width: 350px }
+#minha_foto { width: 350px;
+  }
 
 #licoes_aprendidas { margin: 0;
-    padding: 25px;
-    border: 5px solid red }
+  padding: 25px;
+  border: 5px solid red;
+  }
 
 #licoes_a_aprender { margin: 0;
-    padding: 25px;
-    border: 5px solid green;
-    clear: both;
-    border-radius: 16px }
+  padding: 25px;
+  border: 5px solid green;
+  clear: both;
+  border-radius: 16px;
+  }
 
 #titulo { color: chartreuse;
-    font-size: 25px;
-    line-height: 16px;
-    font-family: monospace }
+  font-size: 25px;
+  line-height: 16px;
+  font-family: monospace;
+  }
 
 .lado-esquerdo { float: left;
-    margin-bottom: 80px;
-    margin-left: 250px }
+  margin-bottom: 80px;
+  margin-left: 250px;
+  }
 
 .lado-direito { float: right;
-    margin-bottom: 80px;
-    margin-right: 250px }
+  margin-bottom: 80px;
+  margin-right: 250px;
+  }
 
-.aside { clear: both }
+.aside { clear: both;
+  }
 
-.link { clear: both }
+.link { clear: both;
+  }
 
-.tabela { clear: both }
+.tabela { clear: both;
+  }
 
-#rodape { clear: both }
+#rodape { clear: both;
+  }
 
-.texto-principal { clear: both }
+.texto-principal { clear: both;
+  }
