@@ -23,9 +23,9 @@ img {
   height: 290px;
 }
 
-article {
+.lado-esquerdo {
   float: left;
-  width: 40%;
+  width: 45%;
 }
 
 p , li {
@@ -43,11 +43,11 @@ table {
   margin: auto;
 }
 
-li {
-  font-family: Ubuntu Mono, monospace;
+.lado-direito {
+  float: right;
+  width: 45%;
 }
 
-aside {
-  float: right;
-  width: 50%;
+li {
+  font-family: Ubuntu Mono, monospace;
 }
