@@ -52,6 +52,7 @@
         border: dotted;
         padding-left: 6px;
         padding-right: 6px;
+        line-height: 20px;
     }
 
     #rodape {
