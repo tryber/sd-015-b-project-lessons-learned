@@ -20,22 +20,22 @@ table ,th ,td {
   padding: 5px;
   text-align: center;
 }
-ul , ol {
+ul ,ol {
   display: inline-block;
 }
 
 article {
-    border: 2px solid black;
-    margin: 10px;
+  border: 2px solid black;
+  margin: 10px;
 }
 
 footer {
-    min-height: 20px;
-    text-align: center;
+  min-height: 20px;
+  text-align: center;
 }
 
 footer span {
-    color: green;
+  color: green;
 }
 
 #cabecalho {
@@ -51,7 +51,7 @@ footer span {
   height: 120px;
 }
 
-.lado-esquerdo ,.lado-direito{
-    display: inline-block;
-    max-width: 500px;
+.lado-esquerdo ,.lado-direito {
+  display: inline-block;
+  max-width: 500px;
 }
