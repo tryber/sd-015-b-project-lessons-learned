@@ -5,5 +5,20 @@ body {
 header {
   position: fixed;
   top: 0;
+  height: 200px;
 }
 
+h2 {
+	position: relative;
+	top: 150px;
+}
+
+#minha_foto {
+  position: relative;
+	top: 130px;
+}
+
+#licoes_aprendidas {
+	position: relative;
+	top: 160px;
+}
