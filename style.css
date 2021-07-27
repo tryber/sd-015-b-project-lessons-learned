@@ -1,0 +1,7 @@
+:root {
+    --platinum: #E1E1E0;
+}
+
+body {
+    background-color: var(--platinum);
+}
