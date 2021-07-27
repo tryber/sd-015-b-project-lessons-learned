@@ -2,8 +2,17 @@ body {
   background-color: rgb(253, 251, 251);
 }
 header {
+  position: fixed;
   top: 0;
 }
 img {
+  margin-top: 100px;
   width: 200px;
+  display: block;
+}
+ol {
+ display: inline-block;
+}
+ul {
+  display: inline-block;
 }
