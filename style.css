@@ -6,11 +6,15 @@ body{
 }
 header{
         position: fixed;
-        margin-top: 0px;
+        top: 0px;
         background-color: green;
         border: 5px solid darkgreen;
+        width: 100%;
 }
 
+#minha_foto{
+    width: 250px;
+}
 table tr td{
     border: 1px solid black;
 }
@@ -23,16 +27,26 @@ table tr:hover:nth-child(even){
     background-color: rgb(1, 1, 48);
     color: white;
 }
+#licoes_aprendidas{
+    display: block;
+
+}
+#licoes_a_aprender{
+    display: ;
+}
+
 
 .oqueaprendi{
     border: 2px solid black;
-    display: block;
     float: left;
-    width: 300px;
+    width: 500px;
 }
 aside{
-    display: block;
     float: right;
     width: 300px;
     border: 2px solid black
+}
+footer{
+    width: 50px;
+    height: 50px;
 }
