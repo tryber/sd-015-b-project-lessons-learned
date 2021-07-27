@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 header {
-    position: fixed;
-    top: 0;
+  display: block;
+  position: fixed;
+  top: 0;
+  height: 50px;
 }
 
 img {
-    width: 350px;
+  width: 350px;
 }
