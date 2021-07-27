@@ -46,3 +46,8 @@ body {
   top: 100px;
   left: 260px;
 }
+
+#aside {
+  position: absolute;
+  top: 320px;
+}
