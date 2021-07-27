@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(253, 251, 251
+    );
+}
+header {
+    position: fixed;
+    top: 0;
+}
+img {
+    width: 200px;
+    margin: 5px;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+article {
+    font-size: 10px;
+    color: darkgreen;
+    line-height: 10.5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.lado-esquerdo {
+    border: 3px solid black;
+    float: left;
+    width: 600px;
+    height: 100px;
+}
+
+.lado-direito {
+    border: 3px solid black;
+    float: right;
+    width: 600px;
+    height: 100px;
+}
+
+footer {
+    float: left;  
+}
