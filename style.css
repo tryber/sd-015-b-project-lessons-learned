@@ -10,8 +10,8 @@ header#cabecalho {
 img#minha-foto {
     width: 300px;
     border-radius: 50px;
-    margin-top: -610px;
-    margin-left: 525px;
+    margin-top: 85px;
+    margin-left: 0px;
 }
 footer {
     background-color: grey;
@@ -27,11 +27,11 @@ aside {
     width: 1350px;
 }
 h1{
-    text-align: center;
+
     display: block;
 }
 h2 {
-    text-align: center;
+    text-align: left;
 }
 ol {
     margin-top: -12px;
