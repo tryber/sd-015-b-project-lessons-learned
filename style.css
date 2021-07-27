@@ -9,5 +9,38 @@ body {
   left: 0;
   right: 0;
   height: 80px;
+  font-family: monospace;
+  font-size: medium;
 }
 
+#minha_foto {
+    margin: auto;
+    padding: 0%;
+    border: white;
+}
+
+#titulo {
+  color: white;
+}
+
+#licoes_aprendidas {
+  line-height: normal;
+}
+
+#licoes_a_aprender {
+  line-height: normal;
+}
+
+article {
+  line-height: normal;
+}
+
+.lado-esquerdo {
+  display:inline;
+  text-align: left;
+}
+
+.lado-direito {
+  display: inline;
+  text-align: right;
+}
