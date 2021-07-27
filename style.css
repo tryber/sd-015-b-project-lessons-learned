@@ -7,6 +7,14 @@ header {
     top: 0;
 }
 
+header li {
+    display: inline;
+}
+
+.columns {
+    display: flex;
+}
+
 #minha_foto {
     width: 300px;
 }
