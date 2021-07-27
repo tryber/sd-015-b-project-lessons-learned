@@ -44,6 +44,14 @@ footer {
   color: white;
 }
 
+p {
+  line-height: 1.4rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
 .trybe-link {
   margin-left: 5em;
   color: white;
@@ -73,7 +81,8 @@ footer {
 .article-content,
 .aside-content {
   margin-top: 1em;
-  width: 50%;
+  align-self: flex-end;
+  width: 100%;
 }
 
 .aside-content {
@@ -82,4 +91,17 @@ footer {
 
 footer {
   padding: 0.5em;
+}
+
+table {
+  border: 1px solid black;
+  margin-bottom: 1em;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+th {
+  border: 1px solid black;
 }
