@@ -3,7 +3,7 @@ body {
     margin: 10px;
     border: 10px;
     padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     color: black;
     letter-spacing: 1px;
@@ -48,14 +48,10 @@ nav {
 .lado-esquerdo {
    float :left;
    display:inline;
-   max-width: 400px;
+   max-width:400px;
 }
 .lado-direito {
-    float:right ;
-    display: inline;
-    max-width: 500px;
+    float:right;
+    display:inline;
+    max-width:500px;
 }
-#1e2 {
-    text-align:center
-}
-
