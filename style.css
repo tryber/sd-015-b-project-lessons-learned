@@ -7,8 +7,20 @@ header {
   top: 0;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h1 span {
+  color: rgb(0, 191, 165);
+}
+
 img {
   margin: 10px;
+}
+
+p, li {
+  line-height: 24px;
 }
 
 table, th, td {
@@ -16,4 +28,8 @@ table, th, td {
   border-collapse: collapse;
   padding: 5px;
   text-align: center;
+}
+
+li {
+    font-family: 'Ubuntu Mono', monospace;
 }
