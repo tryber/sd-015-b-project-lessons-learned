@@ -1,6 +1,11 @@
+* {
+    font-family: sans-serif;
+    color: rgb(25, 0, 0);
+    font-size: 17px;
+}
+
 .backgroundcolor {
     background-color: rgb(253, 251, 251);
-    
 }
 
 #cabecalho {
@@ -9,7 +14,8 @@
 }
 
 #titulo {
-
+    font-size: 28px;
+    letter-spacing: 2px;
 }
 
 #minha_foto {
@@ -17,12 +23,12 @@
     position: fixed;
     top: 100px;
     left: 100px;
+    border-radius: 50%;
 }
 
 #licoes_aprendidas {
     position: fixed;
     top: 320px;
-
 }
 
 #licoes_a_aprender {
@@ -31,7 +37,6 @@
 }
 
 #rodape {
-
 }
 
 #linkedin {
