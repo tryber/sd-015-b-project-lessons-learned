@@ -8,3 +8,8 @@ body {
     position: fixed;
     width: 100%;
 }
+
+#minha_foto {
+    margin-top:72px;
+    margin-left: 50%;
+}
