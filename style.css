@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    padding-top: 75px;
 }
 
 .formas_de_texto {
@@ -14,6 +15,9 @@ body {
     border-color: red;
     margin-top: 0;
     position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color:ghostwhite
 }
 
 #titulo {
