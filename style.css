@@ -92,13 +92,15 @@ nav ul a:hover {
     text-align: justify;
     padding: 15px;
     width: 600px;
+    float: left;
 }
 
 #conteudo-lateral {
     text-align: justify;
     padding: 15px;
     width: 600px;
-
+    display: inline-block;
+    float: right;
 }
 
 #rodape {
@@ -110,11 +112,6 @@ nav ul a:hover {
 #rodape p {
     font-size: 20px;
     font-weight: 700;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
 }
 
 table, th, td {
