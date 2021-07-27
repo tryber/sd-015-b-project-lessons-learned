@@ -7,15 +7,47 @@ body{
 #cabecalho{
     position: fixed;    
     top: 0;
-}
-#minha_foto{
     
+}
+
+#titulo{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#minha_foto{
+    margin-top: 50px;;
+    
+}
+
+#licoes_aprendidas{
+    display: inline-block;
 }
 
 #licoes_a_aprender{
+    display: inline-block;
 
 }
 
-#rodape{
+.lado-esquerdo{
+    padding: 10px;
+    border: 1px solid black; 
+      
+
+} 
+
+.lado-direito{
+    padding: 10px;
+    border: 1px solid black; 
+     
     
+}
+
+#rodape{
+    background-color: rgb(207, 201, 201);
+    text-align: center;
+    margin-top: 10px;   
 }
