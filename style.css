@@ -31,10 +31,11 @@ h1{
     margin-left: 15px;
 }
 .lado-esquerdo{
-    margin-right: 50%;
-    
+    width: 50%;
+    float: left;
 }
 .lado-direito{
-    margin-left: 50%;
+    width: 50%;
     float: right;
+    
 }
