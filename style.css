@@ -47,3 +47,21 @@ body {
 #tabela {
     color: cornflowerblue;
 }
+
+.lado-a-lado {
+    display: flex;
+}
+
+.lado-esquerdo {
+    width: 400px;
+    margin-left: 50;
+}
+
+.lado-direito {
+    width: 400px;
+    display: flex;
+}
+
+.primeira-lista, .segunda-lista {
+    width: 200px;
+}
