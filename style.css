@@ -21,3 +21,15 @@ table, td {
   margin: 5px;
   padding: 5px;
 } 
+
+article {
+  background-color: grey;
+  display: inline-block;
+  width: 50%;
+}
+
+aside {
+  background-color: grey;
+  width: 50%;
+  float: right;
+}
