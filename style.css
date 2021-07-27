@@ -10,6 +10,16 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
 a {
   text-decoration: none;
   font-size: 1.2em;
@@ -34,6 +44,7 @@ strong {
 
 #titulo {
   font-size: 2em;
+  font-weight: 500;
   padding: 10px 0px;
 }
 
@@ -51,7 +62,7 @@ strong {
 }
 
 .main-texts {
-  margin: 60px 15px 0px;
+  margin: 60px 30px 0px;
 }
 
 .lado-esquerdo {
@@ -60,8 +71,6 @@ strong {
 }
 
 .lado-esquerdo h2 {
-  font-size: 1.5em;
-  font-weight: 500;
   margin-bottom: 30px;
   border-bottom: 2px solid gray;
 }
@@ -77,8 +86,6 @@ strong {
 }
 
 .lado-direito h3 {
-  font-size: 1.3em;
-  font-weight: 500;
   margin-bottom: 30px;
   border-bottom: 2px solid gray;
 }
@@ -90,4 +97,29 @@ strong {
 
 .lists {
   clear: both;
+  padding-top: 120px;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.list {
+  width: 40%;
+  display: inline-block;
+  background-color: khaki;
+  margin-inline: 30px;
+  padding: 15px 15px;
+  border-radius: 8px;
+}
+
+.list h2 {
+  padding-bottom: 15px;
+}
+
+.list ul,
+ol {
+  list-style-position: inside;
+}
+
+#rodape {
+  margin: 120px 15px 15px;
 }
