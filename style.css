@@ -1,6 +1,7 @@
 body {
       background-color :rgb(253, 251, 251);
-      font-family:'Times New Roman', Times, serif
+      font-family:'Times New Roman', Times, serif;
+      font-size: 10px;
     }
 
     #cabecalho {
@@ -8,6 +9,8 @@ body {
       top: 0;
       background-color: pink;
       width: 300px;
+      padding: 5px;
+      border-right: 100px;
 
     }
     article, section {
@@ -21,5 +24,11 @@ body {
       border-radius: 50%;
       width: 200px;
     }
-
+    
+    ol, li {
+      top: 1000px;
+    }
+    aside { 
+      top: 500px;
+    }
     
