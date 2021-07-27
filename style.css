@@ -16,3 +16,7 @@ nav {
     margin: 0px;
     background-color: gray;
 }
+header {
+    position: fixed;
+    top: 0;
+    } 
