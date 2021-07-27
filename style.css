@@ -6,3 +6,17 @@ header{
     margin-top: 0px;
     position: fixed;
 }
+
+article{
+    display: inline-block;
+    width: 35%;
+}
+
+img{
+    display: block;
+    margin-top: 0px;
+}
+aside{
+    display: inline-block;
+    width: 35%;
+}
