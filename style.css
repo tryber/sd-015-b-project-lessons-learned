@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(253, 251, 251);
+    padding-top: 75px;
+}
+
+.formas_de_texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color:slategray;
+    font-size: 35px;
+    line-height: 3%;
+}
+
+#cabecalho {
+    border: solid;
+    border-color:ghostwhite;
+    margin-top: 0;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color:ghostwhite
+}
+
+#titulo {
+    text-align: center;
+}
+
+#titulo_trybe {
+    display: inline;
+    font-size: 18px;
+}
+
+#foto_do_perfil {
+    border: solid;
+    border-color: ghostwhite;
+}
+#minha_foto {
+    width: 250px;
+    margin-top:2%;
+    margin-bottom: 2%;
+
+}
+
+#lista_ordenada {
+    border: solid;
+    border-color: ghostwhite;
+    padding-left: 1%;
+}
+
+#lista_nao_ordenada {
+    border:solid;
+    border-color: ghostwhite;
+    padding-left: 1%;
+}
+
+#tabela_skills {
+    border:solid;
+    border-color: ghostwhite;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#artigos {
+    border: solid;
+    border-color: ghostwhite;
+}
+
+#artigo_sobre_aprendizagem {
+    border: solid;
+    border-color: ghostwhite;
+    width: 45%;
+    display: inline-block;
+}
+
+.lado_esquerdo {
+
+}
+
+#passagem_na_trybe {
+    border: solid;
+    border-color: ghostwhite;
+    width: 45%;
+    display: inline-block;
+}
+
+.lado_direito {
+    
+}
