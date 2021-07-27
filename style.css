@@ -1,10 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: fantasy;
 }
 
 #cabecalho {
   position: fixed;
-  background-color: aquamarine;
+  background-color: rgba(34, 34, 218, 0.938);
   width: 1366px;
   height: 100px;
   top: 0;
@@ -12,7 +13,7 @@ body {
 }
 
 #titulo {
-  color: black;
+  color: rgba(255, 255, 255, 0.966);
   margin-left: 540px;
   margin-right: 540px;
   padding: 10px;
@@ -28,11 +29,31 @@ body {
   width: 200px;
   position: relative;
   bottom: 200px;
+  line-height: 23px;
 }
 
 #licoes_a_aprender {
   position: relative;
   width: 200px;
-  bottom: 425px;
+  height: 300px;
+  bottom: 480px;
   left: 250px;
+  line-height: 23px;
+}
+
+#botao {
+  background-color: rgba(34, 34, 218, 0.938);
+  color: rgba(255, 255, 255, 0.966);
+  border: none;
+  width: 100px;
+  height: 35px;
+  bottom: 450px;
+  position: relative;
+}
+
+#trybe {
+  position: relative;
+  bottom: 800px;
+  width: 300px;
+  left: 900px;
 }
