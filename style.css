@@ -1,7 +1,38 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family: fantasy;
+    color:rgb(28, 1, 36);
+    line-height: normal;   
 }
 header{
         position: fixed;
         margin-top: 0px;
+        background-color: green;
+        border: 5px solid darkgreen;
+}
+
+table tr td{
+    border: 1px solid black;
+}
+
+table tr:hover:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+table tr:hover:nth-child(even){
+    background-color: rgb(1, 1, 48);
+    color: white;
+}
+
+.oqueaprendi{
+    border: 2px solid black;
+    display: block;
+    float: left;
+    width: 300px;
+}
+aside{
+    display: block;
+    float: right;
+    width: 300px;
+    border: 2px solid black
 }
