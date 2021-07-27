@@ -1,5 +1,6 @@
 body {
       background-color :rgb(253, 251, 251);
+      font-family:'Times New Roman', Times, serif
     }
 
     #cabecalho {
@@ -12,6 +13,8 @@ body {
     article, section {
       display: inline-block;
       width: 400px;
+      margin: auto;
+      background-color: pink;
     }
 
     #minha_foto { 
