@@ -9,10 +9,10 @@ h2 {
 }
 
 #cabecalho {
-    position:fixed;
-    top:0px;
+    position: fixed;
+    top: 0px;
     background-color: greenyellow;
-    width:100%;
+    width: 100%;
 }
 
 #titulo {
@@ -44,3 +44,11 @@ h2 {
     top: 350px;
     margin-left: 350px;
 }
+
+#rodape {
+    position: fixed;
+    width: auto;
+    height: 50px;
+    top: 730px;
+}
+
