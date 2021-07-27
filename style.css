@@ -1,6 +1,25 @@
 body {background-color: rgb(253, 251, 251);
 }
+h1{
+    color: green;
+    font: 700;
+}
 #cabecalho {
     position: fixed;
     top: 0;
+}
+article {display:inline-block;
+    position: relative;;
+    margin: 0;
+    border: solid 2px green;
+    background-color: rgb(209, 243, 209);
+
+}
+section {display: block;
+    position: absolute;
+    width: 600px;
+    top: 0px;
+    left:900px;
+    border: solid 2px green;
+    background-color: rgb(209, 243, 209);
 }
