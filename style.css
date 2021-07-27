@@ -5,3 +5,18 @@ body {
     position: fixed;
     top: 0px;
 }
+table{
+    border: 1px solid;
+    width: 60%;
+    margin-left: 17%;
+}
+
+th{
+    border: 1px solid;
+    background-color: rgb(185, 182, 182);
+    font: 600;
+}
+
+td{
+    border: 1px solid;
+}
