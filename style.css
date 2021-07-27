@@ -42,6 +42,9 @@ section {display:inline-block;
     border: solid 2px green;
     background-color: rgb(209, 243, 209);
 }
-.geral{
+table{
+    border: solid 2px green;
+    background-color: rgb(209, 243, 209) ;
+}
 
 }
