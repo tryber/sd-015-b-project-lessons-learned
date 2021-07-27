@@ -5,10 +5,42 @@ header#cabecalho {
     position: fixed;
     top: 0;
     background-color: green;
+    width: 1366px;
 }
 img#minha-foto {
     width: 300px;
     border-radius: 50px;
+    margin-top: -110px;
+    margin-left: 525px;
+}
+footer {
+    background-color: grey;
+    width: 1366px;
+}
+img#iTrybe {
+    width: 200px;
+}
+div#listas {
+    display: inline-block;
+}
+aside {
+    margin: auto;
+}
+h1{
+    text-align: center;
+    display: block;
+}
+h2 {
+    text-align: center;
+}
+ol {
+    margin-top: -12px;
+    position: absolute;
+}
+section{
+    width: 1366px;
+}
+article#iAprendido {
     margin-top: 100px;
-
+    width: 400px;
 }
