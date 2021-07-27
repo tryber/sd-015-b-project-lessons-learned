@@ -5,7 +5,7 @@ body{
 article{
     border: 2px solid rgb(000, 000, 000);
     padding: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Calibri, sans-serif;
     font-size: medium;
     color: rgb(100, 61, 61);}
 
@@ -14,7 +14,7 @@ section { margin-top: 350px; }
 aside{
     border: 2px solid rgb(000, 000, 000);
     padding: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Calibri, sans-serif;
     font-size: medium;
     color: rgb(100, 61, 61);}
 
@@ -37,13 +37,13 @@ h2 { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     padding: 10px;}
 
 #licoes_aprendidas{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Calibri, sans-serif;
     font-size: large;
     color: rgb(100, 61, 61);
     line-height: 25px;}
 
 #licoes_a_aprender{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Calibri, sans-serif;
     font-size: large;
     color: rgb(100, 61, 61);
     line-height: 25px;}
