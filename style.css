@@ -21,3 +21,9 @@ body {
   top: 100px;
   left: 20px;
 }
+
+#licoes_aprendidas {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+}
