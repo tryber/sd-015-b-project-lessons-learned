@@ -32,15 +32,18 @@ aside {
 
 aside p {
     font-weight: bold;
+    font-style: italic;
 }
 
 a {
     color: #2fc18c;
     text-decoration: none;
+    font-size: 30px;
 }
 
 h2 {
-    color: #2fc18c;
+    text-decoration: underline;
+    text-decoration-color: #2fc18c;
 }
 
 li {
@@ -88,4 +91,5 @@ footer {
     bottom: 0;
     width: 100%;
     text-align :center;
+    font-style: italic;
 }
