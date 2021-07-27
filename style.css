@@ -31,6 +31,10 @@ body{
   margin-left: 50px;
   display: block;
 }
-#rodape{
+.margin{
+    margin-left: 50px;
+    color: rgb(19, 18, 18);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
 
 }
