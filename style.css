@@ -44,7 +44,7 @@ header {
 }
 
 #titulo {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Ubuntu, sans-serif;
   color: white;
   margin: 0;
 }
@@ -57,7 +57,7 @@ header {
 
 section {
   margin: 10px;
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 20px;
 }
 
@@ -118,7 +118,7 @@ aside {
 }
 
 #rodape {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-size: 10px;
   color: rgb(61, 116, 68);
 }
