@@ -42,7 +42,7 @@ body{
     border: 1px solid black; 
     font-size: 20px;
     letter-spacing: .1rem;
-      
+    color: blue; 
 
 } 
 
@@ -51,7 +51,7 @@ body{
     border: 1px solid black; 
     font-size: 20px;
     letter-spacing: .1rem;
-    
+    color: blue; 
 }
 table, th ,td{
     border: solid 1px black;
