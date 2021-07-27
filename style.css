@@ -54,24 +54,35 @@ strong {
 }
 
 .img-table {
-  margin-top: 100px;
+  width: fit-content;
+  margin: 100px auto 0px;
 }
 
 #minha_foto {
-  width: 400px;
+  width: 300px;
+  display: inline-block;
+  margin-right: 50px;
 }
 
 .personal-info {
-  border: 2px solid black;
+  border: 2px solid gray;
+  width: fit-content;
+  display: inline-block;
+  margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 .personal-info th {
-  border: 2px solid black;
+  border: 2px solid gray;
   text-align: left;
+  font-weight: 400;
+  padding: 5px;
 }
 
 .personal-info td {
-  border: 2px solid black;
+  border: 2px solid gray;
+  font-weight: 300;
+  padding: 5px;
 }
 
 .main-texts {
