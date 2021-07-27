@@ -1,3 +1,23 @@
     body {
         background-color: rgb(253, 251, 251);
     }
+    
+    #cabecalho {
+        height: 150px;
+        width: 100%;
+        background-color: green;
+        position: fixed;
+        top: 0;
+        padding: 0;
+    }
+
+    #titulo {
+        text-align: center;
+        color: white;
+    }
+
+    #minha_foto {
+        width: 120px;
+        position: absolute;
+        top: 180px;
+    }
