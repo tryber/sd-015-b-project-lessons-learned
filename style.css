@@ -10,7 +10,7 @@ body {
 }
 
 #cabecalho h1 {
-    text-align: center;
+  text-align: center;
 }
 
 nav {
@@ -29,5 +29,5 @@ nav ul li {
 }
 
 article {
-    margin-top: 80px;
+  margin-top: 80px;
 }
