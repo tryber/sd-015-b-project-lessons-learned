@@ -34,7 +34,7 @@ a:hover, a:active, a:link, a:visited {
 }
 
 #perfil {
-
+    margin-left: 50px;
 }
 
 #section-licoes {
@@ -59,6 +59,7 @@ a:hover, a:active, a:link, a:visited {
     border: 1px black solid;
     height: 200px;
     line-height: 20px;
+    margin-left: 20px;
 }
 
 #aside {
@@ -70,7 +71,7 @@ a:hover, a:active, a:link, a:visited {
     border: 1px black solid;
     padding: 10px;
     height: 200px;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 #rodape {
