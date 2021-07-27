@@ -10,6 +10,9 @@ body {
 }
 #titulo {
     padding-left: 10px;
+    font-family: sans-serif;
+    color: indigo;
+    font-size: 30px;
 }
 #minha_foto {
     margin-top: 120px;
@@ -24,5 +27,20 @@ footer#rodape li {
 }
 #rodape {
     width: 100%;
-    background-color: yellowgreen;
+    background-color: greenyellow;
+    font-family: sans-serif;
+    color: indigo;
+    font-size: 15px;
+}
+#licoes_aprendidas {
+    line-height: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
+}
+#licoes_a_aprender {
+    line-height: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px;
 }
