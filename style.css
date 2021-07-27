@@ -24,8 +24,8 @@ table, td {
 
 article {
   background-color: grey;
-  display: inline-block;
   width: 50%;
+  float: left;
 }
 
 aside {
