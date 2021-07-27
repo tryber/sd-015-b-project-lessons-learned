@@ -15,18 +15,18 @@ header {
   align-items: center;
   width: 100%;
   border-bottom: 1px solid gray;
-  background: #fff;
+  background-color: white;
 }
 
 a {
   text-decoration: none;
+  color: #212121;
 }
 a:hover {
-  color: #c28108;
+  text-decoration: none;
+  color: #956909;
 }
-a:active {
-  color: #d3641a;
-}
+
 main {
   margin-top: 8rem;
   margin-left: 4rem;
@@ -63,6 +63,9 @@ nav ul li a {
   font-weight: 500;
 }
 nav ul li a:hover {
+  color: #c28108;
+}
+nav ul li a:active {
   color: #c28108;
 }
 
