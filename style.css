@@ -6,6 +6,13 @@ body {
   border: 1px solid black;
 }
 
+.container {
+  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  padding: 10px;
+}
 #cabecalho {
   position: fixed;
   top: 0;
@@ -25,16 +32,6 @@ body {
   padding: 10px;
 }
 
-#licoes div {
-  display: inline-block;
-  width: 40%;
-}
-
-#artigo {
-  display: inline-block;
-  width: 40%;
-  padding: 10px;
-}
 #rodape {
   text-align: center;
   color: rgb(253, 251, 251);
