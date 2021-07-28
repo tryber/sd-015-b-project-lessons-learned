@@ -5,13 +5,15 @@ body {
   /* Background desenvolvido com a ajuda do site: https://angrytools.com/gradient/ */
   background: linear-gradient(90deg, rgba(239, 13, 21, 0.75) 0%, rgba(254, 129, 37, 0.75) 20%, rgba(255, 255, 67, 0.75) 40%, rgba(63, 65, 249, 0.75) 60%, rgba(8, 121, 68, 0.75) 80%, rgba(159, 8, 188, 0.75) 100%);
   background-size: 100%;
-  max-width: 100%;
+  max-width: 900px;
+  max-height: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  padding: 0 200px;
+  margin-bottom: 0;
   font-family: Source Sans Pro, sans-serif;
   font-size: 16px;
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
 }
 
 #cabecalho {
@@ -23,6 +25,7 @@ body {
   padding: 0;
   border: 1px solid black;
   border-radius: 10px;
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
 }
 
 .bg-cabecalho {
@@ -56,7 +59,14 @@ body {
 }
 
 #barra-lateral {
-  line-height: 15px;
+  border-radius: 10px;
+  line-height: 18px;
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
+}
+
+#barra-lateral p {
+  font-size: 1.3em;
+  text-align: center;
 }
 
 #tabela {
@@ -83,4 +93,17 @@ body {
 
 main {
   margin-top: 106px;
+}
+
+.aside-e-foto-perfil {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px 10% 0;
+}
+
+.foto-perfil {
+  border-radius: 10px;
+  width: 120px;
+  margin-right: 5px;
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
 }
