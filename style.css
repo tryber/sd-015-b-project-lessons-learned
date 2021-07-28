@@ -1,7 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
-    }
-    
+}
+
 #cabecalho {
     background-color: blue;
     position:fixed;
@@ -9,23 +9,23 @@ body {
     left: 0;
     right: 0;
     height: 20 px;
-    }
+}
 
 #titulo {
     color:black;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     font-size: 45px;
-    }
+}
 
 #minha_foto {  
-    position: relative;
+    position: relative;;
     margin-inline: -8px; 
     bottom: -103px;
-    }
+}
 
 #licoes_a_aprender {
-    }
+}
 
 
 #rodape {
