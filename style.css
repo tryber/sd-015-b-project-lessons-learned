@@ -1,60 +1,116 @@
 body {
-      background-color :rgb(253, 251, 251);
-      font-family:'Times New Roman', Times, serif;
-      padding-top: 80px;
-    
-    }
+  background-color: rgb(253, 251, 251);
+  font-family: "Open Sans Condensed", sans-serif;
+  padding-top: 80px;
+}
 
-    #cabecalho {
-      position: fixed;
-      top: 0;
-      background-color: pink;
-      border-right: 100px;
-      display: block;
-      width: 1000px;
-      left: 0;
-      font-family: monospace;
-    }
+#cabecalho {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #ffc0cb;
+  font-family: "Open Sans Condensed", sans-serif;
+}
 
-    h1 {
-      font-style: italic;
-      margin-left: 300px;
-      color: white;
-    }
+#titulo {
+  color: pink;
+  margin-top: 0;
+  margin-left: 40%;
+  position: relative;
+}
 
-    nav {
-      margin-left: 200px;
-      padding-bottom: 20px;
-    }
+#titulo span {
+  color: yellow;
+}
 
-    #minha_foto { 
-      border-radius: 50%;
-      width: 200px;
-      position: absolute;
-      margin-left: 500px;
-      margin-top: 30px;
-    }
+nav ul li {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+}
 
-    #licoes_aprendidas {
-      top: 50px;
-    }
+nav ul li a {
+  color: #ffc0cb;
+  margin: 10px;
+}
 
-    .lado-esquerdo {
-      border: 4px solid pink;
-      float: left;
-      width: 600px;
-      height: 100px;
-      font-size: 15px;
-      padding: 1px;
-      line-height: 15px;
-    }
+nav,
+a:hover {
+  color: yellow;
+}
 
-    .lado-direito {
-      border: 4px solid pink;
-      float: right;
-      width: 700px;
-      height: 50px;
-      font-size: 15px;
-      padding: 1px;
-      line-height: 15px
-    }
+#minha_foto {
+  border-radius: 50%;
+  width: 200px;
+  top: 0;
+  position: relative;
+  display: flex;
+  margin-left: 40%;
+  margin-bottom: 10px;
+  border: 2px dotted yellow;
+}
+
+#apresentacao {
+  position: relative;
+  margin-left: 25%;
+}
+
+#apresentacao a {
+  color: #ffc0cb;
+}
+
+#apresentacao a:hover {
+  color: yellow;
+}
+
+#listas {
+  background-color: grey;
+  border-bottom: 1px solid #ffc0cb;
+  border-top: 1px solid #ffc0cb;
+  width: 100%;
+}
+ol {
+  display: inline-block;
+  margin-left: 25%;
+}
+
+ul {
+  display: inline-block;
+  margin-left: 10%;
+}
+ol h3,
+ul h3 {
+  border-bottom: 2px solid yellow;
+}
+
+ol li,
+ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  border: 4px solid #ffc0cb;
+  width: 600px;
+  height: 100px;
+  font-size: 15px;
+  padding: 1px;
+  line-height: 15px;
+  text-align: center;
+  top: 1000px;
+}
+
+.lado-direito {
+  border: 4px solid #ffc0cb;
+  float: right;
+  width: 700px;
+  height: 50px;
+  font-size: 15px;
+  padding: 1px;
+  line-height: 15px;
+  text-align: center;
+}
