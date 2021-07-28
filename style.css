@@ -6,17 +6,12 @@ body {
     color: rgb(66, 66, 66);
 }
 
-article{
-
-
-}
-
 aside{
-    vertical-align: top;
     text-align: justify;
     width: 60%;
-    padding-bottom: 4%;
+    padding-top: 20%;
     padding-left: 2%;
+    padding-bottom: 6%;
 }
 
 #cabecalho {
@@ -24,16 +19,19 @@ aside{
     top: 0;
     background-color: rgb(86, 145, 91);
     width: 100%;
-    text-align: center;
     border: 1px solid rgb(34, 58, 34);
 
 }
 
 #titulo{
     font-size: 2em;
-    padding: 3%;
-    width: 90%;
+
+    width: 100%;
     line-height: auto;
+    text-align: center;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 #main-section{
@@ -43,9 +41,8 @@ aside{
 #name-photo-link-section{
     background-color:rgb(158, 180, 160);
     width: 100%;
-    padding-top: 1%;
     padding-bottom: 1%;
-    margin-top: 10%;   
+    margin-top: 8%;   
 }
 #photo-section{
     display: inline-block;
@@ -58,10 +55,9 @@ aside{
 #link-name-section{
     display: inline-block;
     width: 50%;
-    margin-top: 6%;
-    margin-right: auto;
-    vertical-align: top;
+    vertical-align: middle;
     text-align: center;
+    padding-top: 1%;
 
 }
 #minha_foto{
@@ -70,44 +66,37 @@ aside{
     border-radius: 10%;
     border: 2px solid rgb(34, 58, 34);
 }
-#name{
-    width: 70%;
+.about-me{
+    width: 100%;
     text-align: center;
+    margin: 0.5%;
 }
 
 #my-links{
     width: 100%;
     vertical-align: middle;
-    padding-top: 6%;
-    text-align: center;
+    padding-top: 2.5%;
 }
 
-#img-linkedin:hover{
-    width: 10%;
-}
-#img-git:hover{
+.img:hover{
     width: 10%;
 }
 
-.lado-esquedo{
-    display: inline-block;
-    vertical-align: middle;
+.lado-esquerdo{
+    float: left;
     width: 60%;
     text-align: justify;
-    padding-top: 4%;
-    padding-left: 2%;
-
-
+    padding: 2% 0% 1% 2%;
+    margin-top: 2%;
 }
+
 .lado-direito{
-    background-color: rgb(158, 180, 160);
     float: right;
-    vertical-align: middle;
-    text-align: justify;
+    background-color: rgb(158, 180, 160);
     width: 20%;
     font-size: 0.7em;
-    padding: 0.1% 0% 0.1% 6%;
-    margin: 1%;
+    padding: 2% 0% 1% 2%;
+    margin-top: 2%;
     border-radius: 10%;
     border: 1px solid rgb(34, 58, 34);
 }
