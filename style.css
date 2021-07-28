@@ -75,12 +75,12 @@ nav {
   transition-delay: 1s;
 }
 
-nav > ul li {
+nav  ul li {
   display: inline;
   list-style-type: none;
 }
 
-nav > ul  li  a {
+nav  ul  li  a {
   color: rgb(12, 11, 11);  
   font-size: 1.5rem;
   font-weight: 500;
@@ -140,7 +140,7 @@ footer {
   font-size: 1.2rem;
 }
 
-footer > a {
+ footer a {
   color: rgb(196, 206, 214);
 }
 
@@ -149,7 +149,7 @@ li {
   font-size: 1.2rem;  
 }
 
-aside.p{
+aside.p {
   text-align: justify;
 }
 
