@@ -111,3 +111,11 @@ a#iNav:hover {
     border-radius: 20px;
     
 }
+table{
+    border: solid;
+    border-color: rgb(53, 47, 53);
+    margin-left: 600px;
+}
+td#iQ{
+    background-color: turquoise;
+}
