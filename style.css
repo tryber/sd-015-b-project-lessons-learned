@@ -4,11 +4,16 @@ body {
 }
 
 h2 {
-  position: absolute;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
   font-size: 20px;
-  color: green;
+  color: white;  
+  background-color: green;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 #cabecalho {
@@ -26,73 +31,114 @@ h2 {
 }
 
 #section_foto {
-  position: absolute;
-  top: 120px;
-  left: 20px;
-  width: 230px;
-  height: 270px;
+  position: relative;
+  top: 100px;
+  left: 0;
+  width: 220px;
+  height: 140px;
+  border: 1px solid green;
+  box-shadow: 2px 2px green;
 }
 
 #nome {
   position: relative;
-  text-align: center;
+  font-size: 14px;
   margin: auto;
 }
 
 #minha_foto {
   position: relative;
-  left: 15px;
+  left: 60px;
+  top: 5px;
   box-shadow: 3px 3px green;
 }
 
 #section_licoes_aprendidas {
-  position: absolute;
-  left: 300px;
-  top: 120px;
-  width: 230px;
-  height: 270px;
+  position: relative;
+  left: 0;
+  top: 110px;
+  width: 220px;
+  height: auto;
+  border: 1px solid green;
+  box-shadow: 2px 2px green;
 }
 
 #titulo_licoes_aprendidas {
   position: relative;
-  text-align: center;
+  font-size: 14px;
   margin: auto;
 }
 
 #licoes_aprendidas {
   text-align: left;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-left: 15px;
   color: green;
+  font-size: 11px;
+  font-weight: 800;
 }
 
 #section_licoes_a_aprender {
-  position: absolute;
-  left: 550px;
+  position: relative;
+  left: 0;
   top: 120px;
-  width: 300px;
-  height: 270px;
+  width: 220px;
+  height: auto;
+  border: 1px solid green;
+  box-shadow: 2px 2px green;
 }
 
 #titulo_licoes_a_aprender {
   position: relative;
-  text-align: center;
+  font-size: 14px;
   margin: auto;
 }
 
 #licoes_a_aprender {
   text-align: left;
-  margin-top: 15px;
-  margin-left: 30px;
+  margin-top: 5px;
+  margin-left: 15px;
   color: green;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+#principal {
+  position: absolute;
+  top: 105px;
+  bottom: 67px;
+  left: 240px;
+  right: 5px;
+  padding: 0;
+  max-width: 100%;
+}
+
+#artigo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 270px;
+  bottom: 5px;
+  border: 1px solid green;
+  box-shadow: 2px 2px green;
+  padding: 10px;
+  padding-top: 0;
+}
+
+#titulo_artigo {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
 }
 
 #rodape {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 10px;
+  padding: 5px;
   background-color: green;
   text-align: center;
 }
