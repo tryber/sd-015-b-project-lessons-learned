@@ -6,27 +6,43 @@
 }
 
 #tilulo {
-  position:absolute;
+  position: absolute;
   font-size: 2em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Times New Roman';
   color: rgb(0, 0, 0);
 }
 
-#minha_foto{
-  width: 250px;
+#minha_foto {
+  width: 200px;
   border-radius: 2%;
 }
 
 body {
   background-color: rgb(253, 251, 251);
   margin-top: 5%;
-  padding: 10px;;
-  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  font-family: 'Times New Roman';
   color: rgb(46, 46, 46);
-  line-height: 150%;
+  line-height: 150%
 }
 
-h2{
+#artigo {
+  display: block;
+  top: 1200px;
+  width: 40%;
+  text-align: justify;
+}
+
+#seção {
+  display: block;
+  top: 1170px;
+  position: absolute;
+  left: 50%;
+  width: 40%;
+  text-align: justify;
+}
+
+h2 {
   font-size: 120%;
   color: rgb(0, 0, 0);
 }
