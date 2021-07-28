@@ -1,67 +1,94 @@
+body {  
+  background-color: rgb(253, 251, 251); 
+  padding-top: 150px;
+  width:100%;
+  height:100%;s
+}
 
+#cabecalho {
+  position : fixed;
+  top : 0;
+  display:inline-block;
+  width:100%;
+  background-color: rgb(69, 83, 30);
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(253, 251, 251);
+  
+}
 
-body { background-color: rgb(253, 251, 251);
-  margin-left  :  0px  ;
-margin-right: 0px;
-margin-top:0px;
-font-family: sans-serif; }
+a{
+    text-decoration: none;
+    color: rgb(253, 251, 251)
+}
 
-aside{
-    background-color:#313D19;
-    color:rgb(253, 251, 251);
-    width:100px;
-    padding: 10px;
+a:hover{
+    color: black
+}
+
+nav{
+    display:inline-block;
     float:right;
 }
 
-footer{
-    background-color:#313D19;
-    color:rgb(253, 251, 251);
-    bottom:0;
-    text-align: center;
+nav img {
+    width:50px;
 }
 
-#cabecalho{
-    width: 100%;
-    position:fixed;
-    top:0;
-    background-color: #313D19;
+li:hover{
+    background-color: rgb(253, 251, 251);
+    color:black;
+}
+
+#titulo {
+  font-weight: bold;
+  }
+
+#minha_foto {
+      width: 150px;
+      border-radius:50%;
+  }
+
+#licoes_aprendidas {
+  background-color: rgb(69, 83, 30);
+  color: rgb(253, 251, 251);
+  width:230px;
+  text-align: center;
+  padding:20px;
+  border: solid black;
+}
+
+#licoes_a_aprender {
+    background-color: rgb(69, 83, 30);
     color: rgb(253, 251, 251);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    }
+    width:230px;
+    text-align: center;
+    padding:20px;
+    border: solid black;
+  }
 
-#titulo{
-    margin: auto;
-    display: inline;
+article {
+    background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+    width:230px;
+    text-align: center;
+    padding:20px;
+    border: solid black;
+
 }
 
-#minha-foto{
-    width:90px;
-    border-radius: 50%;
-    border: 5px solid #c8cfbb 
+aside{
+    background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+    width:230px;
+    text-align: center;
+    padding:20px;
+    border: solid black;
 }
 
-#licoes_aprendidas{
-    background-color:#313D19;
-    color:rgb(253, 251, 251);
-    width:250px;
-}
+#rodape{
+    background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+  
 
-#licoes_a_aprender{
-    background-color:#313D19;
-    color:rgb(253, 251, 251);
-    width:250px;
-}
-
-.lado-esquerdo{
-    padding:25px;
-}
-
-.lado-direito{
-    background-color:#313D19;
-    color:rgb(253, 251, 251);
-    width:500px;
-    padding: 10px;
-    font-size: 17px;
 }
