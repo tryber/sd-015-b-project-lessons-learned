@@ -8,8 +8,7 @@ body {
 }
 
 .Alinhamento {
-  position: fixed;
-  left: 500 px;
+  margin-left: 600px;
 }
 
 .PosicionamentoDeImagem {
@@ -20,24 +19,20 @@ body {
 
 .TextoALado {
   float: right;
-  margin-right: 700 px;
-  margin-top: -268 px;
-}
-
-.botao {margin-top: 400 px;
-  padding: 0;
+  margin-top: -267px;
+  margin-right: 700px;
 }
 
 .TextoALadoDaImagem {
-  margin-left: 220 px;
-  margin-top: -530 px;
-  width: 500 px;
+  margin-top: -490px;
+  margin-left: 220px;
+  width: 450px;
   font-family: sans-serif;
 }
 
 .TextoAside {
-  margin-left: 820 px;
-  margin-top: -174 px;
+  margin-left: 790px;
+  margin-top: -200px;
   font-family: sans-serif;
   color: rgb(9, 9, 9);
   font-size: medium;
@@ -50,4 +45,9 @@ body {
 
 .lado-direito {
   display: inline;
+}
+
+.botao {
+  margin-top: 350px;
+  padding: 0;
 }
