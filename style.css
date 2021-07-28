@@ -29,9 +29,17 @@ footer {
   color: rgb(235, 231, 231);
   font-size: 1.2rem; }
 
-footer a {
-  color: rgb(196, 206, 214); }
+  a {
+    text-decoration: none;
+    color: rgb(12, 11, 11); }
 
+  a:hover {
+    text-decoration: none;
+    color: rgb(187, 148, 64); }
+
+  footer a {
+    color: rgb(196, 206, 214); }
+  
 section {
   display: inline-flexbox;
   flex-direction: row;
@@ -59,7 +67,7 @@ h3 {
   li {
     padding: 0.25rem;
     font-size: 1.2rem; }
-
+  
 nav {
   display: flex;
   align-items: center;
@@ -67,7 +75,7 @@ nav {
   width: 100%;
   margin-right: 4rem;
   transition-delay: 1s; }
-  
+
 nav ul li {
   display: inline;
   list-style-type: none; }
@@ -89,15 +97,7 @@ p {
   line-height: 1.875rem;
   color: rgb(31, 29, 29); }
 
-  a {
-    text-decoration: none;
-    color: rgb(12, 11, 11); }
-
-  a:hover {
-    text-decoration: none;
-    color: rgb(187, 148, 64); }
-
-article, aside {
+ article, aside {
   padding: 2rem; }
 
 span {
@@ -114,8 +114,6 @@ table {
 table, th, td {
   text-align: center;
   font-size: 1.2rem; }
-
-
 
 aside .p {
   text-align: justify; }
@@ -153,6 +151,6 @@ aside .p {
 .sobre {
   display: flex;
   flex-direction: column; }
-
+  
 .aprendizado {
   margin-top: 3rem; }
