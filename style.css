@@ -15,13 +15,13 @@ body {
     color:black;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 45px;
     }
 
 #minha_foto {  
     position: relative;
     margin-inline: -8px; 
-    bottom: -66px;
+    bottom: -103px;
     }
 
 #licoes_a_aprender {
@@ -36,4 +36,8 @@ body {
 
 #educacao {
     font-size: 20px;
+}
+
+article, aside {
+    font-size: 18px;
 }
