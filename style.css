@@ -7,7 +7,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: '#2fc18c';
+  background-color: rgb(47, 193, 140);
   padding: auto;
   font-family: monospace;
   letter-spacing: 25px;
@@ -51,7 +51,7 @@ table {
 
 #rodape {
   padding: 15px;
-  background-color: '#2fc18c';
+  background-color: rgb(47, 193, 140);
 }
 
 a {
