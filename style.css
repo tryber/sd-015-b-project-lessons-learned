@@ -29,7 +29,7 @@ body {
 .bg-cabecalho {
   background-image: url('./img/bg-cabecalho.jpg');
   background-size: 10%;
-  opacity: 50%;
+  opacity: 20%;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -66,7 +66,7 @@ body {
   font-size: 1.3em;
   text-align: center;
   margin-bottom: 0;
-  margin-top: 15px;
+  margin-top: 21px;
 }
 
 .ancora-img-perfil {
@@ -95,12 +95,11 @@ body {
 
 .lado-esquerdo {
   width: 400px;
-  margin-left: 50;
+  padding-top: 31px;
 }
 
 .lado-direito {
   width: 400px;
-  display: flex;
 }
 
 .primeira-lista {
@@ -132,7 +131,7 @@ footer {
   border-radius: 5px;
 }
 
-.bg-flores {
+.bg-footer {
   background-image: url('./img/flores-roda-pe.png');
   background-size: 26%;
   width: 900px;
