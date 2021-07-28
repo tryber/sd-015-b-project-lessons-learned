@@ -34,6 +34,19 @@ h1 {
   border: 2px solid green;
 }
 
+footer {
+  clear: both;
+  background-color: green;
+  padding: 15px;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 30px;
+  color: rgb(0, 0, 100);
+  font-size: 25px;
+}
+
 nav {
   background-color: goldenrod;
   padding: 120px 30px 30px;
@@ -92,18 +105,5 @@ aside {
 p {
   line-height: 20px;
   border: 1px solid black;
-}
-
-footer {
-  clear: both;
-  background-color: green;
-  padding: 15px;
-}
-
-footer ul li {
-  display: inline;
-  margin-right: 30px;
-  color: rgb(0, 0, 100);
-  font-size: 25px;
 }
 
