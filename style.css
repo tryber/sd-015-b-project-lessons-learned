@@ -89,8 +89,8 @@ li {
 span {
   color: rgb(165, 111, 10);
 }
-.hard-skills{
-  display: flex;  
+.hard-skills {
+  display: flex;
 }
 .artigo {
   width: 50%;
@@ -98,10 +98,12 @@ span {
   font-family: "Poppins", sans-serif;
   text-align: justify;
 }
-.dados{
+.dados {
   width: 25%;
 }
-table, th, td {
+table,
+th,
+td {
   text-align: left;
   font-size: 1.2rem;
 }
