@@ -3,26 +3,43 @@ body {
   color: rgb(41, 49, 45);
   font-family: Georgia, serif;
   font-size: 15px;
-  line-height: 20px; }
+  line-height: 20px;
+  margin: 0; }
 
 header {
   background-color: rgb(14, 82, 63);
   border: 2px solid rgb(159, 190, 182);
   color: rgb(253, 251, 251);
   display: block;
-  margin: auto;
+  margin: 0;
   padding: 5px;
   position: fixed;
-  top: 0; }
+  top: 0;
+  width: 100%; }
 
 #titulo {
   margin: auto;
   padding: 30px; }
 
+nav {
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 600px; }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 img {
   display: block;
-  margin-top: 100px;
+  margin-top: 105px;
   width: 200px; }
+
+.conteudo {
+  margin-left: 10px;
+}
 
 .lista-esquerda {
   display: block;
