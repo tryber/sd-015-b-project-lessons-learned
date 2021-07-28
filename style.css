@@ -10,6 +10,13 @@ body {
   position: fixed;
 }
 
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
 #minha_foto {
   width: 200px;
   margin: 30px auto 0;
