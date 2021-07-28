@@ -51,7 +51,7 @@ main {
 h1,
 h2,
 h3 {
-  color: rgb(12, 11, 11);  
+  color: rgb(12, 11, 11);
 }
 
 h1 {
@@ -75,13 +75,13 @@ nav {
   transition-delay: 1s;
 }
 
-nav  ul li {
+nav ul li {
   display: inline;
   list-style-type: none;
 }
 
-nav  ul  li  a {
-  color: rgb(12, 11, 11);  
+nav ul li a {
+  color: rgb(12, 11, 11);
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -123,7 +123,7 @@ table,
 th,
 td {
   text-align: center;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
 }
 
 tr:nth-child(even) {
@@ -140,13 +140,13 @@ footer {
   font-size: 1.2rem;
 }
 
- footer a {
+footer a {
   color: rgb(196, 206, 214);
 }
 
 li {
   padding: 0.25rem;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
 }
 
 aside.p {
@@ -180,7 +180,7 @@ aside.p {
 
 .lado-esquerdo,
 .lado-direito {
-  font-size: 1rem; 
+  font-size: 1rem;
   text-align: justify;
 }
 
