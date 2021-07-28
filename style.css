@@ -32,13 +32,13 @@ footer {
   a {
     text-decoration: none;
     color: rgb(12, 11, 11); }
+  
+  footer a {
+    color: rgb(196, 206, 214); }
 
   a:hover {
     text-decoration: none;
     color: rgb(187, 148, 64); }
-
-  footer a {
-    color: rgb(196, 206, 214); }
   
 section {
   display: inline-flexbox;
@@ -151,6 +151,6 @@ aside .p {
 .sobre {
   display: flex;
   flex-direction: column; }
-  
+
 .aprendizado {
   margin-top: 3rem; }
