@@ -32,7 +32,9 @@ header {
 #minha_foto {
     width:300px;
     border-radius:50%;
-    
+    display: inline-block;
+    margin-bottom: 20px;
+    float:left;
 }
 
 div.conteudo {
@@ -41,4 +43,41 @@ div.conteudo {
 
 a {
     text-decoration:none;
+}
+
+article, aside {
+    line-height: 1.4;
+    margin: 15px;
+}
+
+article h3, aside h3 {
+    color:#d291bc;
+}
+
+#sobre-aprender {
+    display:inline-block;
+    max-width:30%;
+    vertical-align:middle;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+#sobre-aprendizado{
+    display:inline-block;
+    max-width:35%;
+    vertical-align:middle;
+    padding:15px;
+    margin-bottom:20px;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float:right;  
+}
+
+ol#licoes_aprendidas, ul#licoes_a_aprender {
+    clear:both;
 }
