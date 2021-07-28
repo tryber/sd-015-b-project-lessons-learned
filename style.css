@@ -22,14 +22,13 @@ header {
   background-color: rgb(238, 236, 234);
   z-index: 1;
 }
-section{
-  display:inline-flexbox;
-  flex-direction: row;  
+section {
+  display: inline-flexbox;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
   text-align: center;
- 
 }
 a {
   text-decoration: none;
@@ -41,16 +40,16 @@ a:hover {
   color: rgb(187, 148, 64);
 }
 
-main {   
+main {
   margin-top: 8rem;
-  width: 100%; 
+  width: 100%;
 }
 
 h1,
 h2,
 h3 {
   color: rgb(12, 11, 11);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -58,10 +57,10 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 h3 {
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
 }
 
 nav {
@@ -80,7 +79,7 @@ nav ul li {
 
 nav ul li a {
   color: rgb(12, 11, 11);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -93,7 +92,15 @@ nav ul li a:active {
   color: rgb(97, 70, 13);
 }
 
-article, aside{
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+article,
+aside {
   padding-left: 10rem;
   padding-right: 10rem;
   padding: 2rem;
@@ -102,33 +109,32 @@ article, aside{
 span {
   color: rgb(165, 111, 10);
 }
-table{
+table {
   margin: auto;
   table-layout: fixed;
   width: 25%;
   margin-top: 2rem;
- text-align: center;  
- margin-bottom: 3rem;
-} 
+  text-align: center;
+  margin-bottom: 3rem;
+}
 
 table,
 th,
 td {
   text-align: left;
   font-size: 1.2rem;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;  
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 tr:nth-child(even) {
   background-color: rgb(246, 225, 184);
 }
 
-
 footer {
   width: 100%;
   padding-top: 1rem;
-  padding-bottom: 1rem; 
+  padding-bottom: 1rem;
   text-align: center;
   background-color: rgb(47, 47, 46);
   color: rgb(235, 231, 231);
@@ -142,48 +148,49 @@ footer a {
 li {
   padding: 0.25rem;
   font-size: 1.2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #minha_foto {
- width: 18%;
- height: auto;
- border-radius: 50%;
+  width: 18%;
+  height: auto;
+  border-radius: 50%;
 }
 #titulo {
   margin-left: 4rem;
 }
 
-#blog{
+#blog {
   display: flex;
-  width: 100%;  
-  background-color: rgb(216, 216, 216);  
+  width: 100%;
+  background-color: rgb(216, 216, 216);
 }
 
 #hard-skills {
-  display: flex;  
+  display: flex;
   margin: auto;
   width: 35%;
   padding: 3rem;
   border-radius: 2.5rem;
-  border: .15rem solid rgb(226, 222, 222);
+  border: 0.15rem solid rgb(226, 222, 222);
 }
 
-.lado-esquerdo, .lado-direito { 
+.lado-esquerdo,
+.lado-direito {
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: justify;
 }
 
-.social-media{
+.social-media {
   display: flex;
   font-size: 2rem;
   letter-spacing: 1rem;
 }
-.sobre{
+.sobre {
   display: flex;
   flex-direction: column;
 }
-.aprendizado{
+.aprendizado {
   margin-top: 3rem;
 }
