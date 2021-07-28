@@ -1,12 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Share+Tech&display=swap');
+
 body{
     background-color: rgb(253, 251, 251);
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
 }
 
 header{
     top: 0;
     position: fixed;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    height: 53px;
+    align-items: center;
+    z-index: 1;
+}
+
+.banner_indice{
+    background-image: url(banner4.jpg);
+    background-size: cover;
+    height: 945px;
+    opacity: 0,9;
+    margin-top: 39px;
 }
 
 #minha_foto{
     height: 200px;
 }
+
+h1{
+    font-size: 30px;
+    font-family: Share Tech, sans-serif;
+    color: white;
+    margin: 10px 20px;
+}
+
+.list_navbar{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.text_list{
+    text-align: center;
+    color: beige;
+    text-decoration: none;
+    font-family: -apple-system;
+    padding: 10px 10px;
+    font-size: 17px;
+    transition: color 0.5s;
+}
+
+.text_list:hover{
+    color: aqua;
+} 
+
+.banner_indice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color:rgb(34, 182, 182, 0.5);
+    border-radius: 15px;
+    filter: blur(0.1px);
+    border: 1px aqua solid;
+    padding: 0 150px;
+    font-size: 190px;
+    font-family: Chivo;
+    font-weight: 600px;
+    color: white;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    z-index: 0;
+}
+
+button:hover{
+    background-color:#8D265C;
+    filter: blur(0.1px);
+}
+
+/* .black_screen{
+    background-image: linear-gradient(to bottom, rgb(18, 25, 66) , rgb(0, 0, 0));
+    height: 1000px;
+} */
+
+/* .gradient_background{
+    background-image: url(gradient.jpg);
+    background-size: cover;
+    height: 905px;
+    opacity: 0.7;
+}
+
+table td{
+    line-height: 20px;
+} */
