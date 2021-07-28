@@ -14,14 +14,14 @@ body {
 #titulo {
   color: black;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size: 45px;
 }
 
-#minha_foto {  
+#minha_foto {
   position: relative;
   margin-inline: -8px;
-  bottom: -103px
+  bottom: -103px;
 }
 
 #licoes_a_aprender {
@@ -40,5 +40,5 @@ body {
 }
 
 article,  aside {
-  font-size: 18px;
+  font-size: 18px ; 
 }
