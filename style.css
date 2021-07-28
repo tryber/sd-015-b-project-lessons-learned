@@ -1,71 +1,69 @@
 * {
-    font-family: "Montserrat", sans-serif;
-    margin: 5px;
-    box-sizing: border-box;
+	font-family: "Montserrat", "sans-serif";
+	margin: auto;
 }
 
 p {
-    font-size: 15px;
-    color: rgb(106, 106, 106);
+	font-size: 15px;
+	color: rgb(106, 106, 106);
 }
 
 h2, h3 {
-    margin: 0 0 20px;
+	margin: 0 0 20px;
 }
 
 p {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
-
 
 body {
-    
-    background-color: rgb(253, 251, 251);
+	background-color: rgb(253, 251, 251);
+}
+
+#fixo {
+  position: fixed;
+	top: 0;
+	z-index: 99;
+	max-width: 100%;
 }
 
 #cabecalho {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 999;
+	background-color: rgb(10,126,81);
+	color: rgb(255, 255, 255);
+	size: 200px;
+	border:10px 150px;
 }
-
-#cabecalho {
-    background-color: rgb(10,126,81);
-    color: rgb(255, 255, 255);
-}
-
 
 #titulo {
-    padding: 15px 30px;
+	padding: 15px 30px;
 }
 
 table {
-    border-collapse: collapse;
-    border: 1px solid black;
+	border-collapse: collapse;
+	border: 1px solid rgb(0, 0, 0);
 }
 
 #minha_foto{
-    margin-left: 0px;
-    margin-right: 0px;
-    height: auto; 
-    max-width:20%;     
+	margin-left: 0px;
+	margin-right: 0px;
+	height: auto;
+	max-width:20%;
 }
 
 #licoes_aprendidas {
-    margin:40px 40px ;
-    padding: 40px 40px;
+	margin:40px 40px;
+	padding: 40px 40px;
 }
 
 #licoes_a_aprender {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .testo-aprendizado {
-    max-width: 35%;
-    display: inline-block;
+	max-width: 35%;
+	display: inline-block;
 }
 
 #rodape {
 
-}
+	}
