@@ -21,10 +21,7 @@ body {
 }
 
 #fixo {
-  position: fixed;
-	top: 0;
-	z-index: 99;
-	max-width: 100%;
+ 
 }
 
 #cabecalho {
@@ -32,6 +29,10 @@ body {
 	color: rgb(255, 255, 255);
 	size: 200px;
 	border:10px 150px;
+	position: fixed;
+	top: 0px
+	z-index: 99;
+	max-width: 100%;
 }
 
 #titulo {
