@@ -32,6 +32,7 @@ a:hover, a:active, a:link, a:visited {
 
 #perfil {
   margin-left: 50px;
+  margin-top: 170px;
 }
 
 #section-licoes {
@@ -72,4 +73,21 @@ a:hover, a:active, a:link, a:visited {
   padding: 20px;
   background-color: gray;
   margin-top: 10px;
+}
+
+#table {
+  margin: 100px;
+
+}
+
+table td, th {
+  border: 1px black solid;
+  height: 50px;
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+td {
+  font-size: 30px;
 }
