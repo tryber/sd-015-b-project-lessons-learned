@@ -13,6 +13,7 @@ body {
   width: 40%;
   padding: 10px;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -20,6 +21,19 @@ body {
   text-align: center;
   color: rgb(253, 251, 251);
   background-color: rgb(21, 197, 50);
+}
+
+#menu {
+  position: fixed;
+  width: 100%;
+  color: rgb(253, 251, 251);
+  background-color: rgb(21, 197, 50);
+}
+
+#menu-itens li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 5px;
 }
 
 #minha_foto {
