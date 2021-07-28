@@ -33,16 +33,19 @@ h3 {
 .lado-esquerdo {
   display: inline-block;
   margin-top: 100px;
-  margin-left: 30px;
-  margin-right: 50px;
-  width: 350px;
+  margin-left: 100px;
+  /*position: absolute;*/
   text-align: justify;
+  width: 350px;
 }
 
 .lado-direito {
   display: inline-block;
-  width: 350px;
+  margin-top: 100px;
+  margin-left: 100px;
+  position: absolute;
   text-align: justify;
+  width: 350px;
 }
 
 #rodape {
