@@ -1,62 +1,77 @@
 body {
-	background-color: rgb(253, 251, 251);
-	max-width: 90%; }
+  background-color: rgb(253, 251, 251);
+  max-width: 90%;
+}
 
 article {
-	border: 2px solid rgb(000, 000, 000);
-	color: rgb(100, 61, 61);
-	padding: 10px;
-	font-size: medium;
-	font-family: 'Calibri, sans-serif'; }
+  border: 2px solid rgb(000, 000, 000);
+  color: rgb(100, 61, 61);
+  padding: 10px;
+  font-size: medium;
+  font-family: "Calibri, sans-serif";
+}
 
-section { margin-top: 350px; }
+section {
+  margin-top: 350px;
+}
 
 aside {
-	border: 2px solid rgb(000, 000, 000);
-	color: rgb(100, 61, 61);
-	padding: 10px;
-	font-size: medium;
-	font-family: 'Calibri, sans-serif'; }
+  border: 2px solid rgb(000, 000, 000);
+  color: rgb(100, 61, 61);
+  padding: 10px;
+  font-size: medium;
+  font-family: "Calibri, sans-serif";
+}
 
-h2 { font-family: -apple-system, BlinkMacSystemFont,  Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
-
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+}
 
 #cabecalho {
-	border: 2px solid rgb(000, 000, 000);
-	top: 0;
-	position: fixed;
-	width: 90%;
-	background-color: blanchedalmond; }
+  border: 2px solid rgb(000, 000, 000);
+  top: 0;
+  position: fixed;
+  width: 90%;
+  background-color: blanchedalmond;
+}
 
 #titulo {
-	text-align: center;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+}
 
 #minha_foto {
-	margin-left: 25px;
-	padding: 10px; }
+  margin-left: 25px;
+  padding: 10px;
+}
 
 #licoes_aprendidas {
-	font-family: 'Calibri, sans-serif';
-	color: rgb(100, 61, 61);
-	line-height: 25px;
-	font-size: large; }
+  font-family: "Calibri, sans-serif";
+  color: rgb(100, 61, 61);
+  line-height: 25px;
+  font-size: large;
+}
 
 #licoes_a_aprender {
-	color: rgb(100, 61, 61); 		
-	font-size: large;
-	font-family: 'Calibri, sans-serif';
-	line-height: 25px; }
+  color: rgb(100, 61, 61);
+  font-size: large;
+  font-family: "Calibri, sans-serif";
+  line-height: 25px;
+}
 
 #rodape {
-	border: 2px solid rgb(000, 000, 000);
-	clear: both; }
+  border: 2px solid rgb(000, 000, 000);
+  clear: both;
+}
 
 .lado-esquerdo {
-	float: left;
-	max-width: 60%; }
+  float: left;
+  max-width: 60%;
+}
 
 .lado-direito {
-	float: right;
-	max-width: 35%; }
-	
+  float: right;
+  max-width: 35%;
+}
