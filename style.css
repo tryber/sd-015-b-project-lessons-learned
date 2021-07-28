@@ -65,13 +65,28 @@ article ul li{
    display: table-cell;
    float: left;
    margin-left: 600px;
-   margin-top: -125px;
+   margin-top: -110px;
    text-align: justify;
 
 }
 
 /*footer*/
-.rodape {
-    margin-top: 200px;
-    margin-left: 60px;
+#rodape p{
+   max-width: 100%;
+   margin-top: 200px;
+   margin-left: 60px;
+}
+
+.nav-links li{
+    display:block;
+    margin-top: 0px;
+    margin-right: 20px;
+    float:right;
+    list-style: none;           
+}
+
+.nav-links li img{
+    width: 50px;
+    margin-bottom: 20px;
+    text-align: right;
 }
