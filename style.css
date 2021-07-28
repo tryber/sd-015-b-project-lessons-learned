@@ -1,11 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h1 {
-  top: 0;
-}
+  font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1 { top: 0;}
 img {
   width: 200px;
-  border-radius: 40px;
-}
+  border-radius: 40px;}
