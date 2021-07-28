@@ -1,91 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Times New Roman";
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman";
 }
+
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
+
 header {
-    top: 0;
-    background-color: green;
-    padding: 10px 100% 30px 20px;
-    position: fixed;
+  top: 0;
+  background-color: green;
+  padding: 10px 100% 30px 20px;
+  position: fixed;
 }
+
 #Logo {
-    margin-right: 30%;
-    position: absolute;
-    top: 20px;
+  margin-right: 30%;
+  position: absolute;
+  top: 20px;
 }
+
 h1 {
-    color: white;
-    padding-top: 25px;
-    padding-left: 200px;
-    width: 400px;
+  color: white;
+  padding-top: 25px;
+  padding-left: 200px;
+  width: 400px;
 }
+
 #minha_foto {
-    width: 150px;
-    margin: 30px;
-    border: 2px solid green;
+  width: 150px;
+  margin: 30px;
+  border: 2px solid green;
 }
+
 nav {
-    background-color: goldenrod;
-    padding: 120px 30px 30px;
+  background-color: goldenrod;
+  padding: 120px 30px 30px;
 }
+
 nav li {
-    font-size: 20px;
+  font-size: 20px;
 }
+
 nav ul {
-    display: inline-block;
-    margin-right: 150px;
+  display: inline-block;
+  margin-right: 150px;
 }
+
 nav ul li:nth-of-type( 1 ) {
-    font-size: 25px;
-    text-decoration: underline;
-    padding-bottom: 10px;
-    list-style-type: none;
+  font-size: 25px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  list-style-type: none;
 }
+
 nav ul li a {
-    color: rgb(0, 0, 100);
+  color: rgb(0, 0, 100);
 }
+
 #table {
-    display: inline-block;
-    margin-bottom: 35px;
+  display: inline-block;
+  margin-bottom: 35px;
 }
+
 .Lista {
-    display: inline-block;
-    padding: 10px 80px 20px 50px;
+  display: inline-block;
+  padding: 10px 80px 20px 50px;
 }
+
 .Lista h2 {
-    list-style-type: none;
-    text-decoration: underline;
-    font-weight: 800;
-    margin-bottom: 20px;
-    font-size: 20px;
+  list-style-type: none;
+  text-decoration: underline;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
+
 article {
-    float: left;
-    width: 40%;
-    margin: 30px;
+  float: left;
+  width: 40%;
+  margin: 30px;
 }
+
 aside {
-    float: right;
-    width: 40%;
-    margin: 30px;
+  float: right;
+  width: 40%;
+  margin: 30px;
 }
+
 p {
-    line-height: 20px;
-    border: 1px solid black;
+  line-height: 20px;
+  border: 1px solid black;
 }
+
 footer {
-    clear: both;
-    background-color: green;
-    padding: 15px;
+  clear: both;
+  background-color: green;
+  padding: 15px;
 }
+
 footer ul li {
-    display: inline;
-    margin-right: 30px;
-    color: rgb(0, 0, 100);
-    font-size: 25px;
+  display: inline;
+  margin-right: 30px;
+  color: rgb(0, 0, 100);
+  font-size: 25px;
 }
 
