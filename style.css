@@ -30,16 +30,16 @@ footer {
   font-size: 1.2rem; }
 
   a {
-    text-decoration: none;
-    color: rgb(12, 11, 11); }
+  text-decoration: none;
+  color: rgb(12, 11, 11); }
+  
+  a:hover {
+  text-decoration: none;
+  color: rgb(187, 148, 64); }
   
   footer a {
-    color: rgb(196, 206, 214); }
+  color: rgb(196, 206, 214); }
 
-  a:hover {
-    text-decoration: none;
-    color: rgb(187, 148, 64); }
-  
 section {
   display: inline-flexbox;
   flex-direction: row;
@@ -65,8 +65,8 @@ h3 {
   font-size: 1.2rem; }
 
   li {
-    padding: 0.25rem;
-    font-size: 1.2rem; }
+  padding: 0.25rem;
+  font-size: 1.2rem; }
   
 nav {
   display: flex;
@@ -151,6 +151,6 @@ aside .p {
 .sobre {
   display: flex;
   flex-direction: column; }
-
+  
 .aprendizado {
   margin-top: 3rem; }
