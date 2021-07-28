@@ -13,6 +13,7 @@ header {
 
 img {
   margin-top: 100px;
+  display: block;
 }
 
 table, th, td {
@@ -30,8 +31,22 @@ table, th, td {
   padding-right: 10px;
   margin-top: 15px;
   border: 2px solid #8338ec;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #3d495c;
   font-size: 18px;
   line-height: 1;
+  max-width: 48%;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.listas {
+  margin-top: 180px;
 }
