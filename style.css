@@ -1,9 +1,64 @@
+/*Organizei em ordem alfabética ignorando sinais que indicam id (#) e classe (.)*/
+
+article h2 {
+  text-align: left;
+}
+
+.aprendizado {
+  display: inline;
+  font-family: monospace;
+  text-align: justify;
+  padding: 2%;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
   border: 2px solid black;
   background-color: green;
   width: 100%;
+  padding: 15px;
+}
+
+caption {
+  font-style: italic;
+  font-size: 25px;
+  border: 2px solid gray;
+}
+
+footer {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  float: left;
+  height: 230px;
+  width: 46%;
+}
+
+.lado-direito {
+  width: 46%;
+  height: 300px;
+  display: inline-block;
+}
+
+.linkedin {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#minha_foto {
+  width: 300px;
+  padding-top: 220px;
+
 }
 
 table {
@@ -16,35 +71,11 @@ tr td {
   border: 2px solid gray;
 }
 
-body {
-  background-color: rgb(253, 251, 251);
-}
 
-#minha_foto {
-  width: 300px;
-  padding-top: 200px;
 
-}
 
-.inline {
-  display: inline;
-}
 
-.lado-esquerdo {
-  width: 50%;
-  display: inline-block;
-  float: left;
-  height: 300px;
-}
 
-.lado-direito {
-  width: 50%;
-  height: 300px;
-  display: inline-block;
-}
 
-.linkedin {
-  display: block;
-  padding: 10px ;
-}
+
 
