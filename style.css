@@ -22,6 +22,7 @@ header {
   background-color: rgb(238, 236, 234);
   z-index: 1;
 }
+
 section {
   display: inline-flexbox;
   flex-direction: row;
@@ -30,6 +31,7 @@ section {
   gap: 2.5rem;
   text-align: center;
 }
+
 a {
   text-decoration: none;
   color: rgb(12, 11, 11);
@@ -59,6 +61,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
+
 h3 {
   font-size: 1.2rem;
 }
@@ -110,6 +113,7 @@ aside {
 span {
   color: rgb(165, 111, 10);
 }
+
 table {
   margin: auto;
   table-layout: fixed;
@@ -157,6 +161,7 @@ li {
   height: auto;
   border-radius: 50%;
 }
+
 #titulo {
   margin-left: 4rem;
 }
@@ -188,10 +193,12 @@ li {
   font-size: 2rem;
   letter-spacing: 1rem;
 }
+
 .sobre {
   display: flex;
   flex-direction: column;
 }
+
 .aprendizado {
   margin-top: 3rem;
 }
