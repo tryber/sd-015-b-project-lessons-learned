@@ -68,3 +68,13 @@ body {
 .rodape {
   text-align: center;
 }
+
+#licoes_aprendidas {
+  line-height: 35px;
+  margin-left: 60px;
+}
+
+#licoes_a_aprender {
+  line-height: 35px;
+  margin-left: 60px;
+}
