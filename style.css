@@ -45,7 +45,6 @@ article {
 section {
   display: inline-block;
   width: 600px;
-  top: 0px;
   left: 900px;
   border: solid 2px green;
   background-color: rgb(209, 243, 209);
