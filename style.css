@@ -20,14 +20,16 @@ body {
                 line-height: 16px;               
 }
 
-.lado-esquerdo {
+section {
                 width: 50%;
                 display: inline;
+                float: left;
 }
 
-.lado-direito {
+article {
                 width: 50%;
                 display: inline;
+                float: right;
 }
 
 #tabela {
