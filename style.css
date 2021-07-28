@@ -7,11 +7,13 @@ body {
 
 header {
   background-color: rgb(14, 82, 63);
+  border: 2px solid rgb(159, 190, 182);
   color: rgb(253, 251, 251);
   display: block;
   margin: auto;
-  top: 0;
-  position: fixed; }
+  padding: 5px;
+  position: fixed;
+  top: 0; }
 
 #titulo {
   margin: auto;
@@ -40,5 +42,5 @@ img {
   position: absolute;
   margin-left: 200px; }
 
-  #rodape {
-    margin-bottom: 20px; }
+#rodape {
+  margin-bottom: 20px; }
