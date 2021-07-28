@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
@@ -15,7 +16,7 @@ h3 {
 
 #minha_foto {
   height: 300px;
-  margin-top: 50px;
+  margin-top: 55px;
   position: absolute;
 }
 
