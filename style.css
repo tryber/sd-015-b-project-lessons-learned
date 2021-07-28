@@ -74,7 +74,7 @@ body {
 }
 
 .tabela th {
-  color: cornflowerblue;
+  color: rgb(14, 7, 116);
   width: 200px;
   padding: 15px 0 5px;
 }
@@ -90,7 +90,6 @@ body {
 .lado-a-lado {
   display: flex;
   justify-content: center;
-  margin: 10px 0;
 }
 
 .lado-esquerdo {
@@ -107,7 +106,11 @@ body {
 }
 
 main {
-  margin-top: 106px;
+  margin-top: 107px;
+}
+
+main , footer {
+  background-color: rgba(255, 255, 255, 0.308);
 }
 
 .aside-e-foto-perfil {
@@ -126,8 +129,7 @@ main {
 footer {
   font-family: Bebas Neue, cursive, sans-serif;
   width: 900px;
-  height: 15px;
-  margin-top: 30px;
+  height: 45px;
   border-radius: 5px;
 }
 
@@ -139,5 +141,5 @@ footer {
   position: absolute;
   z-index: 0;
   border-radius: 5px;
-  bottom: 76px;
+  bottom: 85px;
 }
