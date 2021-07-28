@@ -2,12 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Poppins, sans-serif; }
+  font-family: Poppins, sans-serif; } 
 
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(20, 20, 20);
-  display: inline-block; }
+  display: inline-block; } 
 
 header {
   position: fixed;
@@ -18,7 +18,7 @@ header {
   width: 100%;
   padding: 1.5rem;
   background-color: rgb(238, 236, 234);
-  z-index: 1; }
+  z-index: 1; } 
 
 footer {
   width: 100%;
@@ -27,18 +27,14 @@ footer {
   text-align: center;
   background-color: rgb(47, 47, 46);
   color: rgb(235, 231, 231);
-  font-size: 1.2rem; }
+  font-size: 1.2rem; } 
 
 a {
   text-decoration: none;
-  color: rgb(12, 11, 11); }
+  color: rgb(12, 11, 11); } 
 
 footer a {
-  color: rgb(196, 206, 214); }
-
-a:hover {
-  text-decoration: none;
-  color: rgb(187, 148, 64); }
+  color: rgb(196, 206, 214); } 
 
 section {
   display: inline-flexbox;
@@ -46,20 +42,20 @@ section {
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  text-align: center; }
+  text-align: center; } 
 
 main {
   margin-top: 8rem;
-  width: 100%; }
+  width: 100%; } 
 
 h1 , h2 , h3 {
-  color: rgb(12, 11, 11); }
+  color: rgb(12, 11, 11); } 
 
 h1 {
-  font-size: 2rem; }
+  font-size: 2rem; } 
 
 h2 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem; } 
 
 h3 {
   font-size: 1.2rem; }
@@ -85,11 +81,19 @@ nav ul li a {
   font-size: 1.5rem;
   font-weight: 500; }
 
+.social-media a {
+  padding: .5rem;
+  color: rgb(26, 23, 23); }
+
 nav ul li a:hover {
   color: rgb(221, 177, 83); }
 
 nav ul li a:active {
   color: rgb(97, 70, 13); }
+
+a:hover {
+  text-decoration: none;
+  color: rgb(187, 148, 64); }
 
 p {
   font-size: 1.1rem;
@@ -153,11 +157,6 @@ aside .p {
 
 .aprendizado {
   margin-top: 3rem; }
-
-.social-media a {
-  padding: .5rem;
-  color: rgb(26, 23, 23);
-}
 
 .social-media a:hover {
   color: rgb(221, 177, 83); 
