@@ -43,13 +43,12 @@ img {
 
 table {
   border: 0 solid black;
-  font-family: Sans-Serif;
+  font-family: sans-serif;
   margin-left: 45px;
   margin-top: 5px; }
 
 .conteudo {
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 .lista-esquerda {
   display: block;
