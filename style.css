@@ -7,9 +7,13 @@
         top: 0;
     }
 
+    nav{
+        margin-top: 100px;
+    }
+
     #minha_foto{    
         width: 150px;
-        padding-top: 90px;
+        padding-top: 45px;
         padding-bottom: 45px;
     }
     
