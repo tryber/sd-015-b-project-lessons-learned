@@ -21,11 +21,13 @@ body {
 }
 
 .lado-esquerdo {
-                display: inline-block;
+                width: 50%;
+                display: inline;
 }
 
 .lado-direito {
-                display: inline-block;
+                width: 50%;
+                display: inline;
 }
 
 #tabela {
