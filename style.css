@@ -3,6 +3,7 @@ body {
 }
 h3 {
   font-style: italic;
+  font-family: Arial, Helvetica, serif, sans-serif;
 }
 #cabecalho {
   position: fixed;
@@ -11,4 +12,26 @@ h3 {
 #minha_foto {
   height: 300px;
   margin-top: 50px;
+  position: absolute;
+}
+#licoes_aprendidas {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 200px;
+  /*background-color: red;*/
+}
+#licoes_a_aprender {
+  display: inline-block;
+  margin-left: 40px;
+}
+#lessons_article {
+  position: absolute;
+  margin-top: 100px;
+}
+#lessons_aside {
+
+}
+#rodape {
+  position: absolute;
+  bottom: 0px;
 }
