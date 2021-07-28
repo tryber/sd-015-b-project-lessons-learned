@@ -1,78 +1,89 @@
 body {
-    background: rgb(253, 251, 251) 
+  background: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: auto;
-    background: rgb(101, 97, 73);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  background: rgb(101, 97, 73);
 }
 
 .cabecalho {
-    display: flex;
-    flex-wrap: wrap;
-    background: rgb(101, 97, 73);
-    margin: 0 auto;
-    max-width: 960px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 16px 0;
-  
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(101, 97, 73);
+  margin: 0 auto;
+  max-width: 960px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px 0;
+
 }
 
 #minha_foto {
-    width: 184px;
-    border-radius: 10%;
-    box-shadow: 10px 12px 0 0 rgb(128, 0, 128);
-    margin: 0 auto;
-    
+  width: 184px;
+  border-radius: 10%;
+  box-shadow: 10px 12px 0 0 purple;
+  margin: 0 auto;
 }
 
 #licoes {
-    max-width: 66.6%;
-    margin: 0 auto;
-    padding-top: 15px;
-  }
-
-  .licoes_geral {
-    max-width: 66.6%;
-    margin: 0 auto;
-    padding-top: 15px;
+  max-width: 66.6%;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 
 .licoes_geral {
-    background: rgb(116, 173, 173);
-    text-align: center;
-    padding: 16px;
-    font-size: 1.3em;
-    line-height: 1.5;
-    border-radius: 3%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    box-shadow: 16px 25px 0 0 rgb(151, 104, 149);
-  }
+  background: rgb(116, 173, 173);
+  text-align: center;
+  padding: 16px;
+  font-size: 1.3em;
+  line-height: 1.5;
+  border-radius: 3%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 16px 25px 0 0 rgb(151, 104, 149);
+  max-width: 66.6%;
+  padding-top: 15px;
+  list-style: none;
+}
 
-  .licoes_geral p {
-    font-size: 1.2em;
-    padding: 4px;
-    color: rgb(253, 251, 251);
-  }
+.licoes_geral p {
+  font-size: 1.2em;
+  padding: 4px;
+  color: rgb(253, 251, 251);
+}
 
-  #aprendizado {
-    border: 2px solid rgb(42, 253, 242);
-    max-width: 66%;
-    margin: 0 auto;
-    margin-top: 60px;
-    padding: 40px;
-    transition: all 0.5s;
-    cursor: pointer;
-  }
+.licoes_geral p:hover {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px rgb(255, 204, 0);
+  cursor: pointer;
+  transition: all 0.3s;
+}
 
-  #aprendizado:hover {
-    background: rgb(236, 236, 236);
-    border: 2px solid rgb(2, 83, 94);
-  }
-  
+#aprendizado {
+  border: 2px solid rgb(42, 253, 242);
+  max-width: 66%;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: flex;
+}
+
+#aprendizado:hover {
+  background: rgb(236, 236, 236);
+  border: 2px solid rgb(2, 83, 94);
+}
+
+.texto_aprendizado {
+  font-size: 20px;
+  color: rgb(0, 7, 100);
+  line-height: 30px;
+  font-style: italic;
+  font-family: helvetica, arial, sans-serif;
+}
