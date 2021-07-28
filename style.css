@@ -26,7 +26,7 @@ body {
 }
 
 .bg-cabecalho {
-  background-image: url('https://img.elo7.com.br/product/zoom/2742DD3/papel-de-parede-adesivo-linhas-cubos-revestimento-em-adesivo.jpg');
+  background-image: url('./img/bg-cabecalho.jpg');
   background-size: 10%;
   opacity: 50%;
   width: 100%;
