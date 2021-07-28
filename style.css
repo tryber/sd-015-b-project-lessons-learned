@@ -18,3 +18,21 @@ li:hover {
     border: 2px solid green;
     width: 300px;
 }
+#minha_historia {
+    width: 400px;
+    position: absolute;
+    margin-left: 15px;
+}
+#aconteceu {
+    width: 250px;
+    position: absolute;
+    left: 450px;
+}
+#rodape {
+    position: relative;
+    text-align: center;
+    top:300px;
+    border: 2px solid rgb(93, 133, 93);
+    background-color: grey;
+
+}
