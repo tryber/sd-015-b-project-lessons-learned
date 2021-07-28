@@ -123,3 +123,22 @@ main {
   margin-right: 5px;
   box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
 }
+
+footer {
+  font-family: Bebas Neue, cursive, sans-serif;
+  width: 900px;
+  height: 15px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.bg-flores {
+  background-image: url('./img/flores-roda-pe.png');
+  background-size: 26%;
+  width: 900px;
+  height: 68px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 5px;
+  bottom: 76px;
+}
