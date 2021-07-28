@@ -1,82 +1,93 @@
-body{
-    background-color: rgb(253, 251, 251);
-    width: 60%;
-    margin:0 auto;
+body {
+  background-color: rgb(253, 251, 251);
+  width: 60%;
+  margin:0 auto;
 }
-#cabecalho{
-    background-color: rgb(253, 251, 251);
-    width: 100%;
-    position: fixed;
+
+#cabecalho {
+  background-color: rgb(253, 251, 251);
+  width: 100%;
+  position: fixed;
 }
-.imagem{
-    margin: 
+
+#minha_foto {
+  width: 200px;
+  margin: 30px auto 0 auto;
+  display: block;
 }
-#minha_foto{
-    width: 200px;
-    margin: 30px auto 0 auto;
-    display: block;
+
+a {
+  text-decoration: none;
+  color: black;
 }
-a{
-    text-decoration: none;
-    color: black;
+#link_github {
+  font-size: 20px;
+  font-weight: 600;
 }
-#link_github{
-    font-size: 20px;
-    font-weight: 600;
+
+#licoes_aprendidas, #licoes_a_aprender {
+  width: 400px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 10px 0;
+  display: inline-block;
+  font-family:monospace;
 }
-#licoes_aprendidas, #licoes_a_aprender{
-    width: 400px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    margin: 10px 0;
-    display: inline-block;
-    font-family:monospace;
+
+#licoes_aprendidas {
+  color: blue;
+  line-height: 45px;
 }
-#licoes_aprendidas{
-    color: blue;
-    line-height: 45px;
+
+#licoes_a_aprender {    
+  line-height: 45px;
+  list-style: none;
 }
-#licoes_a_aprender{    
-    line-height: 45px;
-    list-style: none;
+
+.lado-direito, .lado-esquerdo {
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  width: 400px;
 }
-.lado-direito, .lado-esquerdo{
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: inline-block;
-    width: 400px;
+
+.lado-esquerdo {
+  vertical-align: top;
+  background-color: rgb(218, 218, 218);
 }
-             .lado-esquerdo{
-    vertical-align: top;
-    background-color: rgb(218, 218, 218);
+.lado-direito {
+  background-color: rgb(179, 179, 179);
 }
-.lado-direito
-{
-    background-color: rgb(179, 179, 179);
+
+.conteudo_final {
+  margin-top: 10px;
+  font-size: 17px;
 }
-.conteudo_final{
-    margin-top: 10px;
-    font-size: 17px;
+
+.tabela {
+  width: 100%;
 }
-.tabela{
-    width: 100%;
+
+.informacao {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
 }
-.informacao{
-    width: 100%;
-    height: 100px;
-    margin-bottom: 10px;
+
+.coluna {
+  width: 50%;
+  padding: 0 20px;
 }
-.coluna{
-    width: 50%;
-    padding: 0 20px;
+
+th {
+  font-size: 20px;
+  background-color: rgb(207, 207, 207);
 }
-th{
-    font-size: 20px;
-    background-color: rgb(207, 207, 207);
-}
+
 .linha:nth-of-type(2n+1){
-    background-color: rgb(231, 231, 231);
+  background-color: rgb(231, 231, 231);
 }
-.linha:nth-of-type(2n){
-    background-color: rgb(255, 255, 255);
+
+.linha:nth-of-type(2n) {
+  background-color: white;
 }
