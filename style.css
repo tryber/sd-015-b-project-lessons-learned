@@ -1,19 +1,53 @@
-body{ background-color: rgb(253, 251, 251) }
+body {
+  background-color: rgb(253, 251, 251);
+}
 
-#cabecalho{ position: fixed; top:0; }
+#cabecalho {
+  position: fixed;
+  top : 0;
+}
 
-.Alinhamento{ position: fixed; left: 500px; }
- 
-.PosicionamentoDeImagem{    margin-top: 50px; margin-left: 9px; border: 0px;}
+.Alinhamento {
+  position: fixed;
+  left: 500 px;
+}
 
-.TextoALado {float: right; margin-right: 700px; margin-top: -268px;}
+.PosicionamentoDeImagem {
+  margin-top: 50 px;
+  margin-left: 9 px;
+  border: 0 px;
+}
 
-.botao{ margin-top: 400px; padding: 0; }
+.TextoALado {
+  float: right;
+  margin-right: 700 px;
+  margin-top: -268 px;
+}
 
-.TextoALadoDaImagem{ margin-left: 220px; margin-top: -530px ; width:500px ;font-family: sans-serif  ;}
+.botao {margin-top: 400 px;
+  padding: 0;
+}
 
-.TextoAside{ margin-left:820px; margin-top: -174px; font-family: sans-serif ; color: #090909; font-size: medium; line-height: 20px;}
+.TextoALadoDaImagem {
+  margin-left: 220 px;
+  margin-top: -530 px;
+  width: 500 px;
+  font-family: sans-serif;
+}
 
-.lado-esquerdo{display: inline;}
+.TextoAside {
+  margin-left: 820 px;
+  margin-top: -174 px;
+  font-family: sans-serif;
+  color: rgb(9, 9, 9);
+  font-size: medium;
+  line-height: 20px;
+}
 
-.lado-direito{display: inline;}
+.lado-esquerdo {
+  display: inline;
+}
+
+.lado-direito {
+  display: inline;
+}
