@@ -5,19 +5,26 @@
 body {
     background-color: rgb(253, 251, 251);
     width: 50%;
-    padding: 1%;
+    padding: 1.2%;
     text-align: justify;
-}
-section {
-    width: 50%;
-    padding: 1%;
-    text-align: justify;
+    font-family: sans-serif;
 }
 h1, h2 {
     line-height: 50px;
 }
+h1 {
+    color: rgb(82, 182, 154);
+}
+h2 {
+    font-size: 20px;
+    color: rgb(118, 200, 147);
+}
 p {
     margin-bottom: 10px;
+    line-height: 110%;
+}
+section {
+    padding: 2%
 }
 #cabecalho {
     margin: 5px;
@@ -26,6 +33,7 @@ p {
     top: 0;
     width: 100%;
     position: fixed;
+    background-color: rgb(22, 138, 173);
 
 }
 #minha_foto {
@@ -37,5 +45,26 @@ p {
 }
 .list {
     display: inline-block;
-    margin-left: 15px;   
+    margin-left: 35px;   
+    
+}
+.lado-a-lado {
+    display: inline-block;
+    margin-left: 100%;
+}
+
+.lado-esquerdo {
+    position: absolute;
+    right: 73%;
+    width: 25%;
+}
+.lado-direito {
+    position: absolute;
+    left: 30%;
+    width: 25%;
+}
+#rodape {
+    margin-top: 80%;  
+    margin-left: 50%;
+    
 }
