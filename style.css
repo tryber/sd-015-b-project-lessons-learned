@@ -21,8 +21,19 @@ body {
   top: 0;
   margin: 0;
   padding: 0;
-  border: 0;
-  background-color: blueviolet;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.bg-cabecalho {
+  background-image: url('https://img.elo7.com.br/product/zoom/2742DD3/papel-de-parede-adesivo-linhas-cubos-revestimento-em-adesivo.jpg');
+  background-size: 10%;
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
 }
 
 #cabecalho h1 {
