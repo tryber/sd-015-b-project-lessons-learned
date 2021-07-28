@@ -30,10 +30,13 @@ nav {
   display: inline-block;
   margin-top: 0.5%;
   color: rgb(208, 218, 190);
+	
 }
 
 nav h1 {
   font-size: 1.1em;
+  margin-bottom: 5%;
+  margin-left: 15%;
 }
 
 img {
@@ -65,12 +68,16 @@ footer h1 {
   font-size: 1em;
   text-align: center;
   position: relative;
+
 }
 
 footer {
   background-color: rgb(85, 91, 110);
-  padding-bottom: 6%;
-  margin-top: 7%;
+  padding-bottom: 5%;
+  margin-top: 2%;
+  position: relative;
+  padding-top: 6%;
+  
 }
 
 .list {
@@ -113,5 +120,8 @@ table {
   position: relative;
   border: 1px dashed black;
   max-width: 20%;
-  right: -17%;
+  right: -2%;
+  bottom: -10%;
+  height: 60px;
+  margin-top: 5%;
 }
