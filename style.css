@@ -27,8 +27,13 @@ body {
 #licoes_a_aprender {
     }
 
+
 #rodape {
     color:darkorange;
     font-style: italic;
     font-weight:900;
+}
+
+#educacao {
+    font-size: 20px;
 }
