@@ -26,7 +26,7 @@ a {
   font-weight: 600;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   width: 400px;
   box-sizing: border-box;
   border: 2px solid black;
@@ -40,12 +40,12 @@ a {
   line-height: 45px;
 }
 
-#licoes_a_aprender {    
+#licoes_a_aprender {
   line-height: 45px;
   list-style: none;
 }
 
-.lado-direito, .lado-esquerdo {
+.lado-direito , .lado-esquerdo {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
