@@ -1,0 +1,105 @@
+:root {
+
+  --bg-color: rgb(253, 251, 251);
+
+  --link-color: rgb(0, 195, 255);
+
+  --link-hover-color: rgba(182, 111, 53, 0.829);
+
+  --text-font-family: 'Courier New', courier, monospace;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: var(--text-font-family);
+  font-size: larger;
+}
+
+header {
+  text-align: center;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  background-color: var(--bg-color);
+  width: 100%;
+}
+
+nav {
+  margin-top: 100px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+#full-name {
+  margin-top: 200px;
+}
+
+.family-name {
+  color: red;
+}
+
+#minha_foto {
+  width: 200px;
+  float: left;
+  border-radius: 5%;
+  padding: 2px;
+}
+
+a.links {
+  text-decoration: none;
+  color: var(--link-color);
+  width: 500px;
+}
+
+article,
+aside {
+  line-height: 2em;
+  text-align: justify;
+  border: red solid 2px;
+  padding: 15px;
+}
+
+
+#rodape {
+  margin: 0 20%;
+  text-align: center;
+  width: 1000px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.lado-esquerdo {
+  margin-left: 100px;
+  box-sizing: content-box;
+  min-width: 300px;
+}
+
+.lado-direito {
+  margin-right: 100px;
+  box-sizing: content-box;
+}
+
+table {
+  margin: 0 auto;
+  width: 950px;
+  position: relative;
+  margin-left: 300px;
+  margin-right: 500px;
+}
+
+.table-title {
+  background-color: rgb(189, 184, 184);
+  width: 100%;
+}
+
+.column {
+  width: 50%;
+}
