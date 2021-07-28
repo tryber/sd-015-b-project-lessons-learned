@@ -16,12 +16,6 @@ img {
   display: block;
 }
 
-table,
-th,
-td {
-  border: 2px solid rgb(255, 0, 110);
-}
-
 #minha_foto {
   height: 300px;
   border-radius: 5%;
@@ -51,4 +45,8 @@ td {
 
 .listas {
   margin-top: 180px;
+}
+
+.borda {
+  border: 2px solid rgb(255, 0, 110);
 }
