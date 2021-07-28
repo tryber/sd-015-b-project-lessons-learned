@@ -22,7 +22,15 @@ header {
   background-color: rgb(238, 236, 234);
   z-index: 1;
 }
-
+section{
+  display:inline-flexbox;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  text-align: center;
+ 
+}
 a {
   text-decoration: none;
   color: rgb(12, 11, 11);
@@ -62,6 +70,7 @@ nav {
   justify-content: space-between;
   width: 100%;
   margin-right: 4rem;
+  transition-delay: 1s;
 }
 
 nav ul li {
@@ -93,14 +102,28 @@ article, aside{
 span {
   color: rgb(165, 111, 10);
 }
+table{
+  margin: auto;
+  table-layout: fixed;
+  width: 25%;
+  margin-top: 2rem;
+ text-align: center;  
+ margin-bottom: 3rem;
+} 
 
 table,
 th,
 td {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
+  text-align: center;  
 }
+
+tr:nth-child(even) {
+  background-color: rgb(246, 225, 184);
+}
+
 
 footer {
   width: 100%;
@@ -137,9 +160,13 @@ li {
   background-color: rgb(216, 216, 216);  
 }
 
-.hard-skills {
-  display: flex; 
-  margin: 2rem 0 3rem 0;  
+#hard-skills {
+  display: flex;  
+  margin: auto;
+  width: 35%;
+  padding: 3rem;
+  border-radius: 2.5rem;
+  border: .15rem solid rgb(226, 222, 222);
 }
 
 .artigo { 
@@ -147,22 +174,16 @@ li {
   font-family: 'Poppins', sans-serif;
   text-align: justify;
 }
-.dados {
-  width: 30%;
-}
- .container{  
- position: relative;
- flex: 1;
- justify-content: center;
- align-items: center;  
-} 
+
 .social-media{
   display: flex;
   font-size: 2rem;
   letter-spacing: 1rem;
 }
-/* .content{
-flex-direction: row;
-justify-content: center;
-align-items: center; 
-} */
+.sobre{
+  display: flex;
+  flex-direction: column;
+}
+.aprendizado{
+  margin-top: 3rem;
+}
