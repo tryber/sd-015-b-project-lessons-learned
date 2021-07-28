@@ -60,7 +60,8 @@ table {
   margin-left: 400px; }
 
 p {
-  padding: 10px; }
+  
+  max-padding: 10px; }
 
 .lado-esquerdo {
   display: inline-block;
