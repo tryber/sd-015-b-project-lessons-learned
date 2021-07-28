@@ -29,13 +29,13 @@ footer {
   color: rgb(235, 231, 231);
   font-size: 1.2rem; }
 
+a {
+    text-decoration: none;
+    color: rgb(12, 11, 11); }
+
 footer a {
   color: rgb(196, 206, 214); }
-  
-a {
-  text-decoration: none;
-  color: rgb(12, 11, 11); }
-  
+
 a:hover {
   text-decoration: none;
   color: rgb(187, 148, 64); }
@@ -47,7 +47,7 @@ section {
   align-items: center;
   gap: 2.5rem;
   text-align: center; }
-  
+
 main {
   margin-top: 8rem;
   width: 100%; }
