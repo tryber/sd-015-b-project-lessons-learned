@@ -2,62 +2,65 @@
 #principal{
    margin-left: 15px; 
 }
-
 body{
-  background-color: rgb(253, 251, 251);  
+  background-color: rgb(253, 251, 251); 
+  font-family: oswald; 
 }
-
 #cabecalho{
     position: fixed;
     top: 0;
     border: black solid 2px;
     z-index: 1;
+    background-color: teal;
+    width:98%;
+    text-align: center;
 }
-
-/* titulo */
-
+#titulo{
+    color: yellowgreen;
+    padding: 2px;
+}
 #minha_foto{
 width: 200px;
 position: absolute;
 top:150px;
 }
-
 #licoes_aprendidas{
     position: absolute;
     top:450px;
 }
-
 #licoes_a_aprender{
     position: absolute;
-    top: 525px;
+    top: 545px;
     left: 200px;
 }
-
 #artigo{
     background-color: wheat;
     position: absolute;
-    top: 850px;
+    top: 1000px;
     width: 500px;
+    padding: 15px;
 }
-
 #secundario{
     background-color: yellowgreen;
     position: absolute;
-    top: 915px;
+    top: 1000px;
     left: 600px;
-
     width: 500px;
+    padding: 15px;
 }
-
 #rodape{
     position: absolute;
-    top: 1100px;
+    top: 1250px;
     display: block;
     background-color: gray;
-    height: 50px;
+    height: 60px;
     width: 98%;
-}
-
+} 
 #links{
-   color: white; 
+text-align:center; 
+}
+.stilo{
+    border-radius: 10px;
+    border-style: dashed;
+    margin-left: 50px;
 }
