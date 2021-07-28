@@ -8,7 +8,7 @@ article {
   color: rgb(100, 61, 61);
   padding: 10px;
   font-size: medium;
-  font-family: "Calibri, sans-serif";
+  font-family: Calibri, sans-serif;
 }
 
 section {
@@ -20,7 +20,7 @@ aside {
   color: rgb(100, 61, 61);
   padding: 10px;
   font-size: medium;
-  font-family: "Calibri, sans-serif";
+  font-family: Calibri, sans-serif;
 }
 
 h2 {
@@ -48,7 +48,7 @@ h2 {
 }
 
 #licoes_aprendidas {
-  font-family: "Calibri, sans-serif";
+  font-family: Calibri, sans-serif;
   color: rgb(100, 61, 61);
   line-height: 25px;
   font-size: large;
@@ -57,7 +57,7 @@ h2 {
 #licoes_a_aprender {
   color: rgb(100, 61, 61);
   font-size: large;
-  font-family: "Calibri, sans-serif";
+  font-family: Calibri, sans-serif;
   line-height: 25px;
 }
 
