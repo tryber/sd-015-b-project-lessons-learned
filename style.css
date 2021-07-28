@@ -3,6 +3,10 @@ body {
     border: 5px solid blue;
     margin: 0;
     padding: 50px;
+    font-family: Arial;
+    line-height: 20px;
+    color:rgb(61, 73, 92);
+    font-size: 18px;
 }
 
 #cabecalho {
