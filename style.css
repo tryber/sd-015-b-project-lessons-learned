@@ -169,7 +169,7 @@ li {
   border: .15rem solid rgb(226, 222, 222);
 }
 
-.artigo { 
+.lado-esquerdo, .lado-direito { 
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   text-align: justify;
