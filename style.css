@@ -46,7 +46,7 @@ ol {
   border: solid;
   border-color: rgb(53, 47, 53);}
 
-section {width: 675px;}
+section { width: 675px;}
 
 article {margin-top: -377px;
   width: 215px;
@@ -95,4 +95,8 @@ table {border: solid;
   border-color: rgb(53, 47, 53);
   margin-left: 230px;}
 
-.cQ {background-color: turquoise;}
+.cQ { background-color: turquoise;}
+
+.cLicoes {
+    display: inline-block;
+}
