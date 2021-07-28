@@ -6,9 +6,19 @@ body {
   line-height: 20px; }
 
 header {
-  background-color: rgb(5, 80, 61);
+  background-color: rgb(14, 82, 63);
+  color: rgb(255, 255, 255);
+  display: block;
+  margin: auto;
   top: 0;
   position: fixed; }
 
+#titulo {
+  margin: auto;
+  padding: 30px;
+}
+
 img {
+  display: block;
+  margin-top: 200px;
   width: 200px; }
