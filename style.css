@@ -1,94 +1,82 @@
-
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Times New Roman', Times, serif;
-    color:rgb(20, 20, 20)
-
-    
-}
+  background-color: rgb(253, 251, 251);
+  font-family: Times New Roman, Times, serif;
+  color: rgb(20, 20, 20);}
 
 nav h2 {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
-#cabecalho{
-    font-size: 20px;
-    position: fixed;
-    top: 0; 
+#cabecalho {
+  font-size: 20px;
+  position: fixed;
+  top: 0;}
 
-}
-
-#minha_foto{
+#minha_foto {
   width: 200px;
-
   border: 1px solid grey;
 }
 
-.listas{max-width: 900px;
-    
+.listas {
+  max-width: 900px;
 }
 
-.tabela{
-    padding-bottom: 40px;
+.tabela {
+  padding-bottom: 40px;
 }
 
-
-#licoes_aprendidas{
-    display: inline-block;
-    width: 40%;
-
+#licoes_aprendidas {
+  display: inline-block;
+  width: 40%;
 }
 
-#licoes_a_aprender{
-    display: inline-block;
-    width: 47%;
+#licoes_a_aprender {
+  display: inline-block;
+  width: 47%;}
+
+
+section {
+  width: 700px;
 }
 
-section{
-    width: 700px;
+.tabela {
+  margin-top: 40px;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(61, 37, 59);
 }
 
-.tabela{
-    margin-top: 40px;
-    line-height: 30px;
-    text-align: center;
-    color: rgb(61, 37, 59);
-    
-}
 .tabela th {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .depoimentos {
-    width: 700px;
+  width: 700px;
 }
 
-.lado-esquerdo{
-    float: left;
+.lado-esquerdo {
+  float: left;
 }
 
-.lado-direito{
-    float: right;
-    margin-top: 40px;
-    
+.lado-direito {
+  float: right;
+  margin-top: 40px;
 }
 
 #aprendizado {
-    background-color: rgb(218, 218, 132);
-    max-width: 45%;
-    text-align: center;
-    line-height: 20px;
-    padding: 10px;
-    margin: 1px;
+  background-color: rgb(218, 218, 132);
+  max-width: 45%;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px;
+  margin: 1px;
 }
 
-
-
 aside {
-    background-color: rgb(218, 218, 132);
-    padding: 10px;
-    max-width: 45%;
-    text-align: center;
-    line-height: 20px;
-    margin: 1px;
+  background-color: rgb(218, 218, 132);
+  padding: 10px;
+  max-width: 45%;
+  text-align: center;
+  line-height: 20px;
+  margin: 1px;
 }
