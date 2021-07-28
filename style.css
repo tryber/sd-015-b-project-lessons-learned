@@ -1,8 +1,44 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  font-size: 20px;
+  font-family: helvetica, tahoma, sans-serif;
+  line-height: 28px;
+  color: rgb(48, 47, 47);
 }
 
 header {
   position: fixed;
-  top: 0px;
+  top: 0;
+  width: 99%;
+  margin: auto;
+  text-align: center;
+  border: 3px solid darkred;
+  background-color: tomato;
+}
+
+section img {
+  margin-top: 100px;
+}
+
+footer {
+  margin-top: 60px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.lado-esquerdo {
+  float:left;
+  max-width: 28%;
+  margin-right: 80px;
+  margin-left: 10px;
+}
+
+.lado-direito {
+  margin-bottom: 80px;
+}
+
+.future {
+  margin-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
