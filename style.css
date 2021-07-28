@@ -55,3 +55,9 @@ h3 {
   position: absolute;
   bottom: 0px;
 }
+main {
+  width: 100%;
+  border: 15px solid blueviolet;
+  padding: 50px;
+  margin: 0px;
+}
