@@ -1,8 +1,46 @@
 body {
     background-color: rgb(253,251,251);
+    font-family: Roboto, sans-serif;
 }
 
 header {
-    position: fixed;
     top: 0%;
+    background-color: rgb(47, 185, 107);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+
+}
+
+#minha_foto {
+    margin-top: 10%;
+    max-width: 300px;
+    display: block;
+}
+
+article {
+    display: inline-block;
+    width: 40%;
+    margin-top: 15%;
+    
+}
+
+section {
+    display: inline-block;
+    width: 40%;
+    float: right;
+    margin-top: 15%;
+}
+
+#rodape {
+    margin-top: 30%;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+    width: 20%;
+}
+
+#licoes_a_aprender {
+    disp
 }
