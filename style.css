@@ -31,7 +31,21 @@ header{
 
 #minha_foto{
     height: 200px;
+    display: block;
+    margin: 50px auto;
 }
+
+.text_content{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+.lado-esquerdo,
+.lado-direito {
+    padding: 0 100px;
+    font-size: 20px;
+    text-align: justify; }
 
 h1{
     font-size: 30px;
@@ -88,15 +102,15 @@ button:hover{
 /* .black_screen{
     background-image: linear-gradient(to bottom, rgb(18, 25, 66) , rgb(0, 0, 0));
     height: 1000px;
-} */
+}
 
-/* .gradient_background{
+.gradient_background{
     background-image: url(gradient.jpg);
     background-size: cover;
     height: 905px;
     opacity: 0.7;
-}
+} */
 
 table td{
     line-height: 20px;
-} */
+}
