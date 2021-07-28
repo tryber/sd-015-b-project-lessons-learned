@@ -50,12 +50,10 @@ h2 {
   margin-left: 350px;
 }
 
-#rodape {
-  display: inline-block;
-  position: relative;
-  width: auto;
-  height: 50px;
-  top: 650px;
+#tabela_informacao {
+  position: absolute;
+  top: 115px;
+  left: 1059px;
 }
 
 #link_externo {
@@ -75,4 +73,12 @@ h2 {
 .lado-direito {
   border: 2px red solid;
   padding: 30px 10px;
+}
+
+#rodape {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  height: 50px;
+  top: 650px;
 }
