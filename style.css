@@ -155,6 +155,9 @@ li {
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
 }
+aside p{
+  text-align: justify;
+}
 
 #minha_foto {
   width: 18%;
