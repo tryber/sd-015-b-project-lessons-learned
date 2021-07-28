@@ -20,15 +20,21 @@ article p {
     font-size: large;
     color: blue;
     line-height: 150%;
+    max-width: 49%;
+    float: left;
+    border-style: groove;
 }
 aside {
-
+    float: right;
+    border-top: 10px;
+    max-width: 49%;
+    
 }
-#minha_foto{
+#minha_foto {
     width: 150px;
     height: 200px;
 }
-#licoes_aprendidas{
+#licoes_aprendidas {
     display: inline-block;
     padding: 0px 40px 0px 40px;
 }
