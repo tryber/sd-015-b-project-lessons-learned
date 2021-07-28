@@ -1,0 +1,72 @@
+body {
+    
+    background-color: rgb(253, 251, 251);
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+    }
+    
+#Ol {
+
+    margin-top: 450px;
+    
+}
+
+#cabecalho {
+
+position: fixed;
+top: 0;
+background-color: lawngreen;
+width: 1366px;
+text-align: center;
+margin-right: 21,44px;
+border: 10px;
+padding: 10px;
+
+}
+
+#minha_foto {
+
+   margin:auto;
+   margin-top: 100px; 
+   border: 10px;
+   padding: 10px;
+   display: block;
+  
+}
+
+table {
+
+    margin-top:50px ;
+    border: "1";
+    padding: 10px;
+
+}
+
+nav {
+
+    margin-top: 200px;
+    padding: 10px;
+    border: 10px;
+
+}
+
+.lado-esquerdo {
+
+   float :left;
+   display:inline;
+   max-width:400px;
+
+}
+
+.lado-direito {
+
+    float:right;
+    display:inline;
+    max-width:500px;
+
+}
