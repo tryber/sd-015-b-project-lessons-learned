@@ -1,8 +1,40 @@
-body{
-    background-color: rgb(253, 251, 251);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#cabecalho{
-    position: fixed;
-    top: 0;
+body {
+  background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: monospace;
+}
+
+#cabecalho h1 {
+  color: #f3f3f3;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 20px;
+}
+
+#cabecalho nav {
+  float: right;
+  margin: 15px 50px;
+}
+
+#cabecalho nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#cabecalho nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f3f3f3;
+}
+
