@@ -30,8 +30,8 @@ footer {
   font-size: 1.2rem; }
 
 a {
-    text-decoration: none;
-    color: rgb(12, 11, 11); }
+  text-decoration: none;
+  color: rgb(12, 11, 11); }
 
 footer a {
   color: rgb(196, 206, 214); }
@@ -39,7 +39,7 @@ footer a {
 a:hover {
   text-decoration: none;
   color: rgb(187, 148, 64); }
-  
+
 section {
   display: inline-flexbox;
   flex-direction: row;
@@ -153,4 +153,13 @@ aside .p {
 
 .aprendizado {
   margin-top: 3rem; }
+
+.social-media a {
+  padding: .5rem;
+  color: rgb(26, 23, 23);
+}
+
+.social-media a:hover {
+  color: rgb(221, 177, 83); 
+}
 
