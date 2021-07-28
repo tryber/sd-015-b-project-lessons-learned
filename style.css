@@ -20,35 +20,38 @@ body {
     background-color: rgb(253, 251, 251);
     }
 
-
+#cabecalho{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
 
 #cabecalho {
     background-color: #0a7e51;
     color: #fff;
 }
 
+
 #titulo {
     padding: 15px 30px;
     }
 
-#fixa{
-    position: fixed;
-    top: 0;
-}
+    
 
-.minha_foto{
+#minha_foto{
     
     margin-left: 0;
     margin-right: 0;
     height: auto; 
-    max-width:20px;     
+    max-width:20%;     
     }
 
-.licoes_aprendidas{
+#licoes_aprendidas{
     margin-top: 40px
 }
 
-.licoes_a_aprender{
+#licoes_a_aprender{
     margin-top: 40px
 }
 
