@@ -1,6 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+h3 {
+  font-style: italic;
+}
 #cabecalho {
   position: fixed;
   top: 0px;
