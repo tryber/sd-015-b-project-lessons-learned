@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif; } 
+
+body {
+  background-color: rgb(253, 251, 251);
+  color: rgb(20, 20, 20);
+  display: inline-block; } 
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+  background-color: rgb(238, 236, 234);
+  z-index: 1; } 
+
+footer {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  background-color: rgb(47, 47, 46);
+  color: rgb(235, 231, 231);
+  font-size: 1.2rem; } 
+
+a {
+  text-decoration: none;
+  color: rgb(12, 11, 11); } 
+
+footer a {
+  color: rgb(196, 206, 214); } 
+
+section {
+  display: inline-flexbox;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  text-align: center; } 
+
+main {
+  margin-top: 8rem;
+  width: 100%; } 
+
+h1 , h2 , h3 {
+  color: rgb(12, 11, 11); } 
+
+h1 {
+  font-size: 2rem; } 
+
+h2 {
+  font-size: 1.5rem; } 
+
+h3 {
+  font-size: 1.2rem; }
+
+li {
+  padding: 0.25rem;
+  font-size: 1.2rem; }
+  
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: 4rem;
+  transition-delay: 1s; }
+
+nav ul li {
+  display: inline;
+  list-style-type: none; }
+
+nav ul li a {
+  color: rgb(12, 11, 11);
+  font-size: 1.5rem;
+  font-weight: 500; }
+
+.social-media a {
+  padding: .5rem;
+  color: rgb(26, 23, 23); }
+
+nav ul li a:hover {
+  color: rgb(221, 177, 83); }
+
+nav ul li a:active {
+  color: rgb(97, 70, 13); }
+
+a:hover {
+  text-decoration: none;
+  color: rgb(187, 148, 64); }
+
+p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  color: rgb(31, 29, 29); }
+
+article , aside {
+  padding: 2rem; }
+
+span {
+  color: rgb(165, 111, 10); }
+
+table {
+  margin: auto;
+  table-layout: fixed;
+  width: 25%;
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 3rem; }
+
+table , th , td {
+  text-align: center;
+  font-size: 1.2rem; }
+
+aside .p {
+  text-align: justify; }
+
+.minha_foto {
+  height: auto;
+  border-radius: 50%; }
+
+#titulo {
+  margin-left: 4rem; }
+
+#blog {
+  display: flex;
+  width: 100%;
+  background-color: rgb(216, 216, 216); }
+
+#hard-skills {
+  display: flex;
+  margin: auto;
+  width: 35%;
+  padding: 3rem;
+  border-radius: 2.5rem;
+  border: 0.15rem solid rgb(226, 222, 222); }
+
+.lado-esquerdo , .lado-direito {
+  font-size: 1rem;
+  text-align: justify; }
+
+.social-media {
+  display: flex;
+  font-size: 2rem;
+  letter-spacing: 1rem; }
+
+.sobre {
+  display: flex;
+  flex-direction: column; }
+
+.aprendizado {
+  margin-top: 3rem; }
+
+.social-media a:hover {
+  color: rgb(221, 177, 83); 
+}
+
