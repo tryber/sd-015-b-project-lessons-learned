@@ -6,7 +6,7 @@ body {
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: white;  
+  color: white;
   background-color: green;
   text-align: center;
 }
@@ -14,6 +14,11 @@ h2 {
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+  padding: 10px;
+}
+
+a {
+  color: white;
 }
 
 #cabecalho {
@@ -28,6 +33,21 @@ p {
 #titulo {
   text-align: center;
   color: white;
+}
+
+#menu {
+  position: fixed;
+  top: 50px;
+}
+
+#lista_menu {
+  padding-inline-start: 0;
+}
+
+#lista_menu li {
+  display: inline-block;
+  font-size: 12px;
+  padding: 10px;
 }
 
 #section_foto {
@@ -118,18 +138,28 @@ p {
   top: 5px;
   left: 5px;
   right: 270px;
-  bottom: 5px;
   border: 1px solid green;
   box-shadow: 2px 2px green;
-  padding: 10px;
-  padding-top: 0;
 }
 
 #titulo_artigo {
   position: relative;
   margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  text-align: left;
+}
+
+#barra_lateral {
+  position: absolute;
+  top: 5px;
+  left: 860px;
+  right: 5px;
+  border: 1px solid green;
+  box-shadow: 2px 2px green;
+}
+
+#titulo_barra_lateral {
+  padding: 0;
+  margin-top: 0;
   text-align: left;
 }
 
@@ -138,7 +168,8 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 5px;
+  padding: 0;
   background-color: green;
+  color: white;
   text-align: center;
 }
