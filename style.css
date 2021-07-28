@@ -1,43 +1,46 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
-header {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 90px;
-    text-align: center;
-    background-color: rgba(0, 255, 34, 0.952);
-    border-width: 0px 4px 4px 4px;
-}
-section {
-    margin-top: 100px;
-}
-/* utilizei as informações do site https://qastack.com.br/programming/3845433/set-line-spacing, para ver como dar espaço entre as linhas */
 
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  background-color: rgba(0, 255, 34, 0.952);
+  border-width: 0px 4px 4px 4px; }
+
+section {
+  margin-top: 100px;
+}
+
+/* utilizei informações do https://qastack.com.br/programming/3845433/set-line-spacing, */
 article p {
-    font-family: monospace;
-    font-size: large;
-    color: blue;
-    line-height: 150%;
-    max-width: 49%;
-    float: left;
-    border-style: groove;
-}
+  font-family: monospace;
+  font-size: large;
+  color: blue;
+  line-height: 150%;
+  max-width: 49%;
+  float: left;
+  border-style: groove; }
+
 aside {
-    float: right;
-    border-top: 10px;
-    max-width: 49%;
-    
+  float: right;
+  border-top: 10px;
+  max-width: 49%;
 }
+
 #minha_foto {
-    width: 150px;
-    height: 200px;
+  width: 150px;
+  height: 200px;
 }
+
 #licoes_aprendidas {
-    display: inline-block;
-    padding: 0px 40px 0px 40px;
+  display: inline-block;
+  padding: 0px 40px;
 }
+
 #licoes_a_aprender {
-    display: inline-block;
+  display: inline-block;
 }
