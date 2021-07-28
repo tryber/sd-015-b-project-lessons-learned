@@ -7,19 +7,16 @@ body {
 }
 
 article{
-    display: inline-block;
-    width: 50%;
-    text-align: justify;
-    padding-top: 3%;
-    padding-bottom: 3%;
+
 
 }
 
 aside{
+    vertical-align: top;
     text-align: justify;
-    width: 50%;
-    padding-bottom: 5%;
- 
+    width: 60%;
+    padding-bottom: 4%;
+    padding-left: 2%;
 }
 
 #cabecalho {
@@ -28,14 +25,15 @@ aside{
     background-color: rgb(86, 145, 91);
     width: 100%;
     text-align: center;
+    border: 1px solid rgb(34, 58, 34);
 
 }
 
 #titulo{
     font-size: 2em;
-    color: white;
     padding: 3%;
     width: 90%;
+    line-height: auto;
 }
 
 #main-section{
@@ -45,7 +43,7 @@ aside{
 #name-photo-link-section{
     background-color:rgb(158, 180, 160);
     width: 100%;
-    padding-top: 1%;
+    padding-top: 3%;
     padding-bottom: 2%;
     margin-top: 10%;   
 }
@@ -59,44 +57,69 @@ aside{
 }
 #link-name-section{
     display: inline-block;
-    width: 40%;
+    width: 50%;
     margin-top: 6%;
-    margin-left: 10%;
+    margin-right: auto;
     vertical-align: top;
+    text-align: center;
 
 }
 #minha_foto{
     margin: 12% 0% 5% 30%;
     width: 100%;
-    border-radius: 50%;
+    border-radius: 10%;
+    border: 2px solid rgb(34, 58, 34);
 }
-#about-me{
+#name{
     width: 70%;
-    text-align:left;
+    text-align: center;
     vertical-align: top;
-    padding-top: 0%;
+    padding-top: 8%;
     padding-bottom: 0%;
-    margin-top: 0%;
     margin-bottom: 0%;
-
 }
+
 #my-links{
-    width: 20%;
-    vertical-align: top;
-    margin-left: 2%;
+    width: 100%;
+    vertical-align: middle;
     padding-top: 6%;
+    text-align: center;
 }
 
-#listas-de-aprendizado{
-   float: right;
-    width: 30%;
-    font-size: 0.8em;
-    padding-top: 1%;
+#img-linkedin:hover{
+    width: 10%;
+}
+#img-git:hover{
+    width: 10%;
+}
+
+.lado-esquedo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    text-align: justify;
+    padding-top: 4%;
+    padding-left: 2%;
+
+
+}
+.lado-direito{
+    background-color: rgb(158, 180, 160);
+    float: right;
+    vertical-align: middle;
+    text-align: justify;
+    width: 20%;
+    font-size: 0.7em;
+    padding: 0.1% 0% 0.1% 6%;
+    margin: 1%;
+    border-radius: 10%;
+    border: 1px solid rgb(34, 58, 34);
 }
 
 #rodape{
     background-color: rgb(158, 180, 160);
     padding: 15px;
     text-align: right;
-
+    font-weight: bold;
+    font-style: italic;
 }
