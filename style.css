@@ -11,8 +11,10 @@ header#cabecalho {
 img#minha_foto {
     width: 300px;
     border-radius: 50px;
-    margin-top: -27px;
+    margin-top: 20px;
     margin-left: 170px;
+    border: solid;
+    border-color: rgb(53, 47, 53);
 
 }
 footer {
@@ -39,13 +41,15 @@ h2 {
     text-align: center;
 }
 ol {
-    margin-top: -170px;
+    margin-top: -180px;
     border-radius: 50px;
     background-color: turquoise;
     padding: 40px;
     width: 165px;
     float: left;
     margin-left: 105px;
+    border: solid;
+    border-color: rgb(53, 47, 53);
 }
 section{
     width: 1350px;
@@ -58,6 +62,8 @@ article#iAprendido {
     background-color: turquoise;
     border-radius: 50px;
     padding: 40px;
+    border: solid;
+    border-color: rgb(53, 47, 53);
 }
 ul {
     float: right;
@@ -66,17 +72,26 @@ ul {
     background-color: turquoise;
     border-radius: 50px;
     padding: 40px;
+    border: solid;
+    border-color: rgb(53, 47, 53);
 }
 p {
     text-align: center;
+    font-size: 14px;
+    font-style: italic;
 }
 div#iTxtAdicional {
     text-align: right;
-    margin-right: 100px;
+    margin-right: 10px;
     margin-top: -50px;
 }
 div#iOutroTxt {
     margin-left: 10px;
+    margin-top: -35px;
+    background-color: lightslategray;
+    border: solid;
+    border-color: rgb(53, 47, 53);
+
 }
 p#iFooter {
     text-align: center;
@@ -85,4 +100,14 @@ p#iFooter {
 nav{
     margin-top: 100px;
     text-align: center;
+}
+a#iNav {
+    color:rgb(53, 47, 53);
+    text-decoration: none;
+}
+a#iNav:hover {
+    background-color: turquoise;
+    padding: 10px;
+    border-radius: 20px;
+    
 }
