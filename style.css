@@ -1,15 +1,44 @@
 body {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     background-color: rgb(253, 251, 251)
+}
+
+main article h2 {
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.nav-link {
+    color: antiquewhite;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: rgb(8, 126, 8);
+    width: 100%;
+}
 
+#titulo {
+    color: antiquewhite;
+    text-align: center;
 }
 
 #minha_foto {
     width: 250px;
+    margin-top: 118px;
+    margin-left: 20px;
+}
+
+#link-nome {
+    margin-left: 20px;
+}
+
+.cabecalho-tabela {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 500px;
+
 }
