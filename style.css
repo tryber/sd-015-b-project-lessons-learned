@@ -1,17 +1,44 @@
+* {
+    margin:0;
+}
+
 body {
     background-color:rgb(253, 251, 251);
+    padding-top:250px;
+}
+
+header {
+    position:fixed;
+    width:100%;
+    box-sizing:border-box;
+    padding:20px 40px;
+    border-bottom:1px solid #957dad;
+    margin-bottom:30px;
 }
 
 #cabecalho {
     position:fixed;
     top:0;
+    width: 100%;
+    background-color: #ffdfd3;
 }
 
 #titulo {
     font-family:serif;
     font-size:48px;
+    
 }
 
 #minha_foto {
     width:300px;
+    border-radius:50%;
+    
+}
+
+div.conteudo {
+    margin:20px;
+}
+
+a {
+    text-decoration:none;
 }
