@@ -18,18 +18,20 @@ h3 {
   display: inline-block;
   margin-top: 40px;
   margin-left: 200px;
-  /*background-color: red;*/
 }
 #licoes_a_aprender {
   display: inline-block;
   margin-left: 40px;
 }
-#lessons_article {
-  position: absolute;
-  margin-top: 100px;
+#lessons-article {
+  /*position: fixed;*/
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 50px;
 }
-#lessons_aside {
-
+#lessons-aside {
+  margin-top: 10px;
+  margin-left: 50px;
 }
 #rodape {
   position: absolute;
