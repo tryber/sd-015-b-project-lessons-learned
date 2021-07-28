@@ -1,0 +1,81 @@
+:root {
+
+    --clr-background: rgb(253, 251, 251);
+    --clr-background-title: #498CFC;
+    --padding-article:.5rem;
+}
+
+body {
+    margin-top:15%;
+    background-color: var(--clr-background);
+    line-height: 1.5rem;
+    letter-spacing: normal;
+}
+
+p {
+
+    font-size: 1.2rem;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    height:130px;
+    background-color: var(--clr-background-title);
+    opacity: .8;
+    border-bottom: 2px solid var(--clr-background);
+
+}
+
+#minha_foto {
+    
+    height: 180px;
+}
+
+#titulo {
+
+text-align: center;
+font-family: sans-serif;
+font-style: italic;
+font-weight: 800;
+font-size:40px;
+
+}
+
+.link-nav {
+    display:inline-block;
+    margin: 3px 3px;
+    padding: 5px 20px;
+    background-color: blue;
+    text-decoration: none;
+    color:var(--clr-background);
+}
+
+.lado-esquerdo  {
+    
+    position:relative;
+    display:inline-block;
+    margin: 10px;
+    width:45%;
+    float:right;
+    border:2px solid blue;
+    padding: var(--padding-article);
+ 
+}
+
+.lado-direito {
+    
+    position:relative;
+    display:inline-block;
+    width:45%;
+    float:right;
+    margin:10px;
+    border:2px solid blue;
+    padding: var(--padding-article);
+}
+
+.tabela-links {
+    clear: both;
+}
