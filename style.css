@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(253,251,251);
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    top: 0%;
+    background-color: rgb(47, 185, 107);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+
+}
+
+#minha_foto {
+    margin-top: 10%;
+    max-width: 300px;
+    display: block;
+}
+
+article {
+    display: inline-block;
+    width: 40%;
+    margin-top: 10%;
+}
+
+section {
+    display: inline-block;
+    width: 40%;
+    float: right;
+    margin-top: 10%;
+}
+
+#rodape {
+    margin-top: 15%;
+    text-align: center;
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+}
+#licoes_a_aprender {
+    display: inline-block;
+}
+
+
+.listas {
+    display:block;
+    width: 50%;
+    margin-top: 2%;
+}
