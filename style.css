@@ -17,21 +17,30 @@ p {
     font-size: 1.2rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 #cabecalho {
     position: fixed;
     top: 0;
     left:0;
     right: 0;
-    height:130px;
+    height:160px;
     background-color: var(--clr-background-title);
-    opacity: .8;
+    opacity: .98;
     border-bottom: 2px solid var(--clr-background);
 
 }
 
 #minha_foto {
+    position:fixed;
+    height: 140px;
+    top:4px;
+    opacity: .9;
+    border-radius: .75em;
+    border: 4px solid greenyellow;
     
-    height: 180px;
 }
 
 #titulo {
@@ -78,4 +87,12 @@ font-size:40px;
 
 .tabela-links {
     clear: both;
+}
+
+a:visited {
+    color: #498CFC; 
+}
+
+a:hover {
+    font-weight: 600;
 }
