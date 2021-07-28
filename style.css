@@ -1,7 +1,8 @@
-body {background-color: rgb(253, 251, 251);
-      padding-top: 75px;
+body {
+    background-color: rgb(253, 251, 251);
+    padding-top: 75px;
 }
-#titulo{ 
+#titulo { 
     text-align: center;
     color: green;
     font: 70px;
@@ -11,38 +12,37 @@ body {background-color: rgb(253, 251, 251);
     top: 0;
     height: 70px;
     width: 100%;
-    background-color: rgb(209, 243, 209) ;
+    background-color: rgb(209, 243, 209);
 }
-#minha_foto{height: 330px ;
+#minha_foto {
+    height: 330px;
     border: solid 4px green;
     border-radius: 50%;
-
-  
 }
 #licoes_aprendidas {
     display: inline-block;
     background-color: rgb(209, 243, 209);
-
-}#licoes_a_aprender {
+}
+#licoes_a_aprender {
     display: inline-block;
     background-color: rgb(209, 243, 209);
 }
-article {display:inline-block;
-    position: relative;;
+article {display: inline-block;
+    position: relative;
     margin: 0;
     width: 700px;
     border: solid 2px green;
     background-color: rgb(209, 243, 209);
-
 }
-section {display:inline-block;
+section {
+    display: inline-block;
     width: 600px;
     top: 0px;
-    left:900px;
+    left: 900px;
     border: solid 2px green;
     background-color: rgb(209, 243, 209);
 }
-table{
+table {
     border: solid 2px green;
-    background-color: rgb(209, 243, 209) ;
+    background-color: rgb(209, 243, 209);
 }
