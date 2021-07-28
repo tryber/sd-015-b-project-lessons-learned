@@ -1,20 +1,70 @@
-body{
-  background-color: rgb(253, 251, 251);
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+    background-color: rgb(253, 251, 251);
+  }
 
-#cabecalho{
+
+#cabecalho {
+  padding: 30px;
   position: fixed;
   background-color: rgb(132, 223, 132);
   width: 100%;
-  top: 0px;
+  top: 0;
 }
 
-#minha_foto{
-  width: 200px;
+#titulo {
+  color: rgb(36, 35, 35);
+  text-align: center;
 }
 
-.navegacao{
-  margin: 100px;
-  
+.margem {
+  margin-left: 130px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.navegacao {
+  padding: 22px;
+  margin: 0;
+  text-align: justify;
+  background-color: rgb(204, 248, 204);
+  width: 100%;
+}
+
+.navegacao_item {
+  font-size: 12px;
+  color: rgb(36, 35, 35); 
+  text-transform: uppercase;
+  margin-top: 80px;
+  display: inline-block;
+  width: 24%;
+}
+
+#minha_foto {
+  width: 160px;
+  margin-left:100px;
+  margin-top: 10px;
+  top: 2px;
+}
+
+.aprendizado {
+  text-align: justify;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
+.rodape {
+  text-align: center;
 }
