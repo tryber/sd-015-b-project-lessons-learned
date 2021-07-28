@@ -266,7 +266,7 @@ A lista deve possuir **10** itens, ser numerada e possuir o ID "licoes_aprendida
 
 **O que será verificado:**
 
-- A lista deve ser numerada e possuir o ID "licoes_aprendidas"
+- A lista deve ser numerada e possuir o ID "licoaes_aprendids"
 - A lista deve possuir 10 itens
 
 ### 5. Crie uma lista de lições que ainda deseja aprender para a página
