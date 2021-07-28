@@ -4,15 +4,38 @@
 }
 body {
     background-color: rgb(253, 251, 251);
-
+    width: 50%;
+    padding: 1%;
+    text-align: justify;
+}
+section {
+    width: 50%;
+    padding: 1%;
+    text-align: justify;
+}
+h1, h2 {
+    line-height: 50px;
+}
+p {
+    margin-bottom: 10px;
 }
 #cabecalho {
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
     top: 0;
     width: 100%;
     position: fixed;
+
 }
 #minha_foto {
-    height: 450px;
+    height: 250px;
     background-size: cover;
-    margin-right: 10px;
+    margin-left: 1px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.list {
+    display: inline-block;
+    margin-left: 15px;   
 }
