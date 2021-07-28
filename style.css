@@ -81,9 +81,8 @@ p {
   line-height: 1.875rem;
   color: rgb(31, 29, 29); }
 
-article,
-aside {
-  padding: 2rem 2rem; }
+article, aside {
+  padding: 2rem; }
 
 span {
   color: rgb(165, 111, 10); }
@@ -99,9 +98,6 @@ table {
 table, th, td {
   text-align: center;
   font-size: 1.2rem; }
-
-tr:nth-child(even) {
-  background-color: rgb(246, 225, 184); }
 
 footer {
   width: 100%;
@@ -119,11 +115,10 @@ li {
   padding: 0.25rem;
   font-size: 1.2rem; }
 
-aside.p {
+aside .p {
   text-align: justify; }
 
-#minha_foto {
-  width: 18%;
+.minha_foto {
   height: auto;
   border-radius: 50%; }
 
