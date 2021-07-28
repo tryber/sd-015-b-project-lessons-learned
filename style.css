@@ -8,11 +8,16 @@ body {
 h2 {
     color: grey;
     font-size: 22px;
+    margin-left: 15px;
 }
 #minha_foto {
     position: absolute;
-    left: 400px;
+    left: 380px;
     width: 350px;
+}
+.licoes {
+    border: 2px solid red;
+    width: 300px;
 }
 li:hover {
     border: 2px solid green;
@@ -20,11 +25,13 @@ li:hover {
 }
 #minha_historia {
     width: 400px;
+    text-align: justify;
     position: absolute;
     margin-left: 15px;
 }
 #aconteceu {
     width: 250px;
+    text-align: justify;
     position: absolute;
     left: 450px;
 }
