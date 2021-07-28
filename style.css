@@ -7,7 +7,7 @@ body {
 
 header {
   background-color: rgb(14, 82, 63);
-  color: rgb(255, 255, 255);
+  color: rgb(253, 251, 251);
   display: block;
   margin: auto;
   top: 0;
@@ -22,3 +22,14 @@ img {
   display: block;
   margin-top: 200px;
   width: 200px; }
+
+.lado_esquerdo {
+  display: block;
+  position: absolute;
+}
+
+.lado_direito {
+  display: block;
+  position: relative;
+  margin-left: 400px;
+}
