@@ -1,48 +1,57 @@
 body {
-    background-color: rgb(253, 251, 251);
-    padding-top: 75px;
+  background-color: rgb(253, 251, 251);
+  padding-top: 75px;
 }
-#titulo { 
-    text-align: center;
-    color: green;
-    font: 70px;
+
+#titulo {
+  text-align: center;
+  color: green;
+  font: 70px;
 }
+
 #cabecalho {
-    position: fixed;
-    top: 0;
-    height: 70px;
-    width: 100%;
-    background-color: rgb(209, 243, 209);
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(209, 243, 209);
 }
+
 #minha_foto {
-    height: 330px;
-    border: solid 4px green;
-    border-radius: 50%;
+  height: 330px;
+  border: solid 4px green;
+  border-radius: 50%;
 }
+
 #licoes_aprendidas {
-    display: inline-block;
-    background-color: rgb(209, 243, 209);
+  display: inline-block;
+  background-color: rgb(209, 243, 209);
 }
+
 #licoes_a_aprender {
-    display: inline-block;
-    background-color: rgb(209, 243, 209);
+  display: inline-block;
+  background-color: rgb(209, 243, 209);
 }
-article {display: inline-block;
-    position: relative;
-    margin: 0;
-    width: 700px;
-    border: solid 2px green;
-    background-color: rgb(209, 243, 209);
+
+article {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  width: 700px;
+  border: solid 2px green;
+  background-color: rgb(209, 243, 209);
 }
+
 section {
-    display: inline-block;
-    width: 600px;
-    top: 0px;
-    left: 900px;
-    border: solid 2px green;
-    background-color: rgb(209, 243, 209);
+  display: inline-block;
+  width: 600px;
+  top: 0px;
+  left: 900px;
+  border: solid 2px green;
+  background-color: rgb(209, 243, 209);
 }
+
 table {
-    border: solid 2px green;
-    background-color: rgb(209, 243, 209);
+  border: solid 2px green;
+  background-color: rgb(209, 243, 209);
 }
