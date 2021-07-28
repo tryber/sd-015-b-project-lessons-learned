@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(20, 20, 20);
 }
+
 header {
   position: fixed;
   top: 0;
@@ -19,6 +21,7 @@ a {
   text-decoration: none;
   color: rgb(12, 11, 11);
 }
+
 a:hover {
   text-decoration: none;
   color: rgb(187, 148, 64);
@@ -28,18 +31,22 @@ main {
   margin-top: 8rem;
   margin-left: 4rem;
 }
+
 h1,
 h2,
 h3 {
   color: rgb(12, 11, 11);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
 h1 {
   font-size: 2rem;
 }
+
 h2 {
   font-size: 1.2rem;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -47,22 +54,27 @@ nav {
   width: 100%;
   margin-right: 4rem;
 }
+
 nav ul li {
   display: inline;
   list-style-type: none;
 }
+
 nav ul li a {
   color: rgb(12, 11, 11);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 nav ul li a:hover {
   color: rgb(221, 177, 83);
 }
+
 nav ul li a:active {
   color: rgb(97, 70, 13);
 }
+
 footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -72,13 +84,16 @@ footer {
   color: rgb(235, 231, 231);
   font-size: 1rem;
 }
+
 footer a {
   color: rgb(196, 206, 214);
 }
+
 li {
   padding: 0.25rem;
   font-size: 1.2rem;
 }
+
 #minha_foto {
   margin-left: 5rem;
   border-radius: 4rem;
@@ -86,21 +101,25 @@ li {
 #titulo {
   margin-left: 2rem;
 }
+
 span {
   color: rgb(165, 111, 10);
 }
+
 .hard-skills {
   display: flex;
 }
 .artigo {
   width: 50%;
   font-size: 1rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: justify;
 }
+
 .dados {
   width: 25%;
 }
+
 table,
 th,
 td {
