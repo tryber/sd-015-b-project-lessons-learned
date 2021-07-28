@@ -17,6 +17,9 @@ body {
     background-color: rgb(255,255,255);
     color: #0a7e51;   
     font-weight: 600;
+    margin-bottom: 0;
+    padding: 15px 30px;
+    border: 0px;
     
     }
 
@@ -25,18 +28,19 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    margin-bottom: 0;
+    padding: 15px 30px;
+    border: 0px;
 }
 
-.title-container {
-    padding: 10px 40px;
-    }
+
 
 .minha_foto{
-    display: block;
+    
     margin-left: 0;
     margin-right: 0;
     height: auto; 
-    max-width:10px;     
+    max-width:20px;     
     }
 
 .licoes_aprendidas{
