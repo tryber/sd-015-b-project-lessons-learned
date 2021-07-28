@@ -29,6 +29,9 @@ footer {
   color: rgb(235, 231, 231);
   font-size: 1.2rem; }
 
+footer a {
+  color: rgb(196, 206, 214); }
+  
 a {
   text-decoration: none;
   color: rgb(12, 11, 11); }
@@ -37,9 +40,6 @@ a:hover {
   text-decoration: none;
   color: rgb(187, 148, 64); }
   
-footer a {
-  color: rgb(196, 206, 214); }
-
 section {
   display: inline-flexbox;
   flex-direction: row;
@@ -47,12 +47,12 @@ section {
   align-items: center;
   gap: 2.5rem;
   text-align: center; }
-
+  
 main {
   margin-top: 8rem;
   width: 100%; }
 
-h1, h2, h3 {
+h1 , h2 , h3 {
   color: rgb(12, 11, 11); }
 
 h1 {
@@ -97,7 +97,7 @@ p {
   line-height: 1.875rem;
   color: rgb(31, 29, 29); }
 
- article , aside {
+article , aside {
   padding: 2rem; }
 
 span {
@@ -138,8 +138,7 @@ aside .p {
   border-radius: 2.5rem;
   border: 0.15rem solid rgb(226, 222, 222); }
 
-.lado-esquerdo ,
-.lado-direito {
+.lado-esquerdo , .lado-direito {
   font-size: 1rem;
   text-align: justify; }
 
