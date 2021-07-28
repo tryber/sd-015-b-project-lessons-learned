@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -40,6 +40,10 @@ footer {
   padding: 15px;
 }
 
+nav li {
+  font-size: 20px;
+}
+
 footer ul li {
   display: inline;
   margin-right: 30px;
@@ -50,10 +54,6 @@ footer ul li {
 nav {
   background-color: goldenrod;
   padding: 120px 30px 30px;
-}
-
-nav li {
-  font-size: 20px;
 }
 
 nav ul {
