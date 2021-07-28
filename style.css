@@ -28,6 +28,7 @@
 
 main {
   margin-top: 79.88px;
+  margin-bottom: 79.88px;
   margin-inline: 20%;
 }
 
@@ -95,7 +96,23 @@ li:hover {
   color: chartreuse;
 }
 
-table {
+caption , table {
   width: 400px;
   margin: auto;
+  border: solid brown 2px;
+}
+
+th , td {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 214, 170);
+  height: 40px;
 }
