@@ -20,12 +20,12 @@ body {
                 line-height: 16px;               
 }
 
-#aprendizados {
-                display: inline;
+.lado-esquerdo {
+                display: inline-block;
 }
 
-#artigo {
-                display: inline;
+.lado-direito {
+                display: inline-block;
 }
 
 #tabela {
