@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top : 0;
+}
+
+.Alinhamento {
+  margin-left: 600px;
+}
+
+.PosicionamentoDeImagem {
+  margin-top: 50 px;
+  margin-left: 9 px;
+  border: 0 px;
+}
+
+.TextoALado {
+  float: right;
+  margin-top: -267px;
+  margin-right: 700px;
+}
+
+.TextoALadoDaImagem {
+  margin-top: -490px;
+  margin-left: 220px;
+  width: 450px;
+  font-family: sans-serif;
+}
+
+.TextoAside {
+  margin-left: 790px;
+  margin-top: -200px;
+  font-family: sans-serif;
+  color: rgb(9, 9, 9);
+  font-size: medium;
+  line-height: 20px;
+}
+
+.lado-esquerdo {
+  display: inline;
+}
+
+.lado-direito {
+  display: inline;
+}
+
+.botao {
+  margin-top: 350px;
+  padding: 0;
+}
