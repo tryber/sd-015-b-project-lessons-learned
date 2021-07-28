@@ -41,6 +41,12 @@ img {
   margin-top: 55px;
   width: 200px; }
 
+table {
+  border: 0 solid black;
+  font-family: Sans-Serif;
+  margin-left: 45px;
+  margin-top: 5px; }
+
 .conteudo {
   margin-left: 10px;
 }
