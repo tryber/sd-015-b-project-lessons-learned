@@ -20,10 +20,6 @@ h2 {
     padding: 25px;
     border-bottom-left-radius: 100px;
 }
-#table {
-    position: absolute;
-    width: 70px;
-}
 .licoes {
     position: absolute;
     width: 300px;
@@ -35,11 +31,14 @@ li:hover {
     width: 300px;
 }
 #link_trybe {
+    position: absolute;
+    top: 300px;
 
 }
 #minha_historia {
     width: 300px;
     text-align: justify;
+    line-height: 20px;
     position: absolute;
     margin-left: 250px;
     margin-top: 450px;
@@ -47,6 +46,7 @@ li:hover {
 #aconteceu {
     width: 200px;
     text-align: justify;
+    line-height: 20px;
     position: relative;
     left: 590px;
     top: 460px;
