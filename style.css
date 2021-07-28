@@ -21,26 +21,31 @@ header {
 article {
     display: inline-block;
     width: 40%;
-    margin-top: 15%;
-    
+    margin-top: 10%;
 }
 
 section {
     display: inline-block;
     width: 40%;
     float: right;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #rodape {
-    margin-top: 30%;
+    margin-top: 15%;
+    text-align: center;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas{
     display: inline-block;
-    width: 20%;
+}
+#licoes_a_aprender {
+    display: inline-block;
 }
 
-#licoes_a_aprender {
-    disp
+
+.listas {
+    display:block;
+    width: 50%;
+    margin-top: 2%;
 }
