@@ -1,67 +1,71 @@
 body {
-    background-color: rgb(253, 251, 251);
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    border: 3px solid black;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+  background-color: rgb(253, 251, 251);
+  background-size: 100%;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  border: 3px solid black;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
 }
 
 #cabecalho {
-    width: 900px;
-    height: 106px;
-    position: fixed;
-    top: 0px;
-    margin: 0;
-    padding: 0;
-    border: 0px;
-    background-color: blueviolet;
+  width: 900px;
+  height: 106px;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: blueviolet;
 }
 
 #cabecalho h1 {
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 #navegacao {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 #navegacao div {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 #navegacao div a img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #barra-lateral {
-    line-height: 15px;
+  line-height: 15px;
 }
 
 #tabela {
-    color: cornflowerblue;
+  color: cornflowerblue;
 }
 
 .lado-a-lado {
-    display: flex;
+  display: flex;
 }
 
 .lado-esquerdo {
-    width: 400px;
-    margin-left: 50;
+  width: 400px;
+  margin-left: 50;
 }
 
 .lado-direito {
-    width: 400px;
-    display: flex;
+  width: 400px;
+  display: flex;
 }
 
-.primeira-lista, .segunda-lista {
-    width: 200px;
+.primeira-lista , .segunda-lista {
+  width: 200px;
+}
+
+main {
+  margin-top: 106px;
 }
