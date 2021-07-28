@@ -51,11 +51,6 @@ button{
     border: none;
     margin: 10px;
 }
-
-button:active {
-    color:rgb(183, 218, 89);
-}
-
 #titulo {
   font-weight: bold;
   }
@@ -125,8 +120,11 @@ aside{
     background-color: rgb(69, 83, 30);
     color: rgb(253, 251, 251);
     text-align: center;
-  
+   
+}
 
+footer{
+    width:100%;
 }
 
 .lado-esquerdo{
@@ -140,4 +138,25 @@ aside{
    position:absolute; 
    top: 173px;
    left: 550px;
+}
+
+.table{
+    text-align: center;
+    border: solid black;
+    background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+    margin:0;
+
+}
+
+table{
+    text-align: center;
+    border: solid black;
+ background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+    margin:0;
+   padding: 3px;
+   position: absolute ;
+   top:500px;
+   right: 110px;
 }
