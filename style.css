@@ -19,3 +19,8 @@ body {
                 color: rgb(117, 119, 121);
                 line-height: 16px;               
 }
+
+#tabela {
+        margin: 1px;
+        color: black;
+}
