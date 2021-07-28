@@ -1,5 +1,8 @@
+
 body {
   background-color: rgb(253, 251, 251);
+  margin-top: 5%;
+  padding: 10px;;
 }
 
 #cabecalho {
@@ -11,4 +14,9 @@ body {
 
 #tilulo {
   position:absolute;
+}
+
+#minha_foto{
+width: 250px;
+border-radius: 2%;
 }
