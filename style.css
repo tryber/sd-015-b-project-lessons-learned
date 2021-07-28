@@ -7,5 +7,4 @@ body {
   top: 0;
 }
 
-#minha_foto a { color: pink; }
-\n
+#minha_foto {height: auto;}
