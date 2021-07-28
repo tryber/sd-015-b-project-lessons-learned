@@ -1,9 +1,28 @@
+:root {
+
+  --vermelho: rgba(239, 13, 21, 1) 0%;
+
+  --laranja: rgba(254, 129, 37, 1) 20%;
+
+  --amarelo: rgba(255, 255, 67, 1) 40%;
+
+  --azul: rgba(63, 65, 249, 1) 60%;
+
+  --verde: rgba(8, 121, 68, 1) 80%;
+
+  --roxo: rgba(159, 8, 188, 1) 100%;
+
+  --metade-cores-um: var(--vermelho), var(--laranja), var(--amarelo);
+
+  --metade-cores-dois: var(--azul), var(--verde), var(--roxo);
+}
+
 body {
 
   /* background-color: rgb(253, 251, 251); */
 
   /* Background desenvolvido com a ajuda do site: https://angrytools.com/gradient/ */
-  background: linear-gradient(90deg, rgba(239, 13, 21, 1) 0%, rgba(254, 129, 37, 1) 20%, rgba(255, 255, 67, 1) 40%, rgba(63, 65, 249, 1) 60%, rgba(8, 121, 68, 1) 80%, rgba(159, 8, 188, 1) 100%);
+  background: linear-gradient(90deg, var(--metade-cores-um), var(--metade-cores-dois));
   background-size: 100%;
   max-width: 900px;
   max-height: 100%;
