@@ -1,61 +1,60 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    top: 0;
-    position: fixed;
-    left: 350px;
-    z-index: 1;
+  top: 0;
+  position: fixed;
+  left: 350px;
+  z-index: 1;
 }
 h2 {
-    color: grey;
-    font-size: 22px;
-    margin-left: 25px;
-    padding: 25px;
+  color: grey;
+  font-size: 22px;
+  margin-left: 25px;
+  padding: 25px;
 }
 #minha_foto {
-    position: absolute;
-    left: 300px;
-    width: 350px;
-    padding: 25px;
-    border-bottom-left-radius: 100px;
+  position: absolute;
+  left: 300px;
+  width: 350px;
+  padding: 25px;
+  border-bottom-left-radius: 100px;
 }
 .licoes {
-    position: absolute;
-    width: 300px;
-    margin-top: 480px;
-    font-size: 12px;
+  position: absolute;
+  width: 300px;
+  margin-top: 480px;
+  font-size: 12px;
 }
 li:hover {
-    border: 2px solid green;
-    width: 300px;
+  border: 2px solid green;
+  width: 300px;
 }
 #link_trybe {
-    position: absolute;
-    top: 300px;
-
+  position: absolute;
+  top: 300px;
 }
 #minha_historia {
-    width: 300px;
-    text-align: justify;
-    line-height: 20px;
-    position: absolute;
-    margin-left: 250px;
-    margin-top: 450px;
+  width: 300px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+  line-height: 20px;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 450px;
 }
 #aconteceu {
-    width: 200px;
-    text-align: justify;
-    line-height: 20px;
-    position: relative;
-    left: 590px;
-    top: 460px;
+  width: 200px;
+  text-align: justify;
+  line-height: 20px;
+  position: relative;
+  left: 590px;
+  top: 460px;
 }
 #rodape {
-    position: relative;
-    text-align: center;
-    top:700px;
-    border: 2px solid rgb(93, 133, 93);
-    background-color: grey;
-
+  position: relative;
+  text-align: center;
+  top:700px;
+  border: 2px solid rgb(93, 133, 93);
+  background-color: grey;
 }
