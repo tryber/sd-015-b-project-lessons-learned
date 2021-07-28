@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: "Open Sans Condensed", sans-serif;
+  padding-top: 80px;
+}
+
+#cabecalho {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #ffc0cb;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+#titulo {
+  color: pink;
+  margin-top: 5px;
+  margin-left: 40%;
+  position: relative;
+}
+
+#titulo span {
+  color: yellow;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  top: 10px;
+  margin-left: 5px;
+}
+
+nav ul li a {
+  color: #ffc0cb;
+  margin: 10px;
+}
+
+nav,
+a:hover {
+  color: yellow;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  width: 200px;
+  top: 0;
+  position: relative;
+  display: flex;
+  margin-left: 40%;
+  margin-bottom: 10px;
+  border: 2px dotted yellow;
+}
+
+#apresentacao {
+  position: relative;
+  margin-left: 25%;
+}
+
+#apresentacao a {
+  color: black;
+  margin-bottom: #ffc0cb;
+}
+
+#apresentacao a:hover {
+  color: #ffc0cb;
+}
+
+#listas {
+  background-color: grey;
+  border-bottom: 1px solid #ffc0cb;
+  border-top: 1px solid #ffc0cb;
+  width: 100%;
+}
+ol {
+  display: inline-block;
+  margin-left: 25%;
+}
+
+ul {
+  display: inline-block;
+  margin-left: 10%;
+}
+ol h3,
+ul h3 {
+  border-bottom: 2px solid yellow;
+  color: white;
+}
+
+ol li,
+ul li {
+  list-style: none;
+  text-align: center;
+  color: white;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 600px;
+  height: 100px;
+  border: 3px solid #ffc0cb;
+  text-align: center;
+  font-size: 15px;
+  padding: 1px;
+  line-height: 15px;
+}
+
+.lado-direito {
+  float: right;
+  width: 600px;
+  height: 50px;
+  border: 3px solid #ffc0cb;
+  text-align: center;
+  font-size: 15px;
+  padding: 1px;
+  line-height: 15px;
+}
