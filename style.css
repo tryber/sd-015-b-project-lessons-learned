@@ -1,38 +1,27 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
+
   body {
     background-color: rgb(253, 251, 251);
-
+    margin: 0px;
   }
   
   header {
     position: fixed;
     top: 0;
     background-color: rgb(0, 42, 56);
+    color: antiquewhite;
+    width: 100%;
+    height: 10%;
   }
-  
-  main {
-    width: 75%;
-    margin-left: 25%;
+  #titulo {
+    text-align: center;
   }
   
   footer {
     clear: both;
   }
   
-  .img {
+  #minha_foto {
     width: 10%;
+    margin-top: 150px;
   }
-  
-  .lado-esquerdo {
-    width: 50%;
-    float: left;
-  }
-  
-  .lado-direito {
-    width: 50%;
-    float: right;
-  }
+ 
