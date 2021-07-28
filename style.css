@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header#cabecalho {
     position: fixed;
@@ -10,8 +11,9 @@ header#cabecalho {
 img#minha_foto {
     width: 300px;
     border-radius: 50px;
-    margin-top: -260px;
-    margin-left: 500px;
+    margin-top: -27px;
+    margin-left: 170px;
+
 }
 footer {
     background-color: grey;
@@ -28,27 +30,42 @@ aside {
     width: 1350px;
 }
 h1{
-
+     text-align: center;
     display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 h2 {
     text-align: center;
 }
 ol {
-    margin-top: -12px;
+    margin-top: -170px;
+    border-radius: 50px;
+    background-color: turquoise;
+    padding: 40px;
+    width: 165px;
+    float: left;
+    margin-left: 105px;
 }
 section{
     width: 1350px;
 }
 article#iAprendido {
-    margin-top: 90px;
+    margin-top: 25px;
     width: 400px;
-    margin-left: 450px;
+    margin-left: 430px;
+    font-size: 14px;
+    background-color: turquoise;
+    border-radius: 50px;
+    padding: 40px;
 }
 ul {
     float: right;
-    margin-right: 240px;
-    margin-top: -400px;
+    margin-right: 125px;
+    margin-top: -563px;
+    background-color: turquoise;
+    border-radius: 50px;
+    padding: 40px;
 }
 p {
     text-align: center;
@@ -64,4 +81,8 @@ div#iOutroTxt {
 p#iFooter {
     text-align: center;
     margin-top: 15px;
+}
+nav{
+    margin-top: 100px;
+    text-align: center;
 }
