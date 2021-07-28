@@ -1,61 +1,60 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #2fc18c;
-    padding: auto;
-    font-family: monospace;
-    letter-spacing: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: '#2fc18c';
+  padding: auto;
+  font-family: monospace;
+  letter-spacing: 25px;
 }
 
 #titulo {
-    color: white;
-    margin-left: 5%;
+  color: white;
+  margin-left: 5%;
 }
 
 #minha_foto {
-    width: 300px;
-    margin-top: 75px;
-    border: solid black;
+  width: 300px;
+  margin-top: 75px;
+  border: solid black;
 }
 
 .lado-esquerdo {
-    display: inline-block;
-    max-width: 40%;
-    margin-left: 50px;
+  display: inline-block;
+  max-width: 40%;
+  margin-left: 50px;
 }
 
 .lado-direito {
-    display: inline-block;
-    max-width: 40%;
-    vertical-align: top;
-    margin-left: 50px;
+  display: inline-block;
+  max-width: 40%;
+  vertical-align: top;
+  margin-left: 50px;
 }
 
 p {
-    line-height: 50px;
+  line-height: 50px;
 }
 
-td,
-table {
-    border-style: solid;
+td , table {
+  border-style: solid;
 }
 
 table {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #rodape {
-    padding: 15px;
-    background-color: #2fc18c;
+  padding: 15px;
+  background-color: '#2fc18c';
 }
 
 a {
-    font-size: 20px;
-    font-family: monospace;
+  font-size: 20px;
+  font-family: monospace;
 }
