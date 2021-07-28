@@ -8,7 +8,7 @@
 }
 
 h1 {
-        color: black;
+                color: black;
 }
 body {
                 background-color: rgb(253, 251, 251);
@@ -18,6 +18,14 @@ body {
                 padding: 10px; 
                 color: rgb(117, 119, 121);
                 line-height: 16px;               
+}
+
+#aprendizados {
+                display: inline;
+}
+
+#artigo {
+                display: inline;
 }
 
 #tabela {
