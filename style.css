@@ -1,118 +1,119 @@
-body {
-    background-color :rgb(253, 251, 251);
-    font-family :Verdana, Geneva, Tahoma, sans-serif;}
+body{
+background-color : rgb(253, 251, 251);
+font-family : Verdana, Geneva, Tahoma, sans-serif;}
 
-header#cabecalho {
-    position :fixed;
-    top :0;
-    background-color :green;
-    width :1350px;}
+header#cabecalho{
+position : fixed;
+top : 0;
+background-color : green;
+width : 1350px;}
 
 img#minha_foto {
-    width :300px;
-    border-radius :50px;
-    margin-top :35px;
-    margin-left :10px;
-    border :solid;
-    border-color :rgb(53, 47, 53);}
+width : 300px;
+border-radius : 50px;
+margin-top : 35px;
+margin-left : 10px;
+border : solid;
+border-color : rgb(53, 47, 53);}
 
 footer {
-    background-color :grey;
-    width :1350px;
-    clear :both;}
+background-color : grey;
+width : 1350px;
+clear : both;}
 
 img#iTrybe {
-    width :150px;
-    margin-left :1000px;
-    margin-top :-80px;}
+width : 150px;
+margin-left : 1000px;
+margin-top : -80px;}
 
 aside {
-    width :650px;
-    margin-left :680px;
-    margin-top :-310px;}
+width : 650px;
+margin-left : 680px;
+margin-top : -310px;}
 
-h1 {text-align :center;
-    display :block;
-    font-family :Verdana, Geneva, Tahoma, sans-serif;
-    color : white;}
+h1 {text-align : center;
+display : block;
+font-family : Verdana, Geneva, Tahoma, sans-serif;
+color : white;}
 
 h2 {
-    text-align :left;
-    margin-left :55px;}
+text-align : left;
+margin-left : 55px;}
 
 ol {
-    margin-top :60px;
-    border-radius :50px;
-    background-color :turquoise;
-    padding :40px;
-    width :215px;
-    float :left;
-    margin-left :10px;
-    border :solid;
-    border-color :rgb(53, 47, 53);}
+margin-top : 60px;
+border-radius : 50px;
+background-color : turquoise;
+padding : 40px;
+width : 215px;
+float : left;
+margin-left : 10px;
+border : solid;
+border-color : rgb(53, 47, 53);}
 
-section { width :675px;}
+section { width : 675px;}
 
 article#iAprendido {
-    margin-top :-377px;
-    width :215px;
-    margin-left :352px;
-    font-size :14px;
-    background-color :turquoise;
-    border-radius :50px;
-    padding :40px;
-    border :solid;
-    border-color :rgb(53, 47, 53);
-    height :226px;}
+margin-top : -377px;
+width : 215px;
+margin-left : 352px;
+font-size : 14px;
+background-color :turquoise;
+border-radius :50px;
+padding : 40px;
+border : solid;
+border-color : rgb(53, 47, 53);
+height : 226px;}
+
 ul{ 
-    float :right;
-    margin-right :20px;
-    margin-top :60px;
-    background-color :turquoise;
-    border-radius :50px;
-    padding :40px;
-    border :solid;
-    border-color :rgb(53, 47, 53);
-    width :215px;}
+float : right;
+margin-right : 20px;
+margin-top : 60px;
+background-color : turquoise;
+border-radius : 50px;
+padding : 40px;
+border : solid;
+border-color : rgb(53, 47, 53);
+width : 215px;}
 
 p {
-    text-align :center;
-    font-size :14px;
-    font-style :italic;}
+text-align : center;
+font-size : 14px;
+font-style : italic;}
     
 div#iTxtAdicional {
-    text-align :left;
-    margin-left :10px;
-    margin-top :50px;}
+text-align : left;
+margin-left : 10px;
+margin-top : 50px;}
 
 div#iOutroTxt {
-    margin-left :10px;
-    margin-top :75px;
-    background-color :lightslategray;
-    border :solid;
-    border-color :rgb(53, 47, 53);}
+margin-left : 10px;
+margin-top : 75px;
+background-color : lightslategray;
+border : solid;
+border-color : rgb(53, 47, 53);}
 
 p#iFooter {
-    text-align :center;
-    margin-top :15px;}
+text-align : center;
+margin-top : 15px;}
 
 nav {
-    margin-top :100px;
-text-align :center;}
+margin-top : 100px;
+text-align : center;}
 
 a#iNav {
-color :rgb(53, 47, 53);
-    text-decoration :none;}
+color : rgb(53, 47, 53);
+text-decoration : none;}
 
 a#iNav:hover {
-    background-color :turquoise;
-    padding :10px;
-    border-radius :20px;}
+background-color : turquoise;
+padding : 10px;
+border-radius : 20px;}
 
 table {
-    border :solid;
-    border-color: rgb(53, 47, 53);
-    margin-left: 230px;}
+border : solid;
+border-color: rgb(53, 47, 53);
+margin-left: 230px;}
 
 td#iQ { 
-    background-color: turquoise;}
+background-color: turquoise;}
