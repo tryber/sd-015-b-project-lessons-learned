@@ -1,0 +1,25 @@
+    body{
+        background-color: rgb(253, 251, 251)
+    }
+
+    #cabecalho{
+        position:fixed ;
+        top: 0;
+    }
+
+    nav{
+        margin-top: 100px;
+    }
+
+    #minha_foto{    
+        width: 150px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    #licoes_aprendidas
+    #licoes_a_aprender
+    
+    #rodape{
+        bottom: 0;
+    }
