@@ -1,38 +1,46 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 h3 {
   font-style: italic;
   font-size: 20px;
   font-family: Arial, Helvetica, serif, sans-serif;
 }
+
 #cabecalho {
   position: fixed;
   top: 0px;
 }
+
 #minha_foto {
   height: 300px;
   margin-top: 50px;
   position: absolute;
 }
+
 #licoes_aprendidas {
   display: inline-block;
   margin-top: 40px;
   margin-left: 200px;
 }
+
 #licoes_a_aprender {
   display: inline-block;
   margin-left: 40px;
 }
+
 #lessons-article {
   display: inline-block;
   margin-top: 60px;
   margin-left: 50px;
 }
+
 #lessons-aside {
   margin-top: 10px;
   margin-left: 50px;
 }
+
 #rodape {
   position: absolute;
   bottom: 0px;
