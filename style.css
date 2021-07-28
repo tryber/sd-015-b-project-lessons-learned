@@ -22,13 +22,11 @@ body {
 
 section {
                 width: 50%;
-                display: inline;
                 float: left;
 }
 
 article {
                 width: 50%;
-                display: inline;
                 float: right;
 }
 
