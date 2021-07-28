@@ -1,12 +1,22 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
+    font-family: Montserrat;
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
+    left: 0;
+    width: 1366px;
+    background-color: rgb(83, 201, 83);
+    display: block;
+    text-align: center;
+
 }
-#minha_foto{
+#minha_foto {
     width: 150px;
-    border-radius: 20px;
+    padding-top: 150px;
+}
+.logo {
+    margin-left:25px;
 }

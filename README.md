@@ -339,8 +339,7 @@ Teste a semântica da sua página está aprovada pelo site CodeSniffer
 
 **O que será verificado:**
 
-- A página deve possuir uma tabela
-
+- A página deve possuir uma tabelawqwwwwwwwwwwwww
 ### 13. Utilize o Box model
 
 Altere **margin**, **padding** e **border** dos elementos para ver, na prática, como esses atributos influenciam e melhoram a visualização dos componentes.
