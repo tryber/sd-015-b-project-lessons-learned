@@ -1,8 +1,12 @@
 body {
-    background-color: rgb(253, 251, 251)
+    background-color: rgb(253, 251, 251);
+    border: 5px solid blue;
+    margin: 0;
+    padding: 50px;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
 }
+
