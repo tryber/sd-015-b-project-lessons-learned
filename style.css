@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
   background-color: blue;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -12,32 +12,33 @@ body {
 }
 
 #titulo {
-  color:black;
+  color: black;
   text-align: center;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 45px;
 }
 
 #minha_foto {  
-  position: relative;;
-  margin-inline: -8px; 
-  bottom: -103px;
+  position: relative;
+  margin-inline: -8px;
+  bottom: -103px
 }
 
 #licoes_a_aprender {
+
 }
 
 
 #rodape {
-  color:darkorange;
+  color: darkorange;
   font-style: italic;
-  font-weight:900;
+  font-weight: 900;
 }
 
 #educacao {
   font-size: 20px;
 }
 
-article, aside {
+article,  aside {
   font-size: 18px;
 }
