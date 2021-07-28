@@ -5,4 +5,57 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2fc18c;
+    padding: auto;
+    font-family: monospace;
+    letter-spacing: 25px;
+}
+
+#titulo {
+    color: white;
+    margin-left: 5%;
+}
+
+#minha_foto {
+    width: 300px;
+    margin-top: 75px;
+    border: solid black;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 50px;
+}
+
+.lado-direito {
+    display: inline-block;
+    max-width: 40%;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+p {
+    line-height: 50px;
+}
+
+td,
+table {
+    border-style: solid;
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+#rodape {
+    padding: 15px;
+    background-color: #2fc18c;
+}
+
+a {
+    font-size: 20px;
+    font-family: monospace;
 }
