@@ -11,7 +11,8 @@ h1 {
 
 img {
   width: 200px;
-  border-radius: 40px;}
+  border-radius: 40px;
+  height: 210px;}
 
 ul {
   margin: -200px 10px 30px 302px;
@@ -28,5 +29,4 @@ div {
   margin: -78px 20px 3px 624px;}
 
 table {
-  margin-top: 50px;
-}
+  margin-top: 50px;}
