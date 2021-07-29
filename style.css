@@ -201,7 +201,7 @@ a {
   background-color: green;
 }
 
-#tabela tr:nth-of-type(4) td:nth-of-type(2) {
+#tabela tr:nth-of-type( 4 ) td:nth-of-type( 2 ) {
   background-color: orange;
 }
 
