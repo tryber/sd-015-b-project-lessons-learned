@@ -20,18 +20,33 @@ body {
 #titulo {
   color: rgb(253, 251, 251);
   text-align: center;
+  font-size: 32px;
 }
 
 #minha_foto {
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-left: 48px;
+  border-radius: 50%;
+}
+
+#licoes {
+  font-size: 24px;
+  margin: 15px;
+  width: 348px;
+  text-align: center;
+}
+
+.licoes_container {
+  display: inline-block;
+  margin-bottom: 15px;
 }
 
 #licoes_aprendidas {
-  font-size: 16px;
+  margin-left: 115px;
 }
 
 #licoes_a_aprender {
-  font-size: 16px;
+  margin-left: 50px;
 }
 
 #rodape {
