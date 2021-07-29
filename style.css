@@ -34,9 +34,6 @@ div {
   margin-top: -100px;
 }
 
-table {
-  margin-top: 50px;}
-
 .cQ {
   display: inline-block;}
 
@@ -61,7 +58,7 @@ ul {
 }
 
 footer {
-  background-color:  grey;
+  background-color: grey;
 }
 
 p#iFooter {
