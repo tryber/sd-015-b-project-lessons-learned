@@ -14,7 +14,8 @@ h2 {
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  padding: 10px;
+  padding: 5px;
+  line-height: 1.5;
 }
 
 a {
@@ -50,9 +51,14 @@ a {
   padding: 10px;
 }
 
+#menu-esquerdo {
+  display: inline-block;
+  width: 17%;
+}
+
 #section_foto {
   position: relative;
-  top: 100px;
+  top: 0;
   left: 0;
   width: 220px;
   height: 140px;
@@ -76,7 +82,7 @@ a {
 #section_licoes_aprendidas {
   position: relative;
   left: 0;
-  top: 110px;
+  top: 10px;
   width: 220px;
   height: auto;
   border: 1px solid green;
@@ -101,7 +107,7 @@ a {
 #section_licoes_a_aprender {
   position: relative;
   left: 0;
-  top: 120px;
+  top: 20px;
   width: 220px;
   height: auto;
   border: 1px solid green;
@@ -123,44 +129,80 @@ a {
   font-weight: 800;
 }
 
+#section-principal {
+  position: float;
+  flex-direction: row;
+  margin-top: 110px;
+}
+
+.lado-esquerado {
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
 #principal {
-  position: absolute;
-  top: 105px;
-  bottom: 67px;
-  left: 240px;
-  right: 5px;
-  padding: 0;
-  max-width: 100%;
+  margin-left: 230px;
 }
 
 #artigo {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 270px;
   border: 1px solid green;
   box-shadow: 2px 2px green;
+  position: absolute;
+  top: 110px;
+  width: 60%;
 }
 
 #titulo_artigo {
-  position: relative;
   margin-top: 0;
-  text-align: left;
 }
 
-#barra_lateral {
-  position: absolute;
-  top: 5px;
-  left: 860px;
-  right: 5px;
+#aside-lateral {
   border: 1px solid green;
   box-shadow: 2px 2px green;
+  position: absolute;
+  top: 110px;
+  left: 1070px;
+  width: 20%;
 }
 
 #titulo_barra_lateral {
+  margin-top: 0;
+  text-align: center;
+}
+
+#secao_tabela {
+  border: 1px solid green;
+  box-shadow: 2px 2px green;
+  position: absolute;
+  top: 320px;
+  left: 1070px;
+  width: 20%;
+}
+
+#titulo_secao_tabela {
+  display: inline-block;
   padding: 0;
   margin-top: 0;
-  text-align: left;
+  text-align: center;
+}
+
+#tabela {
+  display: inline-block;
+  font-size: 12px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#tabela td {
+  text-align: center;
+  background-color: green;
+}
+
+#tabela tr:nth-of-type(4) td:nth-of-type(2) {
+  background-color: orange;
 }
 
 #rodape {
