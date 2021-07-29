@@ -49,6 +49,22 @@ body {
   margin-left: 50px;
 }
 
+.lado-esquerdo {
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  margin: 5px;
+  width: 300px;
+}
+
+.lado-direito {
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  margin: 5px;
+  width: 300px;
+}
+
 #rodape {
   font-size: 16px;
 }
