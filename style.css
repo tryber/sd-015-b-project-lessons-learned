@@ -22,24 +22,24 @@ header h1 {
 
 header li {
   display: inline-block;
-  font-family: Inconsolata, monospace;
   margin-right: 20px;
+  font-family: Inconsolata, monospace;
 }
 
 footer a {
-  text-decoration: none;
   color: rgba(219, 84, 97, 1);
-}
-
-.col a {
   text-decoration: none;
-  color: rgba(0, 78, 151, 1);
-  font-weight: 500;
 }
 
 header a {
-  text-decoration: none;
   color: rgba(35, 87, 137, 1);
+  text-decoration: none;
+}
+
+.col a {
+  color: rgba(0, 78, 151, 1);
+  font-weight: 500;
+  text-decoration: none;
 }
 
 header a:hover {
@@ -47,17 +47,17 @@ header a:hover {
 }
 
 footer {
-  text-align: center;
-  color: rgba(219, 84, 97, 1);
-  background-color: #235789;
-  font-family: Inconsolata, monospace;
   padding: 20px;
   margin: auto;
+  background-color: #235789;
+  color: rgba(219, 84, 97, 1);
+  font-family: Inconsolata, monospace;
+  text-align: center;
 }
 
 table {
-  text-align: center;
   margin: auto;
+  text-align: center;
 }
 
 table,
@@ -74,8 +74,8 @@ td {
 }
 
 .container {
-  margin: auto;
   width: 1000px;
+  margin: auto;
 }
 
 .columns {
@@ -84,10 +84,10 @@ td {
 
 .col {
   padding: 20px;
-  text-align: left;
   border: 1px dashed rgba(253, 200, 196, 1);
   background-color: rgba(134, 113, 151, 1);
   font-family: Inconsolata, monospace;
+  text-align: left;
 }
 
 .col p {
@@ -104,6 +104,6 @@ td {
 }
 
 #licoes_aprendidas {
-  margin-left: 100px;
   margin-right: 100px;
+  margin-left: 100px;
 }
