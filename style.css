@@ -32,5 +32,8 @@ table {
   margin-top: 50px;}
 
 article {
-  margin-top: -78px;
+  margin-top: -78px;}
+
+.cQ {
+  display: inline-block;
 }
