@@ -4,6 +4,7 @@ body {
 }
 header {
     position: fixed;
+    display: block;
     top:0px ;
     background-color: gray;
     width: 100%;
@@ -14,7 +15,7 @@ h1 {
 }
 #cabecalho ul { 
     display:block;
-width:60px;
+    width:60px;
 }
 
 nav {
@@ -22,7 +23,9 @@ nav {
     background-color: gray;
 }
 img {
+    display: block;
     margin-top: 80px;
+    border-radius: 05%;
 }
 #rodape {
     text-align: center;
@@ -33,4 +36,20 @@ img {
 }
 table, th, td {
     border: 1px solid black;
-  }
+}
+
+.list-container{
+    width: 150px;
+    display: inline-block;
+    
+}
+.lista_aprender {
+ background-color: aquamarine;
+}
+.lista_aprendidas {
+ background-color: crimson;
+}
+.navigation {
+    display: inline-block;
+    width: auto;
+}
