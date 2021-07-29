@@ -15,6 +15,8 @@
   --metade-cores-um: var(--vermelho), var(--laranja), var(--amarelo);
 
   --metade-cores-dois: var(--azul), var(--verde), var(--roxo);
+
+  --total-cores: var(--metade-cores-um), var(--metade-cores-dois);
 }
 
 body {
@@ -22,7 +24,7 @@ body {
   /* background-color: rgb(253, 251, 251); */
 
   /* Background desenvolvido com a ajuda do site: https://angrytools.com/gradient/ */
-  background: linear-gradient(90deg, var(--metade-cores-um), var(--metade-cores-dois));
+  background: linear-gradient(90deg, var(--total-cores));
   background-size: 100%;
   max-width: 900px;
   width: 100%;
