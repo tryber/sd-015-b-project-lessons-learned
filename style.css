@@ -29,11 +29,6 @@ p {
   line-height: 20px;
 }
 
-div {
-  float: right;
-  margin-top: -100px;
-}
-
 .cQ {
   display: inline-block;}
 
@@ -48,8 +43,13 @@ a:hover {
   padding: 10px;
   background-color: black;}
 
-article {
+.lado-esquerdo {
   float: left;
+  margin-top: -100px;
+}
+
+.lado-direito {
+  float: right;
   margin-top: -100px;
 }
 
