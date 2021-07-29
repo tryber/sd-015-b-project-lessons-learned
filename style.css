@@ -4,10 +4,17 @@ body {
 
 header {
     background-color: lightblue;
-    align-content: center;
+    top: 0px;
 }
 
-header h1 {
-    align-items: center;
+#exp {
+    float: right;
+    display: inline;
 }
 
+
+footer {
+    background-color: lightblue;
+    bottom: 0px;
+    top: 3px;
+}
