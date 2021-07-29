@@ -1,0 +1,46 @@
+
+body {
+  background-color: rgb(253, 251, 251);
+  position: relative;
+  margin: 0px;
+}
+
+#cabecalho {
+  background-color: green;
+  position: relative;
+  margin: auto;
+  height: 100px;
+  top: 0px;
+  padding-top: 10px;
+}
+
+#titulo {
+  color: white;
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+#imagem {
+  position: relative;
+  margin: 10px; 
+}
+
+#nome {
+  position: relative;
+  margin-top: 0px;
+}
+
+#licoes {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#rodape {
+  background-color: grey;
+  color: white;
+  height: 60px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
