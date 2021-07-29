@@ -14,16 +14,18 @@ img {
   border-radius: 40px;}
 
 ul {
-  margin: -200px 10px 30px 302px
+  margin: -200px 10px 30px 302px;
 }
 
 p {
   font-size: 12px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2px;
 }
 
 div {
-  margin: -78px 20px 3px 624px;
-}
+  margin: -78px 20px 3px 624px;}
 
 table {
   margin-top: 50px;
