@@ -30,7 +30,9 @@ p {
 }
 
 div {
-  margin: -78px 20px 3px 624px;}
+  float: right;
+  margin-top: -100px;
+}
 
 table {
   margin-top: 50px;}
@@ -42,7 +44,7 @@ article {
   display: inline-block;}
 
 nav {
-  margin-top: -50px;
+  margin-top: 50px;
 }
 
 a {
@@ -51,3 +53,12 @@ a {
 a:hover {
   padding: 10px;
   background-color: black;}
+
+article {
+  float: left;
+  margin-top: -100px;
+}
+
+ul {
+  margin: -200px 20px 146px 300px;
+}
