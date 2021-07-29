@@ -1,6 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;}
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 70px;
+}
 
 header {
   background-color: chartreuse;
@@ -18,11 +20,7 @@ img {
   width: 200px;
   border-radius: 40px;
   height: 210px;
-  border-top: -510px;}
-
-ul {
-  margin: -200px 10px 30px 302px;
-}
+  margin-top: 10px;}
 
 p {
   font-size: 12px;
@@ -52,9 +50,4 @@ a {
 
 a:hover {
   padding: 10px;
-  background-color: black;
-}
-
-section {
-  margin-top: 100px;
-}
+  background-color: black;}
