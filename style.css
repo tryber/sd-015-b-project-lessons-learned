@@ -37,9 +37,6 @@ div {
 table {
   margin-top: 50px;}
 
-article {
-  margin-top: -78px;}
-
 .cQ {
   display: inline-block;}
 
@@ -69,4 +66,9 @@ footer {
 
 p#iFooter {
   text-align: center;
+}
+
+table {
+  margin-left: 500px;
+  margin-bottom: 10px;
 }
