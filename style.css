@@ -5,9 +5,9 @@ body {
 h1 {
   top: 0;
   position: fixed;
-  color: white;
   text-align: center;
-  margin-bottom: 10px;}
+  color: white;
+  background-color: teal;}
 
 img {
   width: 200px;
@@ -22,7 +22,7 @@ p {
   font-size: 12px;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 2px;
+  line-height: 20px;
 }
 
 div {
@@ -30,3 +30,7 @@ div {
 
 table {
   margin-top: 50px;}
+
+article {
+  margin-top: -78px;
+}
