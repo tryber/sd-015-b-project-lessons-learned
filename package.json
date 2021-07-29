@@ -26,7 +26,11 @@
     "mochawesome": "^4.1.0",
     "mochawesome-merge": "^4.0.0",
     "mochawesome-report-generator": "^4.1.0",
+    "prettier-eslint": "^13.0.0",
+    "prettier-eslint-cli": "^5.0.1",
+    "prettier-stylelint": "^0.4.2",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0"
-  }
+  },
+  "dependencies": {}
 }

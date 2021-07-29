@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-right: 0;
+  margin-left: 0;
+  background-color: rgba(219, 84, 97, 1);
+  text-align: center;
+}
+
+header h1 {
+  color: rgba(35, 87, 137, 1);
+  font-family: Otomanopee One, sans-serif;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: Inconsolata, monospace;
+}
+
+footer a {
+  color: rgba(219, 84, 97, 1);
+  text-decoration: none;
+}
+
+header a {
+  color: rgba(35, 87, 137, 1);
+  text-decoration: none;
+}
+
+.col a {
+  color: rgba(0, 78, 151, 1);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgba(69, 105, 144, 1);
+}
+
+footer {
+  padding: 20px;
+  margin: auto;
+  background-color: #235789;
+  color: rgba(219, 84, 97, 1);
+  font-family: Inconsolata, monospace;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(69, 105, 144, 1);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.columns {
+  display: flex;
+}
+
+.col {
+  padding: 20px;
+  border: 1px dashed rgba(253, 200, 196, 1);
+  background-color: rgba(134, 113, 151, 1);
+  font-family: Inconsolata, monospace;
+  text-align: left;
+}
+
+.col p {
+  line-height: 5px;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+#licoes {
+  margin-top: 220px;
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  margin-right: 100px;
+  margin-left: 100px;
+}
