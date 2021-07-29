@@ -9,12 +9,12 @@ header {
   left: 0;
   margin-right: 0;
   margin-left: 0;
-  background-color: #db5461;
+  background-color: rgba(219, 84, 97, 1);
   text-align: center;
 }
 
 header h1 {
-  color: #235789;
+  color: rgba(35, 87, 137, 1);
   font-family: Otomanopee One, sans-serif;
   font-size: 50px;
   line-height: 70px;
@@ -26,27 +26,33 @@ header li {
   margin-right: 20px;
 }
 
+footer a {
+  text-decoration: none;
+  color: rgba(219, 84, 97, 1);
+}
+
+.col a {
+  text-decoration: none;
+  color: rgba(0, 78, 151, 1);
+  font-weight: 500;
+}
+
 header a {
   text-decoration: none;
-  color: #235789;
+  color: rgba(35, 87, 137, 1);
 }
 
 header a:hover {
-  color: #456990;
+  color: rgba(69, 105, 144, 1);
 }
 
 footer {
   text-align: center;
-  color: #db5461;
+  color: rgba(219, 84, 97, 1);
   background-color: #235789;
-  font-family: "Inconsolata", monospace;
+  font-family: Inconsolata, monospace;
   padding: 20px;
   margin: auto;
-}
-
-footer a {
-  text-decoration: none;
-  color: #db5461;
 }
 
 table {
@@ -57,7 +63,7 @@ table {
 table,
 th,
 td {
-  border: 1px solid #456990;
+  border: 1px solid rgba(69, 105, 144, 1);
   border-collapse: collapse;
 }
 
@@ -79,15 +85,9 @@ td {
 .col {
   padding: 20px;
   text-align: left;
-  border: 1px dashed #fdc8c4;
-  background-color: #867197;
-  font-family: "Inconsolata", monospace;
-}
-
-.col a {
-  text-decoration: none;
-  color: #004e97;
-  font-weight: 500;
+  border: 1px dashed rgba(253, 200, 196, 1);
+  background-color: rgba(134, 113, 151, 1);
+  font-family: Inconsolata, monospace;
 }
 
 .col p {
