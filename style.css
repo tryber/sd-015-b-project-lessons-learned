@@ -2,7 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
     border: 5px solid blue;
     margin: 0;
-    padding: 50px;
+    padding: 100px;
     font-family: Arial;
     line-height: 20px;
     color:rgb(61, 73, 92);
@@ -12,5 +12,13 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    border: 5px solid black;
 }
-
+.lado-esquerdo {
+    display: inline-block;
+    border: 5px solid yellow;   
+}
+.lado-direito {
+    display: inline-block;   
+    border: 5px solid black;  
+}
