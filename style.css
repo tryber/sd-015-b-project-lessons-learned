@@ -25,7 +25,7 @@ body {
   background: linear-gradient(90deg, var(--metade-cores-um), var(--metade-cores-dois));
   background-size: 100%;
   max-width: 900px;
-  max-height: 100%;
+  width: 100%;
   margin: 0 auto;
   font-family: Source Sans Pro, sans-serif;
   font-size: 16px;
