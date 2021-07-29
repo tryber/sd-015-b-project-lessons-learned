@@ -5,13 +5,13 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
   background-color: chartreuse;
   width: 1355px;}
 
 h1 {
   width: 1355px;
-  top: 0;
-  position: fixed;
   text-align: center;
   color: white;
   background-color: teal;}
@@ -44,7 +44,7 @@ article {
   display: inline-block;}
 
 nav {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 a {
@@ -61,4 +61,12 @@ article {
 
 ul {
   margin: -200px 20px 146px 300px;
+}
+
+footer {
+  background-color:  grey;
+}
+
+p#iFooter {
+  text-align: center;
 }
