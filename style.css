@@ -22,6 +22,9 @@ main article h2 {
 }
 
 #titulo {
+    font-family:fantasy monospace;
+    font-size: 33px;
+    word-spacing: 5px;
     color: antiquewhite;
     text-align: center;
 }
@@ -40,5 +43,4 @@ main article h2 {
     margin-top: 30px;
     margin-bottom: 10px;
     width: 500px;
-
 }
