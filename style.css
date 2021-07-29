@@ -8,12 +8,13 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  height: 200px;
+  padding: 50px;
   background-color: rgb(17, 163, 106);
 }
 
 #titulo {
   color: rgb(253, 251, 251);
+  text-align: center;
 }
 
 #minha_foto {
