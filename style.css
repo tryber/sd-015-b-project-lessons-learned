@@ -59,13 +59,13 @@ a:hover {
 .lado-esquerdo {
   float: left;
   position: absolute;
-  top: 600px;
+  top: 650px;
 }
 
 .lado-direito {
   float: right;
   position: absolute;
-  top: 600px;
+  top: 650px;
   left: 600px;
 }
 
@@ -75,8 +75,10 @@ ul {
 
 footer {
   background-color: grey;
-  width: 1355px;}
+  width: 1355px;
+}
 
 table {
   border: 1px;
-  border-style: solid;}
+  border-style: solid;
+}
