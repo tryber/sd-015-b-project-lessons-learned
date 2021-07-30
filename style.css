@@ -159,8 +159,7 @@ footer {
   background-size: 26%;
   width: 900px;
   height: 68px;
-  position: absolute;
-  z-index: 0;
+  position: relative;
   border-radius: 5px;
-  bottom: 85px;
+  bottom: 50%;
 }
