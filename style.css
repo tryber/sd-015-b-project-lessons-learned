@@ -5,13 +5,14 @@ body {
   margin: 0px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font color: rgb(102, 102, 102)
-  ;
+  font color: rgb(102, 102, 102);
+  line-height: 1px;
+  
 }
 
 #cabecalho {
   background-color: rgb(6, 120, 85);
-  position: relative;
+  position: fixed;
   margin: auto;
   height: 100px;
   top: 0px;
@@ -19,7 +20,7 @@ body {
 }
 
 #titulo {
-  color: rgb(114, 12, 12)
+  color: rgb(253, 251, 251)
   margin-top: 5px;
   margin-left: 25px;
   margin-bottom: 5px;
@@ -34,7 +35,6 @@ body {
   position: relative;
   margin-top: 0px;
 }
-
 
 #licoes_aprendidas {
   display: inline-block;
