@@ -16,6 +16,18 @@ h1 {
   color: white;
   background-color: teal;}
 
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+  width: 1355px;
+}
+
+aside {
+  width: 1355px;
+}
+
 img {
   width: 200px;
   border-radius: 40px;
@@ -27,6 +39,7 @@ p {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 20px;
+  text-align: center;
 }
 
 .cQ {
@@ -58,4 +71,14 @@ ul {
 }
 
 footer {
-  background-color: grey;}
+  background-color: grey;
+  width: 1355px;}
+
+table {
+  border: 1px;
+  border-style: solid;
+}
+td {
+  border-style: solid;
+  border: 1px;
+}
