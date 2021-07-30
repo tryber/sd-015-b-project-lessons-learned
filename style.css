@@ -58,12 +58,15 @@ a:hover {
 
 .lado-esquerdo {
   float: left;
-  margin-top: -100px;
+  position: absolute;
+  top: 600px;
 }
 
 .lado-direito {
   float: right;
-  margin-top: -100px;
+  position: absolute;
+  top: 600px;
+  left: 600px;
 }
 
 ul {
@@ -76,9 +79,4 @@ footer {
 
 table {
   border: 1px;
-  border-style: solid;
-}
-td {
-  border-style: solid;
-  border: 1px;
-}
+  border-style: solid;}
