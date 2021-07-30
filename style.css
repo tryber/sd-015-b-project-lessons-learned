@@ -1,0 +1,165 @@
+:root {
+
+  --vermelho: rgba(239, 13, 21, 1) 0%;
+
+  --laranja: rgba(254, 129, 37, 1) 20%;
+
+  --amarelo: rgba(255, 255, 67, 1) 40%;
+
+  --azul: rgba(63, 65, 249, 1) 60%;
+
+  --verde: rgba(8, 121, 68, 1) 80%;
+
+  --roxo: rgba(159, 8, 188, 1) 100%;
+
+  --metade-cores-um: var(--vermelho), var(--laranja), var(--amarelo);
+
+  --metade-cores-dois: var(--azul), var(--verde), var(--roxo);
+
+  --total-cores: var(--metade-cores-um), var(--metade-cores-dois);
+}
+
+body {
+
+  /* background-color: rgb(253, 251, 251); */
+
+  /* Background desenvolvido com a ajuda do site: https://angrytools.com/gradient/ */
+  background: linear-gradient(90deg, var(--total-cores));
+  background-size: 100%;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
+  border-radius: 5px;
+}
+
+#cabecalho {
+  width: 900px;
+  height: 106px;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
+}
+
+.bg-cabecalho {
+  background-image: url('./img/bg-cabecalho.jpg');
+  background-size: 10%;
+  opacity: 20%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+#cabecalho h1 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#navegacao {
+  display: flex;
+  justify-content: center;
+}
+
+#navegacao div {
+  padding: 0 10px;
+}
+
+#navegacao div a img {
+  border-radius: 50%;
+}
+
+#barra-lateral {
+  border-radius: 10px;
+  line-height: 18px;
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
+}
+
+#barra-lateral p {
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 21px;
+}
+
+.ancora-img-perfil {
+  font-size: 0;
+}
+
+.tabela th {
+  color: rgb(14, 7, 116);
+  width: 200px;
+  padding: 15px 0 5px;
+}
+
+.primeira-coluna {
+  padding-left: 30px;
+}
+
+.segunda-coluna {
+  padding-left: 40px;
+}
+
+.lado-a-lado {
+  display: flex;
+  justify-content: center;
+}
+
+.lado-esquerdo {
+  width: 400px;
+  padding-top: 31px;
+}
+
+.lado-direito {
+  width: 400px;
+}
+
+.primeira-lista {
+  width: 400px;
+}
+
+main {
+  margin-top: 107px;
+}
+
+main , footer {
+  background-color: rgba(255, 255, 255, 0.308);
+}
+
+.aside-e-foto-perfil {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px 10% 0;
+}
+
+.foto-perfil {
+  border-radius: 10px;
+  width: 120px;
+  margin-right: 5px;
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.62);
+}
+
+footer {
+  font-family: Bebas Neue, cursive, sans-serif;
+  width: 900px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.bg-footer {
+  background-image: url('./img/flores-roda-pe.png');
+  background-size: 26%;
+  width: 900px;
+  height: 68px;
+  position: relative;
+  border-radius: 5px;
+  bottom: 50%;
+}
