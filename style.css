@@ -2,62 +2,131 @@ body{
     width: 900px;
     background-color:rgb(253, 251, 251);
     margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*header*/
-#cabecalho{
-    top: 0;
-    text-align: center;
-    position: fixed;
+header li{
+    list-style: none;
 }
 
-article ul li{
+#cabecalho{
+    width: 100%;
+    top: 0;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    color: #696969;
+    margin-left: 400px;
+    letter-spacing: 0.5 px;
+}
+
+#titulo{
+    text-align:justify;
+    margin-right: 100px;
+    top: 40px;
+    text-decoration:underline;
+}
+#cabecalho article ul li{
+    display: inline-block;
+    font-weight: bold;
     list-style: none;
-    margin-right: 1130px;
+    letter-spacing: 2px;
+    margin-right: 20px;
+}
+
+.conteudo article ul{
+    float: left;
+    text-decoration: none;
+    margin: 120px;
+    list-style: none;
+}
+
+.home li a{
+    color: #4F4F4F;
+    text-decoration: none;
+    font-family:"Times New Roman";
+    border: 1px solid #797979;
+    padding: 8px;
 }
 
 /*Foto*/
 
 #minha_foto{
-    width: 150px;
+    float: left;
+    width: 200px;
     margin-left: 50px;
     padding: 20px;
 }
 
-.conteudo a{
-    top: 200px;
-    margin-left: 80px;
+.conteudo article a{
+    float:right ;
+    margin: -160px 250px;
+    font-size: 30px;
+    color: #59c18d;
+    text-align:center;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: none;
 }
 
 /*Conteúdo*/
 
 .conteudo{
     margin-top: 200px;
+    text-align: center;
 }
-.conteudo h1{
+
+.list ol{
+    margin: 300px;
+}
+
+.list h1{
+    display: block;
+    background-position:top;
+    background-color: #9AC0CD;
+    width: 100%;
+    height: 40px;
+    position:absolute;
     font-family: Arial, Helvetica, sans-serif;
-    margin:0px 80px;
-    padding-top: 60px;
+    font-size: 30px;
+    color: #363636;
+    text-align:center;
+    text-decoration: underline;
+    margin-right: 360px;
+    position: absolute;
+    top: 500px;
+    padding: 20px 0 20px;
 }
+
 
 #licoes_aprendidas {
     display: inline-block;
     margin:80px;
-    margin-top: 30px;
+    margin-top: 180px;
+    margin-left: 120px;
+    color: #4F4F4F;
+    text-align: justify;
 }
 
 #licoes_a_aprender{
     display: inline-block;
-    margin-left: 10px;
-    padding-top: 30px;
+    margin-left: 680px;
+    position: relative;
+    top: -280px;
+    color: #4F4F4F;
+    text-align: justify;
 }
+
 
 .artigo p{
     width: 400px;
     display: table-cell;
-    margin: 0 60px;
-    margin-top: 0px;
+    position: relative;
+    margin: 150px;
+    margin-top: -160px;
     float: left;
+    color: #363636;
     text-align: justify;
 }
 
@@ -65,17 +134,33 @@ article ul li{
    width: 400px;
    display: table-cell;
    float: left;
-   margin-left: 600px;
-   margin-top: -110px;
+   margin-left: 680px;
+   margin-top: -275px;
+   color: #363636;
    text-align: justify;
 
 }
 
 /*footer*/
+#rodape {
+    background: #59c18d;
+    display: block;
+    position: absolute; 
+    width: 100%;
+    height: 68px;
+    margin: auto;
+    margin-top: 60px;
+}
+    
+#rodape:not(.section-post){
+padding: 20px 0;
+}
+
 #rodape p{
-   max-width: 100%;
-   margin-top: 200px;
+   margin-top: 0px;
    margin-left: 60px;
+   text-align: left;
+   padding: 10px 0 10px;
 }
 
 .nav-links li{
@@ -90,4 +175,8 @@ article ul li{
     width: 50px;
     margin-bottom: 20px;
     text-align: right;
+}
+
+.trybe{
+    padding: 8px 0;
 }
