@@ -9,6 +9,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.trybe_green{
+  color: #48C891;
+}
+
 #cabecalho {
   background-color: #333333;
   position: fixed;
