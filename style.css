@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: monospace;
+
 }
 
 body {
@@ -12,7 +14,6 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: monospace;
 }
 
 #cabecalho h1 {
@@ -38,3 +39,46 @@ body {
   color: #f3f3f3;
 }
 
+main{
+  margin: 100px 90px;
+}
+
+main h1{
+  text-align: center;
+  margin: 30px;
+}
+
+#minha_foto{
+  display: block;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+
+.lista{
+  padding: 30px 70px;
+  margin: 40px 0;
+  background-color: #202020;
+  border: #7A28CB 5px solid;
+  border-radius: 10px;
+  color: #f3f3f3;
+  font-size: 15px;
+}
+
+.lista li{
+  margin: 10px 0;
+}
+
+.lista h2{
+  margin-bottom: 20px;
+}
+
+#lista_right{
+  display: block;
+  width: 45%;
+  margin-left: auto;
+
+}
+#lista_left{
+  width: 50%;
+
+}
