@@ -2,8 +2,53 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
+* {
+  margin: 0;
+}
+
+
+.conteudo-menu {
+  background-color: lavender;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  line-height: 30px;
+}
+
+header#cabecalho {
   position: fixed;
   top: 0;
 }
+
+header#cabecalho h1 {
+  font-size: 0;
+}
+
+div.cabecalho {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.conteudo-principal {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.envelope-principal {
+  display: inline-block;
+  max-width: 70%;
+}
+
+.conteudo-paralelo {
+  position: absolute;
+  display: inline-block;
+  max-width: 30%;
+
+}
+  
+
 

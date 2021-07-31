@@ -2,71 +2,101 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-
   <link rel="stylesheet" href="style.css">
-  
-  <title>Document</title>
+  <title>Primeiro Projeto.</title>
 </head>
 
 <body>
-
   <header id="cabecalho">
-    <h1 id="titulo">Meu primeiro projeto na Trybe</h1>
-    <nav>
+    <h1 id="titulo">Nav bar</h1>
+    <nav class="conteudo-menu">
       <p>Em construção...</p>
     </nav>
   </header>
+  <div class="cabecalho">
+    <h1>Meu primeiro projeto na Trybe</h1>
+  </div>
+  <main class="conteudo-principal">
+    <div class="envelope-principal">
+      <img src="./perfil.webp" alt="É uma foto de Robert Rodrigues Martins." id="minha_foto" />
+      <section>
+        <h2>Lições:</h2>
+        <ol id="licoes_aprendidas">
+          <li>Unix</li>
+          <li>Git</li>
+          <li>Github</li>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Pop OS</li>
+          <li>Bash</li>
+          <li>Aprender a aprender</li>
+          <li>Estrutura das requisições do Client</li>
+          <li>Http e tcp/ip</li>
+        </ol>
 
-  <img src="./perfil.webp" alt="É uma foto de Robert Rodrigues Martins." id="minha_foto" />
+        <ul id="licoes_a_aprender">
+          <li>Javascript</li>
+          <li>Node js</li>
+          <li>Deploy</li>
+          <li>Python</li>
+          <li>React</li>
+          <li>Entender o funcionamento geral da aplicação web</li>
+          <li>Criar estrutura semântica do zero</li>
+          <li>Compreender as demais ferramentas do github</li>
+          <li>Escrever meu site completo.</li>
+          <li>Entender DOM e .json</li>
+        </ul>
+      </section>
 
-  <section>
-    <h2>Lições:</h2>
-    <ol id="licoes_aprendidas">
-      <li>Unix</li>
-      <li>Git</li>
-      <li>Github</li>
-      <li>Html</li>
-      <li>Css</li>
-      <li>Pop OS</li>
-      <li>Bash</li>
-      <li>Aprender a aprender</li>
-      <li>Estrutura das requisições do Client</li>
-      <li>Http e tcp/ip</li>
-    </ol>
-
-    <ul id="licoes_a_aprender">
-      <li>Javascript</li>
-      <li>Node js</li>
-      <li>Deploy</li>
-      <li>Python</li>
-      <li>React</li>
-      <li>Entender o funcionamento geral da aplicação web</li>
-      <li>Criar estrutura semântica do zero</li>
-      <li>Compreender as demais ferramentas do github</li>
-      <li>Escrever meu site completo.</li>
-      <li>Entender DOM e .json</li>
-    </ul>
-  </section>
-
-  <section class="sobre_mim">
-    <article>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Repudiandae quia repellat ipsam pariatur consequuntur sint perspiciatis sit deserunt officia corrupti,
-      in commodi magni perferendis ea? Accusamus rem voluptatum saepe quo?
-      in commodi magni perferendis ea? Accusamus rem voluptatum saepe quo?
-      in commodi magni perferendis ea? Accusamus rem voluptatum saepe quo?
-    </article>
-  </section>
-
-  <section class="sobre_mim_aprenizado">
-    <aside>
-      Lorem ipsum dolor sit, asidemet consectetur adipisicing elit. 
-      Repudiandae quia repellat ipsam pariatur consequuntur sint perspiciatis sit deserunt officia corrupti,e quo?
-      in commodi magni perferendis ea? Accusamus rem voluptatum saepe quo?
-    </aside>
-  </section> 
+      <section class="tabela">
+        <table>
+          <thead>
+            <tr>
+              <th>Header da tabela:</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>linha 1 elemento 1</td>
+              <td>linha 1 elemento 2</td>
+            </tr>
+            <tr>
+              <td>linha 2 elemento 1</td>
+              <td>linha 2 elemento 2</td>
+            </tr>
+            <tr>
+              <td>linha 3 elemento 1</td>
+              <td>linha 3 elemento 2</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Footer da tabela...</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
 
 
+      <section class="sobre_mim">
+        <article>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Repudiandae quia repellat ipsam pariatur consequuntur sint perspiciatis sit deserunt officia corrupti,
+          in commodi magni perferendis ea? Accusamus rem voluptatum saepe quo?
+          in commodi magni perferendis ea? Accusamus rem voluptatum saepe quo?
+          in commodi magni perferendis ea? Accusamus rem voluptatum saepe quo?
+        </article>
+      </section>
+    </div>   
+    <section class="conteudo-paralelo">
+      <aside>
+        conteudo paralelo aside bar dentro de main para body
+        conteudo paralelo aside bar dentro de main para body
+        conteudo paralelo aside bar dentro de main para body
+        conteudo paralelo aside bar dentro de main para body
+      </aside>
+    </section> 
+  </main>
 
   <a href="https://pt.khanacademy.org/profile/mydreamAcademy/" target="_blank">Meu perfil Khan Academy</a>
 
