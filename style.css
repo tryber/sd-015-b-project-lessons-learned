@@ -48,10 +48,16 @@ li:hover{
 button{
     border-radius: 50%;
     background: none;
-    padding: 0;
-    border: none;
+    padding: 3px;
+    border: 3px;
     margin: 10px;
+
 }
+
+button:hover{
+    background-color: rgb(183, 218, 89);
+}
+
 #titulo {
   font-weight: bold;
   }
@@ -80,6 +86,7 @@ button{
   text-align: center;
   padding:20px;
   border: solid black;
+  border-radius: 5%;
 }
 
 #licoes_a_aprender {
@@ -89,6 +96,7 @@ button{
     text-align: center;
     padding:20px;
     border: solid black;
+    border-radius: 5%;
   }
 
 article {
@@ -101,7 +109,7 @@ article {
     border: solid black;
     font-size:20px ;
     display:inline-block;
-
+    border-radius: 5%;
 }
 
 aside{
@@ -115,6 +123,7 @@ aside{
     top: 173px;
     right: 0px;
     font-weight: bold;
+    border-radius: 5%;
 }
 
 #rodape{
@@ -151,6 +160,7 @@ table{
    position: absolute ;
    top:500px;
    right: 375px;
+   
 }
 
 #modulos{
