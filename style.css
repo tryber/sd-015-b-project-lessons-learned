@@ -35,12 +35,19 @@ body {
 #cabecalho nav li {
   display: inline-block;
   margin: 0 20px;
+  transition: background-color 0.5s;
+  border-radius: 50px;
 }
 
 #cabecalho nav li a {
   text-decoration: none;
+  padding: 15px;
   font-size: 20px;
   color: #f3f3f3;
+}
+
+#cabecalho nav li:hover{
+  background-color: #22684E;
 }
 
 main{
