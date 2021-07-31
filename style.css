@@ -1,7 +1,8 @@
+
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 }
 
 .trybe_green{
-  color: #48C891;
+  color: #48c891;
 }
 
 #cabecalho {
@@ -17,7 +18,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  box-shadow: 5px 1px 2px #7A28CB;
+  box-shadow: 5px 1px 2px #7a28cb;
 }
 
 #cabecalho h1 {
@@ -47,11 +48,11 @@ body {
 }
 
 #cabecalho nav li:hover{
-  background-color: #22684E;
+  background-color: #22684e;
 }
 
 main{
-  margin: 100px 90px;
+  margin: 100px 80px 30px 80px;
   line-height: 30px;
 }
 
@@ -70,7 +71,7 @@ main h1{
   padding: 30px 70px;
   margin: 40px 0;
   background-color: #202020;
-  border: #7A28CB 5px solid;
+  border: #7a28cb 5px solid;
   border-radius: 10px;
   color: #f3f3f3;
   font-size: 15px;
@@ -93,4 +94,18 @@ main h1{
 #lista_left{
   width: 50%;
 
+}
+
+article, section{
+  display: inline-block;
+  padding: 25px;
+  text-align: justify;
+}
+article{
+  width: 60%;
+}
+
+section{
+  width: 30%;
+  border-left: #333333 1px solid;
 }
