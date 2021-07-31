@@ -120,3 +120,25 @@ article, section {
   color: #f3f3f3;
   font-size: 20px;
 }
+
+table{
+  border: #333333 1px solid;
+  border-collapse: collapse;
+}
+
+
+table{
+  margin: 40px auto;
+}
+
+caption{
+}
+
+table, th, td{
+  border: #333333 1px solid;
+  padding: 10px;
+}
+
+.icon{
+  width: 30px;
+}
