@@ -16,16 +16,16 @@ body {
   line-height: 30px;
 }
 
-header#cabecalho {
+#cabecalho {
   position: fixed;
   top: 0;
 }
 
-header#cabecalho h1 {
+#cabecalho h1 {
   font-size: 0;
 }
 
-div.cabecalho {
+.cabecalho {
   text-align: center;
   margin-top: 50px;
 }
@@ -47,8 +47,4 @@ div.cabecalho {
   position: absolute;
   display: inline-block;
   max-width: 30%;
-
 }
-  
-
-
