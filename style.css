@@ -10,7 +10,7 @@ body {
 }
 
 .trybe_green{
-  color: #48c891;
+  color: #318f66;
 }
 
 #cabecalho {
@@ -47,27 +47,27 @@ body {
   color: #f3f3f3;
 }
 
-#cabecalho nav li:hover{
+#cabecalho nav li:hover {
   background-color: #22684e;
 }
 
-main{
+main {
   margin: 100px 80px 30px 80px;
   line-height: 30px;
 }
 
-main h1{
+main h1 {
   text-align: center;
   margin: 10px;
 }
 
-#minha_foto{
+#minha_foto { 
   display: block;
   margin: 30px auto;
   border-radius: 50%;
 }
 
-.lista{
+.lista {
   padding: 30px 70px;
   margin: 40px 0;
   background-color: #202020;
@@ -77,35 +77,46 @@ main h1{
   font-size: 15px;
 }
 
-.lista li{
+.lista li {
   margin: 10px 0;
 }
 
-.lista h2{
+.lista h2 {
   margin-bottom: 20px;
 }
 
-#lista_right{
+#lista_right {
   display: block;
   width: 45%;
   margin-left: auto;
 
 }
-#lista_left{
+#lista_left {
   width: 50%;
 
 }
 
-article, section{
+article, section {
   display: inline-block;
   padding: 25px;
   text-align: justify;
 }
-article{
+
+.lado-esquerdo {
   width: 60%;
 }
 
-section{
+.lado-direito {
   width: 30%;
   border-left: #333333 1px solid;
+}
+
+#rodape{
+  background-color: #333333;
+  padding: 10px;
+}
+
+#rodape h1{
+  color: #f3f3f3;
+  font-size: 20px;
 }
