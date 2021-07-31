@@ -8,12 +8,26 @@ body {
 
 
 .conteudo-menu {
-  background-color: lavender;
+  background-color: rgb(210, 210, 247);
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  text-align: center;
   line-height: 30px;
+  border-bottom: 1px none;
+}
+
+.conteudo-menu li {
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+  font-size: 17px;
+}
+
+.conteudo-menu li:hover {
+  background-color: rgb(170, 170, 208);
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
 }
 
 #cabecalho {
@@ -27,15 +41,24 @@ body {
 
 .cabecalho {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
+}
+
+.cabecalho h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
 }
 
 .conteudo-principal {
+  font-family: monospace;
+  font-size: 14px;
+  padding: 50px;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 5%;
   border-style: none;
-  border-radius: 10px;
+  border-radius: 6px;
+  background-color: rgba(210, 210, 247, 0.3);
 }
 
 .envelope-principal {
@@ -43,8 +66,44 @@ body {
   max-width: 70%;
 }
 
-.conteudo-paralelo {
+.conteudo-principal-envelope-paralelo {
   position: absolute;
   display: inline-block;
-  max-width: 30%;
+  max-width: 28%;
+}
+
+.licoes {
+  margin-top: 50px;
+  padding: 15px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  max-width: 35%;
+  vertical-align: top;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  max-width: 40%;
+}
+
+.tabela {
+  margin-top: 50px;
+}
+
+.tabela td {
+  border-radius: 3px;
+  border: 0.2px solid black;
+}
+
+.conteudo-principal .sobre_mim {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#rodape {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
