@@ -1,0 +1,170 @@
+body {  
+  background-color: rgb(253, 251, 251); 
+  padding-top: 150px;
+  width:100%;
+  height:100%;s
+  font-family : Georgia, 'Times New Roman', Times, serif ;
+}
+
+#cabecalho {
+  position:fixed;
+  top:0;
+  display:inline-block;
+  width:100%;
+  background-color: rgb(69, 83, 30);
+  text-align:center;
+  font-family: sans-serif;
+  color:rgb(253, 251, 251);
+  z-index: 1;
+  border: solid black;
+  
+}
+
+a{
+    text-decoration: none;
+    color:rgb(253, 251, 251)
+}
+
+a:hover{
+    color: black
+}
+
+nav{
+    display:inline-block;
+    float:right;
+    
+}
+
+nav img {
+    width:50px;
+    border-radius: 50%;
+}
+
+li:hover{
+    background-color: rgb(253, 251, 251);
+    color:black;
+}
+
+button{
+    border-radius: 50%;
+    background: none;
+    padding: 3px;
+    border: 3px;
+    margin: 10px;
+
+}
+
+button:hover{
+    background-color: rgb(183, 218, 89);
+}
+
+#titulo {
+  font-weight: bold;
+  }
+
+#minha_foto {
+      width: 150px;
+      border-radius:50%;
+      position: absolute ;
+      border: solid black;
+      left: 50px;
+  }
+
+#nome{
+    font-weight: bold;
+    font-size: 25px;
+    width:200px;
+    position: absolute ;
+    top: 300px;
+    left: 45px;
+}
+
+#licoes_aprendidas {
+  background-color: rgb(69, 83, 30);
+  color: rgb(253, 251, 251);
+  width:230px;
+  text-align: center;
+  padding:20px;
+  border: solid black;
+  border-radius: 5%;
+}
+
+#licoes_a_aprender {
+    background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+    width:230px;
+    text-align: center;
+    padding:20px;
+    border: solid black;
+    border-radius: 5%;
+  }
+
+article {
+    background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+    width:500px;
+    height:fit-content;
+    text-align: center;
+    padding:20px;
+    border: solid black;
+    font-size:20px ;
+    display:inline-block;
+    border-radius: 5%;
+}
+
+aside{
+    background-color: rgb(183, 218, 89);
+    color: rgb(0, 0, 0);
+    width:180px;
+    text-align: center;
+    padding:20px;
+    border: solid black;
+    position: absolute;
+    top: 173px;
+    right: 0px;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+#rodape{
+    background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+    text-align: center;
+   
+}
+
+footer{
+    width:100%;
+}
+
+.lado-esquerdo{
+    width:fit-content;
+    display:inline-block;
+    padding-left: 250px ;
+    
+}
+
+.lado-direito{
+   position:absolute; 
+   top: 173px;
+   left: 550px;
+}
+
+table{
+    text-align: center;
+    border: solid black;
+ background-color: rgb(69, 83, 30);
+    color: rgb(253, 251, 251);
+    margin:0;
+   padding: 3px;
+   position: absolute ;
+   top:500px;
+   right: 375px;
+   
+}
+
+#modulos{
+    background-color: rgb(183, 218, 89);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
