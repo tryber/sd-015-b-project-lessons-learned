@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang= "pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lições</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="heading">
     <header id="cabecalho">
-        <h1 id="titulo">Lições-Trybe</h1>
+        <img class="headeritems" id="trybe-logo" src="trybe-logo.png" alt="Logo da Trybe." height="70px" width="70px">
+        <h1 class="headeritems" id="titulo">Lições-Trybe</h1>
     </header>
-    <div>  
-    <img id="minha_foto" src="Eu-cropped.jpg" alt="Uma foto de Breno no espelho." height="400px">
-    </div> 
-    <nav>
-        <ul>
-            <li><a href="#minha_foto">Foto</a></li>
-            <li><a href="#licoes_aprendidas">Lições Aprendidas</a></li>
-            <li><a href="#licoes_a_aprender">Lições a Aprender</a></li>
-            <li><a href="#artigo">Artigo</a></li>
-            <li><a href="#seção">Seção</a></li>
-            <li><a href="#rodape">Rodapé</a></li>
-            <li><a href="https://brenorcbrito.github.io" target="_blank">Meu Porfólio</a></li>
+</div>
+<div id="navegação">
+   <nav>
+        <ul id="listanav">
+            <li class="navegação"><a href="#minha_foto">Foto</a></li>
+            <li class="navegação"><a href="#licoes_aprendidas">Lições Aprendidas</a></li>
+            <li class="navegação"><a href="#licoes_a_aprender">Lições a Aprender</a></li>
+            <li class="navegação"><a href="#artigo">Artigo</a></li>
+            <li class="navegação"><a href="#seção">Seção</a></li>
+            <li class="navegação"><a href="#rodape">Rodapé</a></li>
+            <li class="navegação"><a href="https://brenorcbrito.github.io" target="_blank">Meu Porfólio</a></li>
         </ul>
+    </div>
     </nav>
+    <div id="foto">  
+        <img id="minha_foto" src="Eu-cropped.jpg" alt="Uma foto de Breno no espelho." height="400px" width="600px">
+        </div> 
     <section >
-        <h2>Lições Aprendidas</h2>
+        <table>
+            <tr>
+                <th>Lições Aprendidas:</th>
+            </tr>
+            <tr>
+        <td>
         <ol id="licoes_aprendidas">
         <li>Unix</li>
         <li>Git</li>
@@ -39,9 +49,17 @@
         <li>HTML semântico</li>
         <li>Slack</li>
         </ol>
+    </td>
+</tr>
+</table>
     </section>
     <section >
-        <h2>Lições a Aprender</h2>
+        <table>
+            <tr>
+                <th>Lições a Aprender:</th>
+            </tr>
+            <tr>
+        <td>
         <ul id="licoes_a_aprender">
         <li>JavaScript</li>
         <li>ES6</li>
@@ -54,18 +72,23 @@
         <li>HOF</li>
         <li>Testes unitários</li>
         </ul>
+    </td>
+</tr>
+</table>
     </section>
+<div id="descrição">  
     <article id="artigo" class="lado-esquerdo">
-        <p>Meu nome é Breno Brito, tenho 18 anos e atualmente sou aluno na Trybe.</p>
-        <p>O início do curso já foi um desafio, pois é necessário a utilização de um SO baseado em UNIX e, como toda pessoa comum, eu estava habituado com o famoso Windows. Então, já comecei saindo da zona de conforto, mas até que me acostumei rapidamente.</p>
-        <p>No momento, prefiro mais o  Linux do que o próprio Windows.</p>
-        <p>Iniciei o curso com umas aulas preparatórias para o ambiente UNIX, a seguir aprendemos a usar o GitHub e um pouco depois iniciamos o aprendizado de HTML e CSS.</p>
+        Meu nome é Breno Brito, tenho 18 anos e atualmente sou aluno na Trybe. <br>
+        O início do curso já foi um desafio, pois é necessário a utilização de um SO baseado em UNIX e, como toda pessoa comum, eu estava habituado com o famoso Windows. Então, já comecei saindo da zona de conforto, mas até que me acostumei rapidamente. <br>
+        No momento, prefiro mais o  Linux do que o próprio Windows.
+        Iniciei o curso com umas aulas preparatórias para o ambiente UNIX, a seguir aprendemos a usar o GitHub e um pouco depois iniciamos o aprendizado de HTML e CSS.
     </article>
     <aside id="seção" class="lado-direito">
-    <p>O curso da Trybe é bem completo, e eu estou me desenvolvendo bem junto a ele, pois tive poucas dificuldades até o momento. As duas únicas são: Resistir a quantidade enorme de Distros Linux e lidar com o posicionamento das estruturas de página.</p>
+    O curso da Trybe é bem completo, e eu estou me desenvolvendo bem junto a ele, pois tive poucas dificuldades até o momento. As duas únicas são: Resistir a quantidade enorme de Distros Linux e lidar com o posicionamento das estruturas de página.
     </aside>
+</div> 
     <footer id="rodape">
-     <p>Página criada por Breno Brito como projeto "Lessons Learned" da Trybe.</p>
+     Página criada por Breno Brito como projeto "Lessons Learned" da Trybe.
     </footer>
 </body>
 </html>

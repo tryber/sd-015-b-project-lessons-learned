@@ -1,74 +1,110 @@
 body {
-    background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-family: sans-serif;
-    padding-top: 80px;
+    background-color: rgb(253, 251, 251);
 }
+
+#heading {
+    width: 100%;
+    height: 70px;
+} 
 
 header {
     position: fixed;
-    text-align: center;
-    background-color: #036B52;
-    top: 0;
     width: 100%;
-    left: 0;
-    right: 0;
-    color: #FFFFFF;
+    height: 70px;
+    background-color: #036B52;
+}
+
+.headeritems {
+    display: inline-block;
+}
+
+#titulo {
+    width: 200px;
+    bottom: 100px;
+    display: inline-block;
+    position: fixed;
+    margin: 0;
+    top: 19px;
+    color: rgb(253, 251, 251);
+}
+
+#navegação {
+    width: 100%;
+    height: 18px; 
+    text-align: center;
+    
 }
 
 nav {
-    margin-top: -412px;
-    width: 100%;
-    height: 30px;
     position: fixed;
-    background-color: #006DFB;
-    padding-right: 13px;
-    left: 0;
-    color: #2FC18C;
+    width: 100%;
+    text-align: center;
+    background-color: #129490;
 }
 
-nav ul {
-    list-style: none;
-    margin-top: -3px;
-    
+nav a {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    padding: 20px;
 }
-nav ul li {
+
+nav a:hover{
+    color: darkgoldenrod;
+}
+
+#listanav {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navegação {
     display: inline-block;
-    padding: 10px 10px;
-    
 }
 
-.lado-direito, .lado-esquerdo{
-    width: 500px;
+#foto {
+    background-color: coral;
+    text-align: center;
+}
+
+#descrição {
+    height: 126px;
+}
+
+article, aside {
     display: inline-block;
+    width: 40%;
+    line-height:25px;
+    padding-left: 6%;
+    font-size: 215x;
 }
 
-#seção {
-    
-    float: right;
-    margin-right: 100px;
+aside {
+    position: absolute;
 }
 
 footer {
     text-align: center;
-    background-color: #023031;
-    width: 100%;
-    color: #FFFFFF;
-    height: 30px;
+    margin-top: 210px;
+    background-color: coral;
 }
 
-footer p {
-    left: 0;
-    padding-top: 5px;
-
+#minha_foto{
+    border: solid black;
 }
 
-article p {
-    margin: 8px;
+table {
+    padding-left: 3%;
+}
+th {
+    padding:0;
+    width: 224px;
 }
 
-img {
-    margin-left: 400px;
-    border-radius: 40px;
-   
-    
+ol{
+    width: 200px;
 }
