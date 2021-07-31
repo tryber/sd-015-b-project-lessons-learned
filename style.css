@@ -18,6 +18,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  box-shadow: 5px 1px 2px #7A28CB;
 }
 
 #cabecalho h1 {
