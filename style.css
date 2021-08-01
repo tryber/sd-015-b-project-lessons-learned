@@ -45,10 +45,15 @@ body {
   padding: 15px;
   font-size: 20px;
   color: #f3f3f3;
+  transition: color 0.5s;
 }
 
 #cabecalho nav li:hover {
-  background-color: #22684e;
+  background-color: #F7DD72;
+}
+
+#cabecalho nav li:hover a {
+  color: #202020;
 }
 
 main {
