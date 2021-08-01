@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: Montserrat;
+}
+header{
+    font-size: 1.7em;
+    font-style: italic;
+    padding: 0px;
+}
+header h1{
+    color: rgb(39, 32, 32);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1366px;
+    background-color: rgb(83, 201, 83);
+    display: block;
+    text-align: center;
+
+}
+#minha_foto {
+    width: 150px;
+    padding-top: 250px;
+}
+.logo {
+    margin-left:25px;
+}
+table, th, td {
+    border: 1px solid brown;
+  }
+#licoes_a_aprender, #licoes_aprendidas{
+    line-height: 1.5em;
+}
+.lado-esquerdo{
+    display: inline-block;
+    
+}
+.lado-direito{
+    display: inline-block;
+    margin-left: 200px;
+}
