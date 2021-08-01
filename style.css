@@ -34,3 +34,11 @@ table, th, td {
 #licoes_a_aprender, #licoes_aprendidas{
     line-height: 1.5em;
 }
+.lado-esquerdo{
+    display: inline-block;
+    
+}
+.lado-direito{
+    display: inline-block;
+    margin-left: 200px;
+}
