@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  padding-top: 60px;
+  border: none;
+  margin: 0%;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0px;
+  background-color: greenyellow;
+  text-align: center;
+  width: 100%;
+}
+
+#minha_foto {
+  padding-top: 25px;
+  border-radius: 25%;
+  margin-left: 2%;
+}
+
+.photo_text {
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+.caixa {
+  color: black;
+  display: inline-block;
+  line-height: 20px;
+  text-align: justify;
+  vertical-align: top;
+}
+
+.width-and-height {
+  height: auto;
+  width: auto;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.margin {
+  margin: 30px;
+}
+
+.border {
+  border: 5px solid black;
+}
