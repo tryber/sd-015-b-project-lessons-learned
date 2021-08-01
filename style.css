@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: rgb(253, 251, 251);
 }
 
 body {
@@ -14,6 +15,7 @@ main {
 
 .borda {
   border: 1px solid rgb(111, 195, 143);
+  border-radius: 1%;
 }
 
 .container {
@@ -43,7 +45,6 @@ main {
   position: fixed;
   width: 100%;
   height: 50px;
-  color: rgb(253, 251, 251);
   background-color: rgb(5, 124, 51);
 }
 
@@ -57,15 +58,22 @@ main {
   margin-right: 5px;
 }
 
-#perfil h2 {
-  margin-left: 20px;
-}
 #minha_foto {
   width: 300px;
   border-radius: 5%;
 }
 
+.tabela {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tabela th {
+  padding: 15px;
+}
+
 .secoes {
+  margin-top: 20px;
   padding: 50px;
   line-height: 20px;
 }
@@ -80,7 +88,6 @@ main {
 
 #rodape {
   clear: both;
-  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
