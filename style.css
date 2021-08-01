@@ -8,11 +8,7 @@ body {
 
 #cabecalho {
   position: fixed;
-<<<<<<< HEAD
   top: 0px;
-=======
-  top: 0;
->>>>>>> 833772d587bd12535f00ee820276a00d84ce5ad9
   background-color: greenyellow;
   text-align: center;
   width: 100%;
