@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 60px;
   border: none;
   margin: 0%;
@@ -21,7 +21,7 @@ body {
 }
 
 .photo_text {
-  margin-left: 90px;
+  margin-left: 110px;
   margin-top: 0;
 }
 
