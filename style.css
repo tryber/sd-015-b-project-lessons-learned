@@ -42,7 +42,7 @@ aside {
 
 }
 
-table, tr, th, td {
+table {
   width: 50%;
   border-style: solid;
   padding: 10px;
