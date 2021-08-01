@@ -15,14 +15,22 @@ body {
 }
 
 #minha_foto {
-  padding-top: 25px;
   border-radius: 25%;
-  margin-left: 2%;
 }
 
-.photo_text {
-  margin-left: 110px;
-  margin-top: 0;
+.photo {
+  margin-top: 25px;
+  margin-left: 30px;
+  width: fit-content;
+}
+
+.photo-text {
+  text-align: center;
+  font-size: large;
+}
+
+.text-lessons {
+  font-size: large;
 }
 
 .caixa {
@@ -48,4 +56,23 @@ body {
 
 .border {
   border: 5px solid black;
+}
+
+.lado-esquerdo {
+  margin: 10px;
+  border: 2px solid red;
+  width: 45%;
+  float: left;
+}
+
+.lado-direito {
+  margin: 10px;
+  border: 2px solid royalblue;
+  width: 45%;
+  float: right;
+}
+
+#rodape {
+  position: absolute;
+  top: 900px; 
 }

@@ -5,13 +5,6 @@
     <meta charset="UTF-8">
     <title>Lessons Learned</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap "
-        rel=" stylesheet ">
-
 </head>
 
 <body>
@@ -19,17 +12,17 @@
         <h1 id="titulo">Projeto Lições Aprendidas</h1>
     </header>
     <section id="corpo">
-        <div>
+        <div class="photo">
             <img id="minha_foto" src="profile_photo.png" alt="Foto de Perfil do João Pedro Lage" width="300px">
             <a href="https://joaopedrolage.github.io/" target="_blank" rel="noopener" aria-describedby="new-window-0">
-                <h3 class="photo_text">João Pedro Lage</h3>
+                <div class="photo-text">João Pedro Lage</div>
             </a>
         </div>
         <table>
             <tr>
                 <td class="caixa width-and-height padding margin border">
-                    <ol id="licoes_aprendidas">Lições Aprendidas
-                        <br></br>
+                    <div class="text-lessons"><b>Lições Aprendidas</b></div>
+                    <ol id="licoes_aprendidas">
                         <li>Unix</li>
                         <li>Git</li>
                         <li>GitHub</li>
@@ -43,8 +36,8 @@
                     </ol>
                 </td>
                 <td class="caixa width-and-height padding margin border">
-                    <ul id="licoes_a_aprender">Lições a aprender
-                        <br></br>
+                    <div class="text-lessons"><b>Lições a Aprender</b></div>
+                    <ul id="licoes_a_aprender">
                         <li>JavaScript</li>
                         <li>DOM</li>
                         <li>Forms</li>
@@ -59,19 +52,20 @@
                 </td>
             </tr>
         </table>
-        <article> artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo
+        <article class="lado-esquerdo"> artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo
             artigo
             artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo
             artigo
             artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo
             artigo
-            artigo artigo artigo </article>
-        <aside> passagem sobre seu aprendizado passagem sobre seu aprendizado passagem sobre seu aprendizado
+            artigo artigo artigo
+        </article>
+        <aside class="lado-direito"> passagem sobre seu aprendizado passagem sobre seu aprendizado passagem sobre seu aprendizado
             passagem
             sobre
             seu aprendizado passagem sobre seu aprendizado passagem sobre seu aprendizado passagem sobre seu
             aprendizado
-            passagem sobre seu aprendizado passagem sobre seu aprendizado </aside>
+        </aside>
 
     </section>
     <footer id="rodape">
