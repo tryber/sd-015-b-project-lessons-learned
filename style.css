@@ -14,7 +14,7 @@ body {
   width: 100%;
 }
 
-#minha_foto { 
+#minha_foto {
   padding-top: 25px;
   border-radius: 25%;
   margin-left: 2%;
@@ -22,7 +22,7 @@ body {
 
 .photo_text {
   margin-left: 100px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .caixa {
@@ -35,7 +35,7 @@ body {
 
 .width-and-height {
   height: auto;
-  width:  auto;
+  width: auto;
 }
 
 .padding {
