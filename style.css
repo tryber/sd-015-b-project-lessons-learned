@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+
+#cabecalho {
+  background-color: rgb(153, 153, 153);
+  padding: 20px;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
+}
+
+#titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 50px;
+}
+
+.content {
+  position: relative;
+}
+
+.aboutMe {
+  position: absolute;
+  top: 350px;
+  left: 420px;
+  width: 454px;
+  height: 204px;
+}
+
+.aboutMe > .myName {
+  background-color: rgb(230, 227, 59);
+  border-radius: 10px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  padding: 10px;
+  width: 295px;
+}
+
+.aboutMe > .myWork {
+  background-color: rgb(89, 183, 240);
+  border-radius: 8px;
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  position: absolute;
+  left: 57px;
+}
+
+#minha_foto {
+  border-radius: 15px;
+  border: 1px solid#000;
+  left: 1250px;
+  position: absolute;
+  top: 300px;
+  width: 270px;
+  height: 300px;
+}
+
+#licoes {
+  position: absolute;
+  top: 700px;
+  left: 360px;
+}
+
+.title-0 {
+  background-color: rgb(119, 119, 119);
+  position: absolute;
+  top: 25px;
+  width: 190px;
+}
+
+.title-1 {
+  background-color: rgb(119, 119, 119);
+  position: absolute;
+  top: 25px;
+  left: 257px;
+  width: 190px;
+}
+
+#licoes_aprendidas {
+  background-color: rgb(153, 153, 153);
+  border-radius: 5px;
+  padding: 30px;
+  padding-right: 20px;
+  position: absolute;
+  left: 10px;
+  top: 70px;
+  width: 167px;
+}
+
+#licoes_a_aprender {
+  background-color: rgb(153, 153, 153);
+  border-radius: 5px;
+  padding: 30px 30px 10px;
+  position: absolute;
+  left: 274px;
+  top: 70px;
+  width: 150px;
+}
+
+.menu {
+  background-color: rgb(119, 119, 119);
+  position: fixed;
+  text-align: right;
+  top: 77px;
+  width: 100%;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px 0;
+  margin-right: 70px;
+}
+
+.menu li a {
+  color: black;
+  font-family: monospace;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu li a:hover {
+  background-color: black;
+  color: white;
+  padding: 10px 5px;
+}
+
+#meuAprendizado {
+  background-color: rgb(230, 227, 59);
+  border-radius: 8px;
+  font-family: monospace;
+  padding: 8px;
+  position: absolute;
+  text-align: justify;
+  top: 719px;
+  left: 900px;
+  width: 400px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#oqueMaisGostei {
+  background-color: rgb(89, 183, 240);
+  width: 400px;
+  height: 100px;
+  border-radius: 8px;
+  font-family: monospace;
+  padding: 4px;
+  position: absolute;
+  text-align: justify;
+  top: 740px;
+  left: 1320px;
+}
+
+.text > h2 {
+  text-align: center;
+}
+
+#rodape {
+  background-color: rgb(119, 119, 119);
+  padding: 8px;
+  position: absolute;
+  text-align: center;
+  top: 1120px;
+  width: 100%;
+}
+
+#rodape > p > a {
+  font-family: monospace;
+  text-decoration: none;
+  color: white;
+}
