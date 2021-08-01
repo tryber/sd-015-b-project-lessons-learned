@@ -49,7 +49,7 @@ body {
 }
 
 #cabecalho nav li:hover {
-  background-color: #F7DD72;
+  background-color: #ecde1d;
 }
 
 #cabecalho nav li:hover a {
@@ -94,11 +94,26 @@ main h1 {
   display: block;
   width: 45%;
   margin-left: auto;
-
 }
+
+#lista_left h2{
+  color: #FFFC99;
+}
+
+#lista_right h2{
+  color: #B5EF8A;
+}
+
+#lista_right li::marker{
+  color: #318f66;
+}
+
 #lista_left {
   width: 50%;
+}
 
+#lista_left li::marker{
+  color: #FFFC99;
 }
 
 article, section {
