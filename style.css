@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Titillium Web, sans-serif;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+.trybe_green {
+  color: #318f66;
+}
+
+#cabecalho {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 5px 1px 2px #7a28cb;
+}
+
+main h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+#cabecalho h1 {
+  color: #f3f3f3;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 20px;
+}
+
+#cabecalho nav {
+  float: right;
+  margin: 15px 50px;
+}
+
+.lista li {
+  margin: 10px 0;
+}
+
+#cabecalho nav li {
+  display: inline-block;
+  margin: 0 20px;
+  transition: background-color 0.5s;
+  border-radius: 50px;
+}
+
+#cabecalho nav li a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+  color: #f3f3f3;
+  transition: color 0.5s;
+}
+
+#cabecalho nav li:hover {
+  background-color: #ecde1d;
+}
+
+#cabecalho nav li:hover a {
+  color: #202020;
+}
+
+main {
+  margin: 100px 80px 30px;
+  line-height: 30px;
+}
+
+#minha_foto { 
+  display: block;
+  margin: 30px auto;
+  border-radius: 50%;
+}
+
+.lista {
+  padding: 30px 70px;
+  margin: 40px 0;
+  background-color: #202020;
+  border: #7a28cb 5px solid;
+  border-radius: 10px;
+  color: #f3f3f3;
+  font-size: 15px;
+}
+
+.lista h2 {
+  margin-bottom: 20px;
+}
+
+#lista_right {
+  display: block;
+  width: 45%;
+  margin-left: auto;
+}
+
+#lista_left h2 {
+  color: #FFFC99;
+}
+
+#lista_right h2 {
+  color: #B5EF8A;
+}
+
+#lista_right li::marker {
+  color: #318f66;
+}
+
+#lista_left {
+  width: 50%;
+}
+
+#lista_left li::marker {
+  color: #FFFC99;
+}
+
+article , section {
+  display: inline-block;
+  padding: 25px;
+  text-align: justify;
+}
+
+.lado-esquerdo {
+  width: 60%;
+}
+
+.lado-direito {
+  width: 30%;
+  border-left: #333 1px solid;
+}
+
+#rodape {
+  background-color: #333;
+  padding: 10px;
+}
+
+#rodape h1 {
+  color: #f3f3f3;
+  font-size: 20px;
+}
+
+table {
+  border: #333 1px solid;
+  border-collapse: collapse;
+  margin: 40px auto;
+}
+
+table , th , td {
+  border: #333 1px solid;
+  padding: 10px;
+}
+
+.icon {
+  width: 30px;
+}
