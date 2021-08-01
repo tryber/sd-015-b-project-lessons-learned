@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin-top: 100px;
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  border-style: double;
+
+}
+
+#cabecalho {
+  background-color: purple;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#minha_foto {
+  width: 300px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+article {
+  border-style: solid;
+  width: 900px;
+  display: inline-block;
+}
+
+aside {
+  border-style: solid;
+  width: 400px;
+  display: inline-block;
+
+}
+
+table {
+  width: 50%;
+  border-style: solid;
+  padding: 10px;
+}
