@@ -1,51 +1,38 @@
-body {
-    background-color: rgb(253, 251, 251);
-}
-
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
-article {
-    margin-top: 50px;
-    margin-bottom: 50px;
+body{
+    background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
 }
 
-.licoes {
-    top: 500px;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-#licoes_aprendidas {}
-
-#licoes_a_aprender {
-    margin-top: 50px;
-}
-
-#titulo {
-    color: white;
-}
-
-#cabecalho {
-    background-color: green;
+#cabecalho{
+    background-color: #3E885B;
     position: fixed;
     text-align: center;
     width: 100%;
     padding: 1em;
+
 }
 
-#minha_foto {
-    border-radius: 50%;
-    width: 300px;
-    margin-top: 5em;
-    margin-bottom: 75px;
+#titulo{
+    color: white;
+
 }
 
-#rodape {
-    margin-top: 50px;
+#minha_foto{
+
+}
+
+#licoes_aprendidas{
+
+}
+
+#licoes_a_aprender{
+
+}
+
+#rodape{
+
 }
