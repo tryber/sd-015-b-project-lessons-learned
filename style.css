@@ -28,3 +28,9 @@ header h1{
 .logo {
     margin-left:25px;
 }
+table, th, td {
+    border: 1px solid brown;
+  }
+#licoes_a_aprender, #licoes_aprendidas{
+    line-height: 1.5em;
+}
