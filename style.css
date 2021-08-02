@@ -1,0 +1,38 @@
+#cabecalho {
+                position: fixed;
+                top: 0%;
+}
+
+.foto {
+                border: black;                
+}
+
+h1 {
+                color: black;
+}
+body {
+                background-color: rgb(253, 251, 251);
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 15px;
+                margin-left: 10px;
+                padding: 10px; 
+                color: rgb(117, 119, 121);
+                line-height: 16px;               
+}
+
+.lado-esquerdo {
+                width: 50%;
+                text-align: left;
+                float: left;
+}
+
+.lado-direito {
+                width: 50%;
+                text-align: right;
+                float: right;
+}
+
+#tabela {
+        margin: 1px;
+        color: black;
+}
