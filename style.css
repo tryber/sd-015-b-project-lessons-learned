@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(253, 251, 251);
+    font-family:sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 20px;
+    
+}
+
+nav{
+    border: solid 3px blue;
+}
+section{
+    border: orchid;
+}
+
+#cabecalho{
+    background-color: #3E885B;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+
+}
+
+#titulo{
+    color: white;
+
+}
+
+#minha_foto{
+    border: solid 3px green;
+
+}
+
+#licoes_aprendidas{
+    border: solid 3px red;
+
+}
+
+#licoes_a_aprender{
+    border: solid 3px orange;
+
+}
+
+#rodape{
+
+}
