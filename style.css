@@ -1,111 +1,110 @@
 * {
-    margin:0;
+  margin: 0;
 }
 
 body {
-    background-color:rgb(253, 251, 251);
-    padding-top:250px;
+  background-color: rgb(253, 251, 251);
+  padding-top: 250px;
 }
 
 header {
-    position:fixed;
-    width:100%;
-    box-sizing:border-box;
-    padding:20px 40px;
-    border-bottom:1px solid hsl(270, 23%, 58%);
-    margin-bottom:30px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  border-bottom: 1px solid rgb(148, 123, 173);
+  margin-bottom: 30px;
 }
 
-div.conteudo {
-    margin:20px;
+.conteudo {
+  margin: 20px;
 }
 
-article, aside {
-    line-height:1.4;
-    margin:15px;
+article , aside {
+  line-height: 1.4;
+  margin: 15px;
 }
 
-article h2, aside h2 {
-    color:rgb(211, 146, 189);
+article h2 , aside h2 {
+  color: rgb(211, 146, 189);
 }
 
-ol#licoes_aprendidas, ul#licoes_a_aprender {
-    clear:both;
-    padding-inline-end:70%;
-    padding-right:70%;
-    float:left;
-    padding:20px 20px 20px 40px;
+#licoes_aprendidas , #licoes_a_aprender {
+  clear: both;
+  padding-inline-end: 70%;
+  float: left;
+  padding: 20px 20px 20px 40px;
 }
 
 a {
-    text-decoration:none;
+  text-decoration: none;
 }
 
 #cabecalho {
-    position:fixed;
-    top:0;
-    width:100%;
-    background-color:rgb(255, 221, 209);
-    line-height: 60px;
-    text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 221, 209);
+  line-height: 60px;
+  text-align: center;
 }
 
 #titulo {
-    font-family:serif;
-    font-size:48px; 
+  font-family: serif;
+  font-size: 48px;
 }
 
 #minha_foto {
-    width:300px;
-    border-radius:50%;
-    display:block;
-    margin-bottom:20px;
-    float:left;
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+  float: left;
 }
 
 #sobre-aprender {
-    display:inline-block;
-    max-width:30%;
-    vertical-align:middle;
-    padding:15px;
-    margin-bottom:20px;
+  display: inline-block;
+  max-width: 30%;
+  vertical-align: middle;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
-#sobre-aprendizado{
-    display:inline-block;
-    max-width:35%;
-    vertical-align:middle;
-    padding:15px;
-    margin-bottom:20px;
+#sobre-aprendizado {
+  display: inline-block;
+  max-width: 35%;
+  vertical-align: middle;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 .lado-esquerdo {
-    float:left;
+  float: left;
 }
 
 .lado-direito {
-    float:right;  
+  float: right;
 }
 
 
 .tabela {
-    float:right;
-    position:relative;
-    clear:right;
-    right:30%;
-    top:20px;
-    margin-bottom: 20px;
+  float: right;
+  position: relative;
+  clear: right;
+  right: 30%;
+  top: 20px;
+  margin-bottom: 20px;
 }
 
 .links {
-    clear:both;
+  clear: both;
 }
 
 footer {
-    clear: both;
-    background-color:rgb(255, 221, 209);
-    position:relative;
-    max-width:100%;
-    padding:20px 40px;
-    text-align:center;
+  clear: both;
+  background-color: rgb(255, 221, 209);
+  position: relative;
+  max-width: 100%;
+  padding: 20px 40px;
+  text-align: center;
 }
