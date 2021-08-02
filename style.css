@@ -1,0 +1,51 @@
+body { 
+    background-color: rgb(253, 251, 251);
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+#titulo {
+    text-align: center;
+}
+#cabecalho {
+    position: fixed;
+    margin-top: 0px;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+#minha_foto {
+    width: 100px;
+    display: inline-block;
+    margin-top: 100px;
+}
+.links-nav {
+    display: inline-block;
+    margin-left: 90px;
+    width: auto;
+}
+.table {
+    border: 2px solid gray;
+    background-color: #4f4f44;
+}
+#rodape {
+    background-color: teal;
+    padding: 10px;
+    font-size: 20px;
+}
+.lado-esquerdo {
+    display: inline-block;
+    max-width: 40%;
+    padding: 20px;
+    background-color: #4f4f4f;
+    margin-top: 80px;
+}
+.lado-direito {
+    display: inline-block;
+    max-width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 20px;
+    color: grey;
+    line-height: 32px;
+}
