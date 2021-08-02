@@ -3,14 +3,14 @@
   height: 90px;
   top: 0%;
   position: fixed;
-  background-color: #32A791;
-  }
+  background-color: #32a791;
+}
 
 #tilulo {
   position: absolute;
   font-size: 2em;
-  font-family: Times New Roman;
- }
+  font-family: New Roman;
+}
 
 #minha_foto {
   width: 200px;
@@ -21,7 +21,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin-top: 5%;
   padding: 10px;
-  font-family: Times New Roman;
+  font-family: New Roman;
   color: rgb(46, 46, 46);
   line-height: 150%;
 }
@@ -47,15 +47,15 @@ body {
 }
 
 h1 {
-  color: rgb(255,255,255);
+  color: white;
   text-align: center;
 }
 
 h2 {
   font-size: 120%;
-  color: rgb(0,0,0);
+  color: black;
 }
 
-h3{
-  color: rgb(0,0,0);
+h3 {
+  color: black;
 }
