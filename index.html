@@ -5,19 +5,16 @@
     <link href="./style.css" rel="stylesheet">
     <title>Primeiro Projeto</title>
 </head>
-<header id="cabecalho">
-    <h1 id="titulo">Primeiro Projeto - Aulas TRYBE</h1>
-    <nav><a href="#licoes_aprendidas">Aprendidas</a>
-         <a href="#licoes_a_aprender">Futuras</a>
-         <a href="#artigo">Artigo</a>
-         <a href="#exp">Experiência</a>
-         <a href="#rodape">Footer</a></nav>
-</header>
 <body>
-    <a href="https://www.linkedin.com/in/jonatan-teixeira/">
-        <img id="minha_foto" src="minha_foto.jpg" alt="minha_foto" width="20%" height="15%">
-    </a>
-    
+    <header id="cabecalho">
+        <h1 id="titulo">Primeiro Projeto - Aulas TRYBE</h1>
+        <nav><a href="#licoes_aprendidas">Aprendidas</a>
+             <a href="#licoes_a_aprender">Futuras</a>
+             <a href="#artigo">Artigo</a>
+             <a href="#exp">Experiência</a>
+             <a href="#rodape">Footer</a></nav>
+    </header>
+<main>
     <ol id="licoes_aprendidas">
         <li>Hard skills</li>
         <li>Soft skills</li>
@@ -27,11 +24,14 @@
         <li>Git & GitHub</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Semântico</li>
         <li>Auto conhecinemto</li>
         <li>Empatia</li>
     </ol>
-
+    
+    <a href="https://www.linkedin.com/in/jonatan-teixeira/" target="_blank">
+        <img id="minha_foto" src="minha_foto.jpg" alt="minha_foto" width="16%" height="13%">
+    </a>
+    
     <ul id="licoes_a_aprender">
         <li>Javascript</li>
         <li>React</li>
@@ -45,30 +45,34 @@
         <li>HOF</li>
     </ul>
 
-    <article id="artigo">
-        <h3>Minha experiência na TRYBE até o momento tem sido...</h3><br>
+    <article id="artigo" class="lado-esquerdo">
+        <h2>Minha experiência na TRYBE até o momento tem sido...</h2><br>
             <p>desafiadora ao máximo, mudança de área, muita coisa nova a aprender em um tempo curto, 
             além da mudança de rotina. E mesmo assim tenho aproveitado ao máximo os conteúdos 
             síncronos e assíncronos, melhorando a disciplina tendo em mente a importância de hard e 
             soft skills.
             </p>
             <section>
-                Deixa aqui um comentário sobre a sua experiência:<br>
-                <input size="100px">
+                <label>Deixe aqui um comentário sobre a sua experiência:<br>
+                <input typ="text" size="50px">
+                <button>Enviar</button>
+                </label>
+            <img src="prog-yey.gif" alt="gif-prog" width="10%" height="10%">
             </section>
     </article><br>
 
-    <aside id="exp">
-        <h4>Rotina e disciplina</h4>
+    <aside id="exp" class="lado-direito">
+        <h3>Rotina e disciplina</h3>
         <p>A rotina de estudos que eu criei depois de entrar na TRYBE tem me ajudado com o fator disciplina,
-            que era algo que eu vinha buscando algum tempo. Então cada dia mais tenho evoluído e encontrado
-            a forma que eu consiga ficar saudável e mais produtivo.
+            que era algo que vinha buscando algum tempo. Então cada dia mais tenho encontrado uma forma
+            de ser mais saudável e produtivo.
         </p>
     </aside>
+</main>
 
     <footer id="rodape">
-        <a href="https://www.instagram.com/jonatanteixeira/"><img src="instagram-logo.png" width="5%" height="5%"></a>
-        <a href="https://github.com/jonatan-teixeira"><img src="GitHub-Logo.png" width="10%" height="10%"> </a>
+        <a href="https://www.instagram.com/jonatanteixeira/" target="_blank"><img src="instagram-logo.png" alt="insta-logo" width="5%" height="5%"></a>
+        <a href="https://github.com/jonatan-teixeira" target="_blank"><img src="GitHub-Logo.png" alt="github-logo" width="10%" height="10%"> </a>
     </footer>
     
 </body>
