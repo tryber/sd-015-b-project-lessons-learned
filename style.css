@@ -3,13 +3,13 @@
   height: 90px;
   top: 0%;
   position: fixed;
-  background-color: #32a791;
+  background-color: green;
 }
 
 #tilulo {
   position: absolute;
   font-size: 2em;
-  font-family: New Roman;
+  font-family: serif;
 }
 
 #minha_foto {
@@ -21,7 +21,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin-top: 5%;
   padding: 10px;
-  font-family: New Roman;
+  font-family: serif;
   color: rgb(46, 46, 46);
   line-height: 150%;
 }
