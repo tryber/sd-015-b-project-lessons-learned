@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+    background-color: #2fc18c;
+    position: fixed;
+    top: 0;
+    width: 5000px;
+    left: 0;
+}
+#titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(253, 251, 251);
+}
+#minha_foto{
+    position: absolute;
+    float: left;
+    width: 300px;
+    margin-top: 60px;
+    border-radius: 200px;
+}
+.ul-link li {
+    margin-top: 100px; 
+    display: inline-block;
+    width: 50px;
+    font-size: 20px;
+}
+.lado-esquerdo {
+    position: absolute;
+    top: 470px;
+    margin-top: 50px;
+    background-color: #2fc18c;
+    border-radius: 15px;
+    float: left;
+    width: 800px;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 30px;
+    padding: 15px;
+}
+.lado-direito {
+    float: right;
+    margin-right: 10px;
+    top: 15%;
+    line-height: 20px;
+    font-size: 20px;
+    background-color: #036b52;
+    border-radius: 15px;
+    color: rgb(253, 251, 251);
+    padding: 15px;
+    padding-right: 30px;
+
+}
+.lado-direito h2{
+    color:#2fc18c;
+}
+#aside {
+    position: absolute;
+    top: 700px;
+    margin-top: 50px;
+    background-color: #2fc18c;
+    border-radius: 15px;
+    width: 800px;
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 30px;
+    padding: 15px;
+}
