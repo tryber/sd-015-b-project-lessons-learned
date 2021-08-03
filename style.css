@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: gray;
+  background-color: rgb(253, 251, 251);
 }
 header {
   position: fixed;
@@ -12,7 +12,7 @@ header {
   display: inline-block;
 }
 h1 {
-  text-align: center;   
+  text-align: center;
 }
 #cabecalho ul {
   display: block;
@@ -62,15 +62,15 @@ td {
 #rodape {
   text-align: center;
 }
-.rodape{
-  background-color:rgba(0, 0, 0, 0, 75);
+.rodape {
+  background-color: rgba(0, 0, 0, 0, 75);
   font-size: 1.3em;
   color: black;
   padding: 1em;
-  border-radius: 0,5em;
+  border-radius: 0, 5em;
   transition: 1s;
 }
 .rodape:hover {
   color: black;
-  text-shadow:  0 0 8px white;
+  text-shadow: 0 0 8px white;
 }
