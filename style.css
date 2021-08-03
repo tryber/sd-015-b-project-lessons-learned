@@ -72,4 +72,7 @@ body {
 
 #rodape {
   font-size: 16px;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(240, 240, 240);
 }
