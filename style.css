@@ -36,9 +36,9 @@ body {
 }
 .lado-direito {
     position: fixed;
-    right: 0px;
+    right: 10px;
     top: 15%;
-    line-height: 30px;
+    line-height: 20px;
     font-size: 20px;
     background-color: #036b52;
     border-radius: 15px;
