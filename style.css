@@ -13,8 +13,10 @@ body {
     color: rgb(253, 251, 251);
 }
 #minha_foto{
+    position: absolute;
+    float: left;
     width: 300px;
-    margin-top: 50px;
+    margin-top: 60px;
     border-radius: 200px;
 }
 .ul-link li {
@@ -24,19 +26,21 @@ body {
     font-size: 20px;
 }
 .lado-esquerdo {
-    margin-top: 40px;
+    position: absolute;
+    top: 470px;
+    margin-top: 50px;
     background-color: #2fc18c;
-    width: 800px;
     border-radius: 15px;
-    left: 200px;
+    float: left;
+    width: 800px;
     font-size: 20px;
     margin-left: 20px;
     line-height: 30px;
     padding: 15px;
 }
 .lado-direito {
-    position: fixed;
-    right: 10px;
+    float: right;
+    margin-right: 10px;
     top: 15%;
     line-height: 20px;
     font-size: 20px;
@@ -51,6 +55,8 @@ body {
     color:#2fc18c;
 }
 #aside {
+    position: absolute;
+    top: 700px;
     margin-top: 50px;
     background-color: #2fc18c;
     border-radius: 15px;
