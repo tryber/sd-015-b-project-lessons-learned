@@ -1,65 +1,62 @@
-/*npm run cypress:open*/
-body{
-    background-color: rgb(253, 251, 251);
+/* npm run cypress:open */
+body {
+        background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-    background-color: green;
-    position:fixed;
-    font-weight: bold;
-    top: 0px;
-    left: 0px;
+#cabecalho {
+  background-color: green;
+    position: fixed;
+    font-weight: 700;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 140px;
-    
+    height: 140px; 
 }
 
-#titulo{    
+#titulo {    
     text-align: center;
     color: white;
 }
 
-#access{
+#access {
     margin-left: 40px;
     color: white;
     cursor: pointer;
 }
 
-#minha_foto{
+#minha_foto {
     width: 200px;
     margin-top: 160px;
     margin-left: 20px;
 
 }
 
-#perfil{
+#perfil {
     margin-top: 2px;
     margin-left: 20px;
     text-decoration: underline;
     cursor: pointer;
 }
 
-#licoes{
+#licoes {
     margin-top: 75px;
     margin-left: 30px;
 }
 
-
-
-#licoes_aprendidas{
+#licoes_aprendidas {
     margin-top: 40px;
     margin-left: 30px;
     display: inline-block;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
     margin-top: 40px;
     margin-left: 30px;
     margin-right: 500px;
     display: inline-block;
 }
 
-#main{
+#main {
     width: 400px;
     height: 200px;
     margin-top: 30px;
@@ -68,7 +65,7 @@ body{
     text-align: center;
 }
 
-#descricao{
+#descricao {
     width: 400px;
     height: 200px;
     margin-left: 300px;
