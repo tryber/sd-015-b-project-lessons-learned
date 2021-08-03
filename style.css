@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(253, 251, 251);
+	font-size: 12;
+	color: black;
+	line-height: 1.5;
+  font-family: "Times New Roman";
+}
+
+td {
+    text-align: center;
+}
+
+#aside {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 30%;
+}
+
+#article {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 30%;
+}
+
+#cabecalho {
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  position: fixed;
+  top: 0;
+}
+
+#foto {
+  padding-top: 5%;
+}
+
+#informacoes {
+  padding-bottom: 5%;
+}
+
+#lista_ordenada {
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 30%;
+	float: left;
+}
+
+#lista_nao_ordenada {
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 30%;
+	float: right;
+}
+
+#minha_foto {
+	width: 25%;
+	height: 25%;
+}
+
+#nav {
+  padding-left: 20%;
+}
+
+#rodape {
+	text-align: center;
+}
+
+#table {
+	width: 100%;
+	padding-left: 40%;
+	padding-right: 40%;
+}
+
+#titulo {
+  padding-left: 6%;
+}
+
+#titulodatabela {
+	width: 100%;
+	text-align: center;
+	margin-top: 20%;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.lado-esquerdo {
+	float: left;
+}
+
+.lado-direito {
+	float: right;
+}
