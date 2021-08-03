@@ -87,7 +87,7 @@ body {
 
 #rodape {
   display: inline-block;
-  color: black
+  color: black;
   font-style: italic;
   font-weight: 900;
 }
@@ -111,3 +111,4 @@ table, th, td {
 table , td {
   text-align: center;
 }
+
