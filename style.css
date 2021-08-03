@@ -1,31 +1,93 @@
+* {
+  margin: 0;
+  padding: 5;
+  border: 0;
+}
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251,251);
 }
 
 #cabecalho {
+  display: block;
   background-color: blue;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 20 px;
+  border: 5px solid yellow;
+}
+#separate {
+  padding-top: 61px;
 }
 
 #titulo {
   color: black;
   text-align: center;
   font-family: Courier, monospace;
-  font-size: 45px;
+  font-size: 50px;
 }
 
+#picture {
+  display: inline-block;
+  margin-inline: 100px;
+}
 #minha_foto {
-  position: relative;
-  margin-inline: -8px;
-  bottom: -103px;
+  border-radius: 300px;
+}
+
+#first {
+  display: inline-block;
+  border: 2px solid black;
+  block-size: auto;
+  background-color:lightgray;
+  width: 200px;
+  height: 250px;
+  padding-top: 40px;
+  margin-inline: 200px;
+}
+
+#second {
+  display: inline-block;
+  border: 2px solid black;
+  block-size: auto;
+  background-color: lightgreen;
+  width: 200px;
+  height: 250px;
+  padding-top: 40px;
+}
+
+#thirth {
+  display: inline-block;
+  border: 2px solid black;
+  text-align: justify;
+  width: 200px;
+  height: 350px;
+  float: right;
+  background-color: tomato;
+  overflow: auto;
+  padding-top: 15px;
+}
+
+#fourth {
+  display: inline-block;
+  border: 2px solid black;
+  text-align: justify;
+  width: 200px;
+  height: 150px;
+  float: right;
+  padding-top: 15px;
+  overflow: auto;
+  background-color: tomato;
+  color: aliceblue;
+}
+
+#first h1 {
+  
 }
 
 #rodape {
-  color: darkorange;
+  display: inline-block;
+  color: black
   font-style: italic;
   font-weight: 900;
 }
@@ -34,6 +96,18 @@ body {
   font-size: 20px;
 }
 
+
 article , aside {
   font-size: 18px;
+}
+
+table, th, td {
+  padding-left: ;
+  border: 1px solid black;
+  border-block-color: blue;
+  background: chocolate;
+}
+
+table , td {
+  text-align: center;
 }
