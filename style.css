@@ -96,11 +96,11 @@ body {
   font-size: 20px;
 }
 
-article  , aside {
+article  ,  aside {
   font-size: 18px;
 }
 
-table, th, td {
+table , th, td {
   border: 1px solid black;
   border-block-color: blue;
   background: chocolate;
