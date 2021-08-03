@@ -90,6 +90,7 @@ body {
   color: black;
   font-style: italic;
   font-weight: 900;
+  line-height: 100px;
 }
 
 #educacao {
@@ -111,4 +112,3 @@ table, th, td {
 table , td {
   text-align: center;
 }
-
