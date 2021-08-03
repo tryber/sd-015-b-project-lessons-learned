@@ -10,7 +10,7 @@ header {
   margin: 0%;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   border-left: solid green 6px;
   margin-left: 0%;
@@ -21,7 +21,7 @@ header {
   display: inline-block;
   border-left: solid green 6px;
   background-color: lightgreen;
-  width:  600px;
+  width: 600px;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
@@ -39,7 +39,7 @@ img {
   padding: 5px;
 }
 
-h1, h2, h3 {
+h1 , h2 , h3 {
   text-align: center;
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3 {
   color: brown;
 }
 
-table, th, td {
+table , th , td {
   border: 1px solid black;
   border-collapse: collapse;
 }
