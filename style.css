@@ -16,7 +16,7 @@ img {
   width: 200px;
 }
 
-table,td {
+table , td {
   border: solid 1px black;
   margin: 5px;
   padding: 5px;
@@ -26,6 +26,9 @@ article {
   background-color: grey;
   width: 50%;
   float: left;
+  font-size: 1.2rem;
+  color: rgb(20, 20, 20);
+  letter-spacing: 1px;
 }
 
 aside {
