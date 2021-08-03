@@ -3,15 +3,11 @@
   font-family: Times New Roman, Times, serif, Helvetica, sans-serif;
   font-size: 1.1rem;
   letter-spacing: 2px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  color: yellow;
-  font-family: Helvetica, sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
 }
 
 header {
@@ -27,7 +23,7 @@ img {
 table , td {
   border: solid 1px black;
   margin: 5px;
-  padding: 5px;
+  padding: 15px;
 }
 
 article {
@@ -36,33 +32,9 @@ article {
   float: left;
 }
 
-p {
-  color: red;
-  font-family: serif;
-  font-size: 0.9rem;
-  letter-spacing: 3px;
-}
-
-ul , ol , li {
-  color: red;
-  font-family: serif;
-  font-size: 0.9rem;
-  letter-spacing: 3px;
-}
-
 aside {
   background-color: grey;
   width: 50%;
   float: right;
-  color: blue;
-  font-family: fantasy;
-  font-size: 1.3rem;
-  letter-spacing: 5px;
-}
-
-footer {
-  color: red;
-  font-family: serif;
-  font-size: 0.9rem;
-  letter-spacing: 3px;
+  padding-bottom: 89px;
 }
