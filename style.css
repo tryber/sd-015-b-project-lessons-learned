@@ -1,0 +1,40 @@
+* {
+  color: rgb(24, 24, 24);
+  font-family: Times New Roman, Times, serif, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  position: fixed;
+  top: 0;
+}
+
+img {
+  margin-top: 100px;
+  width: 200px;
+}
+
+table , td {
+  border: solid 1px black;
+  margin: 5px;
+  padding: 15px;
+}
+
+article {
+  background-color: grey;
+  width: 50%;
+  float: left;
+}
+
+aside {
+  background-color: grey;
+  width: 50%;
+  float: right;
+  padding-bottom: 89px;
+}
