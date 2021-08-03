@@ -38,14 +38,14 @@ article {
 p {
   color: red;
   font-family: serif;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   letter-spacing: 3px;
 }
 
 ul , ol , li {
   color: red;
   font-family: serif;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   letter-spacing: 3px;
 }
 
@@ -62,6 +62,6 @@ aside {
 footer {
   color: red;
   font-family: serif;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   letter-spacing: 3px;
 }
