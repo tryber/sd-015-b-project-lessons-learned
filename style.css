@@ -60,7 +60,7 @@ table, th, td {
 #rodape {
   text-align: center;
 }
-.rodape {
+.rodape-fim {
   background-color: rgba(0, 0, 0, 0, 75);
   font-size: 1.3em;
   color: black;
@@ -68,7 +68,7 @@ table, th, td {
   border-radius: 0, 5em;
   transition: 1s;
 }
-.rodape:hover {
+.rodape-fim:hover {
   color: blue;
   text-shadow: 0 0 8px white;
 }
