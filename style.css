@@ -6,6 +6,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 #cabecalho {
@@ -19,13 +20,12 @@ body {
 
 #titulo {
   color: rgb(253, 251, 251);
-  text-align: center;
   font-size: 36px;
 }
 
 .hello {
-  text-align: center;
   margin-top: 170px;
+  margin-bottom: 25px;
   font-size: 20px;
 
 }
@@ -40,21 +40,18 @@ body {
   background-color: rgb(17, 163, 106);
   color: rgb(253, 251, 251);
   padding: 5px;
-  margin: 20px;
 }
 
-.licoes_container {
-  
-  margin-bottom: 15px;
-  line-height: 20px;
+.table {
+  margin: auto;
 }
 
 #licoes_aprendidas {
-  margin-left: 115px;
+  line-height: 20px;
 }
 
 #licoes_a_aprender {
-  margin-left: 50px;
+  line-height: 20px;
 }
 
 .lado-esquerdo {
