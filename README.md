@@ -236,7 +236,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ### 1. Adicione uma cor de fundo específica para a página
 
-Possuir cor de fundo: rgb(253, 251, 251)
+Possuir cor de fundo:
 
 **O que será verificado:**
 
