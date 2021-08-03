@@ -55,6 +55,9 @@ td {
     height: 25%;
 }
 
+#nav {
+  padding-left: 20%;
+}
 #rodape {
     text-align: center;
 }
@@ -63,6 +66,10 @@ td {
     width: 100%;
     padding-left: 40%;
     padding-right: 40%;
+}
+
+#titulo {
+  padding-left: 6%;
 }
 
 #titulodatabela {
