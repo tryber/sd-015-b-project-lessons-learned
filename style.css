@@ -8,6 +8,18 @@ body {
 }
 
 #minha_foto {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
+}
+
+#rodape {
+    text-align: center;
+}
+
+#titulodatabela {
+    text-align: center;
+}
+
+td {
+    text-align: center;
 }
