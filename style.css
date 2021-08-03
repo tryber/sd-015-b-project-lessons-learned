@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+	font-size: 12;
+	color: rgb(0,0,0);
+	line-height: 1.5;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -11,14 +14,12 @@ td {
   padding-left: 10%;
   padding-right: 10%;
   width: 30%;
-  float: right;
 }
 
 #article {
   padding-left: 10%;
   padding-right: 10%;
   width: 30%;
-  float: left;
 }
 
 #cabecalho {
@@ -86,3 +87,11 @@ td {
 	margin-right: auto;
 	width: 50%;
   }
+
+.lado-esquerdo {
+	float: left;
+	}
+
+.lado-direito {
+	float: right;
+}	
