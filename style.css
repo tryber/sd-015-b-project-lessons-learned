@@ -1,12 +1,16 @@
 * {
   color: rgb(24, 24, 24);
-  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  font-family: Times New Roman, Times, serif, Helvetica, sans-serif;
   font-size: 1.1rem;
   letter-spacing: 2px;
 }
 
 body {
   background-color: rgb(253, 251, 251);
+  color: yellow;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
 }
 
 header {
@@ -29,13 +33,35 @@ article {
   background-color: grey;
   width: 50%;
   float: left;
-  font-size: 1.2rem;
-  color: rgb(20, 20, 20);
-  letter-spacing: 1px;
+}
+
+p {
+  color: red;
+  font-family: serif;
+  font-size: 1.0rem;
+  letter-spacing: 3px;
+}
+
+ul , ol , li {
+  color: red;
+  font-family: serif;
+  font-size: 1.0rem;
+  letter-spacing: 3px;
 }
 
 aside {
   background-color: grey;
   width: 50%;
   float: right;
+  color: blue;
+  font-family: fantasy;
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+}
+
+footer {
+  color: red;
+  font-family: serif;
+  font-size: 1.0rem;
+  letter-spacing: 3px;
 }
