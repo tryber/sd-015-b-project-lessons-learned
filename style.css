@@ -1,0 +1,79 @@
+body {
+margin: 0px;
+background-color: rgb(253, 251, 251);
+}
+header {
+  position: fixed;
+  top: 0px;
+  background-image: url(trybe-image.png);
+  background-size: contain;
+  width: 100%;
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+}
+#cabecalho ul {
+  display: block;
+  width: 60px;
+}
+nav {
+  margin: 0px;
+  background-color: gray;
+}
+img {
+  display: block;
+  margin-top: 80px;
+  border-radius: 05%;
+}
+.form-text {
+  font-family: "Gill Sans", sans-serif;
+  text-align: left;
+  border-color: black;
+  padding-right: 400px;
+  display: inline-block;
+}
+.list-container {
+  width: 150px;
+  display: inline-block;
+}
+.lista_aprender {
+  background-color: aquamarine;
+  border-radius: 5%;
+}
+.lista_aprendidas {
+  background-color: crimson;
+  border-radius: 5%;
+}
+.navigation {
+  display: inline-block;
+  width: auto;
+}
+.article-and-section {
+  display: inline-block;
+}
+table, th, td {
+  border: 1px solid rgb(83, 24, 22);
+  width: 30%;
+}
+#rodape {
+  text-align: center;
+}
+.rodape-fim {
+  background-color: rgba(0, 0, 0, 0, 75);
+  font-size: 1.3em;
+  color: black;
+  padding: 1em;
+  border-radius: 0, 5em;
+  transition: 1s;
+}
+.rodape-fim:hover {
+  color: blue;
+  text-shadow: 0 0 8px white;
+}
+.paragrafo {
+  color: brown;
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  line-height: 1, 5em;
+}
