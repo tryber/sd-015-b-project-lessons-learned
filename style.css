@@ -71,6 +71,12 @@ td {
   transition: 1s;
 }
 .rodape:hover {
-  color: black;
+  color: blue;
   text-shadow: 0 0 8px white;
+}
+.paragrafo {
+  color: brown;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  line-height: 1,5em;
 }
