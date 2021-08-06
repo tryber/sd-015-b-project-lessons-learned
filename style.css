@@ -2,7 +2,18 @@ body{
     background-color: rgb(253,251,251);
 }
 
+header{
+    margin: auto;
+    padding: auto;
+    border: 1px solid black;
+}
 #cabecalho {
     position: fixed;
     top: 0;
+}
+#licoes_aprendidas{
+    font-size: 20px;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 15px;
 }
