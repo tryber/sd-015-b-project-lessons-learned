@@ -17,3 +17,6 @@ header{
     font-family: 'Courier New', Courier, monospace;
     line-height: 15px;
 }
+.lado-esquerdo{
+    float: left;
+}
