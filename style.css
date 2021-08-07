@@ -66,13 +66,18 @@ table {
   margin: auto;
 }
 
+th {
+  padding-left: 20px;
+  text-align: left;
+}
+
+th , li {
+  font-family: Ubuntu Mono, monospace;
+}
+
 .lado-direito table , .lado-direito th , .lado-direito td {
   border: 1px solid;
   border-collapse: collapse;
   padding: 5px;
   text-align: center;
-}
-
-li {
-  font-family: Ubuntu Mono, monospace;
 }
