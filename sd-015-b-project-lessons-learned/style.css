@@ -1,13 +1,12 @@
 * {
-    margin: auto;
-    background-color: rgb(253, 251, 251);
-    border: 1px solid black;
+  margin: auto;
+  border: 1px solid black;
 }
 
 
 body {
-  
   margin: auto;
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
