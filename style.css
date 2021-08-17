@@ -11,7 +11,7 @@ body {
 }
 
 h1 , h2 , h3 , h4 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav li {
@@ -47,6 +47,19 @@ footer {
   float: left;
 }
 
+#table-info {
+  width: 6%;
+}
+
+#table-info td a {
+  text-decoration: none;
+  color: black;
+}
+
+#table-info td a :hover {
+  color: aqua;
+}
+
 #titulo a {
   text-decoration: none;
   color: black;
@@ -54,10 +67,6 @@ footer {
 
 #titulo a:hover {
   color: aqua;
-}
-
-#table-info {
-  width: 6%;
 }
 
 .lado-esquerdo , .lado-direito {
@@ -72,15 +81,6 @@ footer {
 
 .lado-esquerdo p {
   padding-left: 10px;
-}
-
-#table-info td a {
-  text-decoration: none;
-  color: black;
-}
-
-#table-info td a :hover {
-  color: aqua;
 }
 
 .lessons_learned {
