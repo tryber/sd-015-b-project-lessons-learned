@@ -10,7 +10,7 @@ body {
   font-size: 20px;
 }
 
-h1 , h2 , h3 {
+h1 , h2 , h3 , h4 {
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -28,6 +28,15 @@ nav li a:hover {
   color: aqua;
 }
 
+section h2{
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+
+footer{
+  text-align: center;
+}
 
 #cabecalho {
   top: 0;
@@ -51,9 +60,20 @@ nav li a:hover {
   width: 6%;
 }
 
-#table-info td {
+.lado-esquerdo , .lado-direito {
   line-height: 25px;
+  text-align: justify;
+  padding: 10px;
 }
+
+.lado-esquerdo h3{
+  margin-bottom: 30px;
+}
+
+.lado-esquerdo p{
+  padding-left: 10px;
+}
+
 
 #table-info td a {
   text-decoration: none;
@@ -72,5 +92,22 @@ nav li a:hover {
   display: inline-block;
 }
 
+#apprenticeship {
+  height: 550px;
+}
 
+.lado-esquerdo {
+  float: left;
+  height: 1;
+  width: 64%;
+  display: block;
+  font-size: 1.5em;
+}
 
+.lado-direito {
+  float: right;
+  height: 1;
+  padding-left: 10px;
+  width: 30%;
+  font-size: 0.75em;
+}
