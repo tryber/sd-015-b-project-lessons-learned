@@ -16,3 +16,12 @@ body {
 #minha_foto {
   width: 300px;
 }
+
+#table-info td a {
+  text-decoration: none;
+  color: black;
+}
+
+#table-info td a :hover {
+  color: aqua;
+}
