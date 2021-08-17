@@ -1,9 +1,13 @@
-body , header , nav , section , table , article , footer {
-  background-color: aqua;
+* {
+    margin: auto;
+    background-color: rgb(253, 251, 251);
+    border: 1px solid black;
 }
 
+
 body {
-  background-color: rgb(253, 251, 251);
+  
+  margin: auto;
 }
 
 #cabecalho {
