@@ -56,13 +56,13 @@ footer {
   color: black;
 }
 
-#table-info td a :hover {
-  color: aqua;
-}
-
 #titulo a {
   text-decoration: none;
   color: black;
+}
+
+#table-info td a :hover {
+  color: aqua;
 }
 
 #titulo a:hover {
