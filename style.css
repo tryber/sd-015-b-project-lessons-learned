@@ -7,7 +7,27 @@
 body {
   margin: auto;
   background-color: rgb(253, 251, 251);
+  font-size: 20px;
 }
+
+h1 , h2 , h3 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 18%;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  color: aqua;
+}
+
 
 #cabecalho {
   top: 0;
@@ -15,6 +35,24 @@ body {
 
 #minha_foto {
   width: 300px;
+  float: left;
+}
+
+#titulo a {
+  text-decoration: none;
+  color: black;
+}
+
+#titulo a:hover {
+  color: aqua;
+}
+
+#table-info {
+  width: 6%;
+}
+
+#table-info td {
+  line-height: 25px;
 }
 
 #table-info td a {
@@ -26,11 +64,13 @@ body {
   color: aqua;
 }
 
-#titulo a {
-  text-decoration: none;
-  color: black;
+.lessons_learned {
+  display: inline-block;
 }
 
-#titulo a:hover {
-  color: aqua;
+.lessons_to_learn {
+  display: inline-block;
 }
+
+
+
