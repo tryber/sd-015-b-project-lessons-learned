@@ -1,0 +1,57 @@
+* {
+    font-family: sans-serif;
+    color: rgb(25, 0, 0);
+    font-size: 17px;
+}
+.backgroundcolor {
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+    position: fixed;
+    top: 0;
+}
+#titulo {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+#minha_foto {
+    max-width: 200px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
+#licoes_aprendidas {
+    position: fixed;
+    top: 320px;
+}
+#licoes_a_aprender {
+    position: fixed;
+    top: 600px;
+}
+#rodape {
+}
+#linkedin {
+    position: fixed;
+    top: 900px;
+}
+#artigo600c {
+    display: inline-block;
+    max-width: 500px;
+    position: fixed;
+    top: 100px;
+    left: 400px;
+}
+#passagem100c {
+    display: inline-block;
+    max-width: 500px;
+    position: fixed;
+    top: 230px;
+    left: 400px;
+}
+#tabela {       
+    display: inline-block;
+    
+
+
+}
