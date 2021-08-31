@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.lado-esquerdo {
+  max-width: 45%;
+}
+
+.lado-direito {
+  max-width: 45%;
+}
+
+.lado-esquerdo , .lado-direito {
+  font-size: 20px;
+  color: rgb(20, 17, 17);
+  font-family: Georgia, Times, serif;
+  line-height: 1em;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: rgb(220, 230, 228);
+}
+
+#cabecalho {
+  position: fixed;
+  border-bottom: 3px black solid;
+  background-color: green;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  border: 2px solid black;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: rgb(220, 230, 228);
+}
+
+.licoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#minha_foto {
+  padding-top: 79px;
+  width: 250px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+#link-linkedin {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+table , th , td {
+  border: 1px solid black;
+  border-collapse: separate;
+}
+
+#rodape {
+  background-color: green;
+  padding: 1em;
+  text-align: center;
+  border: 2px solid black;
+  font-size: large;
+}
