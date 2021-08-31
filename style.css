@@ -4,54 +4,96 @@ body {
   margin: 0;
 }
 
-section {
-  padding: 0;
-  display: inline-block;
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
 }
 
 .lado-esquerdo {
   max-width: 45%;
-  background-color: grey;
 }
 
 .lado-direito {
   max-width: 45%;
-  background-color: grey;
 }
 
 .lado-esquerdo , .lado-direito {
-  font-size: 15px;
+  font-size: 20px;
   color: rgb(20, 17, 17);
-  font-family: Courier, monospace;
+  font-family: Georgia, Times, serif;
   line-height: 1em;
-  display: inline-block;
   border: 1px black solid;
+  border-radius: 10px;
   padding: 1em;
+  background-color: rgb(220, 230, 228);
 }
 
 #cabecalho {
   position: fixed;
-  top: 0;
+  border-bottom: 3px black solid;
   background-color: green;
-  left: 30%;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
-  display: inline-block;
   border: 2px solid black;
-  font-weight: 700;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: rgb(220, 230, 228);
+}
+
+.licoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #minha_foto {
   padding-top: 79px;
-  padding-bottom: 5px;
-  width: 200px;
+  width: 250px;
   border-radius: 50px;
+  border: 1px solid black;
 }
 
 #link-linkedin {
-  display: block;
-  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+table , th , td {
+  border: 1px solid black;
+  border-collapse: separate;
 }
 
 #rodape {
@@ -59,4 +101,5 @@ section {
   padding: 1em;
   text-align: center;
   border: 2px solid black;
+  font-size: large;
 }
