@@ -20,7 +20,8 @@ body {
   z-index: 1;
   text-align: center;
   font-family: sans-serif;
-  height: 20px;
+  height: 25px;
+  line-height: 25px;
 }
 
 #titulo {
