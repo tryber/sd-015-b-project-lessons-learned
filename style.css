@@ -5,7 +5,7 @@ article h2 {
 }
 
 .aprendizado {
-  display: inline;
+  display: flex;
   font-family: monospace;
   text-align: justify;
   padding: 2%;
@@ -40,10 +40,12 @@ footer {
   display: inline-block;
   height: 300px;
   width: 46%;
+  line-height: 1.5;
 }
 
 .lessons {
   display: flex;
+  color: rgb(61, 58, 58);
 }
 
 .lado-direito {
