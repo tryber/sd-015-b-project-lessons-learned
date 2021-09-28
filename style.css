@@ -2,10 +2,10 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0px;
   top: 0px;
-  padding: 10px, 10px, 10px, 10px;
+  padding: 10px;
   font-family: Roboto, sans-serif;
   text-align: justify;
-  }
+}
 
 header {
   position: fixed;
@@ -14,19 +14,18 @@ header {
   color: antiquewhite;
   width: 100%;
   height: 10%;
-  }
+}
   
 #titulo {
-  text-align: center; 
+  text-align: center;
 }
 
 #licoes {
   display: flex;
   flex-direction: row;
-  border:1px solid black;
-  background-color:peachpuff;
+  border: 1px solid black;
+  background-color: peachpuff;
   justify-content: space-around;
-  flex-direction: row;
   padding: 15px;
   color: rgb(37, 36, 36);
   font-size: 1em;
@@ -37,7 +36,7 @@ footer {
   clear: both;
 }
 
-div{
+div {
   display: flex;
   flex-direction: row;
 }
