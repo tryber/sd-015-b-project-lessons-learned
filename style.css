@@ -1,0 +1,77 @@
+article h2 {
+  text-align: left;
+}
+
+.aprendizado {
+  display: flex;
+  font-family: monospace;
+  text-align: justify;
+  padding: 2%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  border: 2px solid black;
+  background-color: green;
+  width: 100%;
+  padding: 15px;
+}
+
+caption {
+  font-style: italic;
+  font-size: 25px;
+  border: 2px solid gray;
+}
+
+footer {
+  padding: 20px;
+  font-weight: 700;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  height: 300px;
+  width: 46%;
+  line-height: 1.5;
+  padding: 2%;
+}
+
+.lessons {
+  display: flex;
+  color: rgb(61, 58, 58);
+}
+
+.lado-direito {
+  width: 46%;
+  height: 300px;
+  display: inline-block;
+}
+
+.linkedin {
+  display: block;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#minha_foto {
+  width: 300px;
+  padding-top: 220px;
+
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid gray;
+  margin: auto;
+}
+
+tr td {
+  border: 2px solid gray;
+}
