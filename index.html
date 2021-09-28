@@ -10,13 +10,15 @@
     
   <body>
     <header id="cabecalho">
-      <nav>
+      <nav id="navegacao">
         <h1 id='titulo'> Lições Aprendidas - Trybe! </h1>
+        <a href="#main">Home</a>
+        <a href="#rodape">Rodape</a>
       </nav>
     </header>
-    <img id="minha_foto" src="images/IMG_6314.JPG" alt='foto de danielen' width="200">   
-    <div id='licoes'> 
-        <ol id="licoes_aprendidas"> <h3> Lições Aprendidas </h3>
+    <section id='main'>
+      <img id="minha_foto" src="images/IMG_6314.JPG" alt='foto de danielen' width="200">   
+        <ol class="lado01" id="licoes_aprendidas"> <h3> Lições Aprendidas </h3>
           <li>Unix</li>
           <li>GitHub</li>
           <li>Trabalhar com Terminal </li>
@@ -28,7 +30,7 @@
           <li>Pesquisar muito</li>
           <li>Estudar sempre</li>
         </ol>
-        <ul id= "licoes_a_aprender"> <h3> Lições a Aprender </h3>
+        <ul class="lado02" id= "licoes_a_aprender"> <h3> Lições a Aprender </h3>
           <li>Python</li>
           <li>JavaScript</li>
           <li>Lógica de Programação</li>
@@ -40,20 +42,36 @@
           <li>Programação Orientada a Objetos</li>
           <li>... e muito mais.... </li>
         </ul>
-    </div>
-    <div>
-      <article>
+        <article>
         <h2>Sobre Meu Aprendizado</h2>
-            <p> Aprendizado cheio de ansiedade, mas com a ajuda das colegas, principalmente da Laiza! Após 2 semanas de curso sinto que meus conhecimentos relacionados aos temas estudados são em muito superiores ao que imagiinava ser possível. Claro que este processo teve diversos momentos de desespero, de agonia, de muita ansiedade e sensação de impostora. Porém o grupo de mulheres e as trocas que tivemos foram importantíssimas para me fortalecer. </p>
-      </article>
-      <section>
-        <aside> Uma passagem deste momento de aprendizado que destaco, até o momento, foi quando finalmente me senti confortável trabalhando no GitHub, praticamente me sentindo dona e proprietária dos comandos git status, git add, git commit, git push, git clone, etc.
+            Aprendizado cheio de ansiedade, mas com a ajuda das colegas, principalmente da Laiza! Após 2 semanas de curso sinto que meus conhecimentos relacionados aos temas estudados são em muito superiores ao que imagiinava ser possível. Claro que este processo teve diversos momentos de desespero, de agonia, de muita ansiedade e sensação de impostora. Porém o grupo de mulheres e as trocas que tivemos foram importantíssimas para me fortalecer.
+        </article>
+        <aside> 
+          Uma passagem deste momento de aprendizado que destaco, até o momento, foi quando finalmente me senti confortável trabalhando no GitHub. 
         </aside>
-      </section>
-    </div>
-  <footer>
-      <p>Página desenvolvida por Danielen Cestari Nunes, originalmente em 27/07/2021, e atualizado em: 28/09/2021 </p> 
-      <a href="https://github.com/danielencestari" target="_blank" >Github</a> <a href="https://www.linkedin.com/in/danielencnunes/" target="_blank">Linkedin</a>
+    </section>
+    <h2>Objetivos Pessoais: </h2>
+    <table>
+      <tr>
+        <th>2021 </th>
+        <th>Terminar os módulos 01 e 02 da Trybe </th>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td>Terminar o curso da Trybe & Começar a trabalhar como Dev </td>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>Tirar a certificação de Product Owner </td>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td>Tirar a certificação de Scrum Master</td>
+      </tr>
+    </table>
+  <footer id="rodape">
+    <p>Página desenvolvida por Danielen Cestari Nunes, originalmente em 27/07/2021, e atualizado em: 28/09/2021 </p> 
+    <a href="https://github.com/danielencestari" target="_blank" >Github</a> <a href="https://www.linkedin.com/in/danielencnunes/" target="_blank">Linkedin</a>
   </footer>
 </body>
 </html>
