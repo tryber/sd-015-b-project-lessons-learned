@@ -1,61 +1,69 @@
 body {
   background-color: rgb(253, 251, 251);
-  text-align: justify;
-  margin-top: 80px;
+  margin-top: 200px;
+  box-sizing: border-box;
 }
 
 header {
   position: fixed;
+  width: 100%;
   top: 0;
   background-color: rgb(14, 81, 104);
-  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  margin-bottom: 50px;
 }
+
+#titulo {
+  text-align: center;
+  font-family: serif;
+  font-size: 48px;
+}
+
 nav {
-  font-family: 'Gill Sans', sans-serif;
   font-size: 20px;
   color: aqua;
   text-decoration: underline;
 }
 
 nav a {
-  text-decoration: none;
   line-height: 2px;
   color: aqua;
 }
 
-#titulo {
-  text-align: center;
-}
-
-#licoes {
-  display: flex;
-  border: 1px solid black;
-  padding: 15px;
-  color: rgb(37, 36, 36);
-  font-size: 1em;
-  align-items: center;
-}
-
 #minha_foto {
-  width: 13%;
   margin-left: 5px;
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+  float: left;
 }
 
-#rodape {
-  background-color: rgb(42, 106, 128);
+#licoes_aprendidas {
+  float: left;
+  padding: 20px 20px 20px 40px;
+}
+#licoes_a_aprender {
+  float: left;
+  padding: 20px 20px 20px 40px;
+}
+
+.lado-esquerdo {
+  float: center;
+  padding: 20px 20px 20px 40px;
+}
+
+.lado-direito {
+  float: center;
+  padding: 20px 20px 20px 40px;
+}
+
+footer {
+  clear: both;
+  background-color: rgb(14, 81, 104);
+  position: relative;
+  max-width: 100%;
+  padding: 20px 40px;
   text-align: center;
-  width: 100%;
-  color:aqua;
 }
-
-ol {
-  border-style: solid;
-  padding-right: 50px;
-  border-color: rgb(28, 50, 150);
-  display: inline-block;
-  color: rgb(33, 13, 102);
- }
-
-ul {
-  display: inline-block;
- }
