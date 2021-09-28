@@ -1,27 +1,59 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0px;
+  top: 0px;
+  padding: 10px, 10px, 10px, 10px;
+  font-family: Roboto, sans-serif;
+  text-align: justify;
+  }
 
-  body {
-    background-color: rgb(253, 251, 251);
-    margin: 0px;
+header {
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 42, 56);
+  color: antiquewhite;
+  width: 100%;
+  height: 10%;
   }
   
-  header {
-    position: fixed;
-    top: 0;
-    background-color: rgb(0, 42, 56);
-    color: antiquewhite;
-    width: 100%;
-    height: 10%;
-  }
-  #titulo {
-    text-align: center;
-  }
-  
-  footer {
-    clear: both;
-  }
-  
-  #minha_foto {
-    width: 10%;
-    margin-top: 150px;
-  }
- 
+#titulo {
+  text-align: center; 
+}
+
+#licoes {
+  display: flex;
+  flex-direction: row;
+  border:1px solid black;
+  background-color:peachpuff;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 15px;
+  color: rgb(37, 36, 36);
+  font-size: 1em;
+  align-items: center;
+}
+
+footer {
+  clear: both;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+}
+
+#minha_foto {
+  width: 15%;
+  margin-top: 110px;
+  margin-left: 20px;
+}
+
+#rodape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  clear: both;
+  text-align: center;
+  margin: 0 65px 25px;
+  padding: 0 20px;
+}
