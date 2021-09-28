@@ -12,6 +12,7 @@ article h2 {
 }
 
 body {
+  font-family: sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -37,9 +38,12 @@ footer {
 
 .lado-esquerdo {
   display: inline-block;
-  float: left;
-  height: 230px;
+  height: 300px;
   width: 46%;
+}
+
+.lessons {
+  display: flex;
 }
 
 .lado-direito {
