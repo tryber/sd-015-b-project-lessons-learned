@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: rgb(253, 251, 251);
+}
+
+.caixa {
+  position: relative;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1 span {
+  color: rgb(0, 191, 165);
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(253, 251, 251);
+}
+
+.aprendizados {
+  display: flex;
+  margin-top: 110px;
+  padding: 20px;
+}
+
+.lado-esquerdo , .foto , .lado-direito {
+  flex: 1;
+  margin: auto;
+  padding: 10px;
+  width: 33%;
+}
+
+p , li {
+  line-height: 24px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 267px;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  padding-left: 20px;
+  text-align: left;
+}
+
+th , li {
+  font-family: Ubuntu Mono, monospace;
+}
+
+.lado-direito table , .lado-direito th , .lado-direito td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
