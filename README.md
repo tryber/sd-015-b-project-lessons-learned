@@ -1,12 +1,9 @@
 # Boas vindas ao repositório do projeto Lições Aprendidas!
 
 ## SUMÁRIO
-
-- [Boas vindas ao repositório do projeto Lições Aprendidas!](#boas-vindas-ao-repositório-do-projeto-lições-aprendidas)
-  - [SUMÁRIO](#sumário)
-  - [O que foi desenvolvido](#o-que-foi-desenvolvido)
-  - [Tecnologias](#tecnologias)
-  - [Instruções para executar o projeto](#instruções-para-executar-o-projeto)
+- [O que foi desenvolvido](#o-que-foi-desenvolvido)
+- [Tecnologias](#tecnologias)
+- [Instruções para executar o projeto](#instruções-para-executar-o-projeto)
 
 ## O que foi desenvolvido
 
