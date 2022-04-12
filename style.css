@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+* {
+  margin: 0;
+}
+
+
+.conteudo-menu {
+  background-color: rgb(210, 210, 247);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: 1px none;
+}
+
+.conteudo-menu li {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 17px;
+}
+
+.conteudo-menu li:hover {
+  background-color: rgb(170, 170, 208);
+  color: black;
+  transition: 0.2s;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+.cabecalho h1 {
+  font-family: Amatic SC, cursive;
+  font-size: 4em;
+}
+
+#cabecalho h1 {
+  font-size: 0;
+}
+
+.cabecalho {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.conteudo-principal {
+  font-family: monospace;
+  font-size: 14px;
+  padding: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgba(210, 210, 247, 0.3);
+}
+
+.envelope-principal {
+  display: flex;
+  flex-direction: column;
+  max-width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-principal-envelope-paralelo {
+  max-width: 20%;
+  place-self: flex-start;
+}
+
+.lado-esquerdo {
+  display: flex;
+  align-items: center;
+}
+
+.licoes {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 20px 5px;
+}
+
+#minha_foto {
+  width: 300px;
+  height: 300px;
+}
+
+.tabela {
+  margin-top: 50px;
+}
+
+.tabela td {
+  border-radius: 3px;
+  border: 0.2px solid black;
+}
+
+.conteudo-principal .sobre_mim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: fit-content;
+  padding: 15px;
+}
+
+#wrapper {
+  display: flex;
+  margin: 50px 0;
+}
+
+#rodape {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
