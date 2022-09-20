@@ -172,5 +172,6 @@ Adicione ao elemento posicionado no lado esquerdo a classe "lado-esquerdo" e ao 
 - Utilizar a classe "lado-direito"
 - Verificar se os elementos com as classes lado-direito e lado-esquerdo estão posicionados corretamente
 
+
 ---
 
