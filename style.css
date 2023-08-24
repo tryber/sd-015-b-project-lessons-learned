@@ -5,8 +5,33 @@
 header {
   top: 0;
   position: fixed;
+  z-index: 2;
 }
 
 img {
   width: 200px;
+  position: relative;
+  top: 90px;
+}
+
+.licoes {
+  position: relative;
+  top: 130px;
+}
+
+footer {
+  position: relative;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+footer ul li a {
+  text-decoration: none;
 }
